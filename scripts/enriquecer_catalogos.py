@@ -43,7 +43,7 @@ CATEGORY_NAMES = {
     "compras": "Compras", "geral": "Geral", "adulto": "Adulto", "outros": "Outros",
 }
 COUNTRY_NAMES = {"br": "Brasil", "pt": "Portugal", "us": "Estados Unidos"}
-FORMAT_RANK = {"SVG": 6, "PNG": 5, "WebP": 4, "AVIF": 4, "APNG": 3, "JPEG": 2, "GIF": 1}
+FORMAT_RANK = {"SVG": 6, "PNG": 5, "WEBP": 4, "AVIF": 4, "APNG": 3, "JPEG": 2, "GIF": 1}
 
 
 def utc_now() -> str:
@@ -173,8 +173,11 @@ def main() -> int:
                     "matched_by": match_method,
                     "source": "iptv-org/api",
                 }
-                # Prefer official channel name only when our playlist name is absent.
-                if not channel.get("name") and official.get("name"):
+                # Keep the playlist label for traceability and use the official
+                # database name as the canonical display name when available.
+                if official.get("name"):
+                    if channel.get("name") and channel["name"] != official["name"]:
+                        channel["playlist_name"] = channel["name"]
                     channel["name"] = official["name"]
                 raw_categories = official.get("categories") or []
                 mapped = sorted({
@@ -250,6 +253,7 @@ def main() -> int:
             app_channels.append({
                 "id": channel.get("id"),
                 "name": channel.get("name"),
+                "playlist_name": channel.get("playlist_name"),
                 "tvg_id": channel.get("tvg_id"),
                 "country": code,
                 "country_name": COUNTRY_NAMES[code],
