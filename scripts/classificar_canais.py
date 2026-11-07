@@ -54,7 +54,7 @@ RULES = [
         r"\bregional\b", r"\blocal tv\b", r"\bcommunity tv\b",
         r"\bmunicipal\b", r"\bmunicipal tv\b", r"\bcidade\b",
         r"\binterior\b", r"\bvale do\b", r"\bsat\b", r"\bamazonas\b",
-        r"\namazon\b", r"\bpar[aá]\b", r"\bcear[aá]\b", r"\bgo[iá]s\b",
+        r"\bamazon\b", r"\bpar[aá]\b", r"\bcear[aá]\b", r"\bgo[iá]s\b",
         r"\bminas\b", r"\bga[uú]cho\b", r"\bcarioca\b",
     ]),
     ("entretenimento", 70, [
