@@ -181,6 +181,8 @@ def build_country_catalogue(code: str, config: dict) -> dict:
     # Keep the previous validation summary and run metadata across rebuilds.
     if "validation" in previous_catalogue:
         result["validation"] = previous_catalogue["validation"]
+    if "recovery" in previous_catalogue:
+        result["recovery"] = previous_catalogue["recovery"]
     for key in ("validation", "validation_checked_at", "recovery", "recovery_checked_at"):
         if key in previous_catalogue.get("summary", {}):
             result["summary"][key] = previous_catalogue["summary"][key]
