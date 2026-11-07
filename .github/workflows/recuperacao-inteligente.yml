@@ -1,0 +1,82 @@
+name: recuperacao-inteligente
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "11 */6 * * *"
+  workflow_run:
+    workflows:
+      - validar-streams
+    types:
+      - completed
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalogos-maintenance-master
+  cancel-in-progress: false
+
+jobs:
+  recuperar:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+        with:
+          ref: master
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verificar sintaxe
+        run: python -m py_compile scripts/validar_streams.py scripts/recuperacao_inteligente.py
+
+      - name: Repetir somente verificações vencidas
+        run: python scripts/recuperacao_inteligente.py
+
+      - name: Validar estrutura dos catálogos e histórico
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          for code in ("br", "pt", "us"):
+              path = Path("catalogos") / f"catalogo-{code}.json"
+              data = json.loads(path.read_text(encoding="utf-8"))
+              streams = [
+                  stream
+                  for channel in data.get("channels", [])
+                  for stream in channel.get("streams", [])
+              ]
+              stable = sum(
+                  stream.get("validation", {}).get("result") == "reachable_hls"
+                  for stream in streams
+              )
+              print(f"{path}: {len(streams)} streams; {stable} HLS acessíveis preservados")
+
+          history = Path("catalogos/historico-validacao.jsonl")
+          if history.exists():
+              for line in history.read_text(encoding="utf-8").splitlines():
+                  json.loads(line)
+              print(f"Histórico válido: {history.stat().st_size} bytes")
+          else:
+              print("Histórico ainda não tem novas tentativas.")
+          PY
+
+      - name: Salvar recuperação e histórico
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalogos/catalogo-br.json catalogos/catalogo-pt.json catalogos/catalogo-us.json catalogos/historico-validacao.jsonl
+          if git diff --cached --quiet; then
+            echo "Nenhuma nova tentativa vencida; nada para salvar."
+            exit 0
+          fi
+          git commit -m "Atualizar recuperação inteligente dos streams"
+          git push
