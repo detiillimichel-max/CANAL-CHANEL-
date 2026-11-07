@@ -28,7 +28,12 @@
       "server_error": 19,
       "timeout": 71
     },
-    "validation_checked_at": "2026-11-07T19:37:52+00:00"
+    "validation_checked_at": "2026-11-07T19:37:52+00:00",
+    "recovery": {
+      "skipped_retry_window": 287,
+      "skipped_stable_hls": 1222
+    },
+    "recovery_checked_at": "2026-11-07T19:42:50+00:00"
   },
   "channels": [
     {
@@ -43389,5 +43394,12 @@
     "timeout_seconds": 8,
     "media_downloaded": false,
     "geo_restrictions_bypassed": false
+  },
+  "recovery": {
+    "checked_at": "2026-11-07T19:42:50+00:00",
+    "policy": "retry_due_only_with_progressive_backoff",
+    "workers": 5,
+    "stable_hls_recheck_days": 7,
+    "history_file": "catalogos/historico-validacao.jsonl"
   }
 }
