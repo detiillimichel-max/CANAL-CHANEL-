@@ -1,0 +1,1339 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-07T19:17:18+00:00",
+  "country": {
+    "code": "pt",
+    "name": "Portugal"
+  },
+  "source_playlists": [
+    "streams/pt.m3u",
+    "streams/pt_samsung.m3u"
+  ],
+  "summary": {
+    "playlist_entries": 62,
+    "unique_stream_urls": 62,
+    "duplicate_stream_urls_removed": 0,
+    "catalogue_channels": 59,
+    "streams": 62,
+    "authorization": "not_verified",
+    "playback": "not_tested"
+  },
+  "channels": [
+    {
+      "id": "ADBTV.pt@SD",
+      "name": "ADB TV",
+      "tvg_id": "ADBTV.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://live-tv.waytv.pt/adbtv/adbtv/playlist.m3u8",
+          "protocol": "https",
+          "host": "live-tv.waytv.pt",
+          "resolution": "1080p",
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "ARTV.pt@SD",
+      "name": "ARTV Canal Parlamento",
+      "tvg_id": "ARTV.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://playout172.livextend.cloud/liveiframe/_definst_/liveartvabr/playlist.m3u8",
+          "protocol": "https",
+          "host": "playout172.livextend.cloud",
+          "resolution": "720p",
+          "flags": [
+            "not_24_7"
+          ],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "AXN.pt@SD",
+      "name": "AXN",
+      "tvg_id": "AXN.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "http://188.115.15.121:8000/play/a02z",
+          "protocol": "http",
+          "host": "188.115.15.121",
+          "resolution": "1080p",
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        },
+        {
+          "url": "http://znty.dyndns.org:5010/hls/axn.m3u8",
+          "protocol": "http",
+          "host": "znty.dyndns.org",
+          "resolution": null,
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "AXNMovies.pt@SD",
+      "name": "AXN Movies",
+      "tvg_id": "AXNMovies.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "http://50.7.120.34:8080/AXN_BLACK/index.m3u8",
+          "protocol": "http",
+          "host": "50.7.120.34",
+          "resolution": "720p",
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "CNNPortugal.pt@SD",
+      "name": "CNN Portugal",
+      "tvg_id": "CNNPortugal.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/cnnpt.m3u8",
+          "protocol": "https",
+          "host": "github.com",
+          "resolution": "720p",
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "DisneyChannel.pt@SD",
+      "name": "Disney Channel",
+      "tvg_id": "DisneyChannel.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "http://151.80.18.177:86/Disney_Channel_HD/index.m3u8",
+          "protocol": "http",
+          "host": "151.80.18.177",
+          "resolution": "1080p",
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        },
+        {
+          "url": "http://zntx.dyndns.org:8085/hls/disney.m3u8",
+          "protocol": "http",
+          "host": "zntx.dyndns.org",
+          "resolution": null,
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "Famatv.pt@SD",
+      "name": "Famatv",
+      "tvg_id": "Famatv.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://tv2.fastcast4u.com:3310/live/famatvlive.m3u8",
+          "protocol": "https",
+          "host": "tv2.fastcast4u.com",
+          "resolution": "1080p",
+          "flags": [
+            "not_24_7"
+          ],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "KuriakosMusic.pt@SD",
+      "name": "Kuriakos Music",
+      "tvg_id": "KuriakosMusic.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "http://195.23.211.179:1935/kmusic/smil:kmusic.smil/playlist.m3u8",
+          "protocol": "http",
+          "host": "195.23.211.179",
+          "resolution": "1080p",
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "KuriakosTV.pt@SD",
+      "name": "Kuriakos TV",
+      "tvg_id": "KuriakosTV.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://w1.manasat.com/ktv/smil:ktv.smil/playlist.m3u8",
+          "protocol": "https",
+          "host": "w1.manasat.com",
+          "resolution": "1080p",
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "ManaChurchOnline.pt@SD",
+      "name": "Maná Church Online",
+      "tvg_id": "ManaChurchOnline.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://w2.manasat.com/church-online/smil:church-online.smil/playlist.m3u8",
+          "protocol": "https",
+          "host": "w2.manasat.com",
+          "resolution": "1080p",
+          "flags": [
+            "not_24_7"
+          ],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "ManaCirkevOnline.pt@SD",
+      "name": "Maná Cirkev Online",
+      "tvg_id": "ManaCirkevOnline.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://w2.manasat.com/cirkev-online/smil:cirkev-online.smil/playlist.m3u8",
+          "protocol": "https",
+          "host": "w2.manasat.com",
+          "resolution": "1080p",
+          "flags": [
+            "not_24_7"
+          ],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "ManaEgliseOnline.pt@SD",
+      "name": "Maná Église Online",
+      "tvg_id": "ManaEgliseOnline.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://w2.manasat.com/eglise-online/smil:eglise-online.smil/playlist.m3u8",
+          "protocol": "https",
+          "host": "w2.manasat.com",
+          "resolution": "1080p",
+          "flags": [
+            "not_24_7"
+          ],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "ManaIglesiaOnline.pt@SD",
+      "name": "Maná Iglesia Online",
+      "tvg_id": "ManaIglesiaOnline.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://w2.manasat.com/iglesia-online/smil:iglesia-online.smil/playlist.m3u8",
+          "protocol": "https",
+          "host": "w2.manasat.com",
+          "resolution": "1080p",
+          "flags": [
+            "not_24_7"
+          ],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "ManaIgrejaOnline.pt@SD",
+      "name": "Maná Igreja Online",
+      "tvg_id": "ManaIgrejaOnline.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://w1.manasat.com/igrejaonline/smil:igrejaonline.smil/playlist.m3u8",
+          "protocol": "https",
+          "host": "w1.manasat.com",
+          "resolution": "1080p",
+          "flags": [
+            "not_24_7"
+          ],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "ManaTserkovOnlayn.pt@SD",
+      "name": "Maná Tserkov' Onlayn",
+      "tvg_id": "ManaTserkovOnlayn.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://w2.manasat.com/tserkov-online/smil:tserkov-online.smil/playlist.m3u8",
+          "protocol": "https",
+          "host": "w2.manasat.com",
+          "resolution": "1080p",
+          "flags": [
+            "not_24_7"
+          ],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "NPCRadioeTV.pt@SD",
+      "name": "NPC Rádio e TV",
+      "tvg_id": "NPCRadioeTV.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://stmv5.samcast.com.br/nasciparacantartv/nasciparacantartv/playlist.m3u8",
+          "protocol": "https",
+          "host": "stmv5.samcast.com.br",
+          "resolution": "720p",
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "ONFM.pt@SD",
+      "name": "ON FM",
+      "tvg_id": "ONFM.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8",
+          "protocol": "https",
+          "host": "5ce9406b73c33.streamlock.net",
+          "resolution": "720p",
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "PortoCanal.pt@SD",
+      "name": "Porto Canal",
+      "tvg_id": "PortoCanal.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://pull-live-156-1.global.ssl.fastly.net/pc5865dc25400thmb-ea6bf03b14fa318f7133/smil:pc1-jhrgyuoqe5865db-68tkgb14fa318f7133f03.smil/playlist.m3u8",
+          "protocol": "https",
+          "host": "pull-live-156-1.global.ssl.fastly.net",
+          "resolution": "720p",
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "RadioSines.pt@SD",
+      "name": "Rádio Sines",
+      "tvg_id": "RadioSines.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://load-balancer.azotosolutions.com/cdnedge19/smil:live19.smil/playlist.m3u8",
+          "protocol": "https",
+          "host": "load-balancer.azotosolutions.com",
+          "resolution": "720p",
+          "flags": [
+            "geo_blocked"
+          ],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "RFPtv.pt@SD",
+      "name": "RFPtv",
+      "tvg_id": "RFPtv.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://video03.logicahost.com.br/rfptv/rfptv/playlist.m3u8",
+          "protocol": "https",
+          "host": "video03.logicahost.com.br",
+          "resolution": "360p",
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "RTP1.pt@HD",
+      "name": "RTP 1",
+      "tvg_id": "RTP1.pt@HD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8",
+          "protocol": "https",
+          "host": "streaming-live.rtp.pt",
+          "resolution": "720p",
+          "flags": [
+            "not_24_7"
+          ],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "RTP2.pt@HD",
+      "name": "RTP 2",
+      "tvg_id": "RTP2.pt@HD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8",
+          "protocol": "https",
+          "host": "streaming-live.rtp.pt",
+          "resolution": "720p",
+          "flags": [
+            "not_24_7"
+          ],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "RTPAcores.pt@HD",
+      "name": "RTP Açores",
+      "tvg_id": "RTPAcores.pt@HD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8",
+          "protocol": "https",
+          "host": "streaming-live.rtp.pt",
+          "resolution": "720p",
+          "flags": [
+            "not_24_7"
+          ],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "RTPAcores.pt@SD",
+      "name": "RTP Açores",
+      "tvg_id": "RTPAcores.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpacores.smil/playlist.m3u8",
+          "protocol": "https",
+          "host": "streaming-live.rtp.pt",
+          "resolution": "504p",
+          "flags": [
+            "not_24_7"
+          ],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "RTPAfrica.pt@SD",
+      "name": "RTP África",
+      "tvg_id": "RTPAfrica.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8",
+          "protocol": "https",
+          "host": "streaming-live.rtp.pt",
+          "resolution": "504p",
+          "flags": [
+            "not_24_7"
+          ],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "RTPMadeira.pt@SD",
+      "name": "RTP Madeira",
+      "tvg_id": "RTPMadeira.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8",
+          "protocol": "https",
+          "host": "streaming-live.rtp.pt",
+          "resolution": "504p",
+          "flags": [
+            "not_24_7"
+          ],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "RTPMemoria.pt@SD",
+      "name": "RTP Memória",
+      "tvg_id": "RTPMemoria.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8",
+          "protocol": "https",
+          "host": "streaming-live.rtp.pt",
+          "resolution": "504p",
+          "flags": [
+            "not_24_7"
+          ],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "RTPMundo.pt@SD",
+      "name": "RTP Mundo",
+      "tvg_id": "RTPMundo.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8",
+          "protocol": "https",
+          "host": "streaming-live.rtp.pt",
+          "resolution": "504p",
+          "flags": [
+            "not_24_7"
+          ],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "RTPNoticias.pt@HD",
+      "name": "RTP Noticias",
+      "tvg_id": "RTPNoticias.pt@HD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8",
+          "protocol": "https",
+          "host": "streaming-live.rtp.pt",
+          "resolution": "720p",
+          "flags": [
+            "not_24_7"
+          ],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "RTPNoticias.pt@SD",
+      "name": "RTP Noticias",
+      "tvg_id": "RTPNoticias.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://streaming-live.rtp.pt/livetvhlsDVR/rtpndvr.smil/playlist.m3u8",
+          "protocol": "https",
+          "host": "streaming-live.rtp.pt",
+          "resolution": "504p",
+          "flags": [
+            "not_24_7"
+          ],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "SIC.pt@SD",
+      "name": "SIC",
+      "tvg_id": "SIC.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://sic.live.impresa.pt/sic.m3u8",
+          "protocol": "https",
+          "host": "sic.live.impresa.pt",
+          "resolution": "1080p",
+          "flags": [
+            "geo_blocked"
+          ],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "SICAltaDefinicao.pt@SD",
+      "name": "SIC Alta Definição",
+      "tvg_id": "SICAltaDefinicao.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://production-fast-sic.content.okast.tv/fa2e8c4385712f9aa54bbe52b1bd9b6b/channels/d9070446-8448-455e-8075-773b1ba12562/fc831b20-f252-4e7d-8cc5-2d05f4d43c1c/media_.m3u8",
+          "protocol": "https",
+          "host": "production-fast-sic.content.okast.tv",
+          "resolution": "1080p",
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "SICMulher.pt@SD",
+      "name": "SIC Mulher",
+      "tvg_id": "SICMulher.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "http://zntx.dyndns.org:8085/hls/sicm.m3u8",
+          "protocol": "http",
+          "host": "zntx.dyndns.org",
+          "resolution": null,
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "SICNoticias.pt@SD",
+      "name": "SIC Notícias",
+      "tvg_id": "SICNoticias.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://sicnot.live.impresa.pt/sicnot.m3u8",
+          "protocol": "https",
+          "host": "sicnot.live.impresa.pt",
+          "resolution": "1080p",
+          "flags": [
+            "geo_blocked"
+          ],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "SICRadical.pt@SD",
+      "name": "SIC Radical",
+      "tvg_id": "SICRadical.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "http://znty.dyndns.org:5010/hls/sicr.m3u8",
+          "protocol": "http",
+          "host": "znty.dyndns.org",
+          "resolution": null,
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "SICReplay.pt@SD",
+      "name": "SIC Replay",
+      "tvg_id": "SICReplay.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://production-fast-sic.content.okast.tv/fa2e8c4385712f9a7dce4ff2dcebac2e/channels/d9070446-8448-455e-8075-773b1ba12562/d47eae0f-ad77-414a-9a1d-2a6628ba18c3/media_.m3u8",
+          "protocol": "https",
+          "host": "production-fast-sic.content.okast.tv",
+          "resolution": "1080p",
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "SportTV1.pt@SD",
+      "name": "Sport TV1",
+      "tvg_id": "SportTV1.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "http://znty.dyndns.org:5010/hls/stv1.m3u8",
+          "protocol": "http",
+          "host": "znty.dyndns.org",
+          "resolution": null,
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "SportTV2.pt@SD",
+      "name": "Sport TV2",
+      "tvg_id": "SportTV2.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "http://znty.dyndns.org:5010/hls/stv2.m3u8",
+          "protocol": "http",
+          "host": "znty.dyndns.org",
+          "resolution": null,
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "SportTV5.pt@SD",
+      "name": "Sport TV5",
+      "tvg_id": "SportTV5.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "http://znty.dyndns.org:5010/hls/stv5.m3u8",
+          "protocol": "http",
+          "host": "znty.dyndns.org",
+          "resolution": null,
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "SportTV6.pt@SD",
+      "name": "Sport TV6",
+      "tvg_id": "SportTV6.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "http://zntx.dyndns.org:8085/hls/stv6.m3u8",
+          "protocol": "http",
+          "host": "zntx.dyndns.org",
+          "resolution": null,
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "SportTV7.pt@SD",
+      "name": "Sport TV7",
+      "tvg_id": "SportTV7.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "http://zntx.dyndns.org:8085/hls/stv7.m3u8",
+          "protocol": "http",
+          "host": "zntx.dyndns.org",
+          "resolution": null,
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "SportTVPlus.pt@SD",
+      "name": "Sport TV+",
+      "tvg_id": "SportTVPlus.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "http://znty.dyndns.org:5010/hls/sportv+.m3u8",
+          "protocol": "http",
+          "host": "znty.dyndns.org",
+          "resolution": null,
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "StarChannel.pt@SD",
+      "name": "Star Channel",
+      "tvg_id": "StarChannel.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "http://znty.dyndns.org:5010/hls/fox.m3u8",
+          "protocol": "http",
+          "host": "znty.dyndns.org",
+          "resolution": null,
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "StarComedy.pt@SD",
+      "name": "Star Comedy",
+      "tvg_id": "StarComedy.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "http://znty.dyndns.org:5010/hls/foxcomedy.m3u8",
+          "protocol": "http",
+          "host": "znty.dyndns.org",
+          "resolution": null,
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "StarCrime.pt@SD",
+      "name": "Star Crime",
+      "tvg_id": "StarCrime.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "http://znty.dyndns.org:5010/hls/foxcrime.m3u8",
+          "protocol": "http",
+          "host": "znty.dyndns.org",
+          "resolution": null,
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "StarLife.pt@SD",
+      "name": "Star Life",
+      "tvg_id": "StarLife.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "http://znty.dyndns.org:5010/hls/foxlife.m3u8",
+          "protocol": "http",
+          "host": "znty.dyndns.org",
+          "resolution": null,
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "StarMovies.pt@SD",
+      "name": "Star Movies",
+      "tvg_id": "StarMovies.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "http://znty.dyndns.org:5010/hls/foxm.m3u8",
+          "protocol": "http",
+          "host": "znty.dyndns.org",
+          "resolution": null,
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "TVMana1.pt@SD",
+      "name": "TV Maná 1",
+      "tvg_id": "TVMana1.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://w1.manasat.com/tvmana-1/smil:tvmana-1.smil/playlist.m3u8",
+          "protocol": "https",
+          "host": "w1.manasat.com",
+          "resolution": "1080p",
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "TVMana2.pt@SD",
+      "name": "TV Maná 2",
+      "tvg_id": "TVMana2.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://w1.manasat.com/tvmana-2/smil:tvmana-2.smil/playlist.m3u8",
+          "protocol": "https",
+          "host": "w1.manasat.com",
+          "resolution": "1080p",
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "TVManaBrasil.pt@SD",
+      "name": "TV Maná Brasil",
+      "tvg_id": "TVManaBrasil.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://w1.manasat.com/tvmana-brasil/smil:tvmana-brasil.smil/playlist.m3u8",
+          "protocol": "https",
+          "host": "w1.manasat.com",
+          "resolution": "1080p",
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "TVManaEnglish.pt@SD",
+      "name": "TV Maná English",
+      "tvg_id": "TVManaEnglish.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://w1.manasat.com/tvmana-english/smil:tvmana-english.smil/playlist.m3u8",
+          "protocol": "https",
+          "host": "w1.manasat.com",
+          "resolution": "1080p",
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "TVManaEspanhol.pt@SD",
+      "name": "TV Maná Español",
+      "tvg_id": "TVManaEspanhol.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://w1.manasat.com/tvmana-espanol/smil:tvmana-espanol.smil/playlist.m3u8",
+          "protocol": "https",
+          "host": "w1.manasat.com",
+          "resolution": "1080p",
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "TVManaRusskiy.pt@SD",
+      "name": "TV Maná Russkiy",
+      "tvg_id": "TVManaRusskiy.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://w1.manasat.com/tvmana-leste/smil:tvmana-leste.smil/playlist.m3u8",
+          "protocol": "https",
+          "host": "w1.manasat.com",
+          "resolution": "1080p",
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "TVI.pt@SD",
+      "name": "TVI",
+      "tvg_id": "TVI.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvi.m3u8",
+          "protocol": "https",
+          "host": "raw.githubusercontent.com",
+          "resolution": "720p",
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        },
+        {
+          "url": "http://zntx.dyndns.org:8085/hls/tvi.m3u8",
+          "protocol": "http",
+          "host": "zntx.dyndns.org",
+          "resolution": null,
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "TVIFiccao.pt@SD",
+      "name": "TVI Ficção",
+      "tvg_id": "TVIFiccao.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvificcao.m3u8",
+          "protocol": "https",
+          "host": "raw.githubusercontent.com",
+          "resolution": "720p",
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "TVIReality.pt@SD",
+      "name": "TVI Reality",
+      "tvg_id": "TVIReality.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvireality.m3u8",
+          "protocol": "https",
+          "host": "raw.githubusercontent.com",
+          "resolution": "720p",
+          "flags": [
+            "not_24_7"
+          ],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "VPlusTVI.pt@SD",
+      "name": "V+ TVI",
+      "tvg_id": "VPlusTVI.pt@SD",
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/vmaistvi.m3u8",
+          "protocol": "https",
+          "host": "raw.githubusercontent.com",
+          "resolution": "720p",
+          "flags": [],
+          "source_file": "streams/pt.m3u",
+          "source_type": "community_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "name:rakutendocumentarios",
+      "name": "Rakuten Documentários",
+      "tvg_id": null,
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://ead2625dd95b42dabfd015fadcf144e3.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6222/master.m3u8",
+          "protocol": "https",
+          "host": "ead2625dd95b42dabfd015fadcf144e3.mediatailor.eu-west-1.amazonaws.com",
+          "resolution": "1080p",
+          "flags": [],
+          "source_file": "streams/pt_samsung.m3u",
+          "source_type": "secondary_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    },
+    {
+      "id": "name:rakutenfamilia",
+      "name": "Rakuten Família",
+      "tvg_id": null,
+      "logo": null,
+      "group_title": null,
+      "country": "pt",
+      "streams": [
+        {
+          "url": "https://48faa1daf24549fab34594bc5bdd99f2.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6213/master.m3u8",
+          "protocol": "https",
+          "host": "48faa1daf24549fab34594bc5bdd99f2.mediatailor.eu-west-1.amazonaws.com",
+          "resolution": "1080p",
+          "flags": [],
+          "source_file": "streams/pt_samsung.m3u",
+          "source_type": "secondary_playlist",
+          "authorization_status": "unknown",
+          "availability_status": "not_checked"
+        }
+      ]
+    }
+  ]
+}
