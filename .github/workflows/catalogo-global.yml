@@ -1,0 +1,76 @@
+name: catalogo-global
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 7 * * *"
+  push:
+    branches:
+      - master
+    paths:
+      - "streams/br.m3u"
+      - "streams/br_samsung.m3u"
+      - "streams/pt.m3u"
+      - "streams/pt_samsung.m3u"
+      - "streams/us.m3u"
+      - "streams/us_samsung.m3u"
+      - "scripts/catalogar_paises.py"
+      - ".github/workflows/catalogo-global.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalogo-global-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  gerar-catalogos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verificar sintaxe do motor
+        run: python -m py_compile scripts/catalogar_paises.py
+
+      - name: Gerar catálogos por país
+        run: python scripts/catalogar_paises.py
+
+      - name: Conferir arquivos gerados
+        run: |
+          test -s catalogos/catalogo-br.json
+          test -s catalogos/catalogo-pt.json
+          test -s catalogos/catalogo-us.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          for code in ("br", "pt", "us"):
+              path = Path("catalogos") / f"catalogo-{code}.json"
+              data = json.loads(path.read_text(encoding="utf-8"))
+              print(
+                  f"{path}: "
+                  f"{data['summary']['catalogue_channels']} canais, "
+                  f"{data['summary']['streams']} streams"
+              )
+          PY
+
+      - name: Salvar catálogos no GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalogos/catalogo-br.json catalogos/catalogo-pt.json catalogos/catalogo-us.json
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração nos catálogos."
+            exit 0
+          fi
+          git commit -m "Atualizar catálogos globais de canais"
+          git push
