@@ -1,0 +1,79 @@
+name: enriquecimento-global
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "37 10 * * 1"
+  workflow_run:
+    workflows:
+      - classificador-global
+    types:
+      - completed
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalogos-maintenance-master
+  cancel-in-progress: false
+
+jobs:
+  enriquecer:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+        with:
+          ref: master
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verificar sintaxe
+        run: python -m py_compile scripts/enriquecer_catalogos.py
+
+      - name: Enriquecer metadados, logos e cards
+        run: python scripts/enriquecer_catalogos.py
+
+      - name: Validar catálogos e dados para o aplicativo
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          for code in ("br", "pt", "us"):
+              path = Path("catalogos") / f"catalogo-{code}.json"
+              data = json.loads(path.read_text(encoding="utf-8"))
+              for channel in data.get("channels", []):
+                  assert channel.get("favorite_key")
+                  assert channel.get("card", {}).get("title")
+                  assert channel.get("playback_summary", {}).get("status")
+              print(f"{path}: {len(data.get('channels', []))} canais enriquecidos")
+
+          app_path = Path("catalogos/app-catalogo-global.json")
+          app = json.loads(app_path.read_text(encoding="utf-8"))
+          assert len(app.get("countries", [])) == 3
+          assert app.get("filters", {}).get("categories")
+          assert app.get("favorites", {}).get("storage_key")
+          print(
+              f"{app_path}: {app['summary']['channels']} cards; "
+              f"{app['summary']['hls_confirmed']} com HLS confirmado"
+          )
+          PY
+
+      - name: Salvar enriquecimento no GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalogos/catalogo-br.json catalogos/catalogo-pt.json catalogos/catalogo-us.json catalogos/app-catalogo-global.json
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração no enriquecimento."
+            exit 0
+          fi
+          git commit -m "Enriquecer catálogos globais para o aplicativo"
+          git push
