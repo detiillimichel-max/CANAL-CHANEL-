@@ -81,7 +81,7 @@ def parse_playlist(path: Path, country_code: str) -> list[dict]:
                 "protocol": parsed.scheme.lower(),
                 "host": parsed.hostname,
                 "source_file": path.relative_to(ROOT).as_posix(),
-                "source_type": "samsung_tv_plus" if "_samsung" in path.stem else "community_playlist",
+                "source_type": "secondary_playlist" if "_samsung" in path.stem else "community_playlist",
                 "country": country_code,
                 "authorization_status": "unknown",
                 "availability_status": "not_checked",
