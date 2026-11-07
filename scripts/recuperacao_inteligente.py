@@ -129,6 +129,7 @@ def main() -> int:
         counters = Counter()
 
         with ThreadPoolExecutor(max_workers=WORKERS) as executor:
+            future_map = {}
             for channel_index, channel in enumerate(catalogue.get("channels", [])):
                 for stream_index, stream in enumerate(channel.get("streams", [])):
                     due, reason = retry_due(stream, now)
@@ -136,11 +137,10 @@ def main() -> int:
                         counters[f"skipped_{reason}"] += 1
                         continue
                     future = executor.submit(check_stream, stream)
-                    tasks.append((future, channel_index, stream_index, reason))
+                    future_map[future] = (channel_index, stream_index, reason)
 
-            for future in as_completed([item[0] for item in tasks]):
-                task = next(item for item in tasks if item[0] is future)
-                _, channel_index, stream_index, reason = task
+            for future in as_completed(future_map):
+                channel_index, stream_index, reason = future_map[future]
                 validation = future.result()
                 channel = catalogue["channels"][channel_index]
                 stream = channel["streams"][stream_index]
