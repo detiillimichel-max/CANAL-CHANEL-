@@ -182,20 +182,20 @@ def main() -> int:
             for stream in channel.get("streams", [])
         )
         catalogue.setdefault("summary", {})["validation"] = dict(sorted(validation_counts.items()))
-        catalogue["summary"]["recovery"] = dict(sorted(counters.items()))
-        catalogue["summary"]["recovery_checked_at"] = iso(now)
-        catalogue["recovery"] = {
-            "checked_at": iso(now),
-            "policy": "retry_due_only_with_progressive_backoff",
-            "workers": WORKERS,
-            "stable_hls_recheck_days": STABLE_HLS_DAYS,
-            "history_file": HISTORY_PATH.relative_to(ROOT).as_posix(),
-        }
-
-        path.write_text(
-            json.dumps(catalogue, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
-        )
+        if counters.get("checked", 0) or "recovery" not in catalogue:
+            catalogue["summary"]["recovery"] = dict(sorted(counters.items()))
+            catalogue["summary"]["recovery_checked_at"] = iso(now)
+            catalogue["recovery"] = {
+                "checked_at": iso(now),
+                "policy": "retry_due_only_with_progressive_backoff",
+                "workers": WORKERS,
+                "stable_hls_recheck_days": STABLE_HLS_DAYS,
+                "history_file": HISTORY_PATH.relative_to(ROOT).as_posix(),
+            }
+            path.write_text(
+                json.dumps(catalogue, ensure_ascii=False, indent=2) + "\n",
+                encoding="utf-8",
+            )
         total.update(counters)
         print(
             f"[OK] {path.relative_to(ROOT)}: "
