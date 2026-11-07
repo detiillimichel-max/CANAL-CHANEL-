@@ -1,0 +1,70 @@
+name: classificador-global
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 9 * * 1"
+  workflow_run:
+    workflows:
+      - catalogo-global
+    types:
+      - completed
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalogos-maintenance-master
+  cancel-in-progress: false
+
+jobs:
+  classificar:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+        with:
+          ref: master
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verificar sintaxe
+        run: python -m py_compile scripts/classificar_canais.py
+
+      - name: Classificar canais por metadados
+        run: python scripts/classificar_canais.py
+
+      - name: Conferir categorias e estrutura JSON
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          for code in ("br", "pt", "us"):
+              path = Path("catalogos") / f"catalogo-{code}.json"
+              data = json.loads(path.read_text(encoding="utf-8"))
+              channels = data.get("channels", [])
+              missing = sum("classification" not in channel for channel in channels)
+              print(f"{path}: {len(channels)} canais; {missing} sem classificação")
+              print(data.get("summary", {}).get("classification", {}))
+              if missing:
+                  raise SystemExit(f"Classificação ausente em {path}")
+          PY
+
+      - name: Salvar categorias no GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalogos/catalogo-br.json catalogos/catalogo-pt.json catalogos/catalogo-us.json
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração nas categorias."
+            exit 0
+          fi
+          git commit -m "Classificar canais dos catálogos globais"
+          git push
