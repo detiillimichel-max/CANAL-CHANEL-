@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Build country catalogues from the repository's public M3U playlists.
 
-This script only reads playlist metadata and stream URLs. It does not download,
+This script reads playlist metadata and stream URLs only. It does not download,
 proxy, restream, or test playback. Pluto TV playlist files are intentionally
-excluded until their integration/redistribution terms are confirmed.
+excluded until integration/redistribution terms are confirmed.
 """
 from __future__ import annotations
 
@@ -26,10 +26,10 @@ COUNTRIES = {
 }
 
 ATTRIBUTE_RE = re.compile(r'([A-Za-z0-9_-]+)="((?:\\.|[^"])*)"')
-RESOLUTION_RE = re.compile(r"\\b(\\d{3,4}p)\\b", re.IGNORECASE)
+RESOLUTION_RE = re.compile(r"\b(\d{3,4}p)\b", re.IGNORECASE)
 FLAG_PATTERNS = {
-    "not_24_7": re.compile(r"\\[Not 24/7\\]", re.IGNORECASE),
-    "geo_blocked": re.compile(r"\\[Geo-blocked\\]", re.IGNORECASE),
+    "not_24_7": re.compile(r"\[Not 24/7\]", re.IGNORECASE),
+    "geo_blocked": re.compile(r"\[Geo-blocked\]", re.IGNORECASE),
 }
 
 
@@ -46,10 +46,10 @@ def parse_extinf(line: str) -> dict:
     resolution_match = RESOLUTION_RE.search(display_name)
     flags = [name for name, pattern in FLAG_PATTERNS.items() if pattern.search(display_name)]
     clean_name = display_name
-    clean_name = re.sub(r"\\s*\\(\\d{3,4}p\\)", "", clean_name, flags=re.IGNORECASE)
+    clean_name = re.sub(r"\s*\(\d{3,4}p\)", "", clean_name, flags=re.IGNORECASE)
     for pattern in FLAG_PATTERNS.values():
         clean_name = pattern.sub("", clean_name)
-    clean_name = re.sub(r"\\s+", " ", clean_name).strip(" -")
+    clean_name = re.sub(r"\s+", " ", clean_name).strip(" -")
     return {
         "tvg_id": attrs.get("tvg-id", "").strip(),
         "logo": attrs.get("tvg-logo", "").strip() or None,
@@ -71,8 +71,7 @@ def parse_playlist(path: Path, country_code: str) -> list[dict]:
             current = parse_extinf(line)
             continue
         if line.startswith("#"):
-            # Ignore VLC options and other metadata lines; the following URL
-            # remains associated with the current EXTINF record.
+            # Ignore VLC options and other metadata; keep the pending EXTINF.
             continue
         if line.startswith(("http://", "https://")) and current:
             parsed = urlparse(line)
@@ -130,7 +129,7 @@ def build_country_catalogue(code: str, config: dict) -> dict:
             if not channel["group_title"] and record["group_title"]:
                 channel["group_title"] = record["group_title"]
 
-            stream = {
+            channel["streams"].append({
                 "url": record["stream_url"],
                 "protocol": record["protocol"],
                 "host": record["host"],
@@ -140,8 +139,7 @@ def build_country_catalogue(code: str, config: dict) -> dict:
                 "source_type": record["source_type"],
                 "authorization_status": record["authorization_status"],
                 "availability_status": record["availability_status"],
-            }
-            channel["streams"].append(stream)
+            })
 
     channels = list(grouped.values())
     return {
@@ -168,7 +166,7 @@ def main() -> int:
         catalogue = build_country_catalogue(code, config)
         output = OUTPUT_DIR / f"catalogo-{code}.json"
         output.write_text(
-            json.dumps(catalogue, ensure_ascii=False, indent=2) + "\\n",
+            json.dumps(catalogue, ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
         )
         summary = catalogue["summary"]
