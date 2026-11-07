@@ -93,6 +93,19 @@ def parse_playlist(path: Path, country_code: str) -> list[dict]:
 def build_country_catalogue(code: str, config: dict) -> dict:
     grouped = OrderedDict()
     seen_urls = set()
+    previous_path = OUTPUT_DIR / f"catalogo-{code}.json"
+    previous_catalogue = {}
+    if previous_path.is_file():
+        try:
+            previous_catalogue = json.loads(previous_path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            previous_catalogue = {}
+    previous_streams = {
+        stream.get("url"): stream
+        for channel in previous_catalogue.get("channels", [])
+        for stream in channel.get("streams", [])
+        if stream.get("url")
+    }
     input_count = 0
     duplicate_url_count = 0
 
@@ -129,7 +142,7 @@ def build_country_catalogue(code: str, config: dict) -> dict:
             if not channel["group_title"] and record["group_title"]:
                 channel["group_title"] = record["group_title"]
 
-            channel["streams"].append({
+            stream_data = {
                 "url": record["stream_url"],
                 "protocol": record["protocol"],
                 "host": record["host"],
@@ -139,10 +152,17 @@ def build_country_catalogue(code: str, config: dict) -> dict:
                 "source_type": record["source_type"],
                 "authorization_status": record["authorization_status"],
                 "availability_status": record["availability_status"],
-            })
+            }
+            # Preserve prior validation and recovery data when rebuilding the
+            # catalogue, so daily source refreshes do not erase diagnostics.
+            previous_stream = previous_streams.get(record["stream_url"], {})
+            for key in ("validation", "recovery", "availability_status"):
+                if key in previous_stream:
+                    stream_data[key] = previous_stream[key]
+            channel["streams"].append(stream_data)
 
     channels = list(grouped.values())
-    return {
+    result = {
         "schema_version": 1,
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "country": {"code": code, "name": config["name"]},
@@ -158,6 +178,13 @@ def build_country_catalogue(code: str, config: dict) -> dict:
         },
         "channels": channels,
     }
+    # Keep the previous validation summary and run metadata across rebuilds.
+    if "validation" in previous_catalogue:
+        result["validation"] = previous_catalogue["validation"]
+    for key in ("validation", "validation_checked_at", "recovery", "recovery_checked_at"):
+        if key in previous_catalogue.get("summary", {}):
+            result["summary"][key] = previous_catalogue["summary"][key]
+    return result
 
 
 def main() -> int:
