@@ -99,21 +99,50 @@ function renderChannels() {
 async function loadCatalog(country) {
   state.country = country;
   $("#catalogStatus").textContent = "Carregando " + (countryNames[country] || country) + "…";
-  $("#channelGrid").innerHTML = ""; setMessage("Buscando catálogo atualizado…");
+  $("#channelGrid").innerHTML = "";
+  setMessage("Buscando catálogo atualizado…");
+
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), 15000);
+  const catalogPath = "./catalogos/catalogo-" + country + ".json";
+
   try {
-    const response = await fetch("./catalogos/catalogo-" + country + ".json", { cache: "no-store" });
-    if (!response.ok) throw new Error("HTTP " + response.status);
+    const response = await fetch(catalogPath, {
+      cache: "no-store",
+      signal: controller.signal
+    });
+    if (!response.ok) {
+      throw new Error("HTTP " + response.status + " ao buscar " + catalogPath);
+    }
+
+    const contentType = response.headers.get("content-type") || "";
+    if (!contentType.includes("json")) {
+      throw new Error("O endereço respondeu um conteúdo que não é JSON (" + (contentType || "tipo desconhecido") + ").");
+    }
+
     const data = await response.json();
-    if (!Array.isArray(data.channels)) throw new Error("Formato de catálogo inesperado");
+    if (!data || !Array.isArray(data.channels)) {
+      throw new Error("JSON recebido, mas o campo channels não é uma lista válida.");
+    }
+
     state.channels = data.channels;
     $("#channelCount").textContent = Number(data.summary?.catalogue_channels ?? state.channels.length).toLocaleString("pt-BR");
     $("#catalogStatus").textContent = "Atualizado · " + new Date(data.generated_at || Date.now()).toLocaleDateString("pt-BR");
-    renderCategories(); updateFiltered();
+    renderCategories();
+    updateFiltered();
   } catch (error) {
-    state.channels = []; state.filtered = [];
-    $("#channelCount").textContent = "—"; $("#categoryCount").textContent = "—";
-    $("#catalogStatus").textContent = "Catálogo indisponível";
-    setMessage("Não foi possível carregar o catálogo. Verifique a publicação do GitHub Pages e tente novamente. (" + error.message + ")");
+    state.channels = [];
+    state.filtered = [];
+    $("#channelCount").textContent = "—";
+    $("#categoryCount").textContent = "—";
+    $("#catalogStatus").textContent = "Falha ao carregar catálogo";
+
+    const detail = error.name === "AbortError"
+      ? "A requisição demorou mais de 15 segundos e foi interrompida."
+      : (error.message || "Erro desconhecido ao carregar o catálogo.");
+    setMessage("Não foi possível carregar " + catalogPath + ". " + detail + " Atualize a página e tente novamente.");
+  } finally {
+    clearTimeout(timeoutId);
   }
 }
 async function openPlayer(channel, stream) {
