@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#090d14">
+  <meta name="description" content="Catálogo de canais públicos com pesquisa e categorias.">
+  <title>CANAL CHANEL — TV</title>
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="CANAL CHANEL início">
+      <span class="brand-mark">CC</span>
+      <span><strong>CANAL <em>CHANEL</em></strong><small>TV • CATÁLOGO PÚBLICO</small></span>
+    </a>
+    <div class="header-actions">
+      <label class="country-wrap" for="countrySelect">
+        <span class="sr-only">País</span>
+        <select id="countrySelect" aria-label="Selecionar país">
+          <option value="br">Brasil</option>
+          <option value="pt">Portugal</option>
+          <option value="us">Estados Unidos</option>
+        </select>
+      </label>
+      <button id="installBtn" class="icon-button" type="button" hidden aria-label="Instalar aplicativo">↓</button>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">SUA PROGRAMAÇÃO, EM UM SÓ LUGAR</p>
+        <h1>Descubra o que<br><span>está no ar.</span></h1>
+        <p class="hero-subtitle">Explore canais e fontes públicas organizados por categoria.</p>
+        <div class="hero-stats">
+          <div><strong id="channelCount">—</strong><span>canais no catálogo</span></div>
+          <div><strong id="categoryCount">—</strong><span>categorias</span></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="screen-icon">▶</div><span class="art-label">LIVE CHANNELS</span></div>
+    </section>
+
+    <section class="catalog-section" aria-labelledby="catalogTitle">
+      <div class="section-heading">
+        <div><p class="eyebrow">BIBLIOTECA</p><h2 id="catalogTitle">Explore os canais</h2></div>
+        <span id="catalogStatus" class="status-pill">Preparando catálogo…</span>
+      </div>
+
+      <div class="search-row">
+        <label class="search-box" for="searchInput"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="Buscar canal, categoria…" autocomplete="off"></label>
+        <select id="sortSelect" class="sort-select" aria-label="Ordenar canais">
+          <option value="name">A–Z</option>
+          <option value="category">Categoria</option>
+        </select>
+      </div>
+
+      <nav id="categoryBar" class="category-bar" aria-label="Filtrar por categoria">
+        <button class="category-chip active" data-category="all" type="button">Todos</button>
+      </nav>
+
+      <div id="catalogMessage" class="message" role="status">Carregando catálogo…</div>
+      <div id="channelGrid" class="channel-grid"></div>
+      <button id="loadMoreBtn" class="load-more" type="button" hidden>Carregar mais canais</button>
+    </section>
+
+    <section class="notice">
+      <span class="notice-icon">ⓘ</span>
+      <p><strong>Transparência:</strong> este aplicativo organiza metadados e links encontrados em catálogos públicos. A presença de um link não comprova autorização de retransmissão. A disponibilidade pode mudar; utilize somente transmissões que você tenha direito de acessar.</p>
+    </section>
+  </main>
+
+  <dialog id="playerDialog" class="player-dialog">
+    <div class="player-header"><div><p class="eyebrow">REPRODUÇÃO</p><h2 id="playerTitle">Canal</h2></div><button id="closePlayer" class="close-button" type="button" aria-label="Fechar player">×</button></div>
+    <video id="videoPlayer" controls playsinline preload="none"></video>
+    <p id="playerMessage" class="player-message">A reprodução começa somente quando você selecionar um canal.</p>
+    <a id="openStreamLink" class="text-link" href="#" target="_blank" rel="noopener noreferrer" hidden>Abrir fonte em outra aba</a>
+  </dialog>
+
+  <footer class="footer"><span>CANAL CHANEL</span><span>Catálogo independente • PWA</span><a href="https://github.com/detiillimichel-max/CANAL-CHANEL-" target="_blank" rel="noopener noreferrer">Projeto no GitHub ↗</a></footer>
+  <script src="./app.js" defer></script>
+</body>
+</html>
