@@ -1,0 +1,21 @@
+{
+  "id": "./",
+  "name": "CANAL CHANEL — TV",
+  "short_name": "CANAL CHANEL",
+  "description": "Catálogo de canais e fontes públicas.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#090d14",
+  "theme_color": "#090d14",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
