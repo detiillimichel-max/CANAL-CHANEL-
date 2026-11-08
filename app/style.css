@@ -22,3 +22,13 @@ button,a,select{-webkit-tap-highlight-color:transparent}
 @media(max-width:900px){.channel-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero-art{right:-7%;opacity:.55}.hero-copy{max-width:75%}}
 @media(max-width:560px){.topbar{height:66px;padding:0 15px}.brand-mark{width:37px;height:37px}.brand strong{font-size:13px}.page-shell{width:calc(100% - 28px)}.hero{min-height:345px;margin:18px 0 42px;padding:28px 22px;border-radius:20px;align-items:flex-start}.hero-copy{max-width:100%}.hero h1{font-size:43px}.hero-subtitle{max-width:270px;font-size:13px}.hero-art{width:100%;right:-32%;top:30%;opacity:.28}.hero-stats{gap:22px}.section-heading{align-items:start;flex-direction:column}.search-row{flex-direction:column}.sort-select{width:100%}.channel-grid{grid-template-columns:1fr;gap:9px}.channel-card{padding:12px}.channel-logo{width:48px;height:48px;flex-basis:48px}.play-button{padding:8px 11px}.notice{margin:25px 0 32px}.footer{flex-direction:column;gap:8px}.country-wrap select{max-width:135px;padding:9px 8px;font-size:12px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
+/* Playlist pessoal */
+.view-tabs{display:flex;gap:9px;margin:4px 0 8px}
+.view-tab{flex:1;min-height:44px;border:1px solid var(--line);border-radius:12px;background:var(--panel);color:var(--muted);font-weight:600;font-size:13px}
+.view-tab.active{background:#183b3d;border-color:#3c9b8c;color:#baf5e8}
+.view-description{margin:0 0 15px;color:var(--muted);font-size:12px}
+.channel-actions{display:flex;align-items:center;gap:7px;flex-shrink:0}
+.save-button{border:1px solid var(--line);background:#111925;color:#c1cedd;border-radius:9px;padding:7px 9px;font-size:10px;white-space:nowrap}
+.save-button.saved{border-color:#367b75;background:#173b3b;color:#baf5e8}
+.empty-hint{padding:18px;border:1px dashed #3b5363;border-radius:13px;color:var(--muted);font-size:13px;line-height:1.6;text-align:center}
+@media(max-width:560px){.view-tab{font-size:12px}.channel-actions{gap:5px}.save-button{padding:8px 7px;font-size:10px}}
