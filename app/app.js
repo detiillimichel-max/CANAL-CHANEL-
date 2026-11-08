@@ -1,9 +1,9 @@
+const PLAYLIST_KEY = "canal-chanel-playlist-v1";
 const $ = (selector) => document.querySelector(selector);
 const state = { country: "br", channels: [], filtered: [], category: "all", query: "", sort: "name", shown: 24, hls: null, installPrompt: null, activeView: "library", playlist: loadPlaylist() };
 const countryNames = { br: "Brasil", pt: "Portugal", us: "Estados Unidos" };
 const categoryNames = { agronegocio:"Agronegócio", desenhos:"Desenhos", educacao_cultura:"Educação e cultura", entretenimento:"Entretenimento", esportes:"Esportes", filmes:"Filmes", jornalismo:"Jornalismo", lifestyle:"Lifestyle", musica:"Música", outros:"Outros", regionais:"Regionais", religiao:"Religião", documentarios:"Documentários", compras:"Compras", politica:"Política", negocios:"Negócios", geral:"Geral" };
 const safeText = (value) => String(value ?? "").replace(/[<>]/g, "");
-const PLAYLIST_KEY = "canal-chanel-playlist-v1";
 function loadPlaylist() { try { const v=JSON.parse(localStorage.getItem(PLAYLIST_KEY)||"[]"); return Array.isArray(v)?v.filter(c=>c&&c.id&&Array.isArray(c.streams)):[]; } catch { return []; } }
 function channelKey(c) { return c.favorite_key || (c.country || state.country)+":"+(c.id||c.name); }
 function isSaved(c) { return state.playlist.some(x=>channelKey(x)===channelKey(c)); }
@@ -27,7 +27,8 @@ function confirmedStreams(channel) {
 function setMessage(message) { $("#catalogMessage").textContent = message; }
 function renderCategories() {
   const counts = new Map();
-  const source = state.activeView === "playlist" ? state.playlist : state.channels;\n  source.forEach((channel) => {
+  const source = state.activeView === "playlist" ? state.playlist : state.channels;
+  source.forEach((channel) => {
     const key = channel.categories?.[0] || channel.classification?.primary || "outros";
     counts.set(key, (counts.get(key) || 0) + 1);
   });
@@ -44,11 +45,15 @@ function renderCategories() {
     button.textContent = (categoryNames[key] || key) + " · " + count;
     bar.append(button);
   });
-  $("#categoryCount").textContent = counts.size;\n  $("#libraryTab").classList.toggle("active", state.activeView === "library");\n  $("#playlistTab").classList.toggle("active", state.activeView === "playlist");\n  $("#playlistTab").textContent = "Minha Playlist · " + state.playlist.length;
+  $("#categoryCount").textContent = counts.size;
+  $("#libraryTab").classList.toggle("active", state.activeView === "library");
+  $("#playlistTab").classList.toggle("active", state.activeView === "playlist");
+  $("#playlistTab").textContent = "Minha Playlist · " + state.playlist.length;
 }
 function updateFiltered() {
   const q = state.query.trim().toLocaleLowerCase("pt-BR");
-  const source = state.activeView === "playlist" ? state.playlist : state.channels;\n  state.filtered = source.filter((channel) => {
+  const source = state.activeView === "playlist" ? state.playlist : state.channels;
+  state.filtered = source.filter((channel) => {
     const category = channel.categories?.[0] || channel.classification?.primary || "outros";
     const haystack = [channel.name, channel.id, categoryNames[category], ...(channel.category_labels || [])].join(" ").toLocaleLowerCase("pt-BR");
     return (state.category === "all" || category === state.category) && (!q || haystack.includes(q));
@@ -73,7 +78,11 @@ function renderChannels() {
     const title = document.createElement("h3"); title.textContent = safeText(channel.name || "Canal sem nome");
     const meta = document.createElement("p"); meta.textContent = channelCategory(channel) + " · " + (countryNames[channel.country || state.country] || channel.country || state.country);
     info.append(title, meta);
-    const actions = document.createElement("div"); actions.className = "channel-actions";\n    const saved = document.createElement("button"); saved.className = "save-button" + (isSaved(channel) ? " saved" : ""); saved.type = "button";\n    saved.textContent = isSaved(channel) ? "✓ Salvo" : "+ Playlist";\n    saved.addEventListener("click", () => togglePlaylist(channel));\n    const streams = confirmedStreams(channel);
+    const actions = document.createElement("div"); actions.className = "channel-actions";
+    const saved = document.createElement("button"); saved.className = "save-button" + (isSaved(channel) ? " saved" : ""); saved.type = "button";
+    saved.textContent = isSaved(channel) ? "✓ Salvo" : "+ Playlist";
+    saved.addEventListener("click", () => togglePlaylist(channel));
+    const streams = confirmedStreams(channel);
     const button = document.createElement("button"); button.className = "play-button"; button.type = "button";
     button.textContent = streams.length ? "Abrir" : "Indisponível"; button.disabled = !streams.length;
     button.setAttribute("aria-label", streams.length ? "Abrir " + (channel.name || "canal") : "Sem transmissão confirmada");
@@ -82,7 +91,10 @@ function renderChannels() {
   });
   setMessage(state.filtered.length ? "Exibindo " + visible.length + " de " + state.filtered.length + " canais. Os links são fontes externas e podem mudar." : "Nenhum canal encontrado com esse filtro.");
   $("#loadMoreBtn").hidden = state.shown >= state.filtered.length;
-  $("#loadMoreBtn").textContent = "Carregar mais canais";\n  $("#catalogTitle").textContent = state.activeView === "playlist" ? "Minha Playlist" : "Explore os canais";\n  $("#viewDescription").textContent = state.activeView === "playlist" ? "Seus canais salvos neste aparelho, de todos os países." : "Adicione canais à sua playlist para encontrá-los rapidamente.";\n  $("#playlistEmptyHint").hidden = state.activeView !== "playlist" || state.filtered.length > 0;
+  $("#loadMoreBtn").textContent = "Carregar mais canais";
+  $("#catalogTitle").textContent = state.activeView === "playlist" ? "Minha Playlist" : "Explore os canais";
+  $("#viewDescription").textContent = state.activeView === "playlist" ? "Seus canais salvos neste aparelho, de todos os países." : "Adicione canais à sua playlist para encontrá-los rapidamente.";
+  $("#playlistEmptyHint").hidden = state.activeView !== "playlist" || state.filtered.length > 0;
 }
 async function loadCatalog(country) {
   state.country = country;
@@ -149,7 +161,9 @@ function stopPlayer() {
   if (state.hls) { state.hls.destroy(); state.hls = null; }
   video.pause(); video.removeAttribute("src"); video.load();
 }
-$("#libraryTab").addEventListener("click", () => { state.activeView="library"; state.category="all"; renderCategories(); updateFiltered(); });\n$("#playlistTab").addEventListener("click", () => { state.activeView="playlist"; state.category="all"; renderCategories(); updateFiltered(); });\n$("#categoryBar").addEventListener("click", (event) => {
+$("#libraryTab").addEventListener("click", () => { state.activeView="library"; state.category="all"; renderCategories(); updateFiltered(); });
+$("#playlistTab").addEventListener("click", () => { state.activeView="playlist"; state.category="all"; renderCategories(); updateFiltered(); });
+$("#categoryBar").addEventListener("click", (event) => {
   const button = event.target.closest("button[data-category]");
   if (!button) return;
   state.category = button.dataset.category;
