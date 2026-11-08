@@ -49,7 +49,7 @@
         <span id="catalogStatus" class="status-pill">Preparando catálogo…</span>
       </div>
 
-      <div class="search-row">
+      <div class="view-tabs" role="tablist" aria-label="Biblioteca e playlist">\n        <button id="libraryTab" class="view-tab active" type="button" role="tab">Biblioteca</button>\n        <button id="playlistTab" class="view-tab" type="button" role="tab">Minha Playlist · 0</button>\n      </div>\n      <p id="viewDescription" class="view-description">Adicione canais à sua playlist para encontrá-los rapidamente.</p>\n      <div class="search-row">
         <label class="search-box" for="searchInput"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="Buscar canal, categoria…" autocomplete="off"></label>
         <select id="sortSelect" class="sort-select" aria-label="Ordenar canais">
           <option value="name">A–Z</option>
@@ -61,7 +61,7 @@
         <button class="category-chip active" data-category="all" type="button">Todos</button>
       </nav>
 
-      <div id="catalogMessage" class="message" role="status">Carregando catálogo…</div>
+      <div id="catalogMessage" class="message" role="status">Carregando catálogo…</div>\n      <p id="playlistEmptyHint" class="empty-hint" hidden>Você ainda não salvou canais. Volte à Biblioteca e toque em “+ Playlist” nos canais que deseja guardar.</p>
       <div id="channelGrid" class="channel-grid"></div>
       <button id="loadMoreBtn" class="load-more" type="button" hidden>Carregar mais canais</button>
     </section>
