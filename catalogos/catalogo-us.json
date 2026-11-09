@@ -75,7 +75,7 @@
         "esportes": 82,
         "filmes": 103,
         "geral": 134,
-        "jornalismo": 80,
+        "jornalismo": 79,
         "lifestyle": 69,
         "musica": 61,
         "negocios": 11,
@@ -84,7 +84,7 @@
         "regionais": 1,
         "religiao": 6
       },
-      "enriched_at": "2026-11-09T17:38:07+00:00"
+      "enriched_at": "2026-11-09T19:55:38+00:00"
     }
   },
   "channels": [
@@ -52078,8 +52078,7 @@
       },
       "playlist_name": "NBC 5 Chicago Live News",
       "categories": [
-        "geral",
-        "jornalismo"
+        "geral"
       ],
       "logo_metadata": {
         "source": "iptv-org/api/logos.json",
@@ -52090,8 +52089,7 @@
         "in_use": true
       },
       "category_labels": [
-        "Geral",
-        "Jornalismo"
+        "Geral"
       ],
       "playback_summary": {
         "status": "hls_confirmed",
@@ -52102,7 +52100,6 @@
         "normalized_name": "nbc",
         "terms": [
           "geral",
-          "jornalismo",
           "nbc",
           "nbcuswmaqtv"
         ]
@@ -52114,12 +52111,10 @@
         "country": "us",
         "country_name": "Estados Unidos",
         "categories": [
-          "geral",
-          "jornalismo"
+          "geral"
         ],
         "category_labels": [
-          "Geral",
-          "Jornalismo"
+          "Geral"
         ],
         "playback_status": "hls_confirmed",
         "hls_confirmed": true,
@@ -118166,7 +118161,7 @@
   "enrichment": {
     "source": "https://github.com/iptv-org/api",
     "source_license": "Unlicense",
-    "checked_at": "2026-11-09T17:38:07+00:00",
+    "checked_at": "2026-11-09T19:55:38+00:00",
     "logo_policy": "official_in_use_https_preferred; existing_playlist_logo_fallback",
     "stream_urls_modified": false
   }

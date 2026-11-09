@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09T17:38:07+00:00",
+  "generated_at": "2026-11-09T19:55:38+00:00",
   "title": "TV Global",
   "countries": [
     {
@@ -21991,21 +21991,16 @@
       "logo": "https://i.imgur.com/y00t9hr.png",
       "logo_source": "iptv-org/api/logos.json",
       "categories": [
-        "educacao_cultura",
         "politica"
       ],
       "category_labels": [
-        "Educação e cultura",
         "Política"
       ],
       "classification": {
-        "primary": "educacao_cultura",
-        "confidence": "media",
-        "score": 80,
-        "matched_terms": [
-          "\\bparlamento\\b"
-        ],
-        "also_matches": [],
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
         "method": "metadata_rules_v1"
       },
       "playback": {
@@ -22019,7 +22014,6 @@
         "terms": [
           "artv",
           "artvptsd",
-          "educacaoecultura",
           "politica"
         ]
       },
@@ -53895,10 +53889,13 @@
         "Filmes"
       ],
       "classification": {
-        "primary": "outros",
-        "confidence": "baixa",
-        "score": 0,
-        "matched_terms": [],
+        "primary": "filmes",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bwestern\\b"
+        ],
+        "also_matches": [],
         "method": "metadata_rules_v1"
       },
       "playback": {
@@ -73354,21 +73351,16 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9f/KSNV_logo.svg",
       "logo_source": "iptv-org/api/logos.json",
       "categories": [
-        "geral",
-        "jornalismo"
+        "geral"
       ],
       "category_labels": [
-        "Geral",
-        "Jornalismo"
+        "Geral"
       ],
       "classification": {
-        "primary": "jornalismo",
-        "confidence": "alta",
-        "score": 90,
-        "matched_terms": [
-          "\\bnews\\b"
-        ],
-        "also_matches": [],
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
         "method": "metadata_rules_v1"
       },
       "playback": {
@@ -73381,7 +73373,6 @@
         "normalized_name": "nbc",
         "terms": [
           "geral",
-          "jornalismo",
           "nbc",
           "nbcuswmaqtv"
         ]
@@ -74392,10 +74383,13 @@
         "Filmes"
       ],
       "classification": {
-        "primary": "outros",
-        "confidence": "baixa",
-        "score": 0,
-        "matched_terms": [],
+        "primary": "filmes",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bmovies?\\b"
+        ],
+        "also_matches": [],
         "method": "metadata_rules_v1"
       },
       "playback": {
@@ -82374,13 +82368,10 @@
         "Música"
       ],
       "classification": {
-        "primary": "musica",
-        "confidence": "alta",
-        "score": 90,
-        "matched_terms": [
-          "\\bradio\\b"
-        ],
-        "also_matches": [],
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
         "method": "metadata_rules_v1"
       },
       "playback": {
@@ -85471,13 +85462,10 @@
         "Documentários"
       ],
       "classification": {
-        "primary": "documentarios",
-        "confidence": "alta",
-        "score": 90,
-        "matched_terms": [
-          "\\bwild\\b"
-        ],
-        "also_matches": [],
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
         "method": "metadata_rules_v1"
       },
       "playback": {
@@ -87191,10 +87179,13 @@
         "Lifestyle"
       ],
       "classification": {
-        "primary": "outros",
-        "confidence": "baixa",
-        "score": 0,
-        "matched_terms": [],
+        "primary": "lifestyle",
+        "confidence": "media",
+        "score": 70,
+        "matched_terms": [
+          "\\blifestyle\\b"
+        ],
+        "also_matches": [],
         "method": "metadata_rules_v1"
       },
       "playback": {
@@ -102537,13 +102528,10 @@
         "Jornalismo"
       ],
       "classification": {
-        "primary": "jornalismo",
-        "confidence": "alta",
-        "score": 90,
-        "matched_terms": [
-          "\\bnews\\b"
-        ],
-        "also_matches": [],
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
         "method": "metadata_rules_v1"
       },
       "playback": {
@@ -103072,15 +103060,10 @@
         "Música"
       ],
       "classification": {
-        "primary": "musica",
-        "confidence": "alta",
-        "score": 90,
-        "matched_terms": [
-          "\\bradio\\b"
-        ],
-        "also_matches": [
-          "educacao_cultura"
-        ],
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
         "method": "metadata_rules_v1"
       },
       "playback": {
@@ -107202,10 +107185,13 @@
         "Jornalismo"
       ],
       "classification": {
-        "primary": "outros",
-        "confidence": "baixa",
-        "score": 0,
-        "matched_terms": [],
+        "primary": "jornalismo",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bnews\\b"
+        ],
+        "also_matches": [],
         "method": "metadata_rules_v1"
       },
       "playback": {
