@@ -39,24 +39,24 @@
     "recovery_checked_at": "2026-11-09T17:37:48+00:00",
     "classification": {
       "desenhos": 29,
-      "documentarios": 34,
+      "documentarios": 33,
       "educacao_cultura": 7,
       "entretenimento": 27,
       "esportes": 42,
-      "filmes": 38,
-      "jornalismo": 35,
-      "lifestyle": 15,
-      "musica": 32,
-      "outros": 995,
+      "filmes": 40,
+      "jornalismo": 34,
+      "lifestyle": 16,
+      "musica": 30,
+      "outros": 996,
       "regionais": 1,
       "religiao": 6
     },
     "classification_confidence": {
-      "alta": 204,
-      "baixa": 1002,
-      "media": 55
+      "alta": 202,
+      "baixa": 1003,
+      "media": 56
     },
-    "classification_checked_at": "2026-11-09T17:37:37+00:00",
+    "classification_checked_at": "2026-11-09T19:55:19+00:00",
     "enrichment": {
       "official_metadata_matches": 1016,
       "logo_matches": 995,
@@ -45246,10 +45246,13 @@
         }
       ],
       "classification": {
-        "primary": "outros",
-        "confidence": "baixa",
-        "score": 0,
-        "matched_terms": [],
+        "primary": "lifestyle",
+        "confidence": "media",
+        "score": 70,
+        "matched_terms": [
+          "\\blifestyle\\b"
+        ],
+        "also_matches": [],
         "method": "metadata_rules_v1"
       },
       "official_metadata": {
@@ -52056,13 +52059,10 @@
         }
       ],
       "classification": {
-        "primary": "jornalismo",
-        "confidence": "alta",
-        "score": 90,
-        "matched_terms": [
-          "\\bnews\\b"
-        ],
-        "also_matches": [],
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
         "method": "metadata_rules_v1"
       },
       "official_metadata": {
@@ -60570,13 +60570,10 @@
         }
       ],
       "classification": {
-        "primary": "musica",
-        "confidence": "alta",
-        "score": 90,
-        "matched_terms": [
-          "\\bradio\\b"
-        ],
-        "also_matches": [],
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
         "method": "metadata_rules_v1"
       },
       "official_metadata": {
@@ -86000,15 +85997,10 @@
         }
       ],
       "classification": {
-        "primary": "musica",
-        "confidence": "alta",
-        "score": 90,
-        "matched_terms": [
-          "\\bradio\\b"
-        ],
-        "also_matches": [
-          "educacao_cultura"
-        ],
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
         "method": "metadata_rules_v1"
       },
       "official_metadata": {
@@ -87438,10 +87430,13 @@
         }
       ],
       "classification": {
-        "primary": "outros",
-        "confidence": "baixa",
-        "score": 0,
-        "matched_terms": [],
+        "primary": "jornalismo",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bnews\\b"
+        ],
+        "also_matches": [],
         "method": "metadata_rules_v1"
       },
       "official_metadata": {
@@ -98004,10 +97999,13 @@
         }
       ],
       "classification": {
-        "primary": "outros",
-        "confidence": "baixa",
-        "score": 0,
-        "matched_terms": [],
+        "primary": "filmes",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bwestern\\b"
+        ],
+        "also_matches": [],
         "method": "metadata_rules_v1"
       },
       "official_metadata": {
@@ -105246,10 +105244,13 @@
         }
       ],
       "classification": {
-        "primary": "outros",
-        "confidence": "baixa",
-        "score": 0,
-        "matched_terms": [],
+        "primary": "filmes",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bmovies?\\b"
+        ],
+        "also_matches": [],
         "method": "metadata_rules_v1"
       },
       "official_metadata": {
@@ -109166,13 +109167,10 @@
         }
       ],
       "classification": {
-        "primary": "documentarios",
-        "confidence": "alta",
-        "score": 90,
-        "matched_terms": [
-          "\\bwild\\b"
-        ],
-        "also_matches": [],
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
         "method": "metadata_rules_v1"
       },
       "official_metadata": {
@@ -115708,13 +115706,10 @@
         }
       ],
       "classification": {
-        "primary": "jornalismo",
-        "confidence": "alta",
-        "score": 90,
-        "matched_terms": [
-          "\\bnews\\b"
-        ],
-        "also_matches": [],
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
         "method": "metadata_rules_v1"
       },
       "official_metadata": {
@@ -118162,7 +118157,7 @@
   },
   "classification": {
     "method": "metadata_rules_v1",
-    "checked_at": "2026-11-09T17:37:37+00:00",
+    "checked_at": "2026-11-09T19:55:19+00:00",
     "media_analyzed": false,
     "manual_review_recommended_for": [
       "baixa"

@@ -61,7 +61,7 @@
       "baixa": 224,
       "media": 16
     },
-    "classification_checked_at": "2026-11-09T17:37:37+00:00",
+    "classification_checked_at": "2026-11-09T19:55:19+00:00",
     "enrichment": {
       "official_metadata_matches": 274,
       "logo_matches": 268,
@@ -30690,7 +30690,7 @@
   },
   "classification": {
     "method": "metadata_rules_v1",
-    "checked_at": "2026-11-09T17:37:37+00:00",
+    "checked_at": "2026-11-09T19:55:19+00:00",
     "media_analyzed": false,
     "manual_review_recommended_for": [
       "baixa"
