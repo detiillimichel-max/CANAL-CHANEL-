@@ -18,7 +18,7 @@
     "authorization": "not_verified",
     "playback": "not_tested",
     "validation": {
-      "connection_error": 20,
+      "connection_error": 15,
       "dns_error": 8,
       "forbidden_or_geo_restricted": 117,
       "http_error": 17,
@@ -26,22 +26,16 @@
       "reachable_hls": 1159,
       "reachable_non_hls": 41,
       "server_error": 18,
-      "timeout": 68
+      "timeout": 73
     },
     "validation_checked_at": "2026-11-08T15:33:54+00:00",
     "recovery": {
-      "checked": 149,
-      "result_connection_error": 20,
-      "result_dns_error": 8,
-      "result_http_error": 17,
-      "result_not_found": 13,
-      "result_reachable_hls": 10,
-      "result_server_error": 18,
-      "result_timeout": 63,
-      "skipped_retry_window": 211,
-      "skipped_stable_hls": 1149
+      "checked": 6,
+      "result_timeout": 6,
+      "skipped_retry_window": 344,
+      "skipped_stable_hls": 1159
     },
-    "recovery_checked_at": "2026-11-08T21:59:06+00:00",
+    "recovery_checked_at": "2026-11-09T06:17:22+00:00",
     "classification": {
       "desenhos": 29,
       "documentarios": 34,
@@ -9000,7 +8994,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-08T22:01:42+00:00",
+            "checked_at": "2026-11-09T06:17:23+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -9010,9 +9004,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-08T22:01:42+00:00",
-            "next_retry_at": "2026-11-08T23:01:42+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-09T06:17:23+00:00",
+            "next_retry_at": "2026-11-09T12:17:23+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -30828,23 +30822,23 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "connection_error",
+          "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-08T22:02:09+00:00",
+            "checked_at": "2026-11-09T06:17:23+00:00",
             "http_status": null,
             "final_url": null,
-            "result": "connection_error",
+            "result": "timeout",
             "hls_status": "not_confirmed",
-            "detail": "[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
+            "detail": "connection_timeout",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-08T22:02:09+00:00",
-            "next_retry_at": "2026-11-08T23:02:09+00:00",
-            "last_result": "connection_error",
-            "previous_result": "timeout",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-09T06:17:23+00:00",
+            "next_retry_at": "2026-11-09T12:17:23+00:00",
+            "last_result": "timeout",
+            "previous_result": "connection_error",
             "reason": "retry_window"
           }
         }
@@ -30933,23 +30927,23 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "connection_error",
+          "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-08T22:02:09+00:00",
+            "checked_at": "2026-11-09T06:17:23+00:00",
             "http_status": null,
             "final_url": null,
-            "result": "connection_error",
+            "result": "timeout",
             "hls_status": "not_confirmed",
-            "detail": "[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
+            "detail": "connection_timeout",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-08T22:02:09+00:00",
-            "next_retry_at": "2026-11-08T23:02:09+00:00",
-            "last_result": "connection_error",
-            "previous_result": "timeout",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-09T06:17:23+00:00",
+            "next_retry_at": "2026-11-09T12:17:23+00:00",
+            "last_result": "timeout",
+            "previous_result": "connection_error",
             "reason": "retry_window"
           }
         }
@@ -32001,23 +31995,23 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "connection_error",
+          "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-08T22:02:14+00:00",
+            "checked_at": "2026-11-09T06:17:23+00:00",
             "http_status": null,
             "final_url": null,
-            "result": "connection_error",
+            "result": "timeout",
             "hls_status": "not_confirmed",
-            "detail": "[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
+            "detail": "connection_timeout",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-08T22:02:14+00:00",
-            "next_retry_at": "2026-11-08T23:02:14+00:00",
-            "last_result": "connection_error",
-            "previous_result": "timeout",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-09T06:17:23+00:00",
+            "next_retry_at": "2026-11-09T12:17:23+00:00",
+            "last_result": "timeout",
+            "previous_result": "connection_error",
             "reason": "retry_window"
           }
         }
@@ -55295,23 +55289,23 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "connection_error",
+          "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-08T22:02:55+00:00",
+            "checked_at": "2026-11-09T06:17:23+00:00",
             "http_status": null,
             "final_url": null,
-            "result": "connection_error",
+            "result": "timeout",
             "hls_status": "not_confirmed",
-            "detail": "[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
+            "detail": "connection_timeout",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-08T22:02:55+00:00",
-            "next_retry_at": "2026-11-08T23:02:55+00:00",
-            "last_result": "connection_error",
-            "previous_result": "timeout",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-09T06:17:23+00:00",
+            "next_retry_at": "2026-11-09T12:17:23+00:00",
+            "last_result": "timeout",
+            "previous_result": "connection_error",
             "reason": "retry_window"
           }
         }
@@ -58763,23 +58757,23 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "connection_error",
+          "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-08T22:02:58+00:00",
+            "checked_at": "2026-11-09T06:17:32+00:00",
             "http_status": null,
             "final_url": null,
-            "result": "connection_error",
+            "result": "timeout",
             "hls_status": "not_confirmed",
-            "detail": "[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)",
+            "detail": "connection_timeout",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-08T22:02:58+00:00",
-            "next_retry_at": "2026-11-08T23:02:58+00:00",
-            "last_result": "connection_error",
-            "previous_result": "timeout",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-09T06:17:32+00:00",
+            "next_retry_at": "2026-11-09T12:17:32+00:00",
+            "last_result": "timeout",
+            "previous_result": "connection_error",
             "reason": "retry_window"
           }
         }
@@ -118159,7 +118153,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-08T21:59:06+00:00",
+    "checked_at": "2026-11-09T06:17:22+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,
