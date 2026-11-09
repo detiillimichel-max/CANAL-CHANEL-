@@ -71,7 +71,7 @@
         "politica": 1,
         "religiao": 2
       },
-      "enriched_at": "2026-11-09T19:55:38+00:00"
+      "enriched_at": "2026-11-09T21:03:18+00:00"
     }
   },
   "channels": [
@@ -5808,7 +5808,7 @@
   "enrichment": {
     "source": "https://github.com/iptv-org/api",
     "source_license": "Unlicense",
-    "checked_at": "2026-11-09T19:55:38+00:00",
+    "checked_at": "2026-11-09T21:03:18+00:00",
     "logo_policy": "official_in_use_https_preferred; existing_playlist_logo_fallback",
     "stream_urls_modified": false
   }
