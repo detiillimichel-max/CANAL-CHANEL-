@@ -23,19 +23,20 @@
       "forbidden_or_geo_restricted": 116,
       "http_error": 19,
       "not_found": 55,
-      "reachable_hls": 1098,
+      "reachable_hls": 1097,
       "reachable_non_hls": 37,
       "server_error": 18,
-      "timeout": 66
+      "timeout": 67
     },
     "validation_checked_at": "2026-11-09T17:33:23+00:00",
     "recovery": {
       "checked": 6,
-      "result_timeout": 6,
-      "skipped_retry_window": 344,
-      "skipped_stable_hls": 1159
+      "result_connection_error": 5,
+      "result_timeout": 1,
+      "skipped_retry_window": 406,
+      "skipped_stable_hls": 1097
     },
-    "recovery_checked_at": "2026-11-09T06:17:22+00:00",
+    "recovery_checked_at": "2026-11-09T17:37:48+00:00",
     "classification": {
       "desenhos": 29,
       "documentarios": 34,
@@ -4023,24 +4024,24 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "reachable_hls",
+          "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-09T17:35:32+00:00",
-            "http_status": 206,
-            "final_url": "http://50.7.120.34:8080/AXN_WHITE/index.m3u8",
-            "result": "reachable_hls",
-            "hls_status": "accessible",
-            "detail": "hls_accessible",
+            "checked_at": "2026-11-09T17:37:48+00:00",
+            "http_status": null,
+            "final_url": null,
+            "result": "timeout",
+            "hls_status": "not_confirmed",
+            "detail": "connection_timeout",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-09T06:17:23+00:00",
-            "next_retry_at": "2026-11-09T12:17:23+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-09T17:37:48+00:00",
+            "next_retry_at": "2026-11-10T17:37:48+00:00",
             "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -14089,7 +14090,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-09T17:36:01+00:00",
+            "checked_at": "2026-11-09T17:37:48+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -14099,10 +14100,10 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-09T06:17:23+00:00",
-            "next_retry_at": "2026-11-09T12:17:23+00:00",
-            "last_result": "timeout",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-09T17:37:48+00:00",
+            "next_retry_at": "2026-11-10T17:37:48+00:00",
+            "last_result": "connection_error",
             "previous_result": "connection_error",
             "reason": "retry_window"
           }
@@ -14139,7 +14140,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-09T17:36:02+00:00",
+            "checked_at": "2026-11-09T17:37:48+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -14149,10 +14150,10 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-09T06:17:23+00:00",
-            "next_retry_at": "2026-11-09T12:17:23+00:00",
-            "last_result": "timeout",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-09T17:37:48+00:00",
+            "next_retry_at": "2026-11-10T17:37:48+00:00",
+            "last_result": "connection_error",
             "previous_result": "connection_error",
             "reason": "retry_window"
           }
@@ -14663,7 +14664,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-09T17:36:02+00:00",
+            "checked_at": "2026-11-09T17:37:48+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -14673,10 +14674,10 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-09T06:17:23+00:00",
-            "next_retry_at": "2026-11-09T12:17:23+00:00",
-            "last_result": "timeout",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-09T17:37:48+00:00",
+            "next_retry_at": "2026-11-10T17:37:48+00:00",
+            "last_result": "connection_error",
             "previous_result": "connection_error",
             "reason": "retry_window"
           }
@@ -25414,7 +25415,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-09T17:36:38+00:00",
+            "checked_at": "2026-11-09T17:37:48+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -25424,10 +25425,10 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-09T06:17:23+00:00",
-            "next_retry_at": "2026-11-09T12:17:23+00:00",
-            "last_result": "timeout",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-09T17:37:48+00:00",
+            "next_retry_at": "2026-11-10T17:37:48+00:00",
+            "last_result": "connection_error",
             "previous_result": "connection_error",
             "reason": "retry_window"
           }
@@ -26974,7 +26975,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-09T17:36:43+00:00",
+            "checked_at": "2026-11-09T17:37:48+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -26984,10 +26985,10 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-09T06:17:32+00:00",
-            "next_retry_at": "2026-11-09T12:17:32+00:00",
-            "last_result": "timeout",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-09T17:37:48+00:00",
+            "next_retry_at": "2026-11-10T17:37:48+00:00",
+            "last_result": "connection_error",
             "previous_result": "connection_error",
             "reason": "retry_window"
           }
@@ -54501,7 +54502,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-09T06:17:22+00:00",
+    "checked_at": "2026-11-09T17:37:48+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,
