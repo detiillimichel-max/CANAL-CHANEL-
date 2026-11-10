@@ -50,14 +50,38 @@
       "baixa": 38,
       "media": 5
     },
-    "classification_checked_at": "2026-11-10T15:37:25+00:00"
+    "classification_checked_at": "2026-11-10T15:37:25+00:00",
+    "enrichment": {
+      "official_metadata_matches": 57,
+      "logo_matches": 57,
+      "matching": {
+        "channel_id": 57,
+        "unmatched": 2
+      },
+      "categories": {
+        "desenhos": 1,
+        "documentarios": 1,
+        "educacao_cultura": 1,
+        "entretenimento": 3,
+        "esportes": 6,
+        "filmes": 3,
+        "geral": 13,
+        "jornalismo": 4,
+        "lifestyle": 2,
+        "musica": 6,
+        "outros": 18,
+        "politica": 1,
+        "religiao": 2
+      },
+      "enriched_at": "2026-11-10T15:41:57+00:00"
+    }
   },
   "channels": [
     {
       "id": "ADBTV.pt@SD",
       "name": "ADB TV",
       "tvg_id": "ADBTV.pt@SD",
-      "logo": null,
+      "logo": "https://i.ibb.co/HGfTJwt/ADBTV.jpg",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -88,13 +112,67 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "ADBTV.pt",
+        "name": "ADB TV",
+        "network": null,
+        "website": "https://live.adburaca.org/",
+        "categories": [
+          "religious"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "ADBTV.pt",
+        "format": "JPEG",
+        "width": 175,
+        "height": 100,
+        "in_use": true
+      },
+      "categories": [
+        "outros"
+      ],
+      "category_labels": [
+        "Outros"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "adbtv",
+        "terms": [
+          "adbtv",
+          "adbtvptsd",
+          "outros"
+        ]
+      },
+      "favorite_key": "pt:ADBTV.pt@SD",
+      "card": {
+        "title": "ADB TV",
+        "logo": "https://i.ibb.co/HGfTJwt/ADBTV.jpg",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "outros"
+        ],
+        "category_labels": [
+          "Outros"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:ADBTV.pt@SD"
       }
     },
     {
       "id": "ARTV.pt@SD",
-      "name": "ARTV Canal Parlamento",
+      "name": "ARTV",
       "tvg_id": "ARTV.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/y00t9hr.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -130,13 +208,73 @@
         ],
         "also_matches": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "ARTV.pt",
+        "name": "ARTV",
+        "network": null,
+        "website": "https://canal.parlamento.pt",
+        "categories": [
+          "legislative"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "playlist_name": "ARTV Canal Parlamento",
+      "categories": [
+        "educacao_cultura",
+        "politica"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "ARTV.pt",
+        "format": "PNG",
+        "width": 112,
+        "height": 30,
+        "in_use": true
+      },
+      "category_labels": [
+        "Educação e cultura",
+        "Política"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "artv",
+        "terms": [
+          "artv",
+          "artvptsd",
+          "educacaoecultura",
+          "politica"
+        ]
+      },
+      "favorite_key": "pt:ARTV.pt@SD",
+      "card": {
+        "title": "ARTV",
+        "logo": "https://i.imgur.com/y00t9hr.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "educacao_cultura",
+          "politica"
+        ],
+        "category_labels": [
+          "Educação e cultura",
+          "Política"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:ARTV.pt@SD"
       }
     },
     {
       "id": "AXN.pt@SD",
       "name": "AXN",
       "tvg_id": "AXN.pt@SD",
-      "logo": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -205,13 +343,67 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "AXN.pt",
+        "name": "AXN",
+        "network": null,
+        "website": "https://www.axn.pt/",
+        "categories": [
+          "movies"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "categories": [
+        "filmes"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "AXN.pt",
+        "format": "PNG",
+        "width": 960,
+        "height": 313,
+        "in_use": true
+      },
+      "category_labels": [
+        "Filmes"
+      ],
+      "playback_summary": {
+        "status": "temporary_failure_or_unavailable",
+        "total_streams": 2,
+        "hls_confirmed_streams": 0
+      },
+      "search": {
+        "normalized_name": "axn",
+        "terms": [
+          "axn",
+          "axnptsd",
+          "filmes"
+        ]
+      },
+      "favorite_key": "pt:AXN.pt@SD",
+      "card": {
+        "title": "AXN",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "filmes"
+        ],
+        "category_labels": [
+          "Filmes"
+        ],
+        "playback_status": "temporary_failure_or_unavailable",
+        "hls_confirmed": false,
+        "favorite_key": "pt:AXN.pt@SD"
       }
     },
     {
       "id": "AXNMovies.pt@SD",
       "name": "AXN Movies",
       "tvg_id": "AXNMovies.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/tJQckal.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -245,13 +437,67 @@
         ],
         "also_matches": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "AXNMovies.pt",
+        "name": "AXN Movies",
+        "network": null,
+        "website": "https://www.axn.pt/axnmovies",
+        "categories": [
+          "movies"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "categories": [
+        "filmes"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "AXNMovies.pt",
+        "format": "PNG",
+        "width": 512,
+        "height": 206,
+        "in_use": true
+      },
+      "category_labels": [
+        "Filmes"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "axnmovies",
+        "terms": [
+          "axnmovies",
+          "axnmoviesptsd",
+          "filmes"
+        ]
+      },
+      "favorite_key": "pt:AXNMovies.pt@SD",
+      "card": {
+        "title": "AXN Movies",
+        "logo": "https://i.imgur.com/tJQckal.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "filmes"
+        ],
+        "category_labels": [
+          "Filmes"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:AXNMovies.pt@SD"
       }
     },
     {
       "id": "CNNPortugal.pt@SD",
       "name": "CNN Portugal",
       "tvg_id": "CNNPortugal.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/bc6tYVZ.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -285,13 +531,67 @@
         ],
         "also_matches": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "CNNPortugal.pt",
+        "name": "CNN Portugal",
+        "network": null,
+        "website": "http://www.cnnportugal.pt/",
+        "categories": [
+          "news"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "categories": [
+        "jornalismo"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "CNNPortugal.pt",
+        "format": "PNG",
+        "width": 512,
+        "height": 512,
+        "in_use": true
+      },
+      "category_labels": [
+        "Jornalismo"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "cnnportugal",
+        "terms": [
+          "cnnportugal",
+          "cnnportugalptsd",
+          "jornalismo"
+        ]
+      },
+      "favorite_key": "pt:CNNPortugal.pt@SD",
+      "card": {
+        "title": "CNN Portugal",
+        "logo": "https://i.imgur.com/bc6tYVZ.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "jornalismo"
+        ],
+        "category_labels": [
+          "Jornalismo"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:CNNPortugal.pt@SD"
       }
     },
     {
       "id": "DisneyChannel.pt@SD",
       "name": "Disney Channel",
       "tvg_id": "DisneyChannel.pt@SD",
-      "logo": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -360,13 +660,67 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "DisneyChannel.pt",
+        "name": "Disney Channel",
+        "network": null,
+        "website": "http://tv.disney.pt/",
+        "categories": [
+          "kids"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "categories": [
+        "desenhos"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "DisneyChannel.pt",
+        "format": "SVG",
+        "width": 497,
+        "height": 201,
+        "in_use": true
+      },
+      "category_labels": [
+        "Desenhos"
+      ],
+      "playback_summary": {
+        "status": "temporary_failure_or_unavailable",
+        "total_streams": 2,
+        "hls_confirmed_streams": 0
+      },
+      "search": {
+        "normalized_name": "disneychannel",
+        "terms": [
+          "desenhos",
+          "disneychannel",
+          "disneychannelptsd"
+        ]
+      },
+      "favorite_key": "pt:DisneyChannel.pt@SD",
+      "card": {
+        "title": "Disney Channel",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "desenhos"
+        ],
+        "category_labels": [
+          "Desenhos"
+        ],
+        "playback_status": "temporary_failure_or_unavailable",
+        "hls_confirmed": false,
+        "favorite_key": "pt:DisneyChannel.pt@SD"
       }
     },
     {
       "id": "Famatv.pt@SD",
       "name": "Famatv",
       "tvg_id": "Famatv.pt@SD",
-      "logo": null,
+      "logo": "https://i.ibb.co/tMmRp18/Fama-TV-cor-whitebg-hotizontal.jpg",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -408,13 +762,67 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "Famatv.pt",
+        "name": "Famatv",
+        "network": null,
+        "website": "https://famatv.pt/",
+        "categories": [
+          "music"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "categories": [
+        "musica"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "Famatv.pt",
+        "format": "JPEG",
+        "width": 512,
+        "height": 202,
+        "in_use": true
+      },
+      "category_labels": [
+        "Música"
+      ],
+      "playback_summary": {
+        "status": "temporary_failure_or_unavailable",
+        "total_streams": 1,
+        "hls_confirmed_streams": 0
+      },
+      "search": {
+        "normalized_name": "famatv",
+        "terms": [
+          "famatv",
+          "famatvptsd",
+          "musica"
+        ]
+      },
+      "favorite_key": "pt:Famatv.pt@SD",
+      "card": {
+        "title": "Famatv",
+        "logo": "https://i.ibb.co/tMmRp18/Fama-TV-cor-whitebg-hotizontal.jpg",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "musica"
+        ],
+        "category_labels": [
+          "Música"
+        ],
+        "playback_status": "temporary_failure_or_unavailable",
+        "hls_confirmed": false,
+        "favorite_key": "pt:Famatv.pt@SD"
       }
     },
     {
       "id": "KuriakosMusic.pt@SD",
       "name": "Kuriakos Music",
       "tvg_id": "KuriakosMusic.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/Zl40NYi.jpg",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -448,13 +856,67 @@
         ],
         "also_matches": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "KuriakosMusic.pt",
+        "name": "Kuriakos Music",
+        "network": null,
+        "website": null,
+        "categories": [
+          "music"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "categories": [
+        "musica"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "KuriakosMusic.pt",
+        "format": "JPEG",
+        "width": 500,
+        "height": 500,
+        "in_use": true
+      },
+      "category_labels": [
+        "Música"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "kuriakosmusic",
+        "terms": [
+          "kuriakosmusic",
+          "kuriakosmusicptsd",
+          "musica"
+        ]
+      },
+      "favorite_key": "pt:KuriakosMusic.pt@SD",
+      "card": {
+        "title": "Kuriakos Music",
+        "logo": "https://i.imgur.com/Zl40NYi.jpg",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "musica"
+        ],
+        "category_labels": [
+          "Música"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:KuriakosMusic.pt@SD"
       }
     },
     {
       "id": "KuriakosTV.pt@SD",
       "name": "Kuriakos TV",
       "tvg_id": "KuriakosTV.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/xdAW0D5.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -485,13 +947,67 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "KuriakosTV.pt",
+        "name": "Kuriakos TV",
+        "network": null,
+        "website": "http://www.kuriakos-tv.com/",
+        "categories": [
+          "religious"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "KuriakosTV.pt",
+        "format": "PNG",
+        "width": 512,
+        "height": 64,
+        "in_use": true
+      },
+      "categories": [
+        "outros"
+      ],
+      "category_labels": [
+        "Outros"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "kuriakostv",
+        "terms": [
+          "kuriakostv",
+          "kuriakostvptsd",
+          "outros"
+        ]
+      },
+      "favorite_key": "pt:KuriakosTV.pt@SD",
+      "card": {
+        "title": "Kuriakos TV",
+        "logo": "https://i.imgur.com/xdAW0D5.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "outros"
+        ],
+        "category_labels": [
+          "Outros"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:KuriakosTV.pt@SD"
       }
     },
     {
       "id": "ManaChurchOnline.pt@SD",
-      "name": "Maná Church Online",
+      "name": "Mana Church Online",
       "tvg_id": "ManaChurchOnline.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/FRDJSim.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -527,13 +1043,68 @@
         ],
         "also_matches": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "ManaChurchOnline.pt",
+        "name": "Mana Church Online",
+        "network": null,
+        "website": "http://www.igreja-online.co.uk/",
+        "categories": [
+          "religious"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "playlist_name": "Maná Church Online",
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "ManaChurchOnline.pt",
+        "format": "PNG",
+        "width": 180,
+        "height": 77,
+        "in_use": true
+      },
+      "categories": [
+        "religiao"
+      ],
+      "category_labels": [
+        "Religião"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "manachurchonline",
+        "terms": [
+          "manachurchonline",
+          "manachurchonlineptsd",
+          "religiao"
+        ]
+      },
+      "favorite_key": "pt:ManaChurchOnline.pt@SD",
+      "card": {
+        "title": "Mana Church Online",
+        "logo": "https://i.imgur.com/FRDJSim.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "religiao"
+        ],
+        "category_labels": [
+          "Religião"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:ManaChurchOnline.pt@SD"
       }
     },
     {
       "id": "ManaCirkevOnline.pt@SD",
-      "name": "Maná Cirkev Online",
+      "name": "Mana Cirkev Online",
       "tvg_id": "ManaCirkevOnline.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/tYhXeRq.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -566,13 +1137,68 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "ManaCirkevOnline.pt",
+        "name": "Mana Cirkev Online",
+        "network": null,
+        "website": "http://cirkev-online.sk/",
+        "categories": [
+          "religious"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "playlist_name": "Maná Cirkev Online",
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "ManaCirkevOnline.pt",
+        "format": "PNG",
+        "width": 180,
+        "height": 78,
+        "in_use": true
+      },
+      "categories": [
+        "outros"
+      ],
+      "category_labels": [
+        "Outros"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "manacirkevonline",
+        "terms": [
+          "manacirkevonline",
+          "manacirkevonlineptsd",
+          "outros"
+        ]
+      },
+      "favorite_key": "pt:ManaCirkevOnline.pt@SD",
+      "card": {
+        "title": "Mana Cirkev Online",
+        "logo": "https://i.imgur.com/tYhXeRq.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "outros"
+        ],
+        "category_labels": [
+          "Outros"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:ManaCirkevOnline.pt@SD"
       }
     },
     {
       "id": "ManaEgliseOnline.pt@SD",
-      "name": "Maná Église Online",
+      "name": "Mana Eglise Online",
       "tvg_id": "ManaEgliseOnline.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/xQYly8O.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -605,13 +1231,68 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "ManaEgliseOnline.pt",
+        "name": "Mana Eglise Online",
+        "network": null,
+        "website": "http://eglise-online.tv/",
+        "categories": [
+          "religious"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "playlist_name": "Maná Église Online",
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "ManaEgliseOnline.pt",
+        "format": "PNG",
+        "width": 180,
+        "height": 78,
+        "in_use": true
+      },
+      "categories": [
+        "outros"
+      ],
+      "category_labels": [
+        "Outros"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "manaegliseonline",
+        "terms": [
+          "manaegliseonline",
+          "manaegliseonlineptsd",
+          "outros"
+        ]
+      },
+      "favorite_key": "pt:ManaEgliseOnline.pt@SD",
+      "card": {
+        "title": "Mana Eglise Online",
+        "logo": "https://i.imgur.com/xQYly8O.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "outros"
+        ],
+        "category_labels": [
+          "Outros"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:ManaEgliseOnline.pt@SD"
       }
     },
     {
       "id": "ManaIglesiaOnline.pt@SD",
-      "name": "Maná Iglesia Online",
+      "name": "Mana Iglesia Online",
       "tvg_id": "ManaIglesiaOnline.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/0IUvfcJ.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -644,13 +1325,68 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "ManaIglesiaOnline.pt",
+        "name": "Mana Iglesia Online",
+        "network": null,
+        "website": "http://www.iglesia-online.es/",
+        "categories": [
+          "religious"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "playlist_name": "Maná Iglesia Online",
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "ManaIglesiaOnline.pt",
+        "format": "PNG",
+        "width": 180,
+        "height": 78,
+        "in_use": true
+      },
+      "categories": [
+        "outros"
+      ],
+      "category_labels": [
+        "Outros"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "manaiglesiaonline",
+        "terms": [
+          "manaiglesiaonline",
+          "manaiglesiaonlineptsd",
+          "outros"
+        ]
+      },
+      "favorite_key": "pt:ManaIglesiaOnline.pt@SD",
+      "card": {
+        "title": "Mana Iglesia Online",
+        "logo": "https://i.imgur.com/0IUvfcJ.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "outros"
+        ],
+        "category_labels": [
+          "Outros"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:ManaIglesiaOnline.pt@SD"
       }
     },
     {
       "id": "ManaIgrejaOnline.pt@SD",
-      "name": "Maná Igreja Online",
+      "name": "Mana Igreja Online",
       "tvg_id": "ManaIgrejaOnline.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/0IUvfcJ.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -686,13 +1422,68 @@
         ],
         "also_matches": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "ManaIgrejaOnline.pt",
+        "name": "Mana Igreja Online",
+        "network": null,
+        "website": "http://www.igreja-online.tv",
+        "categories": [
+          "religious"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "playlist_name": "Maná Igreja Online",
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "ManaIgrejaOnline.pt",
+        "format": "PNG",
+        "width": 180,
+        "height": 78,
+        "in_use": true
+      },
+      "categories": [
+        "religiao"
+      ],
+      "category_labels": [
+        "Religião"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "manaigrejaonline",
+        "terms": [
+          "manaigrejaonline",
+          "manaigrejaonlineptsd",
+          "religiao"
+        ]
+      },
+      "favorite_key": "pt:ManaIgrejaOnline.pt@SD",
+      "card": {
+        "title": "Mana Igreja Online",
+        "logo": "https://i.imgur.com/0IUvfcJ.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "religiao"
+        ],
+        "category_labels": [
+          "Religião"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:ManaIgrejaOnline.pt@SD"
       }
     },
     {
       "id": "ManaTserkovOnlayn.pt@SD",
-      "name": "Maná Tserkov' Onlayn",
+      "name": "Mana Tserkov' Onlayn",
       "tvg_id": "ManaTserkovOnlayn.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/PruXLqS.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -725,13 +1516,68 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "ManaTserkovOnlayn.pt",
+        "name": "Mana Tserkov' Onlayn",
+        "network": null,
+        "website": "http://www.igreja-online.ru/",
+        "categories": [
+          "religious"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "playlist_name": "Maná Tserkov' Onlayn",
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "ManaTserkovOnlayn.pt",
+        "format": "PNG",
+        "width": 180,
+        "height": 78,
+        "in_use": true
+      },
+      "categories": [
+        "outros"
+      ],
+      "category_labels": [
+        "Outros"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "manatserkovonlayn",
+        "terms": [
+          "manatserkovonlayn",
+          "manatserkovonlaynptsd",
+          "outros"
+        ]
+      },
+      "favorite_key": "pt:ManaTserkovOnlayn.pt@SD",
+      "card": {
+        "title": "Mana Tserkov' Onlayn",
+        "logo": "https://i.imgur.com/PruXLqS.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "outros"
+        ],
+        "category_labels": [
+          "Outros"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:ManaTserkovOnlayn.pt@SD"
       }
     },
     {
       "id": "NPCRadioeTV.pt@SD",
-      "name": "NPC Rádio e TV",
+      "name": "NPC Radio e TV",
       "tvg_id": "NPCRadioeTV.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/mw1lYWE.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -765,13 +1611,68 @@
         ],
         "also_matches": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "NPCRadioeTV.pt",
+        "name": "NPC Radio e TV",
+        "network": null,
+        "website": "https://www.nasciparacantar.pt/",
+        "categories": [
+          "music"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "playlist_name": "NPC Rádio e TV",
+      "categories": [
+        "musica"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "NPCRadioeTV.pt",
+        "format": "PNG",
+        "width": 512,
+        "height": 139,
+        "in_use": true
+      },
+      "category_labels": [
+        "Música"
+      ],
+      "playback_summary": {
+        "status": "restricted_or_auth_required",
+        "total_streams": 1,
+        "hls_confirmed_streams": 0
+      },
+      "search": {
+        "normalized_name": "npcradioetv",
+        "terms": [
+          "musica",
+          "npcradioetv",
+          "npcradioetvptsd"
+        ]
+      },
+      "favorite_key": "pt:NPCRadioeTV.pt@SD",
+      "card": {
+        "title": "NPC Radio e TV",
+        "logo": "https://i.imgur.com/mw1lYWE.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "musica"
+        ],
+        "category_labels": [
+          "Música"
+        ],
+        "playback_status": "restricted_or_auth_required",
+        "hls_confirmed": false,
+        "favorite_key": "pt:NPCRadioeTV.pt@SD"
       }
     },
     {
       "id": "ONFM.pt@SD",
       "name": "ON FM",
       "tvg_id": "ONFM.pt@SD",
-      "logo": null,
+      "logo": "https://onfmwordpressfiles.ams3.digitaloceanspaces.com/wp-content/uploads/2023/03/17130121/logo-on-fm.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -802,13 +1703,67 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "ONFM.pt",
+        "name": "ON FM",
+        "network": null,
+        "website": "https://www.onfm.pt/",
+        "categories": [
+          "music"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "categories": [
+        "musica"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "ONFM.pt",
+        "format": "PNG",
+        "width": 295,
+        "height": 133,
+        "in_use": true
+      },
+      "category_labels": [
+        "Música"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "onfm",
+        "terms": [
+          "musica",
+          "onfm",
+          "onfmptsd"
+        ]
+      },
+      "favorite_key": "pt:ONFM.pt@SD",
+      "card": {
+        "title": "ON FM",
+        "logo": "https://onfmwordpressfiles.ams3.digitaloceanspaces.com/wp-content/uploads/2023/03/17130121/logo-on-fm.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "musica"
+        ],
+        "category_labels": [
+          "Música"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:ONFM.pt@SD"
       }
     },
     {
       "id": "PortoCanal.pt@SD",
       "name": "Porto Canal",
       "tvg_id": "PortoCanal.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/DwziwMY.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -839,13 +1794,67 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "PortoCanal.pt",
+        "name": "Porto Canal",
+        "network": null,
+        "website": "https://portocanal.sapo.pt/",
+        "categories": [
+          "general"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "categories": [
+        "geral"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "PortoCanal.pt",
+        "format": "PNG",
+        "width": 504,
+        "height": 440,
+        "in_use": true
+      },
+      "category_labels": [
+        "Geral"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "portocanal",
+        "terms": [
+          "geral",
+          "portocanal",
+          "portocanalptsd"
+        ]
+      },
+      "favorite_key": "pt:PortoCanal.pt@SD",
+      "card": {
+        "title": "Porto Canal",
+        "logo": "https://i.imgur.com/DwziwMY.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "geral"
+        ],
+        "category_labels": [
+          "Geral"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:PortoCanal.pt@SD"
       }
     },
     {
       "id": "RadioSines.pt@SD",
-      "name": "Rádio Sines",
+      "name": "Radio Sines",
       "tvg_id": "RadioSines.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/Oe6F1nL.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -881,13 +1890,73 @@
         ],
         "also_matches": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "RadioSines.pt",
+        "name": "Radio Sines",
+        "network": null,
+        "website": "https://radiosines.sapo.pt/",
+        "categories": [
+          "general"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "playlist_name": "Rádio Sines",
+      "categories": [
+        "geral",
+        "musica"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "RadioSines.pt",
+        "format": "PNG",
+        "width": 512,
+        "height": 512,
+        "in_use": true
+      },
+      "category_labels": [
+        "Geral",
+        "Música"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "radiosines",
+        "terms": [
+          "geral",
+          "musica",
+          "radiosines",
+          "radiosinesptsd"
+        ]
+      },
+      "favorite_key": "pt:RadioSines.pt@SD",
+      "card": {
+        "title": "Radio Sines",
+        "logo": "https://i.imgur.com/Oe6F1nL.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "geral",
+          "musica"
+        ],
+        "category_labels": [
+          "Geral",
+          "Música"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:RadioSines.pt@SD"
       }
     },
     {
       "id": "RFPtv.pt@SD",
       "name": "RFPtv",
       "tvg_id": "RFPtv.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/I60nQuR.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -918,13 +1987,67 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "RFPtv.pt",
+        "name": "RFPtv",
+        "network": null,
+        "website": "https://www.rfptv.pt/",
+        "categories": [
+          "music"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "categories": [
+        "musica"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "RFPtv.pt",
+        "format": "PNG",
+        "width": 512,
+        "height": 512,
+        "in_use": true
+      },
+      "category_labels": [
+        "Música"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "rfptv",
+        "terms": [
+          "musica",
+          "rfptv",
+          "rfptvptsd"
+        ]
+      },
+      "favorite_key": "pt:RFPtv.pt@SD",
+      "card": {
+        "title": "RFPtv",
+        "logo": "https://i.imgur.com/I60nQuR.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "musica"
+        ],
+        "category_labels": [
+          "Música"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:RFPtv.pt@SD"
       }
     },
     {
       "id": "RTP1.pt@HD",
       "name": "RTP 1",
       "tvg_id": "RTP1.pt@HD",
-      "logo": null,
+      "logo": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtp1_2026.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -957,13 +2080,67 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "RTP1.pt",
+        "name": "RTP 1",
+        "network": null,
+        "website": "http://www.rtp.pt/rtp1/",
+        "categories": [
+          "general"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "categories": [
+        "geral"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "RTP1.pt",
+        "format": "PNG",
+        "width": 1105,
+        "height": 532,
+        "in_use": true
+      },
+      "category_labels": [
+        "Geral"
+      ],
+      "playback_summary": {
+        "status": "http_reachable_hls_unconfirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 0
+      },
+      "search": {
+        "normalized_name": "rtp1",
+        "terms": [
+          "geral",
+          "rtp1",
+          "rtp1pthd"
+        ]
+      },
+      "favorite_key": "pt:RTP1.pt@HD",
+      "card": {
+        "title": "RTP 1",
+        "logo": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtp1_2026.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "geral"
+        ],
+        "category_labels": [
+          "Geral"
+        ],
+        "playback_status": "http_reachable_hls_unconfirmed",
+        "hls_confirmed": false,
+        "favorite_key": "pt:RTP1.pt@HD"
       }
     },
     {
       "id": "RTP2.pt@HD",
       "name": "RTP 2",
       "tvg_id": "RTP2.pt@HD",
-      "logo": null,
+      "logo": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtp2_2026.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -1005,13 +2182,67 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "RTP2.pt",
+        "name": "RTP 2",
+        "network": null,
+        "website": "http://www.rtp.pt/rtp2/",
+        "categories": [
+          "general"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "categories": [
+        "geral"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "RTP2.pt",
+        "format": "PNG",
+        "width": 1105,
+        "height": 532,
+        "in_use": true
+      },
+      "category_labels": [
+        "Geral"
+      ],
+      "playback_summary": {
+        "status": "temporary_failure_or_unavailable",
+        "total_streams": 1,
+        "hls_confirmed_streams": 0
+      },
+      "search": {
+        "normalized_name": "rtp2",
+        "terms": [
+          "geral",
+          "rtp2",
+          "rtp2pthd"
+        ]
+      },
+      "favorite_key": "pt:RTP2.pt@HD",
+      "card": {
+        "title": "RTP 2",
+        "logo": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtp2_2026.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "geral"
+        ],
+        "category_labels": [
+          "Geral"
+        ],
+        "playback_status": "temporary_failure_or_unavailable",
+        "hls_confirmed": false,
+        "favorite_key": "pt:RTP2.pt@HD"
       }
     },
     {
       "id": "RTPAcores.pt@HD",
-      "name": "RTP Açores",
+      "name": "RTP Acores",
       "tvg_id": "RTPAcores.pt@HD",
-      "logo": null,
+      "logo": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpacores_2026.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -1044,13 +2275,68 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "RTPAcores.pt",
+        "name": "RTP Acores",
+        "network": null,
+        "website": "https://acores.rtp.pt/",
+        "categories": [
+          "general"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "playlist_name": "RTP Açores",
+      "categories": [
+        "geral"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "RTPAcores.pt",
+        "format": "PNG",
+        "width": 2140,
+        "height": 532,
+        "in_use": true
+      },
+      "category_labels": [
+        "Geral"
+      ],
+      "playback_summary": {
+        "status": "http_reachable_hls_unconfirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 0
+      },
+      "search": {
+        "normalized_name": "rtpacores",
+        "terms": [
+          "geral",
+          "rtpacores",
+          "rtpacorespthd"
+        ]
+      },
+      "favorite_key": "pt:RTPAcores.pt@HD",
+      "card": {
+        "title": "RTP Acores",
+        "logo": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpacores_2026.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "geral"
+        ],
+        "category_labels": [
+          "Geral"
+        ],
+        "playback_status": "http_reachable_hls_unconfirmed",
+        "hls_confirmed": false,
+        "favorite_key": "pt:RTPAcores.pt@HD"
       }
     },
     {
       "id": "RTPAcores.pt@SD",
-      "name": "RTP Açores",
+      "name": "RTP Acores",
       "tvg_id": "RTPAcores.pt@SD",
-      "logo": null,
+      "logo": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpacores_2026.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -1083,13 +2369,68 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "RTPAcores.pt",
+        "name": "RTP Acores",
+        "network": null,
+        "website": "https://acores.rtp.pt/",
+        "categories": [
+          "general"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "playlist_name": "RTP Açores",
+      "categories": [
+        "geral"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "RTPAcores.pt",
+        "format": "PNG",
+        "width": 2140,
+        "height": 532,
+        "in_use": true
+      },
+      "category_labels": [
+        "Geral"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "rtpacores",
+        "terms": [
+          "geral",
+          "rtpacores",
+          "rtpacoresptsd"
+        ]
+      },
+      "favorite_key": "pt:RTPAcores.pt@SD",
+      "card": {
+        "title": "RTP Acores",
+        "logo": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpacores_2026.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "geral"
+        ],
+        "category_labels": [
+          "Geral"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:RTPAcores.pt@SD"
       }
     },
     {
       "id": "RTPAfrica.pt@SD",
-      "name": "RTP África",
+      "name": "RTP Africa",
       "tvg_id": "RTPAfrica.pt@SD",
-      "logo": null,
+      "logo": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpafrica_2026.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -1122,13 +2463,68 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "RTPAfrica.pt",
+        "name": "RTP Africa",
+        "network": null,
+        "website": "https://africa.rtp.pt/",
+        "categories": [
+          "general"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "playlist_name": "RTP África",
+      "categories": [
+        "geral"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "RTPAfrica.pt",
+        "format": "PNG",
+        "width": 2030,
+        "height": 532,
+        "in_use": true
+      },
+      "category_labels": [
+        "Geral"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "rtpafrica",
+        "terms": [
+          "geral",
+          "rtpafrica",
+          "rtpafricaptsd"
+        ]
+      },
+      "favorite_key": "pt:RTPAfrica.pt@SD",
+      "card": {
+        "title": "RTP Africa",
+        "logo": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpafrica_2026.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "geral"
+        ],
+        "category_labels": [
+          "Geral"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:RTPAfrica.pt@SD"
       }
     },
     {
       "id": "RTPMadeira.pt@SD",
       "name": "RTP Madeira",
       "tvg_id": "RTPMadeira.pt@SD",
-      "logo": null,
+      "logo": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpmadeira_2026.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -1161,13 +2557,67 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "RTPMadeira.pt",
+        "name": "RTP Madeira",
+        "network": null,
+        "website": "https://madeira.rtp.pt/",
+        "categories": [
+          "general"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "categories": [
+        "geral"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "RTPMadeira.pt",
+        "format": "PNG",
+        "width": 500,
+        "height": 59,
+        "in_use": true
+      },
+      "category_labels": [
+        "Geral"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "rtpmadeira",
+        "terms": [
+          "geral",
+          "rtpmadeira",
+          "rtpmadeiraptsd"
+        ]
+      },
+      "favorite_key": "pt:RTPMadeira.pt@SD",
+      "card": {
+        "title": "RTP Madeira",
+        "logo": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpmadeira_2026.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "geral"
+        ],
+        "category_labels": [
+          "Geral"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:RTPMadeira.pt@SD"
       }
     },
     {
       "id": "RTPMemoria.pt@SD",
-      "name": "RTP Memória",
+      "name": "RTP Memoria",
       "tvg_id": "RTPMemoria.pt@SD",
-      "logo": null,
+      "logo": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpmemoria_2026.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -1209,13 +2659,68 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "RTPMemoria.pt",
+        "name": "RTP Memoria",
+        "network": null,
+        "website": "http://www.rtp.pt/rtpmemoria/",
+        "categories": [
+          "general"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "playlist_name": "RTP Memória",
+      "categories": [
+        "geral"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "RTPMemoria.pt",
+        "format": "PNG",
+        "width": 510,
+        "height": 61,
+        "in_use": true
+      },
+      "category_labels": [
+        "Geral"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "rtpmemoria",
+        "terms": [
+          "geral",
+          "rtpmemoria",
+          "rtpmemoriaptsd"
+        ]
+      },
+      "favorite_key": "pt:RTPMemoria.pt@SD",
+      "card": {
+        "title": "RTP Memoria",
+        "logo": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpmemoria_2026.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "geral"
+        ],
+        "category_labels": [
+          "Geral"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:RTPMemoria.pt@SD"
       }
     },
     {
       "id": "RTPMundo.pt@SD",
       "name": "RTP Mundo",
       "tvg_id": "RTPMundo.pt@SD",
-      "logo": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/RTP_Mundo.svg/1920px-RTP_Mundo.svg.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -1257,13 +2762,67 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "RTPMundo.pt",
+        "name": "RTP Mundo",
+        "network": null,
+        "website": "https://mundo.rtp.pt/",
+        "categories": [
+          "general"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "categories": [
+        "geral"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "RTPMundo.pt",
+        "format": "PNG",
+        "width": 1920,
+        "height": 240,
+        "in_use": true
+      },
+      "category_labels": [
+        "Geral"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "rtpmundo",
+        "terms": [
+          "geral",
+          "rtpmundo",
+          "rtpmundoptsd"
+        ]
+      },
+      "favorite_key": "pt:RTPMundo.pt@SD",
+      "card": {
+        "title": "RTP Mundo",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/RTP_Mundo.svg/1920px-RTP_Mundo.svg.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "geral"
+        ],
+        "category_labels": [
+          "Geral"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:RTPMundo.pt@SD"
       }
     },
     {
       "id": "RTPNoticias.pt@HD",
       "name": "RTP Noticias",
       "tvg_id": "RTPNoticias.pt@HD",
-      "logo": null,
+      "logo": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpnoticias_2026.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -1299,13 +2858,67 @@
         ],
         "also_matches": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "RTPNoticias.pt",
+        "name": "RTP Noticias",
+        "network": null,
+        "website": "https://www.rtp.pt/noticias/",
+        "categories": [
+          "news"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "categories": [
+        "jornalismo"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "RTPNoticias.pt",
+        "format": "PNG",
+        "width": 185,
+        "height": 21,
+        "in_use": true
+      },
+      "category_labels": [
+        "Jornalismo"
+      ],
+      "playback_summary": {
+        "status": "http_reachable_hls_unconfirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 0
+      },
+      "search": {
+        "normalized_name": "rtpnoticias",
+        "terms": [
+          "jornalismo",
+          "rtpnoticias",
+          "rtpnoticiaspthd"
+        ]
+      },
+      "favorite_key": "pt:RTPNoticias.pt@HD",
+      "card": {
+        "title": "RTP Noticias",
+        "logo": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpnoticias_2026.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "jornalismo"
+        ],
+        "category_labels": [
+          "Jornalismo"
+        ],
+        "playback_status": "http_reachable_hls_unconfirmed",
+        "hls_confirmed": false,
+        "favorite_key": "pt:RTPNoticias.pt@HD"
       }
     },
     {
       "id": "RTPNoticias.pt@SD",
       "name": "RTP Noticias",
       "tvg_id": "RTPNoticias.pt@SD",
-      "logo": null,
+      "logo": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpnoticias_2026.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -1341,13 +2954,67 @@
         ],
         "also_matches": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "RTPNoticias.pt",
+        "name": "RTP Noticias",
+        "network": null,
+        "website": "https://www.rtp.pt/noticias/",
+        "categories": [
+          "news"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "categories": [
+        "jornalismo"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "RTPNoticias.pt",
+        "format": "PNG",
+        "width": 185,
+        "height": 21,
+        "in_use": true
+      },
+      "category_labels": [
+        "Jornalismo"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "rtpnoticias",
+        "terms": [
+          "jornalismo",
+          "rtpnoticias",
+          "rtpnoticiasptsd"
+        ]
+      },
+      "favorite_key": "pt:RTPNoticias.pt@SD",
+      "card": {
+        "title": "RTP Noticias",
+        "logo": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpnoticias_2026.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "jornalismo"
+        ],
+        "category_labels": [
+          "Jornalismo"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:RTPNoticias.pt@SD"
       }
     },
     {
       "id": "SIC.pt@SD",
       "name": "SIC",
       "tvg_id": "SIC.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/SPMqiDG.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -1380,13 +3047,67 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "SIC.pt",
+        "name": "SIC",
+        "network": null,
+        "website": "https://sic.pt/",
+        "categories": [
+          "general"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "categories": [
+        "geral"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "SIC.pt",
+        "format": "PNG",
+        "width": 496,
+        "height": 206,
+        "in_use": true
+      },
+      "category_labels": [
+        "Geral"
+      ],
+      "playback_summary": {
+        "status": "restricted_or_auth_required",
+        "total_streams": 1,
+        "hls_confirmed_streams": 0
+      },
+      "search": {
+        "normalized_name": "sic",
+        "terms": [
+          "geral",
+          "sic",
+          "sicptsd"
+        ]
+      },
+      "favorite_key": "pt:SIC.pt@SD",
+      "card": {
+        "title": "SIC",
+        "logo": "https://i.imgur.com/SPMqiDG.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "geral"
+        ],
+        "category_labels": [
+          "Geral"
+        ],
+        "playback_status": "restricted_or_auth_required",
+        "hls_confirmed": false,
+        "favorite_key": "pt:SIC.pt@SD"
       }
     },
     {
       "id": "SICAltaDefinicao.pt@SD",
-      "name": "SIC Alta Definição",
+      "name": "SIC Alta Definicao",
       "tvg_id": "SICAltaDefinicao.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/VdPwyQv.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -1417,13 +3138,66 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "SICAltaDefinicao.pt",
+        "name": "SIC Alta Definicao",
+        "network": null,
+        "website": "https://opto.sic.pt/",
+        "categories": [],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "playlist_name": "SIC Alta Definição",
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "SICAltaDefinicao.pt",
+        "format": "PNG",
+        "width": 345,
+        "height": 248,
+        "in_use": true
+      },
+      "categories": [
+        "outros"
+      ],
+      "category_labels": [
+        "Outros"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "sicaltadefinicao",
+        "terms": [
+          "outros",
+          "sicaltadefinicao",
+          "sicaltadefinicaoptsd"
+        ]
+      },
+      "favorite_key": "pt:SICAltaDefinicao.pt@SD",
+      "card": {
+        "title": "SIC Alta Definicao",
+        "logo": "https://i.imgur.com/VdPwyQv.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "outros"
+        ],
+        "category_labels": [
+          "Outros"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:SICAltaDefinicao.pt@SD"
       }
     },
     {
       "id": "SICMulher.pt@SD",
       "name": "SIC Mulher",
       "tvg_id": "SICMulher.pt@SD",
-      "logo": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/c/c4/Sicmulher.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -1463,13 +3237,65 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "SICMulher.pt",
+        "name": "SIC Mulher",
+        "network": null,
+        "website": "https://sicmulher.pt/",
+        "categories": [],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "SICMulher.pt",
+        "format": "PNG",
+        "width": 300,
+        "height": 144,
+        "in_use": true
+      },
+      "categories": [
+        "outros"
+      ],
+      "category_labels": [
+        "Outros"
+      ],
+      "playback_summary": {
+        "status": "temporary_failure_or_unavailable",
+        "total_streams": 1,
+        "hls_confirmed_streams": 0
+      },
+      "search": {
+        "normalized_name": "sicmulher",
+        "terms": [
+          "outros",
+          "sicmulher",
+          "sicmulherptsd"
+        ]
+      },
+      "favorite_key": "pt:SICMulher.pt@SD",
+      "card": {
+        "title": "SIC Mulher",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/c/c4/Sicmulher.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "outros"
+        ],
+        "category_labels": [
+          "Outros"
+        ],
+        "playback_status": "temporary_failure_or_unavailable",
+        "hls_confirmed": false,
+        "favorite_key": "pt:SICMulher.pt@SD"
       }
     },
     {
       "id": "SICNoticias.pt@SD",
-      "name": "SIC Notícias",
+      "name": "SIC Noticias",
       "tvg_id": "SICNoticias.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/Gi6Q26M.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -1505,13 +3331,68 @@
         ],
         "also_matches": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "SICNoticias.pt",
+        "name": "SIC Noticias",
+        "network": null,
+        "website": "https://sicnoticias.pt/",
+        "categories": [
+          "news"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "playlist_name": "SIC Notícias",
+      "categories": [
+        "jornalismo"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "SICNoticias.pt",
+        "format": "PNG",
+        "width": 512,
+        "height": 70,
+        "in_use": true
+      },
+      "category_labels": [
+        "Jornalismo"
+      ],
+      "playback_summary": {
+        "status": "restricted_or_auth_required",
+        "total_streams": 1,
+        "hls_confirmed_streams": 0
+      },
+      "search": {
+        "normalized_name": "sicnoticias",
+        "terms": [
+          "jornalismo",
+          "sicnoticias",
+          "sicnoticiasptsd"
+        ]
+      },
+      "favorite_key": "pt:SICNoticias.pt@SD",
+      "card": {
+        "title": "SIC Noticias",
+        "logo": "https://i.imgur.com/Gi6Q26M.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "jornalismo"
+        ],
+        "category_labels": [
+          "Jornalismo"
+        ],
+        "playback_status": "restricted_or_auth_required",
+        "hls_confirmed": false,
+        "favorite_key": "pt:SICNoticias.pt@SD"
       }
     },
     {
       "id": "SICRadical.pt@SD",
       "name": "SIC Radical",
       "tvg_id": "SICRadical.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/6g0obyk.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -1551,13 +3432,65 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "SICRadical.pt",
+        "name": "SIC Radical",
+        "network": null,
+        "website": "https://sicradical.pt/",
+        "categories": [],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "SICRadical.pt",
+        "format": "PNG",
+        "width": 153,
+        "height": 48,
+        "in_use": true
+      },
+      "categories": [
+        "outros"
+      ],
+      "category_labels": [
+        "Outros"
+      ],
+      "playback_summary": {
+        "status": "temporary_failure_or_unavailable",
+        "total_streams": 1,
+        "hls_confirmed_streams": 0
+      },
+      "search": {
+        "normalized_name": "sicradical",
+        "terms": [
+          "outros",
+          "sicradical",
+          "sicradicalptsd"
+        ]
+      },
+      "favorite_key": "pt:SICRadical.pt@SD",
+      "card": {
+        "title": "SIC Radical",
+        "logo": "https://i.imgur.com/6g0obyk.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "outros"
+        ],
+        "category_labels": [
+          "Outros"
+        ],
+        "playback_status": "temporary_failure_or_unavailable",
+        "hls_confirmed": false,
+        "favorite_key": "pt:SICRadical.pt@SD"
       }
     },
     {
       "id": "SICReplay.pt@SD",
       "name": "SIC Replay",
       "tvg_id": "SICReplay.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/fj84mXz.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -1588,13 +3521,65 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "SICReplay.pt",
+        "name": "SIC Replay",
+        "network": null,
+        "website": "https://opto.sic.pt/",
+        "categories": [],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "SICReplay.pt",
+        "format": "PNG",
+        "width": 344,
+        "height": 206,
+        "in_use": true
+      },
+      "categories": [
+        "outros"
+      ],
+      "category_labels": [
+        "Outros"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "sicreplay",
+        "terms": [
+          "outros",
+          "sicreplay",
+          "sicreplayptsd"
+        ]
+      },
+      "favorite_key": "pt:SICReplay.pt@SD",
+      "card": {
+        "title": "SIC Replay",
+        "logo": "https://i.imgur.com/fj84mXz.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "outros"
+        ],
+        "category_labels": [
+          "Outros"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:SICReplay.pt@SD"
       }
     },
     {
       "id": "SportTV1.pt@SD",
       "name": "Sport TV1",
       "tvg_id": "SportTV1.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/YWic36u.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -1637,13 +3622,67 @@
         ],
         "also_matches": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "SportTV1.pt",
+        "name": "Sport TV1",
+        "network": null,
+        "website": "https://www.sporttv.pt/",
+        "categories": [
+          "sports"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "categories": [
+        "esportes"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "SportTV1.pt",
+        "format": "PNG",
+        "width": 512,
+        "height": 95,
+        "in_use": true
+      },
+      "category_labels": [
+        "Esportes"
+      ],
+      "playback_summary": {
+        "status": "temporary_failure_or_unavailable",
+        "total_streams": 1,
+        "hls_confirmed_streams": 0
+      },
+      "search": {
+        "normalized_name": "sporttv1",
+        "terms": [
+          "esportes",
+          "sporttv1",
+          "sporttv1ptsd"
+        ]
+      },
+      "favorite_key": "pt:SportTV1.pt@SD",
+      "card": {
+        "title": "Sport TV1",
+        "logo": "https://i.imgur.com/YWic36u.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "esportes"
+        ],
+        "category_labels": [
+          "Esportes"
+        ],
+        "playback_status": "temporary_failure_or_unavailable",
+        "hls_confirmed": false,
+        "favorite_key": "pt:SportTV1.pt@SD"
       }
     },
     {
       "id": "SportTV2.pt@SD",
       "name": "Sport TV2",
       "tvg_id": "SportTV2.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/0jSR6yG.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -1686,13 +3725,67 @@
         ],
         "also_matches": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "SportTV2.pt",
+        "name": "Sport TV2",
+        "network": null,
+        "website": "https://www.sporttv.pt/",
+        "categories": [
+          "sports"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "categories": [
+        "esportes"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "SportTV2.pt",
+        "format": "PNG",
+        "width": 512,
+        "height": 95,
+        "in_use": true
+      },
+      "category_labels": [
+        "Esportes"
+      ],
+      "playback_summary": {
+        "status": "temporary_failure_or_unavailable",
+        "total_streams": 1,
+        "hls_confirmed_streams": 0
+      },
+      "search": {
+        "normalized_name": "sporttv2",
+        "terms": [
+          "esportes",
+          "sporttv2",
+          "sporttv2ptsd"
+        ]
+      },
+      "favorite_key": "pt:SportTV2.pt@SD",
+      "card": {
+        "title": "Sport TV2",
+        "logo": "https://i.imgur.com/0jSR6yG.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "esportes"
+        ],
+        "category_labels": [
+          "Esportes"
+        ],
+        "playback_status": "temporary_failure_or_unavailable",
+        "hls_confirmed": false,
+        "favorite_key": "pt:SportTV2.pt@SD"
       }
     },
     {
       "id": "SportTV5.pt@SD",
       "name": "Sport TV5",
       "tvg_id": "SportTV5.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/4w4vuad.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -1735,13 +3828,67 @@
         ],
         "also_matches": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "SportTV5.pt",
+        "name": "Sport TV5",
+        "network": null,
+        "website": "https://www.sporttv.pt/",
+        "categories": [
+          "sports"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "categories": [
+        "esportes"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "SportTV5.pt",
+        "format": "PNG",
+        "width": 512,
+        "height": 95,
+        "in_use": true
+      },
+      "category_labels": [
+        "Esportes"
+      ],
+      "playback_summary": {
+        "status": "temporary_failure_or_unavailable",
+        "total_streams": 1,
+        "hls_confirmed_streams": 0
+      },
+      "search": {
+        "normalized_name": "sporttv5",
+        "terms": [
+          "esportes",
+          "sporttv5",
+          "sporttv5ptsd"
+        ]
+      },
+      "favorite_key": "pt:SportTV5.pt@SD",
+      "card": {
+        "title": "Sport TV5",
+        "logo": "https://i.imgur.com/4w4vuad.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "esportes"
+        ],
+        "category_labels": [
+          "Esportes"
+        ],
+        "playback_status": "temporary_failure_or_unavailable",
+        "hls_confirmed": false,
+        "favorite_key": "pt:SportTV5.pt@SD"
       }
     },
     {
       "id": "SportTV6.pt@SD",
       "name": "Sport TV6",
       "tvg_id": "SportTV6.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/qmlQkyI.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -1784,13 +3931,67 @@
         ],
         "also_matches": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "SportTV6.pt",
+        "name": "Sport TV6",
+        "network": null,
+        "website": "https://www.sporttv.pt/",
+        "categories": [
+          "sports"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "categories": [
+        "esportes"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "SportTV6.pt",
+        "format": "PNG",
+        "width": 512,
+        "height": 95,
+        "in_use": true
+      },
+      "category_labels": [
+        "Esportes"
+      ],
+      "playback_summary": {
+        "status": "temporary_failure_or_unavailable",
+        "total_streams": 1,
+        "hls_confirmed_streams": 0
+      },
+      "search": {
+        "normalized_name": "sporttv6",
+        "terms": [
+          "esportes",
+          "sporttv6",
+          "sporttv6ptsd"
+        ]
+      },
+      "favorite_key": "pt:SportTV6.pt@SD",
+      "card": {
+        "title": "Sport TV6",
+        "logo": "https://i.imgur.com/qmlQkyI.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "esportes"
+        ],
+        "category_labels": [
+          "Esportes"
+        ],
+        "playback_status": "temporary_failure_or_unavailable",
+        "hls_confirmed": false,
+        "favorite_key": "pt:SportTV6.pt@SD"
       }
     },
     {
       "id": "SportTV7.pt@SD",
       "name": "Sport TV7",
       "tvg_id": "SportTV7.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/2HmCAm5.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -1833,13 +4034,67 @@
         ],
         "also_matches": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "SportTV7.pt",
+        "name": "Sport TV7",
+        "network": null,
+        "website": "https://www.sporttv.pt/live/canal/7600/SPORT.TV7",
+        "categories": [
+          "sports"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "categories": [
+        "esportes"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "SportTV7.pt",
+        "format": "PNG",
+        "width": 512,
+        "height": 105,
+        "in_use": true
+      },
+      "category_labels": [
+        "Esportes"
+      ],
+      "playback_summary": {
+        "status": "temporary_failure_or_unavailable",
+        "total_streams": 1,
+        "hls_confirmed_streams": 0
+      },
+      "search": {
+        "normalized_name": "sporttv7",
+        "terms": [
+          "esportes",
+          "sporttv7",
+          "sporttv7ptsd"
+        ]
+      },
+      "favorite_key": "pt:SportTV7.pt@SD",
+      "card": {
+        "title": "Sport TV7",
+        "logo": "https://i.imgur.com/2HmCAm5.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "esportes"
+        ],
+        "category_labels": [
+          "Esportes"
+        ],
+        "playback_status": "temporary_failure_or_unavailable",
+        "hls_confirmed": false,
+        "favorite_key": "pt:SportTV7.pt@SD"
       }
     },
     {
       "id": "SportTVPlus.pt@SD",
       "name": "Sport TV+",
       "tvg_id": "SportTVPlus.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/R5FZEW6.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -1882,13 +4137,67 @@
         ],
         "also_matches": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "SportTVPlus.pt",
+        "name": "Sport TV+",
+        "network": null,
+        "website": "https://www.sporttv.pt/",
+        "categories": [
+          "sports"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "categories": [
+        "esportes"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "SportTVPlus.pt",
+        "format": "PNG",
+        "width": 512,
+        "height": 95,
+        "in_use": true
+      },
+      "category_labels": [
+        "Esportes"
+      ],
+      "playback_summary": {
+        "status": "temporary_failure_or_unavailable",
+        "total_streams": 1,
+        "hls_confirmed_streams": 0
+      },
+      "search": {
+        "normalized_name": "sporttv",
+        "terms": [
+          "esportes",
+          "sporttv",
+          "sporttvplusptsd"
+        ]
+      },
+      "favorite_key": "pt:SportTVPlus.pt@SD",
+      "card": {
+        "title": "Sport TV+",
+        "logo": "https://i.imgur.com/R5FZEW6.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "esportes"
+        ],
+        "category_labels": [
+          "Esportes"
+        ],
+        "playback_status": "temporary_failure_or_unavailable",
+        "hls_confirmed": false,
+        "favorite_key": "pt:SportTVPlus.pt@SD"
       }
     },
     {
       "id": "StarChannel.pt@SD",
       "name": "Star Channel",
       "tvg_id": "StarChannel.pt@SD",
-      "logo": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -1928,13 +4237,68 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "StarChannel.pt",
+        "name": "Star Channel",
+        "network": "The Walt Disney Company Portugal",
+        "website": "https://www.starchannel.pt/",
+        "categories": [
+          "entertainment"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "categories": [
+        "entretenimento"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "StarChannel.pt",
+        "format": "PNG",
+        "width": 960,
+        "height": 555,
+        "in_use": true
+      },
+      "category_labels": [
+        "Entretenimento"
+      ],
+      "playback_summary": {
+        "status": "temporary_failure_or_unavailable",
+        "total_streams": 1,
+        "hls_confirmed_streams": 0
+      },
+      "search": {
+        "normalized_name": "starchannel",
+        "terms": [
+          "entretenimento",
+          "starchannel",
+          "starchannelptsd",
+          "thewaltdisneycompanyportugal"
+        ]
+      },
+      "favorite_key": "pt:StarChannel.pt@SD",
+      "card": {
+        "title": "Star Channel",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "entretenimento"
+        ],
+        "category_labels": [
+          "Entretenimento"
+        ],
+        "playback_status": "temporary_failure_or_unavailable",
+        "hls_confirmed": false,
+        "favorite_key": "pt:StarChannel.pt@SD"
       }
     },
     {
       "id": "StarComedy.pt@SD",
       "name": "Star Comedy",
       "tvg_id": "StarComedy.pt@SD",
-      "logo": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Star_Comedy_2024.svg/960px-Star_Comedy_2024.svg.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -1977,13 +4341,68 @@
         ],
         "also_matches": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "StarComedy.pt",
+        "name": "Star Comedy",
+        "network": "The Walt Disney Company Portugal",
+        "website": "https://www.startv.pt/programacao/starcomedy",
+        "categories": [
+          "comedy"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "StarComedy.pt",
+        "format": "PNG",
+        "width": 960,
+        "height": 553,
+        "in_use": true
+      },
+      "categories": [
+        "entretenimento"
+      ],
+      "category_labels": [
+        "Entretenimento"
+      ],
+      "playback_summary": {
+        "status": "temporary_failure_or_unavailable",
+        "total_streams": 1,
+        "hls_confirmed_streams": 0
+      },
+      "search": {
+        "normalized_name": "starcomedy",
+        "terms": [
+          "entretenimento",
+          "starcomedy",
+          "starcomedyptsd",
+          "thewaltdisneycompanyportugal"
+        ]
+      },
+      "favorite_key": "pt:StarComedy.pt@SD",
+      "card": {
+        "title": "Star Comedy",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Star_Comedy_2024.svg/960px-Star_Comedy_2024.svg.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "entretenimento"
+        ],
+        "category_labels": [
+          "Entretenimento"
+        ],
+        "playback_status": "temporary_failure_or_unavailable",
+        "hls_confirmed": false,
+        "favorite_key": "pt:StarComedy.pt@SD"
       }
     },
     {
       "id": "StarCrime.pt@SD",
       "name": "Star Crime",
       "tvg_id": "StarCrime.pt@SD",
-      "logo": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Star_Crime_2023.svg/960px-Star_Crime_2023.svg.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -2023,13 +4442,68 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "StarCrime.pt",
+        "name": "Star Crime",
+        "network": "The Walt Disney Company Portugal",
+        "website": "https://www.startv.pt/programacao/starcrime",
+        "categories": [
+          "lifestyle"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "categories": [
+        "lifestyle"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "StarCrime.pt",
+        "format": "PNG",
+        "width": 960,
+        "height": 557,
+        "in_use": true
+      },
+      "category_labels": [
+        "Lifestyle"
+      ],
+      "playback_summary": {
+        "status": "temporary_failure_or_unavailable",
+        "total_streams": 1,
+        "hls_confirmed_streams": 0
+      },
+      "search": {
+        "normalized_name": "starcrime",
+        "terms": [
+          "lifestyle",
+          "starcrime",
+          "starcrimeptsd",
+          "thewaltdisneycompanyportugal"
+        ]
+      },
+      "favorite_key": "pt:StarCrime.pt@SD",
+      "card": {
+        "title": "Star Crime",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Star_Crime_2023.svg/960px-Star_Crime_2023.svg.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "lifestyle"
+        ],
+        "category_labels": [
+          "Lifestyle"
+        ],
+        "playback_status": "temporary_failure_or_unavailable",
+        "hls_confirmed": false,
+        "favorite_key": "pt:StarCrime.pt@SD"
       }
     },
     {
       "id": "StarLife.pt@SD",
       "name": "Star Life",
       "tvg_id": "StarLife.pt@SD",
-      "logo": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Star_Life_2021.svg/960px-Star_Life_2021.svg.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -2069,13 +4543,68 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "StarLife.pt",
+        "name": "Star Life",
+        "network": "The Walt Disney Company Portugal",
+        "website": "https://www.startv.pt/programacao/starlife",
+        "categories": [
+          "lifestyle"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "categories": [
+        "lifestyle"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "StarLife.pt",
+        "format": "PNG",
+        "width": 960,
+        "height": 553,
+        "in_use": true
+      },
+      "category_labels": [
+        "Lifestyle"
+      ],
+      "playback_summary": {
+        "status": "temporary_failure_or_unavailable",
+        "total_streams": 1,
+        "hls_confirmed_streams": 0
+      },
+      "search": {
+        "normalized_name": "starlife",
+        "terms": [
+          "lifestyle",
+          "starlife",
+          "starlifeptsd",
+          "thewaltdisneycompanyportugal"
+        ]
+      },
+      "favorite_key": "pt:StarLife.pt@SD",
+      "card": {
+        "title": "Star Life",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Star_Life_2021.svg/960px-Star_Life_2021.svg.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "lifestyle"
+        ],
+        "category_labels": [
+          "Lifestyle"
+        ],
+        "playback_status": "temporary_failure_or_unavailable",
+        "hls_confirmed": false,
+        "favorite_key": "pt:StarLife.pt@SD"
       }
     },
     {
       "id": "StarMovies.pt@SD",
       "name": "Star Movies",
       "tvg_id": "StarMovies.pt@SD",
-      "logo": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Star_Movies_2023.svg/960px-Star_Movies_2023.svg.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -2118,13 +4647,68 @@
         ],
         "also_matches": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "StarMovies.pt",
+        "name": "Star Movies",
+        "network": "The Walt Disney Company Portugal",
+        "website": "https://www.startv.pt/programacao/starmovie",
+        "categories": [
+          "movies"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "categories": [
+        "filmes"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "StarMovies.pt",
+        "format": "PNG",
+        "width": 960,
+        "height": 553,
+        "in_use": true
+      },
+      "category_labels": [
+        "Filmes"
+      ],
+      "playback_summary": {
+        "status": "temporary_failure_or_unavailable",
+        "total_streams": 1,
+        "hls_confirmed_streams": 0
+      },
+      "search": {
+        "normalized_name": "starmovies",
+        "terms": [
+          "filmes",
+          "starmovies",
+          "starmoviesptsd",
+          "thewaltdisneycompanyportugal"
+        ]
+      },
+      "favorite_key": "pt:StarMovies.pt@SD",
+      "card": {
+        "title": "Star Movies",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Star_Movies_2023.svg/960px-Star_Movies_2023.svg.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "filmes"
+        ],
+        "category_labels": [
+          "Filmes"
+        ],
+        "playback_status": "temporary_failure_or_unavailable",
+        "hls_confirmed": false,
+        "favorite_key": "pt:StarMovies.pt@SD"
       }
     },
     {
       "id": "TVMana1.pt@SD",
-      "name": "TV Maná 1",
+      "name": "TV Mana 1",
       "tvg_id": "TVMana1.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/6jNqpTP.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -2155,13 +4739,68 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "TVMana1.pt",
+        "name": "TV Mana 1",
+        "network": null,
+        "website": "https://tvmana1.com/",
+        "categories": [
+          "religious"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "playlist_name": "TV Maná 1",
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "TVMana1.pt",
+        "format": "PNG",
+        "width": 378,
+        "height": 107,
+        "in_use": true
+      },
+      "categories": [
+        "outros"
+      ],
+      "category_labels": [
+        "Outros"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "tvmana1",
+        "terms": [
+          "outros",
+          "tvmana1",
+          "tvmana1ptsd"
+        ]
+      },
+      "favorite_key": "pt:TVMana1.pt@SD",
+      "card": {
+        "title": "TV Mana 1",
+        "logo": "https://i.imgur.com/6jNqpTP.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "outros"
+        ],
+        "category_labels": [
+          "Outros"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:TVMana1.pt@SD"
       }
     },
     {
       "id": "TVMana2.pt@SD",
-      "name": "TV Maná 2",
+      "name": "TV Mana 2",
       "tvg_id": "TVMana2.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/VYNjVov.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -2192,13 +4831,68 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "TVMana2.pt",
+        "name": "TV Mana 2",
+        "network": null,
+        "website": "https://tvmana2.com/",
+        "categories": [
+          "religious"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "playlist_name": "TV Maná 2",
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "TVMana2.pt",
+        "format": "PNG",
+        "width": 379,
+        "height": 79,
+        "in_use": true
+      },
+      "categories": [
+        "outros"
+      ],
+      "category_labels": [
+        "Outros"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "tvmana2",
+        "terms": [
+          "outros",
+          "tvmana2",
+          "tvmana2ptsd"
+        ]
+      },
+      "favorite_key": "pt:TVMana2.pt@SD",
+      "card": {
+        "title": "TV Mana 2",
+        "logo": "https://i.imgur.com/VYNjVov.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "outros"
+        ],
+        "category_labels": [
+          "Outros"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:TVMana2.pt@SD"
       }
     },
     {
       "id": "TVManaBrasil.pt@SD",
-      "name": "TV Maná Brasil",
+      "name": "TV Mana Brasil",
       "tvg_id": "TVManaBrasil.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/AFb712e.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -2229,13 +4923,68 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "TVManaBrasil.pt",
+        "name": "TV Mana Brasil",
+        "network": null,
+        "website": "https://tvmanabrasil.com/",
+        "categories": [
+          "religious"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "playlist_name": "TV Maná Brasil",
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "TVManaBrasil.pt",
+        "format": "PNG",
+        "width": 396,
+        "height": 108,
+        "in_use": true
+      },
+      "categories": [
+        "outros"
+      ],
+      "category_labels": [
+        "Outros"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "tvmanabrasil",
+        "terms": [
+          "outros",
+          "tvmanabrasil",
+          "tvmanabrasilptsd"
+        ]
+      },
+      "favorite_key": "pt:TVManaBrasil.pt@SD",
+      "card": {
+        "title": "TV Mana Brasil",
+        "logo": "https://i.imgur.com/AFb712e.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "outros"
+        ],
+        "category_labels": [
+          "Outros"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:TVManaBrasil.pt@SD"
       }
     },
     {
       "id": "TVManaEnglish.pt@SD",
-      "name": "TV Maná English",
+      "name": "TV Mana English",
       "tvg_id": "TVManaEnglish.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/I66IkCw.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -2266,13 +5015,68 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "TVManaEnglish.pt",
+        "name": "TV Mana English",
+        "network": null,
+        "website": "https://tvmana-english.ar/",
+        "categories": [
+          "religious"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "playlist_name": "TV Maná English",
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "TVManaEnglish.pt",
+        "format": "PNG",
+        "width": 512,
+        "height": 512,
+        "in_use": true
+      },
+      "categories": [
+        "outros"
+      ],
+      "category_labels": [
+        "Outros"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "tvmanaenglish",
+        "terms": [
+          "outros",
+          "tvmanaenglish",
+          "tvmanaenglishptsd"
+        ]
+      },
+      "favorite_key": "pt:TVManaEnglish.pt@SD",
+      "card": {
+        "title": "TV Mana English",
+        "logo": "https://i.imgur.com/I66IkCw.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "outros"
+        ],
+        "category_labels": [
+          "Outros"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:TVManaEnglish.pt@SD"
       }
     },
     {
       "id": "TVManaEspanhol.pt@SD",
-      "name": "TV Maná Español",
+      "name": "TV Mana Espanhol",
       "tvg_id": "TVManaEspanhol.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/sUlrSwP.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -2303,13 +5107,68 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "TVManaEspanhol.pt",
+        "name": "TV Mana Espanhol",
+        "network": null,
+        "website": "https://tvmana-espanhol.ar/",
+        "categories": [
+          "religious"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "playlist_name": "TV Maná Español",
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "TVManaEspanhol.pt",
+        "format": "PNG",
+        "width": 512,
+        "height": 165,
+        "in_use": true
+      },
+      "categories": [
+        "outros"
+      ],
+      "category_labels": [
+        "Outros"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "tvmanaespanhol",
+        "terms": [
+          "outros",
+          "tvmanaespanhol",
+          "tvmanaespanholptsd"
+        ]
+      },
+      "favorite_key": "pt:TVManaEspanhol.pt@SD",
+      "card": {
+        "title": "TV Mana Espanhol",
+        "logo": "https://i.imgur.com/sUlrSwP.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "outros"
+        ],
+        "category_labels": [
+          "Outros"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:TVManaEspanhol.pt@SD"
       }
     },
     {
       "id": "TVManaRusskiy.pt@SD",
-      "name": "TV Maná Russkiy",
+      "name": "TV Mana Russkiy",
       "tvg_id": "TVManaRusskiy.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/fACHqmY.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -2340,13 +5199,68 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "TVManaRusskiy.pt",
+        "name": "TV Mana Russkiy",
+        "network": null,
+        "website": "https://tvmanarusskii.ru/",
+        "categories": [
+          "religious"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "playlist_name": "TV Maná Russkiy",
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "TVManaRusskiy.pt",
+        "format": "PNG",
+        "width": 350,
+        "height": 300,
+        "in_use": true
+      },
+      "categories": [
+        "outros"
+      ],
+      "category_labels": [
+        "Outros"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "tvmanarusskiy",
+        "terms": [
+          "outros",
+          "tvmanarusskiy",
+          "tvmanarusskiyptsd"
+        ]
+      },
+      "favorite_key": "pt:TVManaRusskiy.pt@SD",
+      "card": {
+        "title": "TV Mana Russkiy",
+        "logo": "https://i.imgur.com/fACHqmY.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "outros"
+        ],
+        "category_labels": [
+          "Outros"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:TVManaRusskiy.pt@SD"
       }
     },
     {
       "id": "TVI.pt@SD",
       "name": "TVI",
       "tvg_id": "TVI.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/H8Tgl7m.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -2406,13 +5320,67 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "TVI.pt",
+        "name": "TVI",
+        "network": null,
+        "website": "http://www.tvi.iol.pt/",
+        "categories": [
+          "general"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "categories": [
+        "geral"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "TVI.pt",
+        "format": "PNG",
+        "width": 55,
+        "height": 43,
+        "in_use": true
+      },
+      "category_labels": [
+        "Geral"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 2,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "tvi",
+        "terms": [
+          "geral",
+          "tvi",
+          "tviptsd"
+        ]
+      },
+      "favorite_key": "pt:TVI.pt@SD",
+      "card": {
+        "title": "TVI",
+        "logo": "https://i.imgur.com/H8Tgl7m.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "geral"
+        ],
+        "category_labels": [
+          "Geral"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:TVI.pt@SD"
       }
     },
     {
       "id": "TVIFiccao.pt@SD",
-      "name": "TVI Ficção",
+      "name": "TVI Ficcao",
       "tvg_id": "TVIFiccao.pt@SD",
-      "logo": null,
+      "logo": "https://cdn.iol.pt/img/logostvi/branco/tvificcao.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -2443,13 +5411,68 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "TVIFiccao.pt",
+        "name": "TVI Ficcao",
+        "network": null,
+        "website": "https://tviplayer.iol.pt/direto/TVI_FICCAO",
+        "categories": [
+          "series"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "playlist_name": "TVI Ficção",
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "TVIFiccao.pt",
+        "format": "PNG",
+        "width": 0,
+        "height": 0,
+        "in_use": true
+      },
+      "categories": [
+        "outros"
+      ],
+      "category_labels": [
+        "Outros"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "tvificcao",
+        "terms": [
+          "outros",
+          "tvificcao",
+          "tvificcaoptsd"
+        ]
+      },
+      "favorite_key": "pt:TVIFiccao.pt@SD",
+      "card": {
+        "title": "TVI Ficcao",
+        "logo": "https://cdn.iol.pt/img/logostvi/branco/tvificcao.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "outros"
+        ],
+        "category_labels": [
+          "Outros"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:TVIFiccao.pt@SD"
       }
     },
     {
       "id": "TVIReality.pt@SD",
       "name": "TVI Reality",
       "tvg_id": "TVIReality.pt@SD",
-      "logo": null,
+      "logo": "https://i.imgur.com/C9rxqA5.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -2485,13 +5508,67 @@
         ],
         "also_matches": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "TVIReality.pt",
+        "name": "TVI Reality",
+        "network": null,
+        "website": "https://tvi.iol.pt/tvireality/",
+        "categories": [
+          "entertainment"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "categories": [
+        "entretenimento"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "TVIReality.pt",
+        "format": "PNG",
+        "width": 470,
+        "height": 127,
+        "in_use": true
+      },
+      "category_labels": [
+        "Entretenimento"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "tvireality",
+        "terms": [
+          "entretenimento",
+          "tvireality",
+          "tvirealityptsd"
+        ]
+      },
+      "favorite_key": "pt:TVIReality.pt@SD",
+      "card": {
+        "title": "TVI Reality",
+        "logo": "https://i.imgur.com/C9rxqA5.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "entretenimento"
+        ],
+        "category_labels": [
+          "Entretenimento"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:TVIReality.pt@SD"
       }
     },
     {
       "id": "VPlusTVI.pt@SD",
       "name": "V+ TVI",
       "tvg_id": "VPlusTVI.pt@SD",
-      "logo": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/pt/e/ef/V%2BTVI_Logo.png",
       "group_title": null,
       "country": "pt",
       "streams": [
@@ -2522,6 +5599,60 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "official_metadata": {
+        "id": "VPlusTVI.pt",
+        "name": "V+ TVI",
+        "network": null,
+        "website": "https://tvi.iol.pt/vmais/",
+        "categories": [
+          "general"
+        ],
+        "matched_by": "channel_id",
+        "source": "iptv-org/api"
+      },
+      "categories": [
+        "geral"
+      ],
+      "logo_metadata": {
+        "source": "iptv-org/api/logos.json",
+        "official_channel_id": "VPlusTVI.pt",
+        "format": "PNG",
+        "width": 320,
+        "height": 150,
+        "in_use": true
+      },
+      "category_labels": [
+        "Geral"
+      ],
+      "playback_summary": {
+        "status": "hls_confirmed",
+        "total_streams": 1,
+        "hls_confirmed_streams": 1
+      },
+      "search": {
+        "normalized_name": "vtvi",
+        "terms": [
+          "geral",
+          "vplustviptsd",
+          "vtvi"
+        ]
+      },
+      "favorite_key": "pt:VPlusTVI.pt@SD",
+      "card": {
+        "title": "V+ TVI",
+        "logo": "https://upload.wikimedia.org/wikipedia/pt/e/ef/V%2BTVI_Logo.png",
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "geral"
+        ],
+        "category_labels": [
+          "Geral"
+        ],
+        "playback_status": "hls_confirmed",
+        "hls_confirmed": true,
+        "favorite_key": "pt:VPlusTVI.pt@SD"
       }
     },
     {
@@ -2562,6 +5693,40 @@
         ],
         "also_matches": [],
         "method": "metadata_rules_v1"
+      },
+      "categories": [
+        "documentarios"
+      ],
+      "category_labels": [
+        "Documentários"
+      ],
+      "playback_summary": {
+        "status": "no_confirmed_stream",
+        "total_streams": 1,
+        "hls_confirmed_streams": 0
+      },
+      "search": {
+        "normalized_name": "rakutendocumentarios",
+        "terms": [
+          "documentarios",
+          "rakutendocumentarios"
+        ]
+      },
+      "favorite_key": "pt:name:rakutendocumentarios",
+      "card": {
+        "title": "Rakuten Documentários",
+        "logo": null,
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "documentarios"
+        ],
+        "category_labels": [
+          "Documentários"
+        ],
+        "playback_status": "no_confirmed_stream",
+        "hls_confirmed": false,
+        "favorite_key": "pt:name:rakutendocumentarios"
       }
     },
     {
@@ -2599,6 +5764,40 @@
         "score": 0,
         "matched_terms": [],
         "method": "metadata_rules_v1"
+      },
+      "categories": [
+        "outros"
+      ],
+      "category_labels": [
+        "Outros"
+      ],
+      "playback_summary": {
+        "status": "no_confirmed_stream",
+        "total_streams": 1,
+        "hls_confirmed_streams": 0
+      },
+      "search": {
+        "normalized_name": "rakutenfamilia",
+        "terms": [
+          "outros",
+          "rakutenfamilia"
+        ]
+      },
+      "favorite_key": "pt:name:rakutenfamilia",
+      "card": {
+        "title": "Rakuten Família",
+        "logo": null,
+        "country": "pt",
+        "country_name": "Portugal",
+        "categories": [
+          "outros"
+        ],
+        "category_labels": [
+          "Outros"
+        ],
+        "playback_status": "no_confirmed_stream",
+        "hls_confirmed": false,
+        "favorite_key": "pt:name:rakutenfamilia"
       }
     }
   ],
@@ -2624,5 +5823,12 @@
     "manual_review_recommended_for": [
       "baixa"
     ]
+  },
+  "enrichment": {
+    "source": "https://github.com/iptv-org/api",
+    "source_license": "Unlicense",
+    "checked_at": "2026-11-10T15:41:57+00:00",
+    "logo_policy": "official_in_use_https_preferred; existing_playlist_logo_fallback",
+    "stream_urls_modified": false
   }
 }
