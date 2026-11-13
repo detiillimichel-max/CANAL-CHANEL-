@@ -30,17 +30,12 @@
     },
     "validation_checked_at": "2026-11-12T15:59:59+00:00",
     "recovery": {
-      "checked": 137,
-      "result_connection_error": 10,
-      "result_dns_error": 25,
-      "result_http_error": 38,
-      "result_not_found": 3,
-      "result_server_error": 4,
-      "result_timeout": 57,
-      "skipped_retry_window": 107,
+      "checked": 1,
+      "result_http_error": 1,
+      "skipped_retry_window": 243,
       "skipped_stable_hls": 211
     },
-    "recovery_checked_at": "2026-11-12T23:34:06+00:00",
+    "recovery_checked_at": "2026-11-13T06:35:32+00:00",
     "classification": {
       "agronegocio": 1,
       "desenhos": 5,
@@ -18961,7 +18956,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-12T23:34:57+00:00",
+            "checked_at": "2026-11-13T06:35:32+00:00",
             "http_status": 400,
             "final_url": "https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99992529",
             "result": "http_error",
@@ -18971,9 +18966,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-12T23:34:57+00:00",
-            "next_retry_at": "2026-11-13T00:34:57+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-13T06:35:32+00:00",
+            "next_retry_at": "2026-11-13T12:35:32+00:00",
             "last_result": "http_error",
             "previous_result": "http_error",
             "reason": "retry_window"
@@ -30996,7 +30991,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-12T23:34:06+00:00",
+    "checked_at": "2026-11-13T06:35:32+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,
