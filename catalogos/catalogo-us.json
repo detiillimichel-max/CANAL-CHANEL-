@@ -20,26 +20,24 @@
     "validation": {
       "connection_error": 38,
       "dns_error": 9,
-      "forbidden_or_geo_restricted": 63,
-      "http_error": 18,
+      "forbidden_or_geo_restricted": 64,
+      "http_error": 17,
       "not_found": 65,
-      "reachable_hls": 1187,
-      "reachable_non_hls": 41,
-      "server_error": 20,
-      "timeout": 68
+      "reachable_hls": 1193,
+      "reachable_non_hls": 42,
+      "server_error": 18,
+      "timeout": 63
     },
     "validation_checked_at": "2026-11-13T15:26:02+00:00",
     "recovery": {
-      "checked": 120,
-      "result_connection_error": 15,
-      "result_dns_error": 9,
-      "result_http_error": 17,
-      "result_server_error": 18,
-      "result_timeout": 61,
-      "skipped_retry_window": 196,
-      "skipped_stable_hls": 1193
+      "checked": 8,
+      "result_forbidden_or_geo_restricted": 1,
+      "result_reachable_hls": 6,
+      "result_reachable_non_hls": 1,
+      "skipped_retry_window": 314,
+      "skipped_stable_hls": 1187
     },
-    "recovery_checked_at": "2026-11-12T23:34:06+00:00",
+    "recovery_checked_at": "2026-11-13T19:37:34+00:00",
     "classification": {
       "desenhos": 29,
       "documentarios": 34,
@@ -6773,15 +6771,24 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "timeout",
+          "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-13T15:27:51+00:00",
-            "http_status": null,
-            "final_url": null,
-            "result": "timeout",
-            "hls_status": "not_confirmed",
-            "detail": "connection_timeout",
+            "checked_at": "2026-11-13T19:37:35+00:00",
+            "http_status": 200,
+            "final_url": "https://securestream11.champds.com/LIVE/AtlantaGALIVE/AtlantaGALIVE.m3u8",
+            "result": "reachable_hls",
+            "hls_status": "accessible",
+            "detail": "hls_accessible",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "stable_hls",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-13T19:37:35+00:00",
+            "next_retry_at": "2026-11-20T19:37:35+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "timeout",
+            "reason": "retry_window"
           }
         }
       ],
@@ -29879,15 +29886,24 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "timeout",
+          "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-13T15:28:20+00:00",
-            "http_status": null,
-            "final_url": null,
-            "result": "timeout",
-            "hls_status": "not_confirmed",
-            "detail": "connection_timeout",
+            "checked_at": "2026-11-13T19:37:35+00:00",
+            "http_status": 200,
+            "final_url": "https://securestream11.champds.com/LIVE/FultonCoGALIVE/FultonCoGALIVE.m3u8",
+            "result": "reachable_hls",
+            "hls_status": "accessible",
+            "detail": "hls_accessible",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "stable_hls",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-13T19:37:35+00:00",
+            "next_retry_at": "2026-11-20T19:37:35+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "timeout",
+            "reason": "retry_window"
           }
         }
       ],
@@ -33486,15 +33502,24 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "timeout",
+          "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-13T15:28:24+00:00",
-            "http_status": null,
-            "final_url": null,
-            "result": "timeout",
-            "hls_status": "not_confirmed",
-            "detail": "connection_timeout",
+            "checked_at": "2026-11-13T19:37:35+00:00",
+            "http_status": 200,
+            "final_url": "https://securestream11.champds.com/LIVE/GilletteWYLIVE3/GilletteWYLIVE3.m3u8",
+            "result": "reachable_hls",
+            "hls_status": "accessible",
+            "detail": "hls_accessible",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "stable_hls",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-13T19:37:35+00:00",
+            "next_retry_at": "2026-11-20T19:37:35+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "timeout",
+            "reason": "retry_window"
           }
         }
       ],
@@ -33577,15 +33602,24 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "timeout",
+          "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-13T15:28:24+00:00",
-            "http_status": null,
-            "final_url": null,
-            "result": "timeout",
-            "hls_status": "not_confirmed",
-            "detail": "connection_timeout",
+            "checked_at": "2026-11-13T19:37:35+00:00",
+            "http_status": 200,
+            "final_url": "https://securestream11.champds.com/LIVE/GilletteWYLIVE/GilletteWYLIVE.m3u8",
+            "result": "reachable_hls",
+            "hls_status": "accessible",
+            "detail": "hls_accessible",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "stable_hls",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-13T19:37:35+00:00",
+            "next_retry_at": "2026-11-20T19:37:35+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "timeout",
+            "reason": "retry_window"
           }
         }
       ],
@@ -33668,15 +33702,24 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "timeout",
+          "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-13T15:28:26+00:00",
-            "http_status": null,
-            "final_url": null,
-            "result": "timeout",
-            "hls_status": "not_confirmed",
-            "detail": "connection_timeout",
+            "checked_at": "2026-11-13T19:37:35+00:00",
+            "http_status": 200,
+            "final_url": "https://securestream11.champds.com/LIVE/GilletteWYLIVE2/GilletteWYLIVE2.m3u8",
+            "result": "reachable_hls",
+            "hls_status": "accessible",
+            "detail": "hls_accessible",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "stable_hls",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-13T19:37:35+00:00",
+            "next_retry_at": "2026-11-20T19:37:35+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "timeout",
+            "reason": "retry_window"
           }
         }
       ],
@@ -57376,15 +57419,24 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "server_error",
+          "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-13T15:29:02+00:00",
-            "http_status": 502,
+            "checked_at": "2026-11-13T19:37:35+00:00",
+            "http_status": 403,
             "final_url": "https://reflect-stream-bronxnet.cablecast.tv/live-10/live/live.m3u8",
-            "result": "server_error",
+            "result": "forbidden_or_geo_restricted",
             "hls_status": "not_confirmed",
-            "detail": "http_502",
+            "detail": "http_403",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "restricted_review",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-13T19:37:35+00:00",
+            "next_retry_at": "2026-12-13T19:37:35+00:00",
+            "last_result": "forbidden_or_geo_restricted",
+            "previous_result": "server_error",
+            "reason": "retry_window"
           }
         }
       ],
@@ -64664,15 +64716,24 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "server_error",
+          "availability_status": "reachable_non_hls",
           "validation": {
-            "checked_at": "2026-11-13T15:29:06+00:00",
-            "http_status": 500,
+            "checked_at": "2026-11-13T19:37:35+00:00",
+            "http_status": 200,
             "final_url": "https://amg00864-shemarooenterta-shemabollywood-ono-nlwbw.amagi.tv/playlist/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8",
-            "result": "server_error",
+            "result": "reachable_non_hls",
             "hls_status": "not_confirmed",
-            "detail": "http_500",
+            "detail": "http_ok_not_hls",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "non_hls_review",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-13T19:37:35+00:00",
+            "next_retry_at": "2026-11-20T19:37:35+00:00",
+            "last_result": "reachable_non_hls",
+            "previous_result": "server_error",
+            "reason": "retry_window"
           }
         },
         {
@@ -109164,15 +109225,24 @@
           "source_file": "streams/us_samsung.m3u",
           "source_type": "secondary_playlist",
           "authorization_status": "unknown",
-          "availability_status": "http_error",
+          "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-13T15:29:35+00:00",
-            "http_status": 400,
+            "checked_at": "2026-11-13T19:37:35+00:00",
+            "http_status": 206,
             "final_url": "https://d2jiqiw4g5lj5k.cloudfront.net/AVSamsung/AVSamsung.m3u8",
-            "result": "http_error",
-            "hls_status": "not_confirmed",
-            "detail": "http_400",
+            "result": "reachable_hls",
+            "hls_status": "accessible",
+            "detail": "hls_accessible",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "stable_hls",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-13T19:37:35+00:00",
+            "next_retry_at": "2026-11-20T19:37:35+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "http_error",
+            "reason": "retry_window"
           }
         }
       ],
@@ -118994,7 +119064,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-12T23:34:06+00:00",
+    "checked_at": "2026-11-13T19:37:34+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,

@@ -23,19 +23,19 @@
       "forbidden_or_geo_restricted": 42,
       "http_error": 38,
       "not_found": 19,
-      "reachable_hls": 210,
+      "reachable_hls": 211,
       "reachable_non_hls": 15,
       "server_error": 4,
-      "timeout": 56
+      "timeout": 55
     },
     "validation_checked_at": "2026-11-13T15:26:02+00:00",
     "recovery": {
       "checked": 1,
-      "result_http_error": 1,
+      "result_reachable_hls": 1,
       "skipped_retry_window": 244,
       "skipped_stable_hls": 210
     },
-    "recovery_checked_at": "2026-11-13T15:30:03+00:00",
+    "recovery_checked_at": "2026-11-13T19:37:34+00:00",
     "classification": {
       "agronegocio": 1,
       "desenhos": 5,
@@ -20438,15 +20438,24 @@
           "source_file": "streams/br.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "timeout",
+          "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-13T15:26:40+00:00",
-            "http_status": null,
-            "final_url": null,
-            "result": "timeout",
-            "hls_status": "not_confirmed",
-            "detail": "connection_timeout",
+            "checked_at": "2026-11-13T19:37:34+00:00",
+            "http_status": 206,
+            "final_url": "http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8",
+            "result": "reachable_hls",
+            "hls_status": "accessible",
+            "detail": "hls_accessible",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "stable_hls",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-13T19:37:34+00:00",
+            "next_retry_at": "2026-11-20T19:37:34+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "timeout",
+            "reason": "retry_window"
           }
         }
       ],
@@ -30991,7 +31000,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-13T15:30:03+00:00",
+    "checked_at": "2026-11-13T19:37:34+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,
