@@ -23,19 +23,20 @@
       "forbidden_or_geo_restricted": 89,
       "http_error": 17,
       "not_found": 50,
-      "reachable_hls": 1170,
+      "reachable_hls": 1171,
       "reachable_non_hls": 40,
       "server_error": 18,
-      "timeout": 88
+      "timeout": 87
     },
     "validation_checked_at": "2026-11-14T14:11:23+00:00",
     "recovery": {
-      "checked": 5,
-      "result_timeout": 5,
-      "skipped_retry_window": 311,
-      "skipped_stable_hls": 1193
+      "checked": 2,
+      "result_reachable_hls": 1,
+      "result_timeout": 1,
+      "skipped_retry_window": 337,
+      "skipped_stable_hls": 1170
     },
-    "recovery_checked_at": "2026-11-14T06:13:08+00:00",
+    "recovery_checked_at": "2026-11-14T17:57:45+00:00",
     "classification": {
       "desenhos": 29,
       "documentarios": 34,
@@ -511,15 +512,24 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "timeout",
+          "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-14T14:13:19+00:00",
-            "http_status": null,
-            "final_url": null,
-            "result": "timeout",
-            "hls_status": "not_confirmed",
-            "detail": "connection_timeout",
+            "checked_at": "2026-11-14T17:57:45+00:00",
+            "http_status": 206,
+            "final_url": "http://190.93.224.42/AYE/index.m3u8",
+            "result": "reachable_hls",
+            "hls_status": "accessible",
+            "detail": "hls_accessible",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "stable_hls",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-14T17:57:45+00:00",
+            "next_retry_at": "2026-11-21T17:57:45+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "timeout",
+            "reason": "retry_window"
           }
         }
       ],
@@ -56032,13 +56042,22 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-14T14:14:56+00:00",
+            "checked_at": "2026-11-14T17:57:45+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
             "hls_status": "not_confirmed",
             "detail": "connection_timeout",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "retry_scheduled",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-14T17:57:45+00:00",
+            "next_retry_at": "2026-11-14T18:57:45+00:00",
+            "last_result": "timeout",
+            "previous_result": "timeout",
+            "reason": "retry_window"
           }
         }
       ],
@@ -119062,7 +119081,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-14T06:13:08+00:00",
+    "checked_at": "2026-11-14T17:57:45+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,
