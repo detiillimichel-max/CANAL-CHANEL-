@@ -30,10 +30,10 @@
     "recovery": {
       "checked": 1,
       "result_reachable_hls": 1,
-      "skipped_retry_window": 25,
-      "skipped_stable_hls": 36
+      "skipped_retry_window": 26,
+      "skipped_stable_hls": 35
     },
-    "recovery_checked_at": "2026-11-15T06:21:20+00:00",
+    "recovery_checked_at": "2026-11-15T14:52:02+00:00",
     "classification": {
       "documentarios": 1,
       "educacao_cultura": 1,
@@ -1193,7 +1193,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-15T14:48:48+00:00",
+            "checked_at": "2026-11-15T14:52:02+00:00",
             "http_status": 206,
             "final_url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8",
             "result": "reachable_hls",
@@ -1203,12 +1203,12 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-08T13:19:13+00:00",
-            "next_retry_at": "2026-11-15T13:19:13+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-15T14:52:02+00:00",
+            "next_retry_at": "2026-11-22T14:52:02+00:00",
             "last_result": "reachable_hls",
-            "previous_result": "http_error",
-            "reason": "retry_window"
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -2620,7 +2620,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-15T06:21:20+00:00",
+    "checked_at": "2026-11-15T14:52:02+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,
