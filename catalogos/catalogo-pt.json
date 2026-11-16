@@ -35,21 +35,20 @@
     "recovery_checked_at": "2026-11-16T06:20:25+00:00",
     "classification": {
       "documentarios": 1,
-      "educacao_cultura": 1,
       "entretenimento": 2,
       "esportes": 6,
       "filmes": 2,
       "jornalismo": 4,
       "musica": 3,
-      "outros": 38,
+      "outros": 39,
       "religiao": 2
     },
     "classification_confidence": {
       "alta": 16,
-      "baixa": 38,
-      "media": 5
+      "baixa": 39,
+      "media": 4
     },
-    "classification_checked_at": "2026-11-16T17:09:05+00:00",
+    "classification_checked_at": "2026-11-16T19:41:50+00:00",
     "enrichment": {
       "official_metadata_matches": 57,
       "logo_matches": 57,
@@ -199,13 +198,10 @@
         }
       ],
       "classification": {
-        "primary": "educacao_cultura",
-        "confidence": "media",
-        "score": 80,
-        "matched_terms": [
-          "\\bparlamento\\b"
-        ],
-        "also_matches": [],
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
         "method": "metadata_rules_v1"
       },
       "official_metadata": {
@@ -5826,7 +5822,7 @@
   },
   "classification": {
     "method": "metadata_rules_v1",
-    "checked_at": "2026-11-16T17:09:05+00:00",
+    "checked_at": "2026-11-16T19:41:50+00:00",
     "media_analyzed": false,
     "manual_review_recommended_for": [
       "baixa"
