@@ -30,13 +30,13 @@
     },
     "validation_checked_at": "2026-11-16T17:04:25+00:00",
     "recovery": {
-      "checked": 22,
-      "result_reachable_hls": 21,
-      "result_reachable_non_hls": 1,
-      "skipped_retry_window": 253,
-      "skipped_stable_hls": 180
+      "checked": 3,
+      "result_connection_error": 1,
+      "result_reachable_hls": 2,
+      "skipped_retry_window": 249,
+      "skipped_stable_hls": 203
     },
-    "recovery_checked_at": "2026-11-16T06:20:25+00:00",
+    "recovery_checked_at": "2026-11-16T17:09:16+00:00",
     "classification": {
       "agronegocio": 1,
       "desenhos": 5,
@@ -7430,7 +7430,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-16T17:04:57+00:00",
+            "checked_at": "2026-11-16T17:09:16+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -7440,9 +7440,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-15T14:52:02+00:00",
-            "next_retry_at": "2026-11-16T14:52:02+00:00",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-16T17:09:16+00:00",
+            "next_retry_at": "2026-11-19T17:09:16+00:00",
             "last_result": "connection_error",
             "previous_result": "connection_error",
             "reason": "retry_window"
@@ -10530,7 +10530,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-16T17:05:09+00:00",
+            "checked_at": "2026-11-16T17:09:16+00:00",
             "http_status": 206,
             "final_url": "https://5b7f3c45ab7c2.streamlock.net/arapuan/ngrp:arapuan_all/playlist.m3u8",
             "result": "reachable_hls",
@@ -10539,13 +10539,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-15T06:21:20+00:00",
-            "next_retry_at": "2026-11-16T06:21:20+00:00",
-            "last_result": "connection_error",
-            "previous_result": "connection_error",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-16T17:09:16+00:00",
+            "next_retry_at": "2026-11-23T17:09:16+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -14965,7 +14965,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-16T17:05:34+00:00",
+            "checked_at": "2026-11-16T17:09:16+00:00",
             "http_status": 206,
             "final_url": "https://5b7f3c45ab7c2.streamlock.net/8008/smil:8008.smil/playlist.m3u8?DVR=",
             "result": "reachable_hls",
@@ -14974,13 +14974,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-15T06:21:20+00:00",
-            "next_retry_at": "2026-11-16T06:21:20+00:00",
-            "last_result": "connection_error",
-            "previous_result": "connection_error",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-16T17:09:16+00:00",
+            "next_retry_at": "2026-11-23T17:09:16+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -16001,7 +16001,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-16T06:20:25+00:00",
+    "checked_at": "2026-11-16T17:09:16+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,
