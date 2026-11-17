@@ -30,14 +30,12 @@
     },
     "validation_checked_at": "2026-11-17T16:54:26+00:00",
     "recovery": {
-      "checked": 3,
-      "result_connection_error": 1,
-      "result_reachable_hls": 1,
+      "checked": 1,
       "result_timeout": 1,
-      "skipped_retry_window": 248,
-      "skipped_stable_hls": 204
+      "skipped_retry_window": 244,
+      "skipped_stable_hls": 210
     },
-    "recovery_checked_at": "2026-11-17T07:49:19+00:00",
+    "recovery_checked_at": "2026-11-17T16:59:03+00:00",
     "classification": {
       "agronegocio": 1,
       "desenhos": 5,
@@ -13555,7 +13553,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-17T16:55:25+00:00",
+            "checked_at": "2026-11-17T16:59:03+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -13565,9 +13563,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:19+00:00",
-            "next_retry_at": "2026-11-17T13:49:19+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-17T16:59:03+00:00",
+            "next_retry_at": "2026-11-18T16:59:03+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -16011,7 +16009,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-17T07:49:19+00:00",
+    "checked_at": "2026-11-17T16:59:03+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,
