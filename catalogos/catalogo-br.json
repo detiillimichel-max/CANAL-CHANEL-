@@ -30,12 +30,14 @@
     },
     "validation_checked_at": "2026-11-16T17:04:25+00:00",
     "recovery": {
-      "checked": 1,
+      "checked": 3,
+      "result_connection_error": 1,
+      "result_reachable_hls": 1,
       "result_timeout": 1,
-      "skipped_retry_window": 249,
-      "skipped_stable_hls": 205
+      "skipped_retry_window": 248,
+      "skipped_stable_hls": 204
     },
-    "recovery_checked_at": "2026-11-16T21:57:51+00:00",
+    "recovery_checked_at": "2026-11-17T07:49:19+00:00",
     "classification": {
       "agronegocio": 1,
       "desenhos": 5,
@@ -4770,7 +4772,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-16T17:04:38+00:00",
+            "checked_at": "2026-11-17T07:49:19+00:00",
             "http_status": 206,
             "final_url": "http://play.canalsete.com.br:1935/canalsete/xpl-c7_source/playlist.m3u8",
             "result": "reachable_hls",
@@ -4780,12 +4782,12 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-09T22:17:00+00:00",
-            "next_retry_at": "2026-11-16T22:17:00+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-17T07:49:19+00:00",
+            "next_retry_at": "2026-11-24T07:49:19+00:00",
             "last_result": "reachable_hls",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -6129,7 +6131,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-16T17:04:40+00:00",
+            "checked_at": "2026-11-17T07:49:19+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -6138,11 +6140,11 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "non_hls_review",
-            "attempt_count": 4,
-            "last_attempt_at": "2026-11-09T22:17:00+00:00",
-            "next_retry_at": "2026-11-16T22:17:00+00:00",
-            "last_result": "reachable_non_hls",
+            "state": "retry_scheduled",
+            "attempt_count": 5,
+            "last_attempt_at": "2026-11-17T07:49:19+00:00",
+            "next_retry_at": "2026-11-24T07:49:19+00:00",
+            "last_result": "connection_error",
             "previous_result": "connection_error",
             "reason": "retry_window"
           }
@@ -25802,7 +25804,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-16T21:57:51+00:00",
+            "checked_at": "2026-11-17T07:49:19+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -25812,9 +25814,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-16T21:57:51+00:00",
-            "next_retry_at": "2026-11-16T22:57:51+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-17T07:49:19+00:00",
+            "next_retry_at": "2026-11-17T13:49:19+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -31027,7 +31029,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-16T21:57:51+00:00",
+    "checked_at": "2026-11-17T07:49:19+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,
