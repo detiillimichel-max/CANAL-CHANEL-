@@ -18,11 +18,11 @@
     "authorization": "not_verified",
     "playback": "not_tested",
     "validation": {
-      "connection_error": 32,
+      "connection_error": 31,
       "dns_error": 9,
       "forbidden_or_geo_restricted": 92,
       "http_error": 18,
-      "not_found": 52,
+      "not_found": 53,
       "reachable_hls": 1169,
       "reachable_non_hls": 40,
       "server_error": 18,
@@ -30,16 +30,15 @@
     },
     "validation_checked_at": "2026-11-17T16:54:26+00:00",
     "recovery": {
-      "checked": 31,
-      "result_connection_error": 2,
+      "checked": 4,
+      "result_connection_error": 1,
       "result_http_error": 1,
-      "result_not_found": 13,
-      "result_reachable_hls": 3,
-      "result_timeout": 12,
-      "skipped_retry_window": 312,
-      "skipped_stable_hls": 1166
+      "result_not_found": 1,
+      "result_timeout": 1,
+      "skipped_retry_window": 336,
+      "skipped_stable_hls": 1169
     },
-    "recovery_checked_at": "2026-11-17T20:50:45+00:00",
+    "recovery_checked_at": "2026-11-18T07:20:44+00:00",
     "classification": {
       "desenhos": 29,
       "documentarios": 34,
@@ -61442,22 +61441,22 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "connection_error",
+          "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-17T20:50:55+00:00",
-            "http_status": null,
-            "final_url": null,
-            "result": "connection_error",
+            "checked_at": "2026-11-18T07:20:44+00:00",
+            "http_status": 404,
+            "final_url": "https://eu1.servers10.com:8081/8230/index.m3u8",
+            "result": "not_found",
             "hls_status": "not_confirmed",
-            "detail": "[Errno 111] Connection refused",
+            "detail": "http_404",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-17T20:50:55+00:00",
-            "next_retry_at": "2026-11-17T21:50:55+00:00",
-            "last_result": "connection_error",
+            "state": "slow_recheck",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-18T07:20:44+00:00",
+            "next_retry_at": "2026-11-25T07:20:44+00:00",
+            "last_result": "not_found",
             "previous_result": "connection_error",
             "reason": "retry_window"
           }
@@ -62637,7 +62636,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-17T20:50:55+00:00",
+            "checked_at": "2026-11-18T07:20:44+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -62647,9 +62646,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-17T20:50:55+00:00",
-            "next_retry_at": "2026-11-17T21:50:55+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-18T07:20:44+00:00",
+            "next_retry_at": "2026-11-18T13:20:44+00:00",
             "last_result": "connection_error",
             "previous_result": "connection_error",
             "reason": "retry_window"
@@ -65619,7 +65618,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-17T20:50:55+00:00",
+            "checked_at": "2026-11-18T07:20:44+00:00",
             "http_status": 400,
             "final_url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=16764",
             "result": "http_error",
@@ -65629,9 +65628,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-17T20:50:55+00:00",
-            "next_retry_at": "2026-11-17T21:50:55+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-18T07:20:44+00:00",
+            "next_retry_at": "2026-11-18T13:20:44+00:00",
             "last_result": "http_error",
             "previous_result": "http_error",
             "reason": "retry_window"
@@ -88675,7 +88674,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-17T20:51:03+00:00",
+            "checked_at": "2026-11-18T07:20:44+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -88685,9 +88684,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-17T20:51:03+00:00",
-            "next_retry_at": "2026-11-17T21:51:03+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-18T07:20:44+00:00",
+            "next_retry_at": "2026-11-18T13:20:44+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -119264,7 +119263,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-17T20:50:45+00:00",
+    "checked_at": "2026-11-18T07:20:44+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,
