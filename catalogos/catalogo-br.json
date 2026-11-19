@@ -36,7 +36,27 @@
       "skipped_retry_window": 244,
       "skipped_stable_hls": 209
     },
-    "recovery_checked_at": "2026-11-18T20:26:54+00:00"
+    "recovery_checked_at": "2026-11-18T20:26:54+00:00",
+    "classification": {
+      "agronegocio": 1,
+      "desenhos": 5,
+      "educacao_cultura": 4,
+      "entretenimento": 8,
+      "esportes": 8,
+      "filmes": 5,
+      "jornalismo": 6,
+      "lifestyle": 2,
+      "musica": 3,
+      "outros": 224,
+      "regionais": 11,
+      "religiao": 1
+    },
+    "classification_confidence": {
+      "alta": 38,
+      "baixa": 224,
+      "media": 16
+    },
+    "classification_checked_at": "2026-11-19T16:36:18+00:00"
   },
   "channels": [
     {
@@ -89,7 +109,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "PlusMaisUm.br@HD",
@@ -119,7 +146,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "AdessoTV.br@SD",
@@ -149,7 +183,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "AgroBrasilTV.br@SD",
@@ -221,7 +262,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "AgroCanal.br@SD",
@@ -349,7 +397,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "AgroMais.br@SD",
@@ -504,7 +559,14 @@
             "reason": "scheduled_health_check"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "AlphaChannel.br@SD",
@@ -543,7 +605,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "AmazonSat.br@SD",
@@ -573,7 +642,18 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "regionais",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bsat\\b",
+          "\\bamazon\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "ArarunaTV.br@SD",
@@ -603,7 +683,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "AratuOn.br@SD",
@@ -633,7 +720,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "Arte1.br@SD",
@@ -759,7 +853,17 @@
             "reason": "scheduled_health_check"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "educacao_cultura",
+        "confidence": "media",
+        "score": 80,
+        "matched_terms": [
+          "\\barte\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "AugeTV.br@SD",
@@ -798,7 +902,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "AWTV.br@HD",
@@ -830,7 +941,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "AXN.br@SD",
@@ -889,7 +1007,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "Band.br@SD",
@@ -948,7 +1073,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "BandSports.br@SD",
@@ -1056,7 +1188,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "esportes",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bsports?\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "BandNews.br@SD",
@@ -1222,7 +1364,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "jornalismo",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bbandnews\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "BemMaisTV.br@HD",
@@ -1252,7 +1404,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "BemMelhor.br@SD",
@@ -1291,7 +1450,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "Blitstv.br@SD",
@@ -1330,7 +1496,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "BoasNovas.br@SD",
@@ -1360,7 +1533,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "BoxKidsTV.br@SD",
@@ -1390,7 +1570,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "desenhos",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bkids?\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "BR8TV.br@SD",
@@ -1420,7 +1610,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "CaboFrioTV.br@SD",
@@ -1459,7 +1656,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "Canal25Jundiai.br@SD",
@@ -1523,7 +1727,14 @@
       ],
       "alternate_names": [
         "Canal 25 Jundiaí"
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "Canal38.br@SD",
@@ -1553,7 +1764,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "CanaldoBoi.br@SD",
@@ -1690,7 +1908,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "CanaldoCriador.br@SD",
@@ -1729,7 +1954,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "CanaldoInter.br@SD",
@@ -1770,7 +2002,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "CanalEducacao.br@SD",
@@ -1890,7 +2129,17 @@
       ],
       "alternate_names": [
         "Canal Educação"
-      ]
+      ],
+      "classification": {
+        "primary": "educacao_cultura",
+        "confidence": "media",
+        "score": 80,
+        "matched_terms": [
+          "\\beduca"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "CanalFDR.br@SD",
@@ -1920,7 +2169,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "CanalFutura.br@SD",
@@ -2008,7 +2264,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "CanalGov.br@SD",
@@ -2096,7 +2359,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "CanalLibras.br@SD",
@@ -2135,7 +2405,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "CanalMetropolitanodeNoticias.br@SD",
@@ -2165,7 +2442,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "jornalismo",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bnoticias?\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "CanalRicos.br@SD",
@@ -2204,7 +2491,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "CanalRural.br@SD",
@@ -2254,7 +2548,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "agronegocio",
+        "confidence": "media",
+        "score": 80,
+        "matched_terms": [
+          "\\brural\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "CanalSaude.br@SD",
@@ -2318,7 +2622,17 @@
       ],
       "alternate_names": [
         "Canal Saúde"
-      ]
+      ],
+      "classification": {
+        "primary": "lifestyle",
+        "confidence": "media",
+        "score": 70,
+        "matched_terms": [
+          "\\bsa[uú]de\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "CanalSete.br@SD",
@@ -2357,7 +2671,14 @@
             "reason": "scheduled_health_check"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "CanalSTART.br@SD",
@@ -2396,7 +2717,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "CanalUOL.br@SD",
@@ -2426,7 +2754,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "Catve2.br@SD",
@@ -2456,7 +2791,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "CatveFM.br@SD",
@@ -2488,7 +2830,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "CatveMasterTV.br@SD",
@@ -2520,7 +2869,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "CazeTV.br@SD",
@@ -2550,7 +2906,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "ChefTV.br@SD",
@@ -2589,7 +2952,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "ChromaTV.br@SD",
@@ -2619,7 +2989,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "CINDIETV.br@HD",
@@ -2678,7 +3055,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "CinturaoVerde.br@SD",
@@ -2708,7 +3092,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "ClassiqueTV.br@SD",
@@ -2738,7 +3129,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "CNNBrasil.br@SD",
@@ -2768,7 +3166,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "jornalismo",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bcnn\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "COMBrasil.br@SD",
@@ -2820,7 +3228,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "Combate.br@SD",
@@ -2859,7 +3274,17 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "esportes",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bcombate\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "ComedyCentralBrasil.br@SD",
@@ -2889,7 +3314,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "entretenimento",
+        "confidence": "media",
+        "score": 70,
+        "matched_terms": [
+          "\\bcomedy\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "ConectaMaisTV.br@SD",
@@ -2951,7 +3386,14 @@
       ],
       "alternate_names": [
         "Conecta+ TV"
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "ConecTVBrasil.br@SD",
@@ -2981,7 +3423,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "ConexaoTV.br@SD",
@@ -3011,7 +3460,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "CulturaFast.br@SD",
@@ -3041,7 +3497,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "educacao_cultura",
+        "confidence": "media",
+        "score": 80,
+        "matched_terms": [
+          "\\bcultura\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "CulturaPara.br@SD",
@@ -3105,7 +3571,19 @@
       ],
       "alternate_names": [
         "Cultura Pará"
-      ]
+      ],
+      "classification": {
+        "primary": "regionais",
+        "confidence": "alta",
+        "score": 85,
+        "matched_terms": [
+          "\\bpar[aá]\\b"
+        ],
+        "also_matches": [
+          "educacao_cultura"
+        ],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "DemaisTV.br@SD",
@@ -3164,7 +3642,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "DespertarTV.br@HD",
@@ -3194,7 +3679,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "DumDum.br@SD",
@@ -3282,7 +3774,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "ElementalChannel.br@SD",
@@ -3341,7 +3840,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "ElyTV.br@SD",
@@ -3371,7 +3877,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "ESPN.br@SD",
@@ -3430,7 +3943,17 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "esportes",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bespn\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "ESPN3.br@SD",
@@ -3489,7 +4012,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "esportes",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bespn\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "ESPN4.br@SD",
@@ -3519,7 +4052,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "esportes",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bespn\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "EUTV.br@SD",
@@ -3578,7 +4121,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "FalaLitoral.br@SD",
@@ -3608,7 +4158,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "FishTV.br@SD",
@@ -3725,7 +4282,14 @@
             "reason": "scheduled_health_check"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "FonteTV.br@SD",
@@ -3777,7 +4341,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "ForaTedioTV.br@SD",
@@ -3807,7 +4378,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "Futura.br@SD",
@@ -3837,7 +4415,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "name:gefast",
@@ -3887,7 +4472,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "Geekdot.br@SD",
@@ -3926,7 +4518,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "GhostTV.br@SD",
@@ -3967,7 +4566,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "GloboNews.br@SD",
@@ -3997,7 +4603,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "GloboplayNovelas.br@SD",
@@ -4056,7 +4669,17 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "entretenimento",
+        "confidence": "media",
+        "score": 70,
+        "matched_terms": [
+          "\\bnovelas?\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "Gloob.br@SD",
@@ -4095,7 +4718,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "GloobWeb.br@SD",
@@ -4127,7 +4757,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "GNT.br@SD",
@@ -4166,7 +4803,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "GospelCartoon.br@SD",
@@ -4196,7 +4840,19 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "desenhos",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bcartoon"
+        ],
+        "also_matches": [
+          "religiao"
+        ],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "GospelMovieTV.br@SD",
@@ -4226,7 +4882,19 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "filmes",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bmovies?\\b"
+        ],
+        "also_matches": [
+          "religiao"
+        ],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "History.br@SD",
@@ -4294,7 +4962,14 @@
             "reason": "scheduled_health_check"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "IMPDTVWorldwide.br@SD",
@@ -4324,7 +4999,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "ISTV.br@SD",
@@ -4356,7 +5038,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "J3NEWSTV.br@SD",
@@ -4386,7 +5075,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "JovemPanNews.br@SD",
@@ -4470,7 +5166,17 @@
       ],
       "alternate_names": [
         "Jovem Pan News (JP News)"
-      ]
+      ],
+      "classification": {
+        "primary": "jornalismo",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bnews\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "KpopTVPlay.br@SD",
@@ -4509,7 +5215,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "KuriakosCine.pt@SD",
@@ -4539,7 +5252,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "filmes",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bcin[eé]\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "KuriakosKids.pt@SD",
@@ -4569,7 +5292,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "desenhos",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bkids?\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "Lke.br@SD",
@@ -4599,7 +5332,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "LaboralTV.br@SD",
@@ -4638,7 +5378,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "LamoreRockShowWebTV.br@SD",
@@ -4668,7 +5415,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "entretenimento",
+        "confidence": "media",
+        "score": 70,
+        "matched_terms": [
+          "\\bshow\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "LiderTV.br@SD",
@@ -4707,7 +5464,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "Loading.br@SD",
@@ -4737,7 +5501,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "MBCBrasilTV.br@SD",
@@ -4767,7 +5538,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "MKKWebTV.br@SD",
@@ -4808,7 +5586,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "MusicBoxBrazil.br@SD",
@@ -4867,7 +5652,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "musica",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bmusic\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "NSports.br@SD",
@@ -4906,7 +5701,17 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "esportes",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bsports?\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "Nickelodeon.br@SD",
@@ -4936,7 +5741,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "NickOnline.br@HD",
@@ -4975,7 +5787,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "NovaEraTV.br@SD",
@@ -5007,7 +5826,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "NovoTempo.br@SD",
@@ -5095,7 +5921,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "NTV.br@SD",
@@ -5125,7 +5958,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "NuevoTiempo.br@SD",
@@ -5166,7 +6006,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "ODiaTV.br@SD",
@@ -5196,7 +6043,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "PetloversTV.br@SD",
@@ -5226,7 +6080,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "PlayTV.br@SD",
@@ -5343,7 +6204,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "PlenaTV.br@SD",
@@ -5373,7 +6241,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "PlenitudeTV.br@SD",
@@ -5403,7 +6278,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "PrimerTV.br@SD",
@@ -5433,7 +6315,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RBATV.br@SD",
@@ -5463,7 +6352,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RCTVBrasil.br@SD",
@@ -5493,7 +6389,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "Record.br@SD",
@@ -5575,7 +6478,14 @@
       ],
       "alternate_names": [
         "RecordTV"
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RecordNews.br@SD",
@@ -5832,7 +6742,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "jornalismo",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bnews\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RecordTVBelem.br@SD",
@@ -5864,7 +6784,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RecordTVBrasilia.br@SD",
@@ -5896,7 +6823,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RecordTVGoias.br@SD",
@@ -5928,7 +6862,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RecordTVItapoan.br@SD",
@@ -5960,7 +6901,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RecordTVRio.br@SD",
@@ -5992,7 +6940,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RecordRS.br@SD",
@@ -6024,7 +6979,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RecordTVSaoPaulo.br@SD",
@@ -6056,7 +7018,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RecordTVInteriorSP.br@SD",
@@ -6086,7 +7055,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "regionais",
+        "confidence": "alta",
+        "score": 85,
+        "matched_terms": [
+          "\\binterior\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RedeBrasil.br@SD",
@@ -6165,7 +7144,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RedeCNTRiodeJaneiro.br@SD",
@@ -6293,7 +7279,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RedeCNTSalvador.br@SD",
@@ -6323,7 +7316,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RedeFamilia.br@SD",
@@ -6382,7 +7382,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RedeGlobo.br@SD",
@@ -6441,7 +7448,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RedeGospel.br@SD",
@@ -6540,7 +7554,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "religiao",
+        "confidence": "media",
+        "score": 80,
+        "matched_terms": [
+          "\\bgospel\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RedeMeioNorte.br@SD",
@@ -6579,7 +7603,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RedeMetropole.br@SD",
@@ -6618,7 +7649,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RedeMinas.br@SD",
@@ -6679,7 +7717,17 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "regionais",
+        "confidence": "alta",
+        "score": 85,
+        "matched_terms": [
+          "\\bminas\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RedeNGT.br@SD",
@@ -6738,7 +7786,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RedePremiumTV.br@SD",
@@ -6777,7 +7832,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RedeRC.br@SD",
@@ -6818,7 +7880,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RedeSeculo21.br@SD",
@@ -6877,7 +7946,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RedeSPTV.br@SD",
@@ -6907,7 +7983,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RedeTV.br@SD",
@@ -7078,7 +8161,14 @@
       ],
       "alternate_names": [
         "Rede TV! SP"
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RedeTVMais.br@SD",
@@ -7108,7 +8198,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RedeVida.br@SD",
@@ -7227,7 +8324,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RedeTVParana.br@SD",
@@ -7257,7 +8361,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RetroCartoon.br@SD",
@@ -7287,7 +8398,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "desenhos",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bcartoon"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RITTV.br@SD",
@@ -7406,7 +8527,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "SantaCeciliaTV.br@SD",
@@ -7476,7 +8604,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "SBTCuiaba.br@SD",
@@ -7506,7 +8641,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "SBTInterior.br@SD",
@@ -7536,7 +8678,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "regionais",
+        "confidence": "alta",
+        "score": 85,
+        "matched_terms": [
+          "\\binterior\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "SBTKids.br@SD",
@@ -7577,7 +8729,17 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "desenhos",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bkids?\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "SBTNacional.br@SD",
@@ -7656,7 +8818,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "SBTNews.br@SD",
@@ -7686,7 +8855,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "jornalismo",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bnews\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "SBTNovaMutum.br@SD",
@@ -7716,7 +8895,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "SBTRondonopolis.br@SD",
@@ -7746,7 +8932,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "SeriesClassic.br@SD",
@@ -7785,7 +8978,17 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "entretenimento",
+        "confidence": "media",
+        "score": 70,
+        "matched_terms": [
+          "\\bseries?\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "SertaoTV.br@SD",
@@ -7824,7 +9027,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "SESCTV.br@SD",
@@ -7932,7 +9142,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "ShowdoMilhao.br@SD",
@@ -7973,7 +9190,17 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "entretenimento",
+        "confidence": "media",
+        "score": 70,
+        "matched_terms": [
+          "\\bshow\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "SICTV.br@SD",
@@ -8003,7 +9230,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "name:slime",
@@ -8044,7 +9278,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "SonyChannel.br@SD",
@@ -8103,7 +9344,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "SonyMovies.br@SD",
@@ -8229,7 +9477,17 @@
             "reason": "scheduled_health_check"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "filmes",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bmovies?\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "SOUTV.br@SD",
@@ -8259,7 +9517,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "SporTV2.br@SD",
@@ -8289,7 +9554,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "esportes",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bsportv\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "SporTV3.br@SD",
@@ -8348,7 +9623,17 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "esportes",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bsportv\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "STZTV.br@SD",
@@ -8378,7 +9663,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TCM10HD.br@SD",
@@ -8408,7 +9700,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TelecineAction.br@SD",
@@ -8438,7 +9737,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "filmes",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\baction\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TerraViva.br@SD",
@@ -8604,7 +9913,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TikTokRadioBrasil.br@HD",
@@ -8643,7 +9959,17 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "musica",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bradio\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TimesBrasil.br@SD",
@@ -8673,7 +9999,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TravelBoxBrazil.br@SD",
@@ -8732,7 +10065,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "lifestyle",
+        "confidence": "media",
+        "score": 70,
+        "matched_terms": [
+          "\\btravel\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TV3Curitiba.br@SD",
@@ -8762,7 +10105,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVACritica.br@SD",
@@ -8792,7 +10142,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVAFolha.br@SD",
@@ -8822,7 +10179,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVAdorar.br@SD",
@@ -8861,7 +10225,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVAldeia.br@SD",
@@ -8891,7 +10262,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVAliancaCatarinense.br@SD",
@@ -8921,7 +10299,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVAlternativa.br@SD",
@@ -8951,7 +10336,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVAparecida.br@SD",
@@ -9119,7 +10511,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVArapuan.br@SD",
@@ -9158,7 +10557,14 @@
             "reason": "scheduled_health_check"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVAssembleiaCeara.br@SD",
@@ -9197,7 +10603,17 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "regionais",
+        "confidence": "alta",
+        "score": 85,
+        "matched_terms": [
+          "\\bcear[aá]\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVAssembleiaPiaui.br@SD",
@@ -9227,7 +10643,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVBahia.br@HD",
@@ -9266,7 +10689,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVBirigui.br@SD",
@@ -9363,7 +10793,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVBrasil.br@SD",
@@ -9540,7 +10977,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVBrasilOeste.br@SD",
@@ -9570,7 +11014,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVBrusque.br@SD",
@@ -9600,7 +11051,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVCamara.br@SD",
@@ -9731,7 +11189,14 @@
       ],
       "alternate_names": [
         "TV Câmara"
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVCamara2.br@SD",
@@ -9763,7 +11228,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVCamaraSalvador.br@SD",
@@ -9804,7 +11276,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVCancaoNova.br@SD",
@@ -9921,7 +11400,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVCarioca.br@SD",
@@ -9960,7 +11446,17 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "regionais",
+        "confidence": "alta",
+        "score": 85,
+        "matched_terms": [
+          "\\bcarioca\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVCidadedePetropolis.br@SD",
@@ -10001,7 +11497,17 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "regionais",
+        "confidence": "alta",
+        "score": 85,
+        "matched_terms": [
+          "\\bcidade\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVCidadeVerdeCuiaba.br@SD",
@@ -10031,7 +11537,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "regionais",
+        "confidence": "alta",
+        "score": 85,
+        "matched_terms": [
+          "\\bcidade\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVClube.br@SD",
@@ -10061,7 +11577,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVCultura.br@SD",
@@ -10287,7 +11810,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "educacao_cultura",
+        "confidence": "media",
+        "score": 80,
+        "matched_terms": [
+          "\\bcultura\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVCuruca.br@SD",
@@ -10317,7 +11850,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVdasArtes.br@SD",
@@ -10356,7 +11896,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVDestak.br@SD",
@@ -10453,7 +12000,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVDiarioMacapa.br@SD",
@@ -10485,7 +12039,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVDifusao.br@SD",
@@ -10515,7 +12076,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVDifusoraLeste.br@SD",
@@ -10545,7 +12113,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVDigitalBirigui.br@SD",
@@ -10584,7 +12159,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVEmpire.br@SD",
@@ -10623,7 +12205,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVEncontrodasAguas.br@SD",
@@ -10653,7 +12242,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVEvangelizar.br@SD",
@@ -10848,7 +12444,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVFronteira.br@SD",
@@ -10878,7 +12481,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVFuturo.br@SD",
@@ -10908,7 +12518,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVGazeta.br@SD",
@@ -10996,7 +12613,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVGazin.br@SD",
@@ -11035,7 +12659,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVGideoes.br@SD",
@@ -11076,7 +12707,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVGloboBrasilia.br@SD",
@@ -11115,7 +12753,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVGloboSaoPaulo.br@SD",
@@ -11165,7 +12810,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVGRANDENATALHDTVBRASIL.br@SD",
@@ -11195,7 +12847,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVGraoPara.br@SD",
@@ -11234,7 +12893,17 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "regionais",
+        "confidence": "alta",
+        "score": 85,
+        "matched_terms": [
+          "\\bpar[aá]\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVGuara.br@SD",
@@ -11266,7 +12935,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVGuarapari.br@SD",
@@ -11296,7 +12972,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVInterlagos.br@SD",
@@ -11335,7 +13018,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVJustica.br@SD",
@@ -11472,7 +13162,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVLiberdade.br@SD",
@@ -11513,7 +13210,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVLifeAmerica.br@HD",
@@ -11543,7 +13247,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVLitoralRN.br@SD",
@@ -11573,7 +13284,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVMackenzie.br@SD",
@@ -11612,7 +13330,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVMaisMarica.br@SD",
@@ -11642,7 +13367,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVMarajoara.br@SD",
@@ -11672,7 +13404,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVMeio.br@SD",
@@ -11711,7 +13450,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVMetropole.br@SD",
@@ -11743,7 +13489,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVMon.br@SD",
@@ -11782,7 +13535,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVNatal.br@SD",
@@ -11821,7 +13581,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVPadreCicero.br@SD",
@@ -11851,7 +13618,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVPaiEterno.br@SD",
@@ -11959,7 +13733,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVPantanalMS.br@SD",
@@ -11991,7 +13772,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVParaense.br@HD",
@@ -12021,7 +13809,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVParanaTurismo.br@SD",
@@ -12053,7 +13848,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVPassoFundo.br@SD",
@@ -12083,7 +13885,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVPetropolis.br@SD",
@@ -12113,7 +13922,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVProfissao.br@SD",
@@ -12152,7 +13968,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVRaTimBum.br@SD",
@@ -12289,7 +14112,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVSaoRaimundo.br@SD",
@@ -12319,7 +14149,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVSenado.br@SD",
@@ -12456,7 +14293,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVSeries.br@SD",
@@ -12486,7 +14330,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "entretenimento",
+        "confidence": "media",
+        "score": 70,
+        "matched_terms": [
+          "\\bseries?\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVShowFortaleza.br@SD",
@@ -12516,7 +14370,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "entretenimento",
+        "confidence": "media",
+        "score": 70,
+        "matched_terms": [
+          "\\bshow\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVSimCachoeiro.br@SD",
@@ -12546,7 +14410,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVSimSaoMateus.br@SD",
@@ -12576,7 +14447,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVSolComunidade.br@SD",
@@ -12608,7 +14486,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVSulBahia.br@SD",
@@ -12638,7 +14523,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVSuldeMinas.br@SD",
@@ -12668,7 +14560,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "regionais",
+        "confidence": "alta",
+        "score": 85,
+        "matched_terms": [
+          "\\bminas\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVTerceiroAnjo.br@SD",
@@ -12698,7 +14600,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVThathi.br@SD",
@@ -12739,7 +14648,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVUFG.br@SD",
@@ -12771,7 +14687,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVUFOP.br@HD",
@@ -12801,7 +14724,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVUniversal.br@SD",
@@ -12831,7 +14761,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVVicosa.br@SD",
@@ -12861,7 +14798,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVVilaReal.br@SD",
@@ -12891,7 +14835,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVZoom.br@SD",
@@ -12921,7 +14872,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVPlusPet.br@SD",
@@ -12951,7 +14909,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVCRio.br@SD",
@@ -12990,7 +14955,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVComunitaria.br@SD",
@@ -13029,7 +15001,14 @@
             "reason": "scheduled_health_check"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVCOMMaceio.br@SD",
@@ -13059,7 +15038,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVEBahia.br@SD",
@@ -13120,7 +15106,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVERS.br@SD",
@@ -13150,7 +15143,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVideoNews.br@SD",
@@ -13182,7 +15182,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVitape.br@SD",
@@ -13212,7 +15219,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVLatinaSat.br@HD",
@@ -13242,7 +15256,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVMaticComedy.br@SD",
@@ -13281,7 +15302,17 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "entretenimento",
+        "confidence": "media",
+        "score": 70,
+        "matched_terms": [
+          "\\bcomedy\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVMaticCrafts.br@SD",
@@ -13320,7 +15351,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVMaticFacebook.br@SD",
@@ -13359,7 +15397,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVMaticFight.br@SD",
@@ -13398,7 +15443,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVMaticFunny.br@SD",
@@ -13437,7 +15489,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVMaticTikTok.br@SD",
@@ -13476,7 +15535,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVNBN.br@SD",
@@ -13506,7 +15572,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "UMATV.br@HD",
@@ -13536,7 +15609,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "UnisulTV.br@SD",
@@ -13566,7 +15646,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "UniTVPortoAlegre.br@SD",
@@ -13605,7 +15692,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "VEJAPlusTV.br@HD",
@@ -13655,7 +15749,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "VRTChannel.br@SD",
@@ -13694,7 +15795,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "WooHoo.br@SD",
@@ -13811,7 +15919,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "MyTimeMovieNetwork.br@SD",
@@ -13841,7 +15956,18 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "filmes",
+        "confidence": "alta",
+        "score": 95,
+        "matched_terms": [
+          "\\bmovies?\\b",
+          "\\bmovie network\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TraceBrazuca.fr@HD",
@@ -13871,7 +15997,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "musica",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\btrace\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     }
   ],
   "validation": {
@@ -13888,5 +16024,13 @@
     "workers": 5,
     "stable_hls_recheck_days": 7,
     "history_file": "catalogos/historico-validacao.jsonl"
+  },
+  "classification": {
+    "method": "metadata_rules_v1",
+    "checked_at": "2026-11-19T16:36:18+00:00",
+    "media_analyzed": false,
+    "manual_review_recommended_for": [
+      "baixa"
+    ]
   }
 }
