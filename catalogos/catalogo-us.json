@@ -30,13 +30,12 @@
     },
     "validation_checked_at": "2026-11-18T16:29:05+00:00",
     "recovery": {
-      "checked": 6,
-      "result_not_found": 2,
-      "result_reachable_hls": 4,
-      "skipped_retry_window": 325,
-      "skipped_stable_hls": 1178
+      "checked": 3,
+      "result_reachable_hls": 3,
+      "skipped_retry_window": 327,
+      "skipped_stable_hls": 1179
     },
-    "recovery_checked_at": "2026-11-18T20:26:54+00:00",
+    "recovery_checked_at": "2026-11-19T07:17:47+00:00",
     "classification": {
       "desenhos": 29,
       "documentarios": 34,
@@ -23655,7 +23654,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-18T16:31:24+00:00",
+            "checked_at": "2026-11-19T07:17:48+00:00",
             "http_status": 206,
             "final_url": "https://tvsen5.aynaott.com/discoveryfamily/index.m3u8",
             "result": "reachable_hls",
@@ -23665,12 +23664,12 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-12T00:37:39+00:00",
-            "next_retry_at": "2026-11-19T00:37:39+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-19T07:17:48+00:00",
+            "next_retry_at": "2026-11-26T07:17:48+00:00",
             "last_result": "reachable_hls",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -74358,7 +74357,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-18T16:32:49+00:00",
+            "checked_at": "2026-11-19T07:17:48+00:00",
             "http_status": 200,
             "final_url": "http://api.toonamiaftermath.com:3000/movies/playlist.m3u8",
             "result": "reachable_hls",
@@ -74368,12 +74367,12 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-12T00:37:39+00:00",
-            "next_retry_at": "2026-11-19T00:37:39+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-19T07:17:48+00:00",
+            "next_retry_at": "2026-11-26T07:17:48+00:00",
             "last_result": "reachable_hls",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -84542,7 +84541,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-18T16:33:02+00:00",
+            "checked_at": "2026-11-19T07:17:48+00:00",
             "http_status": 206,
             "final_url": "https://tvsen5.aynaott.com/willowhd/index.m3u8",
             "result": "reachable_hls",
@@ -84552,12 +84551,12 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-12T00:37:39+00:00",
-            "next_retry_at": "2026-11-19T00:37:39+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-19T07:17:48+00:00",
+            "next_retry_at": "2026-11-26T07:17:48+00:00",
             "last_result": "reachable_hls",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         },
         {
@@ -119315,7 +119314,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-18T20:26:54+00:00",
+    "checked_at": "2026-11-19T07:17:47+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,
