@@ -18,25 +18,27 @@
     "authorization": "not_verified",
     "playback": "not_tested",
     "validation": {
-      "connection_error": 44,
+      "connection_error": 42,
       "dns_error": 27,
-      "forbidden_or_geo_restricted": 43,
+      "forbidden_or_geo_restricted": 44,
       "http_error": 38,
       "not_found": 22,
-      "reachable_hls": 203,
-      "reachable_non_hls": 14,
-      "server_error": 5,
-      "timeout": 59
+      "reachable_hls": 205,
+      "reachable_non_hls": 16,
+      "server_error": 4,
+      "timeout": 57
     },
     "validation_checked_at": "2026-11-19T16:36:37+00:00",
     "recovery": {
-      "checked": 2,
-      "result_reachable_hls": 1,
-      "result_timeout": 1,
-      "skipped_retry_window": 244,
-      "skipped_stable_hls": 209
+      "checked": 6,
+      "result_connection_error": 1,
+      "result_forbidden_or_geo_restricted": 1,
+      "result_reachable_hls": 2,
+      "result_reachable_non_hls": 2,
+      "skipped_retry_window": 246,
+      "skipped_stable_hls": 203
     },
-    "recovery_checked_at": "2026-11-18T20:26:54+00:00",
+    "recovery_checked_at": "2026-11-19T20:29:52+00:00",
     "classification": {
       "agronegocio": 1,
       "desenhos": 5,
@@ -8773,15 +8775,24 @@
           "source_file": "streams/br.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "connection_error",
+          "availability_status": "reachable_non_hls",
           "validation": {
-            "checked_at": "2026-11-19T16:36:56+00:00",
-            "http_status": null,
-            "final_url": null,
-            "result": "connection_error",
+            "checked_at": "2026-11-19T20:29:52+00:00",
+            "http_status": 200,
+            "final_url": "http://79.127.238.228:14093",
+            "result": "reachable_non_hls",
             "hls_status": "not_confirmed",
-            "detail": "[Errno 111] Connection refused",
+            "detail": "http_ok_not_hls",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "non_hls_review",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-19T20:29:52+00:00",
+            "next_retry_at": "2026-11-26T20:29:52+00:00",
+            "last_result": "reachable_non_hls",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         }
       ],
@@ -10751,15 +10762,24 @@
           "source_file": "streams/br.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "timeout",
+          "availability_status": "reachable_non_hls",
           "validation": {
-            "checked_at": "2026-11-19T16:37:01+00:00",
-            "http_status": null,
-            "final_url": null,
-            "result": "timeout",
+            "checked_at": "2026-11-19T20:29:52+00:00",
+            "http_status": 200,
+            "final_url": "https://play.mbcbrasil.tv.br/playlist.m3u8",
+            "result": "reachable_non_hls",
             "hls_status": "not_confirmed",
-            "detail": "connection_timeout",
+            "detail": "http_ok_not_hls",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "non_hls_review",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-19T20:29:52+00:00",
+            "next_retry_at": "2026-11-26T20:29:52+00:00",
+            "last_result": "reachable_non_hls",
+            "previous_result": "timeout",
+            "reason": "retry_window"
           }
         }
       ],
@@ -12502,15 +12522,24 @@
           "source_file": "streams/br.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "timeout",
+          "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-19T16:37:04+00:00",
-            "http_status": null,
-            "final_url": null,
-            "result": "timeout",
+            "checked_at": "2026-11-19T20:29:52+00:00",
+            "http_status": 403,
+            "final_url": "https://stmv.webtvninjas.com.br/rctv/rctv/playlist.m3u8",
+            "result": "forbidden_or_geo_restricted",
             "hls_status": "not_confirmed",
-            "detail": "connection_timeout",
+            "detail": "http_403",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "restricted_review",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-19T20:29:52+00:00",
+            "next_retry_at": "2026-12-19T20:29:52+00:00",
+            "last_result": "forbidden_or_geo_restricted",
+            "previous_result": "timeout",
+            "reason": "retry_window"
           }
         }
       ],
@@ -13814,15 +13843,24 @@
           "source_file": "streams/br.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "server_error",
+          "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-19T16:37:06+00:00",
-            "http_status": 500,
+            "checked_at": "2026-11-19T20:29:52+00:00",
+            "http_status": 206,
             "final_url": "https://redebrasil.nuvemplay.live/hls/stream.m3u8",
-            "result": "server_error",
-            "hls_status": "not_confirmed",
-            "detail": "http_500",
+            "result": "reachable_hls",
+            "hls_status": "accessible",
+            "detail": "hls_accessible",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "stable_hls",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-19T20:29:52+00:00",
+            "next_retry_at": "2026-11-26T20:29:52+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "server_error",
+            "reason": "retry_window"
           }
         },
         {
@@ -14375,7 +14413,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-19T16:37:07+00:00",
+            "checked_at": "2026-11-19T20:29:52+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -14385,9 +14423,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 4,
-            "last_attempt_at": "2026-11-16T17:09:16+00:00",
-            "next_retry_at": "2026-11-19T17:09:16+00:00",
+            "attempt_count": 5,
+            "last_attempt_at": "2026-11-19T20:29:52+00:00",
+            "next_retry_at": "2026-11-26T20:29:52+00:00",
             "last_result": "connection_error",
             "previous_result": "connection_error",
             "reason": "retry_window"
@@ -27894,15 +27932,24 @@
           "source_file": "streams/br.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "connection_error",
+          "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-19T16:37:42+00:00",
-            "http_status": null,
-            "final_url": null,
-            "result": "connection_error",
-            "hls_status": "not_confirmed",
-            "detail": "[Errno 111] Connection refused",
+            "checked_at": "2026-11-19T20:29:53+00:00",
+            "http_status": 200,
+            "final_url": "https://streamer1.streamhost.org/salive/GMI3anjoh/playlist.m3u8",
+            "result": "reachable_hls",
+            "hls_status": "accessible",
+            "detail": "hls_accessible",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "stable_hls",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-19T20:29:53+00:00",
+            "next_retry_at": "2026-11-26T20:29:53+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         }
       ],
@@ -31037,7 +31084,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-18T20:26:54+00:00",
+    "checked_at": "2026-11-19T20:29:52+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,
