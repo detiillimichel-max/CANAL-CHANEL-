@@ -20,28 +20,24 @@
     "validation": {
       "connection_error": 43,
       "dns_error": 27,
-      "forbidden_or_geo_restricted": 40,
+      "forbidden_or_geo_restricted": 41,
       "http_error": 38,
       "not_found": 21,
-      "reachable_hls": 206,
-      "reachable_non_hls": 15,
+      "reachable_hls": 205,
+      "reachable_non_hls": 16,
       "server_error": 4,
-      "timeout": 61
+      "timeout": 60
     },
     "validation_checked_at": "2026-11-20T16:11:11+00:00",
     "recovery": {
-      "checked": 136,
-      "result_connection_error": 9,
-      "result_dns_error": 27,
-      "result_forbidden_or_geo_restricted": 3,
-      "result_http_error": 37,
-      "result_not_found": 1,
-      "result_server_error": 4,
-      "result_timeout": 55,
-      "skipped_retry_window": 114,
+      "checked": 3,
+      "result_forbidden_or_geo_restricted": 1,
+      "result_reachable_non_hls": 1,
+      "result_timeout": 1,
+      "skipped_retry_window": 247,
       "skipped_stable_hls": 205
     },
-    "recovery_checked_at": "2026-11-20T07:06:38+00:00",
+    "recovery_checked_at": "2026-11-20T20:07:41+00:00",
     "classification": {
       "agronegocio": 1,
       "desenhos": 5,
@@ -5744,15 +5740,24 @@
           "source_file": "streams/br.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "timeout",
+          "availability_status": "reachable_non_hls",
           "validation": {
-            "checked_at": "2026-11-20T16:11:26+00:00",
-            "http_status": null,
-            "final_url": null,
-            "result": "timeout",
+            "checked_at": "2026-11-20T20:07:41+00:00",
+            "http_status": 200,
+            "final_url": "https://play.redecinturaoverde.com.br/playlist.m3u8",
+            "result": "reachable_non_hls",
             "hls_status": "not_confirmed",
-            "detail": "connection_timeout",
+            "detail": "http_ok_not_hls",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "non_hls_review",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-20T20:07:41+00:00",
+            "next_retry_at": "2026-11-27T20:07:41+00:00",
+            "last_result": "reachable_non_hls",
+            "previous_result": "timeout",
+            "reason": "retry_window"
           }
         }
       ],
@@ -19323,15 +19328,24 @@
           "source_file": "streams/br.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "timeout",
+          "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-20T16:11:58+00:00",
-            "http_status": null,
-            "final_url": null,
-            "result": "timeout",
+            "checked_at": "2026-11-20T20:07:41+00:00",
+            "http_status": 403,
+            "final_url": "https://stmv.webtvninjas.com.br/tv3/tv3/playlist.m3u8",
+            "result": "forbidden_or_geo_restricted",
             "hls_status": "not_confirmed",
-            "detail": "connection_timeout",
+            "detail": "http_403",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "restricted_review",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-20T20:07:41+00:00",
+            "next_retry_at": "2026-12-20T20:07:41+00:00",
+            "last_result": "forbidden_or_geo_restricted",
+            "previous_result": "timeout",
+            "reason": "retry_window"
           }
         }
       ],
@@ -20498,24 +20512,24 @@
           "source_file": "streams/br.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "reachable_hls",
+          "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-20T16:12:01+00:00",
-            "http_status": 206,
-            "final_url": "http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8",
-            "result": "reachable_hls",
-            "hls_status": "accessible",
-            "detail": "hls_accessible",
+            "checked_at": "2026-11-20T20:07:41+00:00",
+            "http_status": null,
+            "final_url": null,
+            "result": "timeout",
+            "hls_status": "not_confirmed",
+            "detail": "connection_timeout",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "stable_hls",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-13T19:37:34+00:00",
-            "next_retry_at": "2026-11-20T19:37:34+00:00",
-            "last_result": "reachable_hls",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "retry_scheduled",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-20T20:07:41+00:00",
+            "next_retry_at": "2026-11-21T02:07:41+00:00",
+            "last_result": "timeout",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -31087,7 +31101,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-20T07:06:38+00:00",
+    "checked_at": "2026-11-20T20:07:41+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,
