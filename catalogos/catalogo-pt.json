@@ -29,11 +29,11 @@
     "validation_checked_at": "2026-11-21T15:24:40+00:00",
     "recovery": {
       "checked": 1,
-      "result_reachable_non_hls": 1,
+      "result_not_found": 1,
       "skipped_retry_window": 31,
       "skipped_stable_hls": 30
     },
-    "recovery_checked_at": "2026-11-21T19:09:51+00:00",
+    "recovery_checked_at": "2026-11-22T06:39:46+00:00",
     "classification": {
       "documentarios": 1,
       "educacao_cultura": 1,
@@ -2166,7 +2166,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-21T15:26:14+00:00",
+            "checked_at": "2026-11-22T06:39:54+00:00",
             "http_status": 404,
             "final_url": "https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8",
             "result": "not_found",
@@ -2175,12 +2175,12 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "stable_hls",
-            "attempt_count": 5,
-            "last_attempt_at": "2026-11-15T06:21:21+00:00",
-            "next_retry_at": "2026-11-22T06:21:21+00:00",
-            "last_result": "reachable_hls",
-            "previous_result": "reachable_non_hls",
+            "state": "slow_recheck",
+            "attempt_count": 6,
+            "last_attempt_at": "2026-11-22T06:39:54+00:00",
+            "next_retry_at": "2026-11-29T06:39:54+00:00",
+            "last_result": "not_found",
+            "previous_result": "not_found",
             "reason": "retry_window"
           }
         }
@@ -5828,7 +5828,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-21T19:09:51+00:00",
+    "checked_at": "2026-11-22T06:39:46+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,

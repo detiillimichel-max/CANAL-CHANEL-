@@ -18,26 +18,26 @@
     "authorization": "not_verified",
     "playback": "not_tested",
     "validation": {
-      "connection_error": 47,
+      "connection_error": 35,
       "dns_error": 9,
       "forbidden_or_geo_restricted": 94,
       "http_error": 17,
       "not_found": 48,
-      "reachable_hls": 1135,
+      "reachable_hls": 1136,
       "reachable_non_hls": 42,
-      "server_error": 19,
-      "timeout": 98
+      "server_error": 18,
+      "timeout": 110
     },
     "validation_checked_at": "2026-11-21T15:24:40+00:00",
     "recovery": {
-      "checked": 35,
-      "result_connection_error": 12,
-      "result_reachable_hls": 1,
-      "result_timeout": 22,
-      "skipped_retry_window": 340,
+      "checked": 46,
+      "result_connection_error": 9,
+      "result_reachable_hls": 2,
+      "result_timeout": 35,
+      "skipped_retry_window": 329,
       "skipped_stable_hls": 1134
     },
-    "recovery_checked_at": "2026-11-21T19:09:51+00:00",
+    "recovery_checked_at": "2026-11-22T06:39:46+00:00",
     "classification": {
       "desenhos": 29,
       "documentarios": 34,
@@ -6110,24 +6110,24 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "server_error",
+          "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-21T15:26:43+00:00",
-            "http_status": 503,
+            "checked_at": "2026-11-22T06:39:54+00:00",
+            "http_status": 206,
             "final_url": "https://streamer1.connectto.com/AMGA_WEB_1202/playlist.m3u8",
-            "result": "server_error",
-            "hls_status": "not_confirmed",
-            "detail": "http_503",
+            "result": "reachable_hls",
+            "hls_status": "accessible",
+            "detail": "hls_accessible",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-15T06:21:21+00:00",
-            "next_retry_at": "2026-11-22T06:21:21+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-22T06:39:54+00:00",
+            "next_retry_at": "2026-11-29T06:39:54+00:00",
             "last_result": "reachable_hls",
-            "previous_result": "reachable_hls",
-            "reason": "scheduled_health_check"
+            "previous_result": "server_error",
+            "reason": "retry_window"
           }
         }
       ],
@@ -11960,7 +11960,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:09:51+00:00",
+            "checked_at": "2026-11-22T06:39:54+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -11970,9 +11970,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:09:51+00:00",
-            "next_retry_at": "2026-11-21T20:09:51+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:39:54+00:00",
+            "next_retry_at": "2026-11-22T12:39:54+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -12717,7 +12717,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:09:51+00:00",
+            "checked_at": "2026-11-22T06:39:54+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -12727,9 +12727,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:09:51+00:00",
-            "next_retry_at": "2026-11-21T20:09:51+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:39:54+00:00",
+            "next_retry_at": "2026-11-22T12:39:54+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -13029,7 +13029,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:09:51+00:00",
+            "checked_at": "2026-11-22T06:39:54+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -13039,9 +13039,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:09:51+00:00",
-            "next_retry_at": "2026-11-21T20:09:51+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:39:54+00:00",
+            "next_retry_at": "2026-11-22T12:39:54+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -13636,7 +13636,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:09:51+00:00",
+            "checked_at": "2026-11-22T06:39:54+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -13646,9 +13646,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:09:51+00:00",
-            "next_retry_at": "2026-11-21T20:09:51+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:39:54+00:00",
+            "next_retry_at": "2026-11-22T12:39:54+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -17973,23 +17973,23 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "connection_error",
+          "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:09:52+00:00",
+            "checked_at": "2026-11-22T06:39:54+00:00",
             "http_status": null,
             "final_url": null,
-            "result": "connection_error",
+            "result": "timeout",
             "hls_status": "not_confirmed",
-            "detail": "[Errno 113] No route to host",
+            "detail": "connection_timeout",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:09:52+00:00",
-            "next_retry_at": "2026-11-21T20:09:52+00:00",
-            "last_result": "connection_error",
-            "previous_result": "timeout",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:39:54+00:00",
+            "next_retry_at": "2026-11-22T12:39:54+00:00",
+            "last_result": "timeout",
+            "previous_result": "connection_error",
             "reason": "retry_window"
           }
         }
@@ -18073,23 +18073,23 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "connection_error",
+          "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:09:54+00:00",
+            "checked_at": "2026-11-22T06:40:02+00:00",
             "http_status": null,
             "final_url": null,
-            "result": "connection_error",
+            "result": "timeout",
             "hls_status": "not_confirmed",
-            "detail": "[Errno 113] No route to host",
+            "detail": "connection_timeout",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:09:54+00:00",
-            "next_retry_at": "2026-11-21T20:09:54+00:00",
-            "last_result": "connection_error",
-            "previous_result": "timeout",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:40:02+00:00",
+            "next_retry_at": "2026-11-22T12:40:02+00:00",
+            "last_result": "timeout",
+            "previous_result": "connection_error",
             "reason": "retry_window"
           }
         }
@@ -18367,23 +18367,23 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "connection_error",
+          "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:09:55+00:00",
+            "checked_at": "2026-11-22T06:40:02+00:00",
             "http_status": null,
             "final_url": null,
-            "result": "connection_error",
+            "result": "timeout",
             "hls_status": "not_confirmed",
-            "detail": "[Errno 113] No route to host",
+            "detail": "connection_timeout",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:09:55+00:00",
-            "next_retry_at": "2026-11-21T20:09:55+00:00",
-            "last_result": "connection_error",
-            "previous_result": "timeout",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:40:02+00:00",
+            "next_retry_at": "2026-11-22T12:40:02+00:00",
+            "last_result": "timeout",
+            "previous_result": "connection_error",
             "reason": "retry_window"
           }
         }
@@ -21274,7 +21274,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:09:56+00:00",
+            "checked_at": "2026-11-22T06:40:02+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -21284,9 +21284,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:09:56+00:00",
-            "next_retry_at": "2026-11-21T20:09:56+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:40:02+00:00",
+            "next_retry_at": "2026-11-22T12:40:02+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -22656,23 +22656,23 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "connection_error",
+          "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:09:59+00:00",
+            "checked_at": "2026-11-22T06:40:02+00:00",
             "http_status": null,
             "final_url": null,
-            "result": "connection_error",
+            "result": "timeout",
             "hls_status": "not_confirmed",
-            "detail": "[Errno 113] No route to host",
+            "detail": "connection_timeout",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:09:59+00:00",
-            "next_retry_at": "2026-11-21T20:09:59+00:00",
-            "last_result": "connection_error",
-            "previous_result": "timeout",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:40:02+00:00",
+            "next_retry_at": "2026-11-22T12:40:02+00:00",
+            "last_result": "timeout",
+            "previous_result": "connection_error",
             "reason": "retry_window"
           }
         }
@@ -26864,23 +26864,23 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "connection_error",
+          "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:09:59+00:00",
+            "checked_at": "2026-11-22T06:40:02+00:00",
             "http_status": null,
             "final_url": null,
-            "result": "connection_error",
+            "result": "timeout",
             "hls_status": "not_confirmed",
-            "detail": "[Errno 113] No route to host",
+            "detail": "connection_timeout",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:09:59+00:00",
-            "next_retry_at": "2026-11-21T20:09:59+00:00",
-            "last_result": "connection_error",
-            "previous_result": "timeout",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:40:02+00:00",
+            "next_retry_at": "2026-11-22T12:40:02+00:00",
+            "last_result": "timeout",
+            "previous_result": "connection_error",
             "reason": "retry_window"
           }
         }
@@ -29650,7 +29650,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-21T15:27:33+00:00",
+            "checked_at": "2026-11-22T06:40:10+00:00",
             "http_status": 200,
             "final_url": "http://45.228.234.9:8000/play/a06v/index.m3u8",
             "result": "reachable_hls",
@@ -29660,9 +29660,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-15T06:21:22+00:00",
-            "next_retry_at": "2026-11-22T06:21:22+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-22T06:40:10+00:00",
+            "next_retry_at": "2026-11-29T06:40:10+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -30586,7 +30586,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:09:59+00:00",
+            "checked_at": "2026-11-22T06:40:10+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -30596,9 +30596,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:09:59+00:00",
-            "next_retry_at": "2026-11-21T20:09:59+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:40:10+00:00",
+            "next_retry_at": "2026-11-22T12:40:10+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -30926,7 +30926,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:09:59+00:00",
+            "checked_at": "2026-11-22T06:40:10+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -30936,9 +30936,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:09:59+00:00",
-            "next_retry_at": "2026-11-21T20:09:59+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:40:10+00:00",
+            "next_retry_at": "2026-11-22T12:40:10+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -32338,23 +32338,23 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "connection_error",
+          "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:09:59+00:00",
+            "checked_at": "2026-11-22T06:40:10+00:00",
             "http_status": null,
             "final_url": null,
-            "result": "connection_error",
+            "result": "timeout",
             "hls_status": "not_confirmed",
-            "detail": "[Errno 113] No route to host",
+            "detail": "connection_timeout",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:09:59+00:00",
-            "next_retry_at": "2026-11-21T20:09:59+00:00",
-            "last_result": "connection_error",
-            "previous_result": "timeout",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:40:10+00:00",
+            "next_retry_at": "2026-11-22T12:40:10+00:00",
+            "last_result": "timeout",
+            "previous_result": "connection_error",
             "reason": "retry_window"
           }
         }
@@ -34769,7 +34769,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T15:27:43+00:00",
+            "checked_at": "2026-11-22T06:40:10+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -34779,9 +34779,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 5,
-            "last_attempt_at": "2026-11-15T06:21:22+00:00",
-            "next_retry_at": "2026-11-22T06:21:22+00:00",
+            "attempt_count": 6,
+            "last_attempt_at": "2026-11-22T06:40:10+00:00",
+            "next_retry_at": "2026-11-29T06:40:10+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -38444,7 +38444,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:10:03+00:00",
+            "checked_at": "2026-11-22T06:40:10+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -38454,9 +38454,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:10:03+00:00",
-            "next_retry_at": "2026-11-21T20:10:03+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:40:10+00:00",
+            "next_retry_at": "2026-11-22T12:40:10+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -40624,23 +40624,23 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "connection_error",
+          "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:10:04+00:00",
+            "checked_at": "2026-11-22T06:40:18+00:00",
             "http_status": null,
             "final_url": null,
-            "result": "connection_error",
+            "result": "timeout",
             "hls_status": "not_confirmed",
-            "detail": "[Errno 113] No route to host",
+            "detail": "connection_timeout",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:10:04+00:00",
-            "next_retry_at": "2026-11-21T20:10:04+00:00",
-            "last_result": "connection_error",
-            "previous_result": "timeout",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:40:18+00:00",
+            "next_retry_at": "2026-11-22T12:40:18+00:00",
+            "last_result": "timeout",
+            "previous_result": "connection_error",
             "reason": "retry_window"
           }
         },
@@ -45508,23 +45508,23 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "connection_error",
+          "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:10:06+00:00",
+            "checked_at": "2026-11-22T06:40:18+00:00",
             "http_status": null,
             "final_url": null,
-            "result": "connection_error",
+            "result": "timeout",
             "hls_status": "not_confirmed",
-            "detail": "[Errno 113] No route to host",
+            "detail": "connection_timeout",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:10:06+00:00",
-            "next_retry_at": "2026-11-21T20:10:06+00:00",
-            "last_result": "connection_error",
-            "previous_result": "timeout",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:40:18+00:00",
+            "next_retry_at": "2026-11-22T12:40:18+00:00",
+            "last_result": "timeout",
+            "previous_result": "connection_error",
             "reason": "retry_window"
           }
         }
@@ -47965,7 +47965,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-21T15:28:02+00:00",
+            "checked_at": "2026-11-22T06:40:18+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -47975,9 +47975,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 5,
-            "last_attempt_at": "2026-11-15T06:21:22+00:00",
-            "next_retry_at": "2026-11-22T06:21:22+00:00",
+            "attempt_count": 6,
+            "last_attempt_at": "2026-11-22T06:40:18+00:00",
+            "next_retry_at": "2026-11-29T06:40:18+00:00",
             "last_result": "connection_error",
             "previous_result": "connection_error",
             "reason": "retry_window"
@@ -48065,7 +48065,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-21T15:28:03+00:00",
+            "checked_at": "2026-11-22T06:40:18+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -48075,9 +48075,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 5,
-            "last_attempt_at": "2026-11-15T06:21:22+00:00",
-            "next_retry_at": "2026-11-22T06:21:22+00:00",
+            "attempt_count": 6,
+            "last_attempt_at": "2026-11-22T06:40:18+00:00",
+            "next_retry_at": "2026-11-29T06:40:18+00:00",
             "last_result": "connection_error",
             "previous_result": "connection_error",
             "reason": "retry_window"
@@ -48165,7 +48165,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-21T15:28:03+00:00",
+            "checked_at": "2026-11-22T06:40:18+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -48175,9 +48175,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 5,
-            "last_attempt_at": "2026-11-15T06:21:22+00:00",
-            "next_retry_at": "2026-11-22T06:21:22+00:00",
+            "attempt_count": 6,
+            "last_attempt_at": "2026-11-22T06:40:18+00:00",
+            "next_retry_at": "2026-11-29T06:40:18+00:00",
             "last_result": "connection_error",
             "previous_result": "connection_error",
             "reason": "retry_window"
@@ -48273,7 +48273,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-21T15:28:03+00:00",
+            "checked_at": "2026-11-22T06:40:18+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -48283,9 +48283,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 5,
-            "last_attempt_at": "2026-11-15T06:21:22+00:00",
-            "next_retry_at": "2026-11-22T06:21:22+00:00",
+            "attempt_count": 6,
+            "last_attempt_at": "2026-11-22T06:40:18+00:00",
+            "next_retry_at": "2026-11-29T06:40:18+00:00",
             "last_result": "connection_error",
             "previous_result": "connection_error",
             "reason": "retry_window"
@@ -48373,7 +48373,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-21T15:28:03+00:00",
+            "checked_at": "2026-11-22T06:40:18+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -48383,9 +48383,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 5,
-            "last_attempt_at": "2026-11-15T06:21:22+00:00",
-            "next_retry_at": "2026-11-22T06:21:22+00:00",
+            "attempt_count": 6,
+            "last_attempt_at": "2026-11-22T06:40:18+00:00",
+            "next_retry_at": "2026-11-29T06:40:18+00:00",
             "last_result": "connection_error",
             "previous_result": "connection_error",
             "reason": "retry_window"
@@ -50900,7 +50900,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:10:07+00:00",
+            "checked_at": "2026-11-22T06:40:18+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -50910,9 +50910,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:10:07+00:00",
-            "next_retry_at": "2026-11-21T20:10:07+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:40:18+00:00",
+            "next_retry_at": "2026-11-22T12:40:18+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -52508,7 +52508,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:10:07+00:00",
+            "checked_at": "2026-11-22T06:40:18+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -52518,9 +52518,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:10:07+00:00",
-            "next_retry_at": "2026-11-21T20:10:07+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:40:18+00:00",
+            "next_retry_at": "2026-11-22T12:40:18+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -58218,7 +58218,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:10:11+00:00",
+            "checked_at": "2026-11-22T06:40:18+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -58228,9 +58228,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:10:11+00:00",
-            "next_retry_at": "2026-11-21T20:10:11+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:40:18+00:00",
+            "next_retry_at": "2026-11-22T12:40:18+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -58643,23 +58643,23 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "connection_error",
+          "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:10:11+00:00",
+            "checked_at": "2026-11-22T06:40:26+00:00",
             "http_status": null,
             "final_url": null,
-            "result": "connection_error",
+            "result": "timeout",
             "hls_status": "not_confirmed",
-            "detail": "[Errno 113] No route to host",
+            "detail": "connection_timeout",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:10:11+00:00",
-            "next_retry_at": "2026-11-21T20:10:11+00:00",
-            "last_result": "connection_error",
-            "previous_result": "timeout",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:40:26+00:00",
+            "next_retry_at": "2026-11-22T12:40:26+00:00",
+            "last_result": "timeout",
+            "previous_result": "connection_error",
             "reason": "retry_window"
           }
         }
@@ -58825,7 +58825,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:10:14+00:00",
+            "checked_at": "2026-11-22T06:40:26+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -58835,9 +58835,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:10:14+00:00",
-            "next_retry_at": "2026-11-21T20:10:14+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:40:26+00:00",
+            "next_retry_at": "2026-11-22T12:40:26+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -62074,7 +62074,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:10:14+00:00",
+            "checked_at": "2026-11-22T06:40:26+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -62084,9 +62084,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:10:14+00:00",
-            "next_retry_at": "2026-11-21T20:10:14+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:40:26+00:00",
+            "next_retry_at": "2026-11-22T12:40:26+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -62421,7 +62421,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:10:15+00:00",
+            "checked_at": "2026-11-22T06:40:26+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -62431,9 +62431,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:10:15+00:00",
-            "next_retry_at": "2026-11-21T20:10:15+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:40:26+00:00",
+            "next_retry_at": "2026-11-22T12:40:26+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -64486,7 +64486,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:10:15+00:00",
+            "checked_at": "2026-11-22T06:40:26+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -64496,9 +64496,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:10:15+00:00",
-            "next_retry_at": "2026-11-21T20:10:15+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:40:26+00:00",
+            "next_retry_at": "2026-11-22T12:40:26+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -65496,23 +65496,23 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "connection_error",
+          "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:10:19+00:00",
+            "checked_at": "2026-11-22T06:40:34+00:00",
             "http_status": null,
             "final_url": null,
-            "result": "connection_error",
+            "result": "timeout",
             "hls_status": "not_confirmed",
-            "detail": "[Errno 113] No route to host",
+            "detail": "connection_timeout",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:10:19+00:00",
-            "next_retry_at": "2026-11-21T20:10:19+00:00",
-            "last_result": "connection_error",
-            "previous_result": "timeout",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:40:34+00:00",
+            "next_retry_at": "2026-11-22T12:40:34+00:00",
+            "last_result": "timeout",
+            "previous_result": "connection_error",
             "reason": "retry_window"
           }
         }
@@ -66856,23 +66856,23 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "connection_error",
+          "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:10:22+00:00",
+            "checked_at": "2026-11-22T06:40:34+00:00",
             "http_status": null,
             "final_url": null,
-            "result": "connection_error",
+            "result": "timeout",
             "hls_status": "not_confirmed",
-            "detail": "[Errno 113] No route to host",
+            "detail": "connection_timeout",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:10:22+00:00",
-            "next_retry_at": "2026-11-21T20:10:22+00:00",
-            "last_result": "connection_error",
-            "previous_result": "timeout",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:40:34+00:00",
+            "next_retry_at": "2026-11-22T12:40:34+00:00",
+            "last_result": "timeout",
+            "previous_result": "connection_error",
             "reason": "retry_window"
           }
         }
@@ -66962,7 +66962,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:10:22+00:00",
+            "checked_at": "2026-11-22T06:40:34+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -66972,9 +66972,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:10:22+00:00",
-            "next_retry_at": "2026-11-21T20:10:22+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:40:34+00:00",
+            "next_retry_at": "2026-11-22T12:40:34+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -67165,7 +67165,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:10:22+00:00",
+            "checked_at": "2026-11-22T06:40:34+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -67175,9 +67175,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:10:22+00:00",
-            "next_retry_at": "2026-11-21T20:10:22+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:40:34+00:00",
+            "next_retry_at": "2026-11-22T12:40:34+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -67269,7 +67269,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:10:23+00:00",
+            "checked_at": "2026-11-22T06:40:34+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -67279,9 +67279,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:10:23+00:00",
-            "next_retry_at": "2026-11-21T20:10:23+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:40:34+00:00",
+            "next_retry_at": "2026-11-22T12:40:34+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -69763,7 +69763,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-21T15:28:55+00:00",
+            "checked_at": "2026-11-22T06:40:42+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -69773,9 +69773,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 5,
-            "last_attempt_at": "2026-11-15T06:21:22+00:00",
-            "next_retry_at": "2026-11-22T06:21:22+00:00",
+            "attempt_count": 6,
+            "last_attempt_at": "2026-11-22T06:40:42+00:00",
+            "next_retry_at": "2026-11-29T06:40:42+00:00",
             "last_result": "connection_error",
             "previous_result": "connection_error",
             "reason": "retry_window"
@@ -70898,7 +70898,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:10:23+00:00",
+            "checked_at": "2026-11-22T06:40:42+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -70908,9 +70908,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:10:23+00:00",
-            "next_retry_at": "2026-11-21T20:10:23+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:40:42+00:00",
+            "next_retry_at": "2026-11-22T12:40:42+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -75389,7 +75389,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:10:24+00:00",
+            "checked_at": "2026-11-22T06:40:42+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -75399,9 +75399,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:10:24+00:00",
-            "next_retry_at": "2026-11-21T20:10:24+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:40:42+00:00",
+            "next_retry_at": "2026-11-22T12:40:42+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -81588,23 +81588,23 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "connection_error",
+          "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:10:30+00:00",
+            "checked_at": "2026-11-22T06:40:42+00:00",
             "http_status": null,
             "final_url": null,
-            "result": "connection_error",
+            "result": "timeout",
             "hls_status": "not_confirmed",
-            "detail": "[Errno 113] No route to host",
+            "detail": "connection_timeout",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:10:30+00:00",
-            "next_retry_at": "2026-11-21T20:10:30+00:00",
-            "last_result": "connection_error",
-            "previous_result": "timeout",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:40:42+00:00",
+            "next_retry_at": "2026-11-22T12:40:42+00:00",
+            "last_result": "timeout",
+            "previous_result": "connection_error",
             "reason": "retry_window"
           }
         },
@@ -83288,7 +83288,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:10:30+00:00",
+            "checked_at": "2026-11-22T06:40:42+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -83298,9 +83298,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:10:30+00:00",
-            "next_retry_at": "2026-11-21T20:10:30+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:40:42+00:00",
+            "next_retry_at": "2026-11-22T12:40:42+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -84110,7 +84110,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-21T19:10:31+00:00",
+            "checked_at": "2026-11-22T06:40:42+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -84120,9 +84120,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-21T19:10:31+00:00",
-            "next_retry_at": "2026-11-21T20:10:31+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-22T06:40:42+00:00",
+            "next_retry_at": "2026-11-22T12:40:42+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -88893,7 +88893,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-21T15:29:21+00:00",
+            "checked_at": "2026-11-22T06:40:50+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -88903,9 +88903,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 5,
-            "last_attempt_at": "2026-11-15T06:21:22+00:00",
-            "next_retry_at": "2026-11-22T06:21:22+00:00",
+            "attempt_count": 6,
+            "last_attempt_at": "2026-11-22T06:40:50+00:00",
+            "next_retry_at": "2026-11-29T06:40:50+00:00",
             "last_result": "connection_error",
             "previous_result": "connection_error",
             "reason": "retry_window"
@@ -89275,7 +89275,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-21T15:29:21+00:00",
+            "checked_at": "2026-11-22T06:40:50+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -89285,9 +89285,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 5,
-            "last_attempt_at": "2026-11-15T06:21:22+00:00",
-            "next_retry_at": "2026-11-22T06:21:22+00:00",
+            "attempt_count": 6,
+            "last_attempt_at": "2026-11-22T06:40:50+00:00",
+            "next_retry_at": "2026-11-29T06:40:50+00:00",
             "last_result": "connection_error",
             "previous_result": "connection_error",
             "reason": "retry_window"
@@ -89376,7 +89376,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-21T15:29:21+00:00",
+            "checked_at": "2026-11-22T06:40:50+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -89386,9 +89386,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 5,
-            "last_attempt_at": "2026-11-15T06:21:22+00:00",
-            "next_retry_at": "2026-11-22T06:21:22+00:00",
+            "attempt_count": 6,
+            "last_attempt_at": "2026-11-22T06:40:50+00:00",
+            "next_retry_at": "2026-11-29T06:40:50+00:00",
             "last_result": "connection_error",
             "previous_result": "connection_error",
             "reason": "retry_window"
@@ -119766,7 +119766,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-21T19:09:51+00:00",
+    "checked_at": "2026-11-22T06:39:46+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,
