@@ -20,22 +20,23 @@
     "validation": {
       "connection_error": 43,
       "dns_error": 27,
-      "forbidden_or_geo_restricted": 43,
+      "forbidden_or_geo_restricted": 44,
       "http_error": 38,
       "not_found": 34,
       "reachable_hls": 193,
       "reachable_non_hls": 15,
       "server_error": 4,
-      "timeout": 58
+      "timeout": 57
     },
     "validation_checked_at": "2026-11-22T16:36:48+00:00",
     "recovery": {
-      "checked": 31,
-      "result_connection_error": 31,
-      "skipped_retry_window": 231,
+      "checked": 2,
+      "result_forbidden_or_geo_restricted": 1,
+      "result_timeout": 1,
+      "skipped_retry_window": 260,
       "skipped_stable_hls": 193
     },
-    "recovery_checked_at": "2026-11-22T16:42:15+00:00",
+    "recovery_checked_at": "2026-11-22T19:31:45+00:00",
     "classification": {
       "agronegocio": 1,
       "desenhos": 5,
@@ -6641,13 +6642,22 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T16:37:02+00:00",
+            "checked_at": "2026-11-22T19:31:45+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
             "hls_status": "not_confirmed",
             "detail": "connection_timeout",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "retry_scheduled",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-22T19:31:45+00:00",
+            "next_retry_at": "2026-11-22T20:31:45+00:00",
+            "last_result": "timeout",
+            "previous_result": "timeout",
+            "reason": "retry_window"
           }
         }
       ],
@@ -14397,15 +14407,24 @@
           "source_file": "streams/br.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "timeout",
+          "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T16:37:19+00:00",
-            "http_status": null,
-            "final_url": null,
-            "result": "timeout",
+            "checked_at": "2026-11-22T19:31:45+00:00",
+            "http_status": 403,
+            "final_url": "https://cdn-sp2.satlabscloud.com.br/RBS_HD/index.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq",
+            "result": "forbidden_or_geo_restricted",
             "hls_status": "not_confirmed",
-            "detail": "connection_timeout",
+            "detail": "http_403",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "restricted_review",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-22T19:31:45+00:00",
+            "next_retry_at": "2026-12-22T19:31:45+00:00",
+            "last_result": "forbidden_or_geo_restricted",
+            "previous_result": "timeout",
+            "reason": "retry_window"
           }
         },
         {
@@ -31099,7 +31118,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-22T16:42:15+00:00",
+    "checked_at": "2026-11-22T19:31:45+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,
