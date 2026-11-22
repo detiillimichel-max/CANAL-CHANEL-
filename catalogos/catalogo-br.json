@@ -20,15 +20,15 @@
     "validation": {
       "connection_error": 43,
       "dns_error": 27,
-      "forbidden_or_geo_restricted": 44,
+      "forbidden_or_geo_restricted": 43,
       "http_error": 38,
-      "not_found": 33,
-      "reachable_hls": 192,
-      "reachable_non_hls": 16,
+      "not_found": 34,
+      "reachable_hls": 193,
+      "reachable_non_hls": 15,
       "server_error": 4,
       "timeout": 58
     },
-    "validation_checked_at": "2026-11-22T15:21:24+00:00",
+    "validation_checked_at": "2026-11-22T16:36:48+00:00",
     "recovery": {
       "checked": 5,
       "result_connection_error": 1,
@@ -108,7 +108,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:24+00:00",
+            "checked_at": "2026-11-22T16:36:48+00:00",
             "http_status": 200,
             "final_url": "https://cpbr.appflux.com.br:2000/hls/1001noites/1001noites.m3u8",
             "result": "reachable_hls",
@@ -130,7 +130,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:21:24+00:00",
+            "checked_at": "2026-11-22T16:36:48+00:00",
             "http_status": 404,
             "final_url": "https://cdn.live.br1.jmvstream.com/w/LVW-8155/ngrp:LVW8155_41E1ciuCvO_all/playlist.m3u8",
             "result": "not_found",
@@ -221,7 +221,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:24+00:00",
+            "checked_at": "2026-11-22T16:36:48+00:00",
             "http_status": 206,
             "final_url": "https://stream.ichibansys.com:3230/hybrid/play.m3u8",
             "result": "reachable_hls",
@@ -330,7 +330,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:24+00:00",
+            "checked_at": "2026-11-22T16:36:48+00:00",
             "http_status": 200,
             "final_url": "https://cdn.live.br1.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/playlist.m3u8",
             "result": "reachable_hls",
@@ -423,7 +423,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:21:24+00:00",
+            "checked_at": "2026-11-22T16:36:48+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -454,7 +454,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:21:24+00:00",
+            "checked_at": "2026-11-22T16:36:48+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -554,7 +554,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:24+00:00",
+            "checked_at": "2026-11-22T16:36:48+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -583,7 +583,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:24+00:00",
+            "checked_at": "2026-11-22T16:36:48+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/AGRO_CANAL/index.m3u8",
             "result": "http_error",
@@ -612,7 +612,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:21:25+00:00",
+            "checked_at": "2026-11-22T16:36:48+00:00",
             "http_status": 404,
             "final_url": "http://170.83.49.66:8083/AGROCANALHD/index.m3u8",
             "result": "not_found",
@@ -632,7 +632,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:25+00:00",
+            "checked_at": "2026-11-22T16:36:48+00:00",
             "http_status": 206,
             "final_url": "http://186.219.52.187/agro_canal/index.m3u8",
             "result": "reachable_hls",
@@ -652,7 +652,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:21:25+00:00",
+            "checked_at": "2026-11-22T16:36:48+00:00",
             "http_status": 404,
             "final_url": "https://aovivo.equipea.com.br:5443/aovivort/streams/pshRLrnv6isXq7RG4747567774043229.m3u8",
             "result": "not_found",
@@ -749,7 +749,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:25+00:00",
+            "checked_at": "2026-11-22T16:36:48+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -778,7 +778,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:21:25+00:00",
+            "checked_at": "2026-11-22T16:36:49+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -807,7 +807,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:21:25+00:00",
+            "checked_at": "2026-11-22T16:36:49+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -836,7 +836,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:25+00:00",
+            "checked_at": "2026-11-22T16:36:49+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/AGROMAIS/index.m3u8",
             "result": "http_error",
@@ -865,7 +865,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:25+00:00",
+            "checked_at": "2026-11-22T16:36:49+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/AGRO_MAIS/index.m3u8",
             "result": "reachable_hls",
@@ -965,7 +965,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:21:25+00:00",
+            "checked_at": "2026-11-22T16:36:49+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -1065,7 +1065,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:25+00:00",
+            "checked_at": "2026-11-22T16:36:49+00:00",
             "http_status": 206,
             "final_url": "https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8",
             "result": "reachable_hls",
@@ -1158,7 +1158,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:25+00:00",
+            "checked_at": "2026-11-22T16:36:49+00:00",
             "http_status": 200,
             "final_url": "https://video05.logicahost.com.br/ararunatv/ararunatv/playlist.m3u8",
             "result": "reachable_hls",
@@ -1249,7 +1249,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:26+00:00",
+            "checked_at": "2026-11-22T16:36:49+00:00",
             "http_status": 200,
             "final_url": "https://cdn.live.br1.jmvstream.com/w/LVW-9359/LVW9359_XSyReL0QVf/playlist.m3u8",
             "result": "reachable_hls",
@@ -1340,7 +1340,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:26+00:00",
+            "checked_at": "2026-11-22T16:36:50+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -1369,7 +1369,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:21:26+00:00",
+            "checked_at": "2026-11-22T16:36:50+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -1398,7 +1398,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:26+00:00",
+            "checked_at": "2026-11-22T16:36:50+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/ARTE1/index.m3u8",
             "result": "http_error",
@@ -1427,7 +1427,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:26+00:00",
+            "checked_at": "2026-11-22T16:36:50+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/ARTE_1/index.m3u8",
             "result": "reachable_hls",
@@ -1530,7 +1530,7 @@
           "authorization_status": "unknown",
           "availability_status": "dns_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:26+00:00",
+            "checked_at": "2026-11-22T16:36:50+00:00",
             "http_status": null,
             "final_url": null,
             "result": "dns_error",
@@ -1632,7 +1632,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:26+00:00",
+            "checked_at": "2026-11-22T16:36:50+00:00",
             "http_status": 206,
             "final_url": "https://awtv.nuvemplay.live/hls/stream.m3u8",
             "result": "reachable_hls",
@@ -1724,7 +1724,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:26+00:00",
+            "checked_at": "2026-11-22T16:36:50+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/AXN/index.m3u8",
             "result": "reachable_hls",
@@ -1753,7 +1753,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:27+00:00",
+            "checked_at": "2026-11-22T16:36:51+00:00",
             "http_status": 206,
             "final_url": "http://170.83.49.66:8083/AXNHD/index.m3u8",
             "result": "reachable_hls",
@@ -1844,7 +1844,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:21:27+00:00",
+            "checked_at": "2026-11-22T16:36:51+00:00",
             "http_status": 403,
             "final_url": "http://170.84.165.204/BAND_HD/index.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -1864,7 +1864,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:21:27+00:00",
+            "checked_at": "2026-11-22T16:36:51+00:00",
             "http_status": 404,
             "final_url": "https://media.cdntvms.com.br/band_sat/index.m3u8",
             "result": "not_found",
@@ -1964,7 +1964,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:21:27+00:00",
+            "checked_at": "2026-11-22T16:36:51+00:00",
             "http_status": 403,
             "final_url": "https://cdn-5.nxplay.com.br/BAND_SPORTS/index.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -1984,7 +1984,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:27+00:00",
+            "checked_at": "2026-11-22T16:36:52+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -2013,7 +2013,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:27+00:00",
+            "checked_at": "2026-11-22T16:36:52+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/BAND_SPORTS/index.m3u8",
             "result": "reachable_hls",
@@ -2042,7 +2042,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:27+00:00",
+            "checked_at": "2026-11-22T16:36:52+00:00",
             "http_status": 206,
             "final_url": "http://170.83.49.66:8083/BANDSPORTSHD/index.m3u8",
             "result": "reachable_hls",
@@ -2136,7 +2136,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:21:28+00:00",
+            "checked_at": "2026-11-22T16:36:52+00:00",
             "http_status": 403,
             "final_url": "https://cdn-5.nxplay.com.br/BAND_NEWS/index.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -2156,7 +2156,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:28+00:00",
+            "checked_at": "2026-11-22T16:36:52+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -2185,7 +2185,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:21:28+00:00",
+            "checked_at": "2026-11-22T16:36:52+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -2214,7 +2214,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:28+00:00",
+            "checked_at": "2026-11-22T16:36:53+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/BAND_NEWS/index.m3u8",
             "result": "http_error",
@@ -2243,7 +2243,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:28+00:00",
+            "checked_at": "2026-11-22T16:36:53+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/BAND_NEWS/index.m3u8",
             "result": "reachable_hls",
@@ -2272,7 +2272,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:29+00:00",
+            "checked_at": "2026-11-22T16:36:53+00:00",
             "http_status": 206,
             "final_url": "http://170.83.49.66:8083/BANDNEWSHD/index.m3u8",
             "result": "reachable_hls",
@@ -2366,7 +2366,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:29+00:00",
+            "checked_at": "2026-11-22T16:36:54+00:00",
             "http_status": 206,
             "final_url": "https://video09.logicahost.com.br/bemmaistv01/bemmaistv01/playlist.m3u8",
             "result": "reachable_hls",
@@ -2458,7 +2458,7 @@
           "authorization_status": "unknown",
           "availability_status": "dns_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:29+00:00",
+            "checked_at": "2026-11-22T16:36:54+00:00",
             "http_status": null,
             "final_url": null,
             "result": "dns_error",
@@ -2558,7 +2558,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:21:30+00:00",
+            "checked_at": "2026-11-22T16:36:55+00:00",
             "http_status": 403,
             "final_url": "https://stmv1.transmissaodigital.com/blitstv/blitstv/playlist.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -2656,14 +2656,14 @@
           "source_file": "streams/br.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "reachable_non_hls",
+          "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:30+00:00",
+            "checked_at": "2026-11-22T16:36:55+00:00",
             "http_status": 200,
             "final_url": "https://cdn.live.br1.jmvstream.com/w/LVW-9375/LVW9375_6i0wPBCHYc/playlist.m3u8",
-            "result": "reachable_non_hls",
-            "hls_status": "not_confirmed",
-            "detail": "http_ok_not_hls",
+            "result": "reachable_hls",
+            "hls_status": "accessible",
+            "detail": "hls_accessible",
             "check_method": "GET_range_0_4095"
           }
         }
@@ -2747,7 +2747,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:30+00:00",
+            "checked_at": "2026-11-22T16:36:56+00:00",
             "http_status": 206,
             "final_url": "http://170.83.49.66:8083/BOXKIDSHD/index.m3u8",
             "result": "reachable_hls",
@@ -2841,7 +2841,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:21:30+00:00",
+            "checked_at": "2026-11-22T16:36:56+00:00",
             "http_status": 404,
             "final_url": "https://cdn.live.br1.jmvstream.com/w/LVW-11668/ngrp:LVW11668_wiJpjbMrks_all/playlist.m3u8",
             "result": "not_found",
@@ -2932,7 +2932,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:21:32+00:00",
+            "checked_at": "2026-11-22T16:36:56+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -3033,7 +3033,7 @@
           "authorization_status": "unknown",
           "availability_status": "dns_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:32+00:00",
+            "checked_at": "2026-11-22T16:36:56+00:00",
             "http_status": null,
             "final_url": null,
             "result": "dns_error",
@@ -3064,7 +3064,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:32+00:00",
+            "checked_at": "2026-11-22T16:36:56+00:00",
             "http_status": 206,
             "final_url": "https://stream01.msolutionbrasil.com.br/hls/canal25/live.m3u8",
             "result": "reachable_hls",
@@ -3156,7 +3156,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_non_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:33+00:00",
+            "checked_at": "2026-11-22T16:36:56+00:00",
             "http_status": 200,
             "final_url": "https://cdn.live.br1.jmvstream.com/w/LVW-8503/LVW8503_d0V5oduFlK/playlist.m3u8",
             "result": "reachable_non_hls",
@@ -3247,7 +3247,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:33+00:00",
+            "checked_at": "2026-11-22T16:36:57+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -3276,7 +3276,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:33+00:00",
+            "checked_at": "2026-11-22T16:36:57+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/CANAL_DO_BOI/index.m3u8",
             "result": "http_error",
@@ -3305,7 +3305,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:33+00:00",
+            "checked_at": "2026-11-22T16:36:57+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/CANAL_DO_BOI/index.m3u8",
             "result": "reachable_hls",
@@ -3334,7 +3334,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:21:33+00:00",
+            "checked_at": "2026-11-22T16:36:57+00:00",
             "http_status": 404,
             "final_url": "http://170.83.49.66:8083/CANALDOBOIHD/index.m3u8",
             "result": "not_found",
@@ -3354,7 +3354,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:33+00:00",
+            "checked_at": "2026-11-22T16:36:57+00:00",
             "http_status": 206,
             "final_url": "http://186.219.52.187/canal_do_boi/index.m3u8",
             "result": "reachable_hls",
@@ -3443,7 +3443,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:33+00:00",
+            "checked_at": "2026-11-22T16:36:57+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -3545,7 +3545,7 @@
           "authorization_status": "unknown",
           "availability_status": "dns_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:33+00:00",
+            "checked_at": "2026-11-22T16:36:57+00:00",
             "http_status": null,
             "final_url": null,
             "result": "dns_error",
@@ -3645,7 +3645,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:33+00:00",
+            "checked_at": "2026-11-22T16:36:57+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -3674,7 +3674,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:21:33+00:00",
+            "checked_at": "2026-11-22T16:36:57+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -3703,7 +3703,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:33+00:00",
+            "checked_at": "2026-11-22T16:36:57+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/CANAL_EDUCACAO/index.m3u8",
             "result": "http_error",
@@ -3732,7 +3732,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:33+00:00",
+            "checked_at": "2026-11-22T16:36:57+00:00",
             "http_status": 200,
             "final_url": "https://canaleducacao-stream.ebc.com.br/index.m3u8",
             "result": "reachable_hls",
@@ -3829,7 +3829,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:33+00:00",
+            "checked_at": "2026-11-22T16:36:57+00:00",
             "http_status": 200,
             "final_url": "https://v-us-01.wisestream.io/memfs/e4ade538-7924-4359-81ef-b9d4dd229e91.m3u8",
             "result": "reachable_hls",
@@ -3927,7 +3927,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:33+00:00",
+            "checked_at": "2026-11-22T16:36:57+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -3956,7 +3956,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:33+00:00",
+            "checked_at": "2026-11-22T16:36:57+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/FUTURA/index.m3u8",
             "result": "reachable_hls",
@@ -3985,7 +3985,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:34+00:00",
+            "checked_at": "2026-11-22T16:36:58+00:00",
             "http_status": 206,
             "final_url": "http://186.219.52.187/futura/index.m3u8",
             "result": "reachable_hls",
@@ -4076,7 +4076,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:21:34+00:00",
+            "checked_at": "2026-11-22T16:36:58+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -4105,7 +4105,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:34+00:00",
+            "checked_at": "2026-11-22T16:36:58+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/TV_BRASIL_2/index.m3u8",
             "result": "http_error",
@@ -4134,7 +4134,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:34+00:00",
+            "checked_at": "2026-11-22T16:36:58+00:00",
             "http_status": 200,
             "final_url": "https://canalgov-stream.ebc.com.br/index.m3u8",
             "result": "reachable_hls",
@@ -4225,7 +4225,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:34+00:00",
+            "checked_at": "2026-11-22T16:36:58+00:00",
             "http_status": 400,
             "final_url": "https://canallibras-stream.ebc.com.br/mux_video_ts/index-1.m3u8",
             "result": "http_error",
@@ -4325,7 +4325,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:34+00:00",
+            "checked_at": "2026-11-22T16:36:58+00:00",
             "http_status": 206,
             "final_url": "https://stmv5.samcast.com.br/claudio8701/claudio8701/playlist.m3u8",
             "result": "reachable_hls",
@@ -4419,7 +4419,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:21:34+00:00",
+            "checked_at": "2026-11-22T16:36:58+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -4519,7 +4519,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:21:34+00:00",
+            "checked_at": "2026-11-22T16:36:59+00:00",
             "http_status": 404,
             "final_url": "http://170.83.49.66:8083/CANALRURALHD/index.m3u8",
             "result": "not_found",
@@ -4539,7 +4539,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:35+00:00",
+            "checked_at": "2026-11-22T16:36:59+00:00",
             "http_status": 206,
             "final_url": "http://186.219.52.187/canal_rural/index.m3u8",
             "result": "reachable_hls",
@@ -4638,7 +4638,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:21:35+00:00",
+            "checked_at": "2026-11-22T16:36:59+00:00",
             "http_status": 403,
             "final_url": "https://eitv7.cdn.broadpeak.io/account351-i1495/event/canalsaude/format720p.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -4660,7 +4660,7 @@
           "authorization_status": "unknown",
           "availability_status": "server_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:35+00:00",
+            "checked_at": "2026-11-22T16:36:59+00:00",
             "http_status": 503,
             "final_url": "https://arkyvbre1g.zoeweb.tv/fiocruz/fiocruz.stream/playlist.m3u8",
             "result": "server_error",
@@ -4770,14 +4770,14 @@
           "source_file": "streams/br.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "timeout",
+          "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:35+00:00",
-            "http_status": null,
-            "final_url": null,
-            "result": "timeout",
-            "hls_status": "not_confirmed",
-            "detail": "connection_timeout",
+            "checked_at": "2026-11-22T16:36:59+00:00",
+            "http_status": 206,
+            "final_url": "http://play.canalsete.com.br:1935/canalsete/xpl-c7_source/playlist.m3u8",
+            "result": "reachable_hls",
+            "hls_status": "accessible",
+            "detail": "hls_accessible",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
@@ -4872,7 +4872,7 @@
           "authorization_status": "unknown",
           "availability_status": "dns_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:35+00:00",
+            "checked_at": "2026-11-22T16:36:59+00:00",
             "http_status": null,
             "final_url": null,
             "result": "dns_error",
@@ -4972,7 +4972,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:35+00:00",
+            "checked_at": "2026-11-22T16:36:59+00:00",
             "http_status": 200,
             "final_url": "https://video24.mais.uol.com.br/live/6146.m3u8",
             "result": "reachable_hls",
@@ -5063,7 +5063,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:35+00:00",
+            "checked_at": "2026-11-22T16:37:00+00:00",
             "http_status": 206,
             "final_url": "https://5b33b873179a2.streamlock.net:1443/catve2/catve2/playlist.m3u8",
             "result": "reachable_hls",
@@ -5156,7 +5156,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:36+00:00",
+            "checked_at": "2026-11-22T16:37:00+00:00",
             "http_status": 206,
             "final_url": "https://5b33b873179a2.streamlock.net:1443/radiocamera/livestream/playlist.m3u8",
             "result": "reachable_hls",
@@ -5249,7 +5249,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:36+00:00",
+            "checked_at": "2026-11-22T16:37:00+00:00",
             "http_status": 206,
             "final_url": "https://5b33b873179a2.streamlock.net:1443/mastertv/livestream/playlist.m3u8",
             "result": "reachable_hls",
@@ -5340,7 +5340,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:21:36+00:00",
+            "checked_at": "2026-11-22T16:37:00+00:00",
             "http_status": 403,
             "final_url": "http://138.204.86.4:8080/CAZE_TV/playlist.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -5431,7 +5431,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:36+00:00",
+            "checked_at": "2026-11-22T16:37:01+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/CHEF_TV/index.m3u8",
             "result": "http_error",
@@ -5531,7 +5531,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:37+00:00",
+            "checked_at": "2026-11-22T16:37:01+00:00",
             "http_status": 206,
             "final_url": "https://5c483b9d1019c.streamlock.net/8054/8054/playlist.m3u8",
             "result": "reachable_hls",
@@ -5622,7 +5622,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:37+00:00",
+            "checked_at": "2026-11-22T16:37:01+00:00",
             "http_status": 200,
             "final_url": "https://cc-hqw8u5r1nshjc.akamaized.net/scheduler/scheduleMaster/352.m3u8",
             "result": "reachable_hls",
@@ -5642,7 +5642,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:37+00:00",
+            "checked_at": "2026-11-22T16:37:01+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -5742,7 +5742,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_non_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:37+00:00",
+            "checked_at": "2026-11-22T16:37:01+00:00",
             "http_status": 200,
             "final_url": "https://play.redecinturaoverde.com.br/playlist.m3u8",
             "result": "reachable_non_hls",
@@ -5842,7 +5842,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:37+00:00",
+            "checked_at": "2026-11-22T16:37:01+00:00",
             "http_status": 206,
             "final_url": "https://stmv1.srvif.com/classique/classique/playlist.m3u8",
             "result": "reachable_hls",
@@ -5933,7 +5933,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:37+00:00",
+            "checked_at": "2026-11-22T16:37:01+00:00",
             "http_status": 206,
             "final_url": "https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8",
             "result": "reachable_hls",
@@ -6027,7 +6027,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:37+00:00",
+            "checked_at": "2026-11-22T16:37:01+00:00",
             "http_status": 206,
             "final_url": "https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/NewCo/New_Brasil_BR/New_Brasil.m3u8",
             "result": "reachable_hls",
@@ -6049,7 +6049,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:37+00:00",
+            "checked_at": "2026-11-22T16:37:01+00:00",
             "http_status": 206,
             "final_url": "https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8",
             "result": "reachable_hls",
@@ -6140,7 +6140,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:37+00:00",
+            "checked_at": "2026-11-22T16:37:01+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -6243,7 +6243,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:37+00:00",
+            "checked_at": "2026-11-22T16:37:01+00:00",
             "http_status": 206,
             "final_url": "https://stmv2.srvif.com/gafeab/gafeab/playlist.m3u8",
             "result": "reachable_hls",
@@ -6337,7 +6337,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:37+00:00",
+            "checked_at": "2026-11-22T16:37:02+00:00",
             "http_status": 206,
             "final_url": "https://adylnet.streampool.net/10324/live/hls/Conecta/index.m3u8",
             "result": "reachable_hls",
@@ -6357,7 +6357,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:21:38+00:00",
+            "checked_at": "2026-11-22T16:37:02+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -6460,7 +6460,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:38+00:00",
+            "checked_at": "2026-11-22T16:37:02+00:00",
             "http_status": 206,
             "final_url": "https://stream01.msolutionbrasil.com.br/hls/conectv/live.m3u8",
             "result": "reachable_hls",
@@ -6551,7 +6551,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:38+00:00",
+            "checked_at": "2026-11-22T16:37:02+00:00",
             "http_status": 206,
             "final_url": "https://5a57bda70564a.streamlock.net/conexaotv/conexaotv.sdp/playlist.m3u8",
             "result": "reachable_hls",
@@ -6643,7 +6643,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:21:38+00:00",
+            "checked_at": "2026-11-22T16:37:02+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -6742,7 +6742,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:21:38+00:00",
+            "checked_at": "2026-11-22T16:37:02+00:00",
             "http_status": 403,
             "final_url": "http://170.84.165.204/CANAL_21_HD/index.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -6764,7 +6764,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:21:38+00:00",
+            "checked_at": "2026-11-22T16:37:03+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -6877,7 +6877,7 @@
           "authorization_status": "unknown",
           "availability_status": "dns_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:40+00:00",
+            "checked_at": "2026-11-22T16:37:03+00:00",
             "http_status": null,
             "final_url": null,
             "result": "dns_error",
@@ -6906,7 +6906,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:40+00:00",
+            "checked_at": "2026-11-22T16:37:03+00:00",
             "http_status": 206,
             "final_url": "https://stmv1.samcast.com.br/demaistv6503/demaistv6503/playlist.m3u8",
             "result": "reachable_hls",
@@ -6997,7 +6997,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:40+00:00",
+            "checked_at": "2026-11-22T16:37:03+00:00",
             "http_status": 206,
             "final_url": "https://br.conectmy.com.br/DespertarTV/index.m3u8",
             "result": "reachable_hls",
@@ -7088,7 +7088,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:41+00:00",
+            "checked_at": "2026-11-22T16:37:04+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -7117,7 +7117,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:41+00:00",
+            "checked_at": "2026-11-22T16:37:04+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/ZOOMOO/index.m3u8",
             "result": "http_error",
@@ -7146,7 +7146,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:41+00:00",
+            "checked_at": "2026-11-22T16:37:04+00:00",
             "http_status": 206,
             "final_url": "http://186.219.52.187/zoomoo/index.m3u8",
             "result": "reachable_hls",
@@ -7237,7 +7237,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:21:41+00:00",
+            "checked_at": "2026-11-22T16:37:05+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -7266,7 +7266,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:41+00:00",
+            "checked_at": "2026-11-22T16:37:05+00:00",
             "http_status": 206,
             "final_url": "https://stmv1.samcast.com.br/ricardo2194/ricardo2194/playlist.m3u8",
             "result": "reachable_hls",
@@ -7357,7 +7357,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:42+00:00",
+            "checked_at": "2026-11-22T16:37:05+00:00",
             "http_status": 206,
             "final_url": "https://stmv1.srvsite.com/ely/ely/playlist.m3u8",
             "result": "reachable_hls",
@@ -7448,7 +7448,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:42+00:00",
+            "checked_at": "2026-11-22T16:37:05+00:00",
             "http_status": 200,
             "final_url": "http://181.78.197.59:8000/play/a07z/index.m3u8",
             "result": "reachable_hls",
@@ -7468,7 +7468,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:21:42+00:00",
+            "checked_at": "2026-11-22T16:37:05+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -7571,7 +7571,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:21:42+00:00",
+            "checked_at": "2026-11-22T16:37:05+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -7600,7 +7600,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:42+00:00",
+            "checked_at": "2026-11-22T16:37:06+00:00",
             "http_status": 200,
             "final_url": "http://181.78.197.59:8000/play/a081/index.m3u8",
             "result": "reachable_hls",
@@ -7694,7 +7694,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:42+00:00",
+            "checked_at": "2026-11-22T16:37:06+00:00",
             "http_status": 200,
             "final_url": "http://181.78.197.59:8000/play/a07n/index.m3u8",
             "result": "reachable_hls",
@@ -7786,14 +7786,14 @@
           "source_file": "streams/br.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "reachable_hls",
+          "availability_status": "reachable_non_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:43+00:00",
+            "checked_at": "2026-11-22T16:37:06+00:00",
             "http_status": 200,
             "final_url": "https://cdn.live.br1.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8",
-            "result": "reachable_hls",
-            "hls_status": "accessible",
-            "detail": "hls_accessible",
+            "result": "reachable_non_hls",
+            "hls_status": "not_confirmed",
+            "detail": "http_ok_not_hls",
             "check_method": "GET_range_0_4095"
           }
         },
@@ -7808,7 +7808,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:21:43+00:00",
+            "checked_at": "2026-11-22T16:37:06+00:00",
             "http_status": 403,
             "final_url": "https://video01.logicahost.com.br/ypetv/ypetv/playlist.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -7908,7 +7908,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:43+00:00",
+            "checked_at": "2026-11-22T16:37:07+00:00",
             "http_status": 206,
             "final_url": "https://5c483b9d1019c.streamlock.net/falalitoraltv/falalitoraltv/playlist.m3u8",
             "result": "reachable_hls",
@@ -7999,7 +7999,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:21:44+00:00",
+            "checked_at": "2026-11-22T16:37:07+00:00",
             "http_status": 404,
             "final_url": "http://190.128.214.97:64333/play/a006/index.m3u8",
             "result": "not_found",
@@ -8019,7 +8019,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:44+00:00",
+            "checked_at": "2026-11-22T16:37:07+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -8048,7 +8048,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:44+00:00",
+            "checked_at": "2026-11-22T16:37:07+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/FISH_TV/index.m3u8",
             "result": "http_error",
@@ -8077,7 +8077,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:44+00:00",
+            "checked_at": "2026-11-22T16:37:08+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/FISH_TV/index.m3u8",
             "result": "reachable_hls",
@@ -8177,7 +8177,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:44+00:00",
+            "checked_at": "2026-11-22T16:37:08+00:00",
             "http_status": 206,
             "final_url": "https://59fb88a1b1108.streamlock.net/fonte/_definst_/fontetv/chunklist_w1224511652.m3u8",
             "result": "reachable_hls",
@@ -8199,7 +8199,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:44+00:00",
+            "checked_at": "2026-11-22T16:37:08+00:00",
             "http_status": 206,
             "final_url": "http://flash.softhost.com.br:1935/fonte/fontetv/live.m3u8",
             "result": "reachable_hls",
@@ -8290,7 +8290,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:21:44+00:00",
+            "checked_at": "2026-11-22T16:37:08+00:00",
             "http_status": 404,
             "final_url": "https://stmv2.srvif.com/foratedio/foratedio/playlist.m3u8",
             "result": "not_found",
@@ -8381,7 +8381,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:44+00:00",
+            "checked_at": "2026-11-22T16:37:08+00:00",
             "http_status": 206,
             "final_url": "http://170.83.49.66:8083/FUTURAHD/index.m3u8",
             "result": "reachable_hls",
@@ -8472,7 +8472,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:45+00:00",
+            "checked_at": "2026-11-22T16:37:09+00:00",
             "http_status": 206,
             "final_url": "https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u8",
             "result": "reachable_hls",
@@ -8492,7 +8492,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:45+00:00",
+            "checked_at": "2026-11-22T16:37:09+00:00",
             "http_status": 206,
             "final_url": "https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/GE_Fast_BR/GE_Fast.m3u8",
             "result": "reachable_hls",
@@ -8583,7 +8583,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:45+00:00",
+            "checked_at": "2026-11-22T16:37:09+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -8685,7 +8685,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:45+00:00",
+            "checked_at": "2026-11-22T16:37:09+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -8785,7 +8785,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_non_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:45+00:00",
+            "checked_at": "2026-11-22T16:37:09+00:00",
             "http_status": 200,
             "final_url": "http://79.127.238.228:14093",
             "result": "reachable_non_hls",
@@ -8885,7 +8885,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_non_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:45+00:00",
+            "checked_at": "2026-11-22T16:37:09+00:00",
             "http_status": 200,
             "final_url": "http://79.127.238.228:14455",
             "result": "reachable_non_hls",
@@ -8905,7 +8905,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:21:45+00:00",
+            "checked_at": "2026-11-22T16:37:09+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -9006,7 +9006,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:21:45+00:00",
+            "checked_at": "2026-11-22T16:37:10+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -9108,7 +9108,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:21:46+00:00",
+            "checked_at": "2026-11-22T16:37:10+00:00",
             "http_status": 404,
             "final_url": "https://vs20.live.opencaster.com/globiosat_73a904af/index.m3u8",
             "result": "not_found",
@@ -9199,7 +9199,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:21:46+00:00",
+            "checked_at": "2026-11-22T16:37:10+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -9299,7 +9299,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:46+00:00",
+            "checked_at": "2026-11-22T16:37:11+00:00",
             "http_status": 206,
             "final_url": "https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8",
             "result": "reachable_hls",
@@ -9395,7 +9395,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:46+00:00",
+            "checked_at": "2026-11-22T16:37:11+00:00",
             "http_status": 206,
             "final_url": "https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8",
             "result": "reachable_hls",
@@ -9491,7 +9491,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:21:46+00:00",
+            "checked_at": "2026-11-22T16:37:11+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -9520,7 +9520,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:47+00:00",
+            "checked_at": "2026-11-22T16:37:12+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/HISTORY/index.m3u8",
             "result": "reachable_hls",
@@ -9620,7 +9620,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:47+00:00",
+            "checked_at": "2026-11-22T16:37:12+00:00",
             "http_status": 206,
             "final_url": "https://igrejamundial.nuvemplay.live/hls/stream.m3u8",
             "result": "reachable_hls",
@@ -9713,7 +9713,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:48+00:00",
+            "checked_at": "2026-11-22T16:37:13+00:00",
             "http_status": 206,
             "final_url": "https://stmv1.srvstm.com/sistema7933/sistema7933/playlist.m3u8",
             "result": "reachable_hls",
@@ -9804,7 +9804,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:48+00:00",
+            "checked_at": "2026-11-22T16:37:13+00:00",
             "http_status": 206,
             "final_url": "https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8",
             "result": "reachable_hls",
@@ -9895,7 +9895,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:21:49+00:00",
+            "checked_at": "2026-11-22T16:37:13+00:00",
             "http_status": 404,
             "final_url": "http://170.83.49.66:8083/JOVEMPANNEWSHD/index.m3u8",
             "result": "not_found",
@@ -9915,7 +9915,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:49+00:00",
+            "checked_at": "2026-11-22T16:37:13+00:00",
             "http_status": 206,
             "final_url": "http://186.219.52.187/jp_news/index.m3u8",
             "result": "reachable_hls",
@@ -9937,7 +9937,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:49+00:00",
+            "checked_at": "2026-11-22T16:37:13+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -10043,7 +10043,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:49+00:00",
+            "checked_at": "2026-11-22T16:37:13+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -10143,7 +10143,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:49+00:00",
+            "checked_at": "2026-11-22T16:37:13+00:00",
             "http_status": 206,
             "final_url": "https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8",
             "result": "reachable_hls",
@@ -10218,7 +10218,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:49+00:00",
+            "checked_at": "2026-11-22T16:37:13+00:00",
             "http_status": 206,
             "final_url": "https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8",
             "result": "reachable_hls",
@@ -10293,7 +10293,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:50+00:00",
+            "checked_at": "2026-11-22T16:37:14+00:00",
             "http_status": 206,
             "final_url": "https://cnl-cl.otteravision.com/cnl/cl_h265/cl_h265.m3u8",
             "result": "reachable_hls",
@@ -10382,7 +10382,7 @@
           "authorization_status": "unknown",
           "availability_status": "dns_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:50+00:00",
+            "checked_at": "2026-11-22T16:37:14+00:00",
             "http_status": null,
             "final_url": null,
             "result": "dns_error",
@@ -10482,7 +10482,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:50+00:00",
+            "checked_at": "2026-11-22T16:37:14+00:00",
             "http_status": 206,
             "final_url": "https://a.cdni.live/rodrigo2364/rodrigo2364/playlist.m3u8",
             "result": "reachable_hls",
@@ -10581,7 +10581,7 @@
           "authorization_status": "unknown",
           "availability_status": "dns_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:50+00:00",
+            "checked_at": "2026-11-22T16:37:14+00:00",
             "http_status": null,
             "final_url": null,
             "result": "dns_error",
@@ -10681,7 +10681,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:50+00:00",
+            "checked_at": "2026-11-22T16:37:14+00:00",
             "http_status": 206,
             "final_url": "https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8",
             "result": "reachable_hls",
@@ -10772,7 +10772,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_non_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:50+00:00",
+            "checked_at": "2026-11-22T16:37:14+00:00",
             "http_status": 200,
             "final_url": "https://play.mbcbrasil.tv.br/playlist.m3u8",
             "result": "reachable_non_hls",
@@ -10874,7 +10874,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:21:50+00:00",
+            "checked_at": "2026-11-22T16:37:14+00:00",
             "http_status": 403,
             "final_url": "https://video01.logicahost.com.br/mkkwebtv/mkkwebtv/playlist.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -10974,7 +10974,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:50+00:00",
+            "checked_at": "2026-11-22T16:37:14+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/MUSIC/index.m3u8",
             "result": "http_error",
@@ -11003,7 +11003,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:50+00:00",
+            "checked_at": "2026-11-22T16:37:14+00:00",
             "http_status": 206,
             "final_url": "http://170.83.49.66:8083/MUSICBOXBRASILHD/index.m3u8",
             "result": "reachable_hls",
@@ -11097,7 +11097,7 @@
           "authorization_status": "unknown",
           "availability_status": "dns_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:51+00:00",
+            "checked_at": "2026-11-22T16:37:15+00:00",
             "http_status": null,
             "final_url": null,
             "result": "dns_error",
@@ -11200,7 +11200,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:51+00:00",
+            "checked_at": "2026-11-22T16:37:15+00:00",
             "http_status": 206,
             "final_url": "https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8",
             "result": "reachable_hls",
@@ -11291,7 +11291,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:51+00:00",
+            "checked_at": "2026-11-22T16:37:15+00:00",
             "http_status": 218,
             "final_url": "https://x1colegal.com/hls/stream.m3u8",
             "result": "http_error",
@@ -11395,7 +11395,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:51+00:00",
+            "checked_at": "2026-11-22T16:37:15+00:00",
             "http_status": 206,
             "final_url": "http://wz3.dnip.com.br:1935/novaeratv/novaeratv.sdp/live.m3u8",
             "result": "reachable_hls",
@@ -11484,7 +11484,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:51+00:00",
+            "checked_at": "2026-11-22T16:37:15+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -11513,7 +11513,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:51+00:00",
+            "checked_at": "2026-11-22T16:37:15+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/NOVO_TEMPO/index.m3u8",
             "result": "http_error",
@@ -11542,7 +11542,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:51+00:00",
+            "checked_at": "2026-11-22T16:37:15+00:00",
             "http_status": 206,
             "final_url": "http://186.219.52.187/novo_tempo/index.m3u8",
             "result": "reachable_hls",
@@ -11625,7 +11625,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:51+00:00",
+            "checked_at": "2026-11-22T16:37:15+00:00",
             "http_status": 206,
             "final_url": "https://cdn.livespanel.com/nossatv/nossatv/playlist.m3u8",
             "result": "reachable_hls",
@@ -11724,7 +11724,7 @@
           "authorization_status": "unknown",
           "availability_status": "dns_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:51+00:00",
+            "checked_at": "2026-11-22T16:37:15+00:00",
             "http_status": null,
             "final_url": null,
             "result": "dns_error",
@@ -11816,7 +11816,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:51+00:00",
+            "checked_at": "2026-11-22T16:37:15+00:00",
             "http_status": 206,
             "final_url": "https://6836041ea1117.streamlock.net/tvodia/tvodia/playlist.m3u8",
             "result": "reachable_hls",
@@ -11908,7 +11908,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:51+00:00",
+            "checked_at": "2026-11-22T16:37:15+00:00",
             "http_status": 200,
             "final_url": "https://video04.logicahost.com.br/petloverstv/petloverstv/playlist.m3u8",
             "result": "reachable_hls",
@@ -11999,7 +11999,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:51+00:00",
+            "checked_at": "2026-11-22T16:37:15+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -12028,7 +12028,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:21:51+00:00",
+            "checked_at": "2026-11-22T16:37:16+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -12057,7 +12057,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:51+00:00",
+            "checked_at": "2026-11-22T16:37:16+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/PLAY_TV/index.m3u8",
             "result": "http_error",
@@ -12086,7 +12086,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:51+00:00",
+            "checked_at": "2026-11-22T16:37:16+00:00",
             "http_status": 206,
             "final_url": "https://isaocorp.cloudecast.com/playtv/index.m3u8",
             "result": "reachable_hls",
@@ -12175,7 +12175,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:51+00:00",
+            "checked_at": "2026-11-22T16:37:16+00:00",
             "http_status": 200,
             "final_url": "https://cdn.live.br1.jmvstream.com/w/LVW-9591/LVW9591_PmXtgATnaS/playlist.m3u8",
             "result": "reachable_hls",
@@ -12266,7 +12266,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:51+00:00",
+            "checked_at": "2026-11-22T16:37:16+00:00",
             "http_status": 206,
             "final_url": "https://strv.painelvox.top/plenitude/plenitude/playlist.m3u8",
             "result": "reachable_hls",
@@ -12349,7 +12349,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:52+00:00",
+            "checked_at": "2026-11-22T16:37:17+00:00",
             "http_status": 206,
             "final_url": "http://200.194.238.229:8383/live/primer/playlist.m3u8",
             "result": "reachable_hls",
@@ -12440,7 +12440,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:52+00:00",
+            "checked_at": "2026-11-22T16:37:17+00:00",
             "http_status": 200,
             "final_url": "https://cdn.live.br1.jmvstream.com/w/LVW-15748/LVW15748_Yed7yzLuRC/playlist.m3u8",
             "result": "reachable_hls",
@@ -12532,7 +12532,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:21:52+00:00",
+            "checked_at": "2026-11-22T16:37:17+00:00",
             "http_status": 403,
             "final_url": "https://stmv.webtvninjas.com.br/rctv/rctv/playlist.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -12632,7 +12632,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:21:52+00:00",
+            "checked_at": "2026-11-22T16:37:17+00:00",
             "http_status": 403,
             "final_url": "http://170.84.165.204/Record_HD/index.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -12652,7 +12652,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:21:52+00:00",
+            "checked_at": "2026-11-22T16:37:17+00:00",
             "http_status": 404,
             "final_url": "https://media.cdntvms.com.br/record_nacional_sat/index.m3u8",
             "result": "not_found",
@@ -12679,14 +12679,14 @@
           "source_file": "streams/br.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "reachable_non_hls",
+          "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:52+00:00",
+            "checked_at": "2026-11-22T16:37:17+00:00",
             "http_status": 200,
             "final_url": "https://cdn.live.br1.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/chunklist.m3u8",
-            "result": "reachable_non_hls",
-            "hls_status": "not_confirmed",
-            "detail": "http_ok_not_hls",
+            "result": "reachable_hls",
+            "hls_status": "accessible",
+            "detail": "hls_accessible",
             "check_method": "GET_range_0_4095"
           }
         }
@@ -12775,7 +12775,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:52+00:00",
+            "checked_at": "2026-11-22T16:37:17+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -12804,7 +12804,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:21:53+00:00",
+            "checked_at": "2026-11-22T16:37:17+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -12833,7 +12833,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:53+00:00",
+            "checked_at": "2026-11-22T16:37:18+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/RECORD_NEWS/index.m3u8",
             "result": "http_error",
@@ -12862,7 +12862,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:53+00:00",
+            "checked_at": "2026-11-22T16:37:18+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/RECORD_NEWS/index.m3u8",
             "result": "reachable_hls",
@@ -12891,7 +12891,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:21:53+00:00",
+            "checked_at": "2026-11-22T16:37:18+00:00",
             "http_status": 404,
             "final_url": "http://170.83.49.66:8083/RECORDNEWSHD/index.m3u8",
             "result": "not_found",
@@ -12911,7 +12911,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:21:53+00:00",
+            "checked_at": "2026-11-22T16:37:18+00:00",
             "http_status": 403,
             "final_url": "http://170.84.165.204/Record_news/index.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -12931,7 +12931,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:53+00:00",
+            "checked_at": "2026-11-22T16:37:18+00:00",
             "http_status": 206,
             "final_url": "http://186.219.52.187/record_news/index.m3u8",
             "result": "reachable_hls",
@@ -12951,7 +12951,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:53+00:00",
+            "checked_at": "2026-11-22T16:37:18+00:00",
             "http_status": 206,
             "final_url": "https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8",
             "result": "reachable_hls",
@@ -12971,7 +12971,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:53+00:00",
+            "checked_at": "2026-11-22T16:37:18+00:00",
             "http_status": 400,
             "final_url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=2116",
             "result": "http_error",
@@ -13002,7 +13002,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:21:53+00:00",
+            "checked_at": "2026-11-22T16:37:18+00:00",
             "http_status": 403,
             "final_url": "https://playplusnews-lh.akamaihd.net/i/pp_nws@377849/master.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -13098,7 +13098,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:21:53+00:00",
+            "checked_at": "2026-11-22T16:37:18+00:00",
             "http_status": 403,
             "final_url": "https://playpluspa-lh.akamaihd.net/i/pp_pa@377468/index_720_av-p.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -13192,7 +13192,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:21:53+00:00",
+            "checked_at": "2026-11-22T16:37:18+00:00",
             "http_status": 403,
             "final_url": "https://playplusbsa-lh.akamaihd.net/i/pp_bsa@377860/index_720_av-p.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -13286,7 +13286,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:21:53+00:00",
+            "checked_at": "2026-11-22T16:37:18+00:00",
             "http_status": 403,
             "final_url": "https://playplusgoya-lh.akamaihd.net/i/pp_gna@377833/index_720_av-p.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -13380,7 +13380,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:21:54+00:00",
+            "checked_at": "2026-11-22T16:37:18+00:00",
             "http_status": 403,
             "final_url": "https://playplussdr-lh.akamaihd.net/i/pp_sdr@377858/index_720_av-b.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -13474,7 +13474,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:21:54+00:00",
+            "checked_at": "2026-11-22T16:37:18+00:00",
             "http_status": 403,
             "final_url": "https://playplusrjo-lh.akamaihd.net/i/pp_rj@377859/index_720_av-p.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -13568,7 +13568,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:21:54+00:00",
+            "checked_at": "2026-11-22T16:37:18+00:00",
             "http_status": 403,
             "final_url": "https://playpluspoa-lh.akamaihd.net/i/pp_poa@377864/index_720_av-p.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -13662,7 +13662,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:21:54+00:00",
+            "checked_at": "2026-11-22T16:37:19+00:00",
             "http_status": 403,
             "final_url": "https://playplusspo-lh.akamaihd.net/i/pp_sp@350176/index_720_av-p.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -13754,7 +13754,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_non_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:54+00:00",
+            "checked_at": "2026-11-22T16:37:19+00:00",
             "http_status": 200,
             "final_url": "http://200.77.176.130:8000/udp/224.0.0.4:49152",
             "result": "reachable_non_hls",
@@ -13853,7 +13853,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:54+00:00",
+            "checked_at": "2026-11-22T16:37:19+00:00",
             "http_status": 206,
             "final_url": "https://redebrasil.nuvemplay.live/hls/stream.m3u8",
             "result": "reachable_hls",
@@ -13882,7 +13882,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:21:54+00:00",
+            "checked_at": "2026-11-22T16:37:19+00:00",
             "http_status": 403,
             "final_url": "http://170.84.165.204/REDEBRASIL/index.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -13902,7 +13902,7 @@
           "authorization_status": "unknown",
           "availability_status": "dns_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:54+00:00",
+            "checked_at": "2026-11-22T16:37:19+00:00",
             "http_status": null,
             "final_url": null,
             "result": "dns_error",
@@ -14002,7 +14002,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:54+00:00",
+            "checked_at": "2026-11-22T16:37:19+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -14031,7 +14031,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:54+00:00",
+            "checked_at": "2026-11-22T16:37:19+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/CNT/index.m3u8",
             "result": "http_error",
@@ -14060,7 +14060,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:21:54+00:00",
+            "checked_at": "2026-11-22T16:37:19+00:00",
             "http_status": 404,
             "final_url": "http://170.83.49.66:8083/REDECNTHD/index.m3u8",
             "result": "not_found",
@@ -14080,7 +14080,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:21:54+00:00",
+            "checked_at": "2026-11-22T16:37:19+00:00",
             "http_status": 403,
             "final_url": "http://170.84.165.204/CNT_HD/index.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -14100,7 +14100,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:54+00:00",
+            "checked_at": "2026-11-22T16:37:19+00:00",
             "http_status": 206,
             "final_url": "http://186.219.52.187/cnt/index.m3u8",
             "result": "reachable_hls",
@@ -14190,7 +14190,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_non_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:54+00:00",
+            "checked_at": "2026-11-22T16:37:19+00:00",
             "http_status": 200,
             "final_url": "http://168.205.87.198:8555/live/1368/123456/150.m3u8",
             "result": "reachable_non_hls",
@@ -14283,7 +14283,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:54+00:00",
+            "checked_at": "2026-11-22T16:37:19+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/REDE_FAMILIA/index.m3u8",
             "result": "http_error",
@@ -14312,7 +14312,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:54+00:00",
+            "checked_at": "2026-11-22T16:37:19+00:00",
             "http_status": 206,
             "final_url": "http://186.219.52.187/rede_familia/index.m3u8",
             "result": "reachable_hls",
@@ -14399,14 +14399,14 @@
           "source_file": "streams/br.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "forbidden_or_geo_restricted",
+          "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:21:54+00:00",
-            "http_status": 403,
-            "final_url": "https://cdn-sp2.satlabscloud.com.br/RBS_HD/index.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq",
-            "result": "forbidden_or_geo_restricted",
+            "checked_at": "2026-11-22T16:37:19+00:00",
+            "http_status": null,
+            "final_url": null,
+            "result": "timeout",
             "hls_status": "not_confirmed",
-            "detail": "http_403",
+            "detail": "connection_timeout",
             "check_method": "GET_range_0_4095"
           }
         },
@@ -14421,7 +14421,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:54+00:00",
+            "checked_at": "2026-11-22T16:37:19+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -14519,7 +14519,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:54+00:00",
+            "checked_at": "2026-11-22T16:37:19+00:00",
             "http_status": 200,
             "final_url": "https://cdn.live.br1.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8",
             "result": "reachable_hls",
@@ -14539,7 +14539,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:54+00:00",
+            "checked_at": "2026-11-22T16:37:19+00:00",
             "http_status": 206,
             "final_url": "https://redegospel-aovivo.nuvemplay.live/hls/stream.m3u8",
             "result": "reachable_hls",
@@ -14559,7 +14559,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:21:54+00:00",
+            "checked_at": "2026-11-22T16:37:19+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -14588,7 +14588,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:21:55+00:00",
+            "checked_at": "2026-11-22T16:37:19+00:00",
             "http_status": 404,
             "final_url": "http://170.83.49.66:8083/REDEGOSPELHD/index.m3u8",
             "result": "not_found",
@@ -14682,7 +14682,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:55+00:00",
+            "checked_at": "2026-11-22T16:37:20+00:00",
             "http_status": 206,
             "final_url": "https://maystreaming.cloudecast.com/redemeio/index.m3u8",
             "result": "reachable_hls",
@@ -14780,7 +14780,7 @@
           "authorization_status": "unknown",
           "availability_status": "dns_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:55+00:00",
+            "checked_at": "2026-11-22T16:37:20+00:00",
             "http_status": null,
             "final_url": null,
             "result": "dns_error",
@@ -14880,7 +14880,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:55+00:00",
+            "checked_at": "2026-11-22T16:37:20+00:00",
             "http_status": 206,
             "final_url": "https://8hzcavccys.zoeweb.tv/redeminas/ngrp:redeminas_all/playlist.m3u8",
             "result": "reachable_hls",
@@ -14902,7 +14902,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:21:55+00:00",
+            "checked_at": "2026-11-22T16:37:20+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -15010,7 +15010,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:55+00:00",
+            "checked_at": "2026-11-22T16:37:20+00:00",
             "http_status": 206,
             "final_url": "https://isaocorp.cloudecast.com/ngt/index.m3u8",
             "result": "reachable_hls",
@@ -15030,7 +15030,7 @@
           "authorization_status": "unknown",
           "availability_status": "dns_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:55+00:00",
+            "checked_at": "2026-11-22T16:37:20+00:00",
             "http_status": null,
             "final_url": null,
             "result": "dns_error",
@@ -15130,7 +15130,7 @@
           "authorization_status": "unknown",
           "availability_status": "dns_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:55+00:00",
+            "checked_at": "2026-11-22T16:37:20+00:00",
             "http_status": null,
             "final_url": null,
             "result": "dns_error",
@@ -15232,7 +15232,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:21:55+00:00",
+            "checked_at": "2026-11-22T16:37:20+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -15330,7 +15330,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:55+00:00",
+            "checked_at": "2026-11-22T16:37:21+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -15359,7 +15359,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:55+00:00",
+            "checked_at": "2026-11-22T16:37:21+00:00",
             "http_status": 206,
             "final_url": "http://186.219.52.187/seculo21/index.m3u8",
             "result": "reachable_hls",
@@ -15442,7 +15442,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:55+00:00",
+            "checked_at": "2026-11-22T16:37:21+00:00",
             "http_status": 200,
             "final_url": "https://video01.logicahost.com.br/websptv/websptv/playlist.m3u8",
             "result": "reachable_hls",
@@ -15533,7 +15533,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:55+00:00",
+            "checked_at": "2026-11-22T16:37:21+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -15562,7 +15562,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:55+00:00",
+            "checked_at": "2026-11-22T16:37:21+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/REDE_TV/index.m3u8",
             "result": "http_error",
@@ -15591,7 +15591,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:56+00:00",
+            "checked_at": "2026-11-22T16:37:21+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/REDE_TV/index.m3u8",
             "result": "reachable_hls",
@@ -15620,7 +15620,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:21:56+00:00",
+            "checked_at": "2026-11-22T16:37:21+00:00",
             "http_status": 404,
             "final_url": "http://170.83.49.66:8083/REDETVHD/index.m3u8",
             "result": "not_found",
@@ -15640,7 +15640,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:56+00:00",
+            "checked_at": "2026-11-22T16:37:22+00:00",
             "http_status": 206,
             "final_url": "http://186.219.52.187/rede_tv/index.m3u8",
             "result": "reachable_hls",
@@ -15662,7 +15662,7 @@
           "authorization_status": "unknown",
           "availability_status": "dns_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:56+00:00",
+            "checked_at": "2026-11-22T16:37:22+00:00",
             "http_status": null,
             "final_url": null,
             "result": "dns_error",
@@ -15763,14 +15763,14 @@
           "source_file": "streams/br.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "reachable_non_hls",
+          "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:56+00:00",
+            "checked_at": "2026-11-22T16:37:22+00:00",
             "http_status": 200,
             "final_url": "https://cdn.live.br1.jmvstream.com/webtv/AVJ-15235/playlist/playlist.m3u8",
-            "result": "reachable_non_hls",
-            "hls_status": "not_confirmed",
-            "detail": "http_ok_not_hls",
+            "result": "reachable_hls",
+            "hls_status": "accessible",
+            "detail": "hls_accessible",
             "check_method": "GET_range_0_4095"
           }
         }
@@ -15856,7 +15856,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_non_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:56+00:00",
+            "checked_at": "2026-11-22T16:37:22+00:00",
             "http_status": 200,
             "final_url": "http://46.151.196.223:14244",
             "result": "reachable_non_hls",
@@ -15876,7 +15876,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:21:56+00:00",
+            "checked_at": "2026-11-22T16:37:22+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/REDE_VIDA/index.m3u8",
             "result": "http_error",
@@ -15905,7 +15905,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:21:56+00:00",
+            "checked_at": "2026-11-22T16:37:22+00:00",
             "http_status": 403,
             "final_url": "http://170.84.165.204/REDEVIDA_HD/index.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -15925,7 +15925,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:56+00:00",
+            "checked_at": "2026-11-22T16:37:22+00:00",
             "http_status": 206,
             "final_url": "http://186.219.52.187/rede_vida/index.m3u8",
             "result": "reachable_hls",
@@ -15945,7 +15945,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:21:56+00:00",
+            "checked_at": "2026-11-22T16:37:23+00:00",
             "http_status": 403,
             "final_url": "https://cdn-5.nxplay.com.br/REDE_VIDA/index.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -16036,7 +16036,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:56+00:00",
+            "checked_at": "2026-11-22T16:37:23+00:00",
             "http_status": 206,
             "final_url": "https://tv01.zas.media:1936/redetvparana/redetvparana/playlist.m3u8",
             "result": "reachable_hls",
@@ -16126,7 +16126,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:56+00:00",
+            "checked_at": "2026-11-22T16:37:23+00:00",
             "http_status": 206,
             "final_url": "https://stmv1.video.brstream.com.br/retrotv/retrotv/chunklist_w1069200121.m3u8",
             "result": "reachable_hls",
@@ -16220,7 +16220,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:57+00:00",
+            "checked_at": "2026-11-22T16:37:24+00:00",
             "http_status": 206,
             "final_url": "https://acesso.ecast.site:3648/live/ritlive.m3u8",
             "result": "reachable_hls",
@@ -16240,7 +16240,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:21:57+00:00",
+            "checked_at": "2026-11-22T16:37:24+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -16269,7 +16269,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:21:57+00:00",
+            "checked_at": "2026-11-22T16:37:24+00:00",
             "http_status": 206,
             "final_url": "http://170.83.49.66:8083/RITHD/index.m3u8",
             "result": "reachable_hls",
@@ -16289,7 +16289,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:21:57+00:00",
+            "checked_at": "2026-11-22T16:37:24+00:00",
             "http_status": 403,
             "final_url": "http://170.84.165.204/RIT_TV/index.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -16309,7 +16309,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:21:58+00:00",
+            "checked_at": "2026-11-22T16:37:24+00:00",
             "http_status": 403,
             "final_url": "https://cdn-5.nxplay.com.br/RIT_TV/index.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -16400,7 +16400,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:21:58+00:00",
+            "checked_at": "2026-11-22T16:37:24+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -16431,7 +16431,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:21:59+00:00",
+            "checked_at": "2026-11-22T16:37:25+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -16531,7 +16531,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:21:59+00:00",
+            "checked_at": "2026-11-22T16:37:25+00:00",
             "http_status": 403,
             "final_url": "https://video09.logicahost.com.br/sbtcuiaba/sbtcuiaba/playlist.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -16621,14 +16621,14 @@
           "source_file": "streams/br.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "reachable_hls",
+          "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:22:00+00:00",
-            "http_status": 200,
+            "checked_at": "2026-11-22T16:37:26+00:00",
+            "http_status": 404,
             "final_url": "https://cdn.live.br1.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/playlist.m3u8",
-            "result": "reachable_hls",
-            "hls_status": "accessible",
-            "detail": "hls_accessible",
+            "result": "not_found",
+            "hls_status": "not_confirmed",
+            "detail": "http_404",
             "check_method": "GET_range_0_4095"
           }
         }
@@ -16725,7 +16725,7 @@
           "authorization_status": "unknown",
           "availability_status": "server_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:00+00:00",
+            "checked_at": "2026-11-22T16:37:27+00:00",
             "http_status": 504,
             "final_url": "https://8994803e454548319ffc0775bc04e0c1.mediatailor.us-east-1.amazonaws.com/v1/master/215c0da80606fed29372070168106400a6ca7e1a/SSAI-TVZyn/index.m3u8",
             "result": "server_error",
@@ -16828,7 +16828,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_non_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:00+00:00",
+            "checked_at": "2026-11-22T16:37:27+00:00",
             "http_status": 200,
             "final_url": "https://cdn.live.br1.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/chunklist.m3u8",
             "result": "reachable_non_hls",
@@ -16848,7 +16848,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:00+00:00",
+            "checked_at": "2026-11-22T16:37:27+00:00",
             "http_status": 206,
             "final_url": "https://6836041ea1117.streamlock.net/cverde/cverde/playlist.m3u8",
             "result": "reachable_hls",
@@ -16868,7 +16868,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:22:00+00:00",
+            "checked_at": "2026-11-22T16:37:27+00:00",
             "http_status": 404,
             "final_url": "https://media.cdntvms.com.br/sbt_sat/index.m3u8",
             "result": "not_found",
@@ -16966,9 +16966,9 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:01+00:00",
+            "checked_at": "2026-11-22T16:37:28+00:00",
             "http_status": 200,
-            "final_url": "https://dai.google.com/linear/hls/pa/event/1XSOdtQ0SH2G8OEmEfGgjQ/stream/5fc1c858-c8fc-4a22-96a1-629b4ccefe13:MRN2/master.m3u8",
+            "final_url": "https://dai.google.com/linear/hls/pa/event/1XSOdtQ0SH2G8OEmEfGgjQ/stream/ae398491-7ea3-4491-9e0e-ade283dbaea1:ATL/master.m3u8",
             "result": "reachable_hls",
             "hls_status": "accessible",
             "detail": "hls_accessible",
@@ -17060,7 +17060,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:01+00:00",
+            "checked_at": "2026-11-22T16:37:28+00:00",
             "http_status": 200,
             "final_url": "https://video09.logicahost.com.br/sbtmutum/sbtmutum/playlist.m3u8",
             "result": "reachable_hls",
@@ -17150,7 +17150,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:22:01+00:00",
+            "checked_at": "2026-11-22T16:37:28+00:00",
             "http_status": 403,
             "final_url": "https://video09.logicahost.com.br/sbtroo/sbtroo/playlist.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -17240,7 +17240,7 @@
           "authorization_status": "unknown",
           "availability_status": "dns_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:01+00:00",
+            "checked_at": "2026-11-22T16:37:28+00:00",
             "http_status": null,
             "final_url": null,
             "result": "dns_error",
@@ -17343,7 +17343,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:01+00:00",
+            "checked_at": "2026-11-22T16:37:28+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -17444,7 +17444,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:01+00:00",
+            "checked_at": "2026-11-22T16:37:28+00:00",
             "http_status": 400,
             "final_url": "https://slbps-ml-sambatech.akamaized.net/samba-live/2472/7424/8a00fe7cc36ac263b2c3e9324497d5ff/video/93a9920d-1b24-4c5e-a7d2-63d5489f59b5_index.m3u8",
             "result": "http_error",
@@ -17473,7 +17473,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:01+00:00",
+            "checked_at": "2026-11-22T16:37:28+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -17502,7 +17502,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:01+00:00",
+            "checked_at": "2026-11-22T16:37:28+00:00",
             "http_status": 206,
             "final_url": "http://170.83.49.66:8083/SESCTVHD/index.m3u8",
             "result": "reachable_hls",
@@ -17522,7 +17522,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:02+00:00",
+            "checked_at": "2026-11-22T16:37:28+00:00",
             "http_status": 206,
             "final_url": "http://186.219.52.187/sesc_tv/index.m3u8",
             "result": "reachable_hls",
@@ -17613,7 +17613,7 @@
           "authorization_status": "unknown",
           "availability_status": "server_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:02+00:00",
+            "checked_at": "2026-11-22T16:37:28+00:00",
             "http_status": 504,
             "final_url": "https://d38s7rrdbnh4oy.cloudfront.net/v1/master/215c0da80606fed29372070168106400a6ca7e1a/SSAI-Saudades/index.m3u8",
             "result": "server_error",
@@ -17716,7 +17716,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:02+00:00",
+            "checked_at": "2026-11-22T16:37:29+00:00",
             "http_status": 206,
             "final_url": "https://parecisfmlive.brasilstream.com.br/hls/parecisfmlive/index.m3u8",
             "result": "reachable_hls",
@@ -17807,7 +17807,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:02+00:00",
+            "checked_at": "2026-11-22T16:37:29+00:00",
             "http_status": 218,
             "final_url": "https://x1colegal.com/hls/stream.m3u8",
             "result": "http_error",
@@ -17887,7 +17887,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:02+00:00",
+            "checked_at": "2026-11-22T16:37:29+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/SONY_CHANNEL/index.m3u8",
             "result": "reachable_hls",
@@ -17916,7 +17916,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:22:02+00:00",
+            "checked_at": "2026-11-22T16:37:29+00:00",
             "http_status": 403,
             "final_url": "https://cdn-5.nxplay.com.br/SONY_CHANNEL/index.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -18005,7 +18005,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:02+00:00",
+            "checked_at": "2026-11-22T16:37:29+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -18034,7 +18034,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:22:03+00:00",
+            "checked_at": "2026-11-22T16:37:29+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -18063,7 +18063,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:03+00:00",
+            "checked_at": "2026-11-22T16:37:29+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/SONY_MOVIES/index.m3u8",
             "result": "http_error",
@@ -18092,7 +18092,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:03+00:00",
+            "checked_at": "2026-11-22T16:37:29+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/SONY_MOVIES/index.m3u8",
             "result": "reachable_hls",
@@ -18195,7 +18195,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:03+00:00",
+            "checked_at": "2026-11-22T16:37:29+00:00",
             "http_status": 200,
             "final_url": "https://video10.logicahost.com.br/soutv/soutv/playlist.m3u8",
             "result": "reachable_hls",
@@ -18286,7 +18286,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:22:03+00:00",
+            "checked_at": "2026-11-22T16:37:29+00:00",
             "http_status": 403,
             "final_url": "http://195.178.110.110/sportv2/index.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -18380,7 +18380,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:22:03+00:00",
+            "checked_at": "2026-11-22T16:37:30+00:00",
             "http_status": 403,
             "final_url": "http://195.178.110.110/sportv3/index.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -18400,7 +18400,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:22:03+00:00",
+            "checked_at": "2026-11-22T16:37:30+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -18501,14 +18501,14 @@
           "source_file": "streams/br.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "reachable_hls",
+          "availability_status": "reachable_non_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:03+00:00",
+            "checked_at": "2026-11-22T16:37:30+00:00",
             "http_status": 200,
             "final_url": "https://cdn.live.br1.jmvstream.com/webtv/AVJ-12952/playlist/playlist.m3u8",
-            "result": "reachable_hls",
-            "hls_status": "accessible",
-            "detail": "hls_accessible",
+            "result": "reachable_non_hls",
+            "hls_status": "not_confirmed",
+            "detail": "http_ok_not_hls",
             "check_method": "GET_range_0_4095"
           }
         }
@@ -18600,7 +18600,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:03+00:00",
+            "checked_at": "2026-11-22T16:37:30+00:00",
             "http_status": 206,
             "final_url": "https://live.tcm10.com.br/tcm10hd/stream.m3u8",
             "result": "reachable_hls",
@@ -18691,7 +18691,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_non_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:04+00:00",
+            "checked_at": "2026-11-22T16:37:30+00:00",
             "http_status": 200,
             "final_url": "http://46.151.196.223:14326",
             "result": "reachable_non_hls",
@@ -18785,7 +18785,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:04+00:00",
+            "checked_at": "2026-11-22T16:37:30+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -18814,7 +18814,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:22:04+00:00",
+            "checked_at": "2026-11-22T16:37:30+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -18843,7 +18843,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:04+00:00",
+            "checked_at": "2026-11-22T16:37:30+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/TERRAVIVA/index.m3u8",
             "result": "http_error",
@@ -18872,7 +18872,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:04+00:00",
+            "checked_at": "2026-11-22T16:37:31+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/TERRA_VIVA/index.m3u8",
             "result": "reachable_hls",
@@ -18901,7 +18901,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:05+00:00",
+            "checked_at": "2026-11-22T16:37:31+00:00",
             "http_status": 206,
             "final_url": "http://170.83.49.66:8083/TERRAVIVAHD/index.m3u8",
             "result": "reachable_hls",
@@ -18921,7 +18921,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:05+00:00",
+            "checked_at": "2026-11-22T16:37:31+00:00",
             "http_status": 206,
             "final_url": "https://9ada494d.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfVXBseW5rLU5ld2NvX0hMUw/playlist.m3u8",
             "result": "reachable_hls",
@@ -19012,7 +19012,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:05+00:00",
+            "checked_at": "2026-11-22T16:37:32+00:00",
             "http_status": 400,
             "final_url": "https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99992529",
             "result": "http_error",
@@ -19115,7 +19115,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:05+00:00",
+            "checked_at": "2026-11-22T16:37:32+00:00",
             "http_status": 200,
             "final_url": "https://ssai2-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/21fdb6dd7491406bba86497a24390a25/playlist.m3u8",
             "result": "reachable_hls",
@@ -19207,7 +19207,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:05+00:00",
+            "checked_at": "2026-11-22T16:37:32+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/TRAVEL_BOX_BRASIL/index.m3u8",
             "result": "http_error",
@@ -19236,7 +19236,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:05+00:00",
+            "checked_at": "2026-11-22T16:37:32+00:00",
             "http_status": 206,
             "final_url": "http://170.83.49.66:8083/TRAVELBOXHD/index.m3u8",
             "result": "reachable_hls",
@@ -19330,7 +19330,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:22:05+00:00",
+            "checked_at": "2026-11-22T16:37:32+00:00",
             "http_status": 403,
             "final_url": "https://stmv.webtvninjas.com.br/tv3/tv3/playlist.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -19428,14 +19428,14 @@
           "source_file": "streams/br.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "reachable_non_hls",
+          "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:05+00:00",
+            "checked_at": "2026-11-22T16:37:32+00:00",
             "http_status": 200,
             "final_url": "https://cdn.live.br1.jmvstream.com/w/LVW-20715/LVW20715_50E3x2MCm2/playlist.m3u8",
-            "result": "reachable_non_hls",
-            "hls_status": "not_confirmed",
-            "detail": "http_ok_not_hls",
+            "result": "reachable_hls",
+            "hls_status": "accessible",
+            "detail": "hls_accessible",
             "check_method": "GET_range_0_4095"
           }
         }
@@ -19519,7 +19519,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:05+00:00",
+            "checked_at": "2026-11-22T16:37:32+00:00",
             "http_status": 200,
             "final_url": "https://video01.logicahost.com.br/tvafolha/tvafolha/playlist.m3u8",
             "result": "reachable_hls",
@@ -19610,7 +19610,7 @@
           "authorization_status": "unknown",
           "availability_status": "dns_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:05+00:00",
+            "checked_at": "2026-11-22T16:37:32+00:00",
             "http_status": null,
             "final_url": null,
             "result": "dns_error",
@@ -19710,7 +19710,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:05+00:00",
+            "checked_at": "2026-11-22T16:37:32+00:00",
             "http_status": 206,
             "final_url": "https://stmv1.samcast.com.br/giovane7843/giovane7843/playlist.m3u8",
             "result": "reachable_hls",
@@ -19801,7 +19801,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:06+00:00",
+            "checked_at": "2026-11-22T16:37:32+00:00",
             "http_status": 200,
             "final_url": "https://video01.logicahost.com.br/tvalianca/tvalianca/playlist.m3u8",
             "result": "reachable_hls",
@@ -19893,7 +19893,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:06+00:00",
+            "checked_at": "2026-11-22T16:37:32+00:00",
             "http_status": 206,
             "final_url": "https://stmv5.samcast.com.br/wagner7919/wagner7919/playlist.m3u8",
             "result": "reachable_hls",
@@ -19984,7 +19984,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:06+00:00",
+            "checked_at": "2026-11-22T16:37:33+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -20013,7 +20013,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:22:06+00:00",
+            "checked_at": "2026-11-22T16:37:33+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -20042,7 +20042,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:06+00:00",
+            "checked_at": "2026-11-22T16:37:33+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/TV_APARECIDA/index.m3u8",
             "result": "http_error",
@@ -20071,7 +20071,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:06+00:00",
+            "checked_at": "2026-11-22T16:37:33+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/TV_APARECIDA/index.m3u8",
             "result": "reachable_hls",
@@ -20100,7 +20100,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:06+00:00",
+            "checked_at": "2026-11-22T16:37:33+00:00",
             "http_status": 206,
             "final_url": "http://170.83.49.66:8083/TVAPARECIDAHD/index.m3u8",
             "result": "reachable_hls",
@@ -20122,7 +20122,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:06+00:00",
+            "checked_at": "2026-11-22T16:37:33+00:00",
             "http_status": 200,
             "final_url": "https://cdn.live.br1.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/playlist.m3u8",
             "result": "reachable_hls",
@@ -20213,7 +20213,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:22:06+00:00",
+            "checked_at": "2026-11-22T16:37:33+00:00",
             "http_status": 404,
             "final_url": "https://5b7f3c45ab7c2.streamlock.net/arapuan/ngrp:arapuan_all/playlist.m3u8",
             "result": "not_found",
@@ -20314,7 +20314,7 @@
           "authorization_status": "unknown",
           "availability_status": "server_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:07+00:00",
+            "checked_at": "2026-11-22T16:37:33+00:00",
             "http_status": 503,
             "final_url": "https://jjn5dkk9bd.zoeweb.tv/z404-live/stream/playlist.m3u8",
             "result": "server_error",
@@ -20423,7 +20423,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:22:07+00:00",
+            "checked_at": "2026-11-22T16:37:33+00:00",
             "http_status": 403,
             "final_url": "https://stmv1.srvstm.com/piaui8071/piaui8071/playlist.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -20514,7 +20514,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:07+00:00",
+            "checked_at": "2026-11-22T16:37:34+00:00",
             "http_status": 206,
             "final_url": "http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8",
             "result": "reachable_hls",
@@ -20613,7 +20613,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:22:07+00:00",
+            "checked_at": "2026-11-22T16:37:34+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -20642,7 +20642,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:22:07+00:00",
+            "checked_at": "2026-11-22T16:37:34+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -20671,7 +20671,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:22:07+00:00",
+            "checked_at": "2026-11-22T16:37:34+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -20771,7 +20771,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:08+00:00",
+            "checked_at": "2026-11-22T16:37:34+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -20800,7 +20800,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:22:08+00:00",
+            "checked_at": "2026-11-22T16:37:35+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -20829,7 +20829,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:11+00:00",
+            "checked_at": "2026-11-22T16:37:37+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/TV_BRASIL/index.m3u8",
             "result": "http_error",
@@ -20858,7 +20858,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:11+00:00",
+            "checked_at": "2026-11-22T16:37:37+00:00",
             "http_status": 206,
             "final_url": "http://170.83.49.66:8083/TVBRASILHD/index.m3u8",
             "result": "reachable_hls",
@@ -20878,7 +20878,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:22:11+00:00",
+            "checked_at": "2026-11-22T16:37:38+00:00",
             "http_status": 403,
             "final_url": "http://170.84.165.204/TVBRASIL/index.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -20898,7 +20898,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:11+00:00",
+            "checked_at": "2026-11-22T16:37:38+00:00",
             "http_status": 206,
             "final_url": "http://186.219.52.187/tv_brasil/index.m3u8",
             "result": "reachable_hls",
@@ -20918,7 +20918,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:11+00:00",
+            "checked_at": "2026-11-22T16:37:38+00:00",
             "http_status": 200,
             "final_url": "https://tvbrasil-stream.ebc.com.br/index.m3u8",
             "result": "reachable_hls",
@@ -21007,7 +21007,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:22:12+00:00",
+            "checked_at": "2026-11-22T16:37:38+00:00",
             "http_status": 403,
             "final_url": "https://5ad482a77183d.streamlock.net/operacaotbomt.com/operacaotbomt.com/playlist.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -21098,7 +21098,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:12+00:00",
+            "checked_at": "2026-11-22T16:37:38+00:00",
             "http_status": 206,
             "final_url": "https://5ad482a77183d.streamlock.net/rodrigotvbrusque.com.br/5d880199c902eb4a1e8df00d/playlist.m3u8",
             "result": "reachable_hls",
@@ -21189,7 +21189,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:12+00:00",
+            "checked_at": "2026-11-22T16:37:39+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -21218,7 +21218,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:12+00:00",
+            "checked_at": "2026-11-22T16:37:39+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/TV_CAMARA/index.m3u8",
             "result": "http_error",
@@ -21247,7 +21247,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:12+00:00",
+            "checked_at": "2026-11-22T16:37:39+00:00",
             "http_status": 206,
             "final_url": "http://170.83.49.66:8083/TVCAMARAHD/index.m3u8",
             "result": "reachable_hls",
@@ -21267,7 +21267,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:12+00:00",
+            "checked_at": "2026-11-22T16:37:39+00:00",
             "http_status": 206,
             "final_url": "http://186.219.52.187/tv_camara/index.m3u8",
             "result": "reachable_hls",
@@ -21287,7 +21287,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:13+00:00",
+            "checked_at": "2026-11-22T16:37:40+00:00",
             "http_status": 200,
             "final_url": "https://stream3.camara.gov.br/tv1/manifest.m3u8",
             "result": "reachable_hls",
@@ -21383,7 +21383,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:22:13+00:00",
+            "checked_at": "2026-11-22T16:37:40+00:00",
             "http_status": 404,
             "final_url": "https://stream3.camara.gov.br/tv2/manifest.m3u8",
             "result": "not_found",
@@ -21477,7 +21477,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:22:13+00:00",
+            "checked_at": "2026-11-22T16:37:40+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -21578,7 +21578,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:14+00:00",
+            "checked_at": "2026-11-22T16:37:41+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -21607,7 +21607,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:14+00:00",
+            "checked_at": "2026-11-22T16:37:41+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/CANCAO_NOVA/index.m3u8",
             "result": "http_error",
@@ -21636,7 +21636,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:14+00:00",
+            "checked_at": "2026-11-22T16:37:41+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/CANCAO_NOVA/index.m3u8",
             "result": "reachable_hls",
@@ -21665,7 +21665,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:14+00:00",
+            "checked_at": "2026-11-22T16:37:41+00:00",
             "http_status": 206,
             "final_url": "http://186.219.52.187/cancao_nova/index.m3u8",
             "result": "reachable_hls",
@@ -21754,7 +21754,7 @@
           "authorization_status": "unknown",
           "availability_status": "dns_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:14+00:00",
+            "checked_at": "2026-11-22T16:37:41+00:00",
             "http_status": null,
             "final_url": null,
             "result": "dns_error",
@@ -21864,7 +21864,7 @@
           "authorization_status": "unknown",
           "availability_status": "dns_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:14+00:00",
+            "checked_at": "2026-11-22T16:37:41+00:00",
             "http_status": null,
             "final_url": null,
             "result": "dns_error",
@@ -21966,7 +21966,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:14+00:00",
+            "checked_at": "2026-11-22T16:37:42+00:00",
             "http_status": 206,
             "final_url": "https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.m3u8",
             "result": "reachable_hls",
@@ -22058,7 +22058,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:14+00:00",
+            "checked_at": "2026-11-22T16:37:42+00:00",
             "http_status": 206,
             "final_url": "https://5c483b9d1019c.streamlock.net/8186/8186/playlist.m3u8",
             "result": "reachable_hls",
@@ -22147,7 +22147,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:14+00:00",
+            "checked_at": "2026-11-22T16:37:42+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -22176,7 +22176,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:22:14+00:00",
+            "checked_at": "2026-11-22T16:37:42+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -22205,7 +22205,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:14+00:00",
+            "checked_at": "2026-11-22T16:37:42+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/TV_CULTURA/index.m3u8",
             "result": "http_error",
@@ -22234,7 +22234,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:14+00:00",
+            "checked_at": "2026-11-22T16:37:42+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/CULTURA/index.m3u8",
             "result": "reachable_hls",
@@ -22263,7 +22263,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:22:15+00:00",
+            "checked_at": "2026-11-22T16:37:42+00:00",
             "http_status": 403,
             "final_url": "http://170.84.165.204/CULTURA_HD/index.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -22283,7 +22283,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:15+00:00",
+            "checked_at": "2026-11-22T16:37:42+00:00",
             "http_status": 206,
             "final_url": "http://186.219.52.187/cultura/index.m3u8",
             "result": "reachable_hls",
@@ -22303,7 +22303,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:22:15+00:00",
+            "checked_at": "2026-11-22T16:37:42+00:00",
             "http_status": 404,
             "final_url": "https://v-us-01.wisestream.io/memfs/e8740862-7a1f-45f3-acb2-4f357e144059.m3u8",
             "result": "not_found",
@@ -22323,7 +22323,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:22:15+00:00",
+            "checked_at": "2026-11-22T16:37:42+00:00",
             "http_status": 403,
             "final_url": "https://cdn-5.nxplay.com.br/TV_CULTURA/index.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -22343,7 +22343,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:15+00:00",
+            "checked_at": "2026-11-22T16:37:42+00:00",
             "http_status": 206,
             "final_url": "https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8",
             "result": "reachable_hls",
@@ -22435,7 +22435,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:15+00:00",
+            "checked_at": "2026-11-22T16:37:42+00:00",
             "http_status": 206,
             "final_url": "https://stmv1.srvif.com/tvcurucasp/tvcurucasp/playlist.m3u8",
             "result": "reachable_hls",
@@ -22527,7 +22527,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:22:15+00:00",
+            "checked_at": "2026-11-22T16:37:42+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -22627,7 +22627,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:22:15+00:00",
+            "checked_at": "2026-11-22T16:37:43+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -22656,7 +22656,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:22:15+00:00",
+            "checked_at": "2026-11-22T16:37:43+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -22685,7 +22685,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:22:15+00:00",
+            "checked_at": "2026-11-22T16:37:43+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -22787,7 +22787,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:22:16+00:00",
+            "checked_at": "2026-11-22T16:37:43+00:00",
             "http_status": 403,
             "final_url": "https://5ad482a77183d.streamlock.net/marliomelohotmail.com/marliomelohotmail.com/playlist.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -22879,7 +22879,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:16+00:00",
+            "checked_at": "2026-11-22T16:37:44+00:00",
             "http_status": 206,
             "final_url": "https://tvdsoultv.acessaradios.com.br/tvdsoultv/tvdsoultv.stream/playlist.m3u8",
             "result": "reachable_hls",
@@ -22970,7 +22970,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:22:17+00:00",
+            "checked_at": "2026-11-22T16:37:44+00:00",
             "http_status": 404,
             "final_url": "https://stream.amsolution.net.br:8443/live/60d0a8ea6b884/index.m3u8",
             "result": "not_found",
@@ -23062,7 +23062,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:22:17+00:00",
+            "checked_at": "2026-11-22T16:37:44+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -23163,7 +23163,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:22:17+00:00",
+            "checked_at": "2026-11-22T16:37:44+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -23264,7 +23264,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:22:21+00:00",
+            "checked_at": "2026-11-22T16:37:48+00:00",
             "http_status": 403,
             "final_url": "https://stmv7.samcast.com.br/sistemaencontrodasaguas/sistemaencontrodasaguas/playlist.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -23347,7 +23347,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:21+00:00",
+            "checked_at": "2026-11-22T16:37:48+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -23376,7 +23376,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:21+00:00",
+            "checked_at": "2026-11-22T16:37:48+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/EVANGELIZAR/index.m3u8",
             "result": "http_error",
@@ -23405,7 +23405,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:22+00:00",
+            "checked_at": "2026-11-22T16:37:49+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/TV_EVANGELIZAR/index.m3u8",
             "result": "reachable_hls",
@@ -23434,7 +23434,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:22:22+00:00",
+            "checked_at": "2026-11-22T16:37:49+00:00",
             "http_status": 404,
             "final_url": "http://170.83.49.66:8083/EVANGELIZARHD/index.m3u8",
             "result": "not_found",
@@ -23454,7 +23454,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:22+00:00",
+            "checked_at": "2026-11-22T16:37:49+00:00",
             "http_status": 206,
             "final_url": "http://186.219.52.187/tv_evangelizar/index.m3u8",
             "result": "reachable_hls",
@@ -23474,7 +23474,7 @@
           "authorization_status": "unknown",
           "availability_status": "dns_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:22+00:00",
+            "checked_at": "2026-11-22T16:37:50+00:00",
             "http_status": null,
             "final_url": null,
             "result": "dns_error",
@@ -23503,7 +23503,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:22+00:00",
+            "checked_at": "2026-11-22T16:37:50+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -23603,7 +23603,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:22:23+00:00",
+            "checked_at": "2026-11-22T16:37:50+00:00",
             "http_status": 404,
             "final_url": "https://tvfronteira.brasilstream.com.br/hls/tvfronteira/index.m3u8",
             "result": "not_found",
@@ -23693,7 +23693,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:22:23+00:00",
+            "checked_at": "2026-11-22T16:37:50+00:00",
             "http_status": 404,
             "final_url": "https://tv02.zas.media:1936/tvfuturo/tvfuturo/playlist.m3u8",
             "result": "not_found",
@@ -23784,7 +23784,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:23+00:00",
+            "checked_at": "2026-11-22T16:37:50+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -23813,7 +23813,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:23+00:00",
+            "checked_at": "2026-11-22T16:37:51+00:00",
             "http_status": 206,
             "final_url": "http://186.219.52.187/gazeta/index.m3u8",
             "result": "reachable_hls",
@@ -23833,7 +23833,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:23+00:00",
+            "checked_at": "2026-11-22T16:37:51+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -23931,7 +23931,7 @@
           "authorization_status": "unknown",
           "availability_status": "dns_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:23+00:00",
+            "checked_at": "2026-11-22T16:37:51+00:00",
             "http_status": null,
             "final_url": null,
             "result": "dns_error",
@@ -24033,7 +24033,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:23+00:00",
+            "checked_at": "2026-11-22T16:37:51+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -24133,7 +24133,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_non_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:23+00:00",
+            "checked_at": "2026-11-22T16:37:51+00:00",
             "http_status": 200,
             "final_url": "http://79.127.238.228:14173",
             "result": "reachable_non_hls",
@@ -24223,7 +24223,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:22:23+00:00",
+            "checked_at": "2026-11-22T16:37:51+00:00",
             "http_status": 403,
             "final_url": "http://170.84.165.204/Globo_HD/index.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -24243,7 +24243,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:22:23+00:00",
+            "checked_at": "2026-11-22T16:37:51+00:00",
             "http_status": 403,
             "final_url": "https://cdn-5.nxplay.com.br/GLOBO_SP_TK/index.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -24333,7 +24333,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:23+00:00",
+            "checked_at": "2026-11-22T16:37:51+00:00",
             "http_status": 206,
             "final_url": "http://tvgrandenatalhd.duckdns.org:8080/hls/live.m3u8",
             "result": "reachable_hls",
@@ -24425,7 +24425,7 @@
           "authorization_status": "unknown",
           "availability_status": "dns_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:23+00:00",
+            "checked_at": "2026-11-22T16:37:51+00:00",
             "http_status": null,
             "final_url": null,
             "result": "dns_error",
@@ -24536,7 +24536,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:23+00:00",
+            "checked_at": "2026-11-22T16:37:51+00:00",
             "http_status": 200,
             "final_url": "https://video02.logicahost.com.br/tvguara23/tvguara23/playlist.m3u8",
             "result": "reachable_hls",
@@ -24626,7 +24626,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:23+00:00",
+            "checked_at": "2026-11-22T16:37:51+00:00",
             "http_status": 206,
             "final_url": "https://video.welltecnologia.com.br/tvguarapari/tvguarapari/playlist.m3u8",
             "result": "reachable_hls",
@@ -24717,7 +24717,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:22:24+00:00",
+            "checked_at": "2026-11-22T16:37:51+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -24815,7 +24815,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:24+00:00",
+            "checked_at": "2026-11-22T16:37:51+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -24844,7 +24844,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:24+00:00",
+            "checked_at": "2026-11-22T16:37:51+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/TV_JUSTICA/index.m3u8",
             "result": "http_error",
@@ -24873,7 +24873,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:24+00:00",
+            "checked_at": "2026-11-22T16:37:51+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/TV_JUSTICA/index.m3u8",
             "result": "reachable_hls",
@@ -24902,7 +24902,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:24+00:00",
+            "checked_at": "2026-11-22T16:37:51+00:00",
             "http_status": 206,
             "final_url": "http://170.83.49.66:8083/TVJUSTICAHD/index.m3u8",
             "result": "reachable_hls",
@@ -24922,7 +24922,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:24+00:00",
+            "checked_at": "2026-11-22T16:37:52+00:00",
             "http_status": 206,
             "final_url": "http://186.219.52.187/tv_justica/index.m3u8",
             "result": "reachable_hls",
@@ -25013,7 +25013,7 @@
           "authorization_status": "unknown",
           "availability_status": "dns_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:24+00:00",
+            "checked_at": "2026-11-22T16:37:52+00:00",
             "http_status": null,
             "final_url": null,
             "result": "dns_error",
@@ -25111,7 +25111,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:24+00:00",
+            "checked_at": "2026-11-22T16:37:52+00:00",
             "http_status": 206,
             "final_url": "https://streaming.cloudecast.com/hls/tvlifeamerica/index.m3u8",
             "result": "reachable_hls",
@@ -25202,7 +25202,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:22:24+00:00",
+            "checked_at": "2026-11-22T16:37:52+00:00",
             "http_status": 404,
             "final_url": "https://5ad482a77183d.streamlock.net/tvnordesteegmail.com/tvnordesteegmail.com/playlist.m3u8",
             "result": "not_found",
@@ -25293,7 +25293,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:22:24+00:00",
+            "checked_at": "2026-11-22T16:37:52+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -25393,7 +25393,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:24+00:00",
+            "checked_at": "2026-11-22T16:37:52+00:00",
             "http_status": 206,
             "final_url": "https://5cf4a2c2512a2.streamlock.net/tvmaismarica/tvmaismarica/playlist.m3u8",
             "result": "reachable_hls",
@@ -25485,7 +25485,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:24+00:00",
+            "checked_at": "2026-11-22T16:37:52+00:00",
             "http_status": 206,
             "final_url": "https://tv02.zas.media:1936/tvmarajoara/tvmarajoara/playlist.m3u8",
             "result": "reachable_hls",
@@ -25576,7 +25576,7 @@
           "authorization_status": "unknown",
           "availability_status": "dns_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:24+00:00",
+            "checked_at": "2026-11-22T16:37:52+00:00",
             "http_status": null,
             "final_url": null,
             "result": "dns_error",
@@ -25678,7 +25678,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:24+00:00",
+            "checked_at": "2026-11-22T16:37:52+00:00",
             "http_status": 206,
             "final_url": "https://cdn-fundacao-2110.ciclano.io:1443/fundacao-2110/fundacao-2110/playlist.m3u8",
             "result": "reachable_hls",
@@ -25769,7 +25769,7 @@
           "authorization_status": "unknown",
           "availability_status": "dns_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:24+00:00",
+            "checked_at": "2026-11-22T16:37:52+00:00",
             "http_status": null,
             "final_url": null,
             "result": "dns_error",
@@ -25867,7 +25867,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:22:24+00:00",
+            "checked_at": "2026-11-22T16:37:52+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -25979,7 +25979,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:25+00:00",
+            "checked_at": "2026-11-22T16:37:52+00:00",
             "http_status": 200,
             "final_url": "https://video01.logicahost.com.br/tvpadrecicero/tvpadrecicero/playlist.m3u8",
             "result": "reachable_hls",
@@ -26070,7 +26070,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:25+00:00",
+            "checked_at": "2026-11-22T16:37:52+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -26099,7 +26099,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:25+00:00",
+            "checked_at": "2026-11-22T16:37:53+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/TV_PAI_ETERNO/index.m3u8",
             "result": "http_error",
@@ -26128,7 +26128,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:25+00:00",
+            "checked_at": "2026-11-22T16:37:53+00:00",
             "http_status": 206,
             "final_url": "http://186.219.52.187/pai_eterno/index.m3u8",
             "result": "reachable_hls",
@@ -26148,7 +26148,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:25+00:00",
+            "checked_at": "2026-11-22T16:37:53+00:00",
             "http_status": 200,
             "final_url": "https://video09.logicahost.com.br/paieterno/paieterno/playlist.m3u8",
             "result": "reachable_hls",
@@ -26241,7 +26241,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:25+00:00",
+            "checked_at": "2026-11-22T16:37:53+00:00",
             "http_status": 206,
             "final_url": "https://5a2b083e9f360.streamlock.net/tvpantanal/tvpantanal.sdp/playlist.m3u8",
             "result": "reachable_hls",
@@ -26330,7 +26330,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:22:25+00:00",
+            "checked_at": "2026-11-22T16:37:53+00:00",
             "http_status": 404,
             "final_url": "https://video09.logicahost.com.br/tvparaense/tvparaense/playlist.m3u",
             "result": "not_found",
@@ -26437,7 +26437,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:22:25+00:00",
+            "checked_at": "2026-11-22T16:37:53+00:00",
             "http_status": 403,
             "final_url": "http://200.189.113.201/hls/tve.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -26529,7 +26529,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:25+00:00",
+            "checked_at": "2026-11-22T16:37:53+00:00",
             "http_status": 206,
             "final_url": "https://5a57bda70564a.streamlock.net/tvpasso/tvpasso.sdp/playlist.m3u8",
             "result": "reachable_hls",
@@ -26620,7 +26620,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:25+00:00",
+            "checked_at": "2026-11-22T16:37:53+00:00",
             "http_status": 200,
             "final_url": "https://video02.logicahost.com.br/tvpetropolis/tvpetropolis/playlist.m3u8",
             "result": "reachable_hls",
@@ -26711,7 +26711,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-22T15:22:25+00:00",
+            "checked_at": "2026-11-22T16:37:53+00:00",
             "http_status": 403,
             "final_url": "https://stmv.webtvninjas.com.br/tvprofissao/tvprofissao/playlist.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -26809,7 +26809,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:22:25+00:00",
+            "checked_at": "2026-11-22T16:37:53+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -26838,7 +26838,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:26+00:00",
+            "checked_at": "2026-11-22T16:37:54+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/RA_TIM_BUM/index.m3u8",
             "result": "http_error",
@@ -26867,7 +26867,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:26+00:00",
+            "checked_at": "2026-11-22T16:37:54+00:00",
             "http_status": 206,
             "final_url": "http://170.83.49.66:8083/TVRATIMBUMHD/index.m3u8",
             "result": "reachable_hls",
@@ -26887,7 +26887,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:26+00:00",
+            "checked_at": "2026-11-22T16:37:54+00:00",
             "http_status": 206,
             "final_url": "http://186.219.52.187/ratimbum/index.m3u8",
             "result": "reachable_hls",
@@ -26907,7 +26907,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:26+00:00",
+            "checked_at": "2026-11-22T16:37:54+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -27005,7 +27005,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:26+00:00",
+            "checked_at": "2026-11-22T16:37:54+00:00",
             "http_status": 206,
             "final_url": "https://stmv1.voxtvhd.com.br/9030/9030/playlist.m3u8",
             "result": "reachable_hls",
@@ -27097,7 +27097,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:26+00:00",
+            "checked_at": "2026-11-22T16:37:54+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -27126,7 +27126,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:26+00:00",
+            "checked_at": "2026-11-22T16:37:54+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/TV_SENADO/index.m3u8",
             "result": "http_error",
@@ -27155,7 +27155,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:26+00:00",
+            "checked_at": "2026-11-22T16:37:54+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/TV_SENADO/index.m3u8",
             "result": "reachable_hls",
@@ -27184,7 +27184,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:26+00:00",
+            "checked_at": "2026-11-22T16:37:54+00:00",
             "http_status": 206,
             "final_url": "http://170.83.49.66:8083/TVSENADOHD/index.m3u8",
             "result": "reachable_hls",
@@ -27204,7 +27204,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:26+00:00",
+            "checked_at": "2026-11-22T16:37:54+00:00",
             "http_status": 206,
             "final_url": "http://186.219.52.187/tv_senado/index.m3u8",
             "result": "reachable_hls",
@@ -27293,7 +27293,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:26+00:00",
+            "checked_at": "2026-11-22T16:37:54+00:00",
             "http_status": 206,
             "final_url": "https://stmv1.srvif.com/tvserie/tvserie/playlist.m3u8",
             "result": "reachable_hls",
@@ -27388,7 +27388,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:26+00:00",
+            "checked_at": "2026-11-22T16:37:54+00:00",
             "http_status": 206,
             "final_url": "https://stmv8.samcast.com.br/raimundoanselmolimamororo1908/raimundoanselmolimamororo1908/playlist.m3u8",
             "result": "reachable_hls",
@@ -27487,7 +27487,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:22:26+00:00",
+            "checked_at": "2026-11-22T16:37:54+00:00",
             "http_status": 404,
             "final_url": "https://5cf4a2c2512a2.streamlock.net/8104/8104/playlist.m3u8",
             "result": "not_found",
@@ -27579,7 +27579,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:22:26+00:00",
+            "checked_at": "2026-11-22T16:37:55+00:00",
             "http_status": 404,
             "final_url": "https://5cf4a2c2512a2.streamlock.net/8236/8236/playlist.m3u8",
             "result": "not_found",
@@ -27674,7 +27674,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:22:26+00:00",
+            "checked_at": "2026-11-22T16:37:55+00:00",
             "http_status": 404,
             "final_url": "http://streaming03.zas.media:1935/tvsol/tvsol/playlist.m3u8",
             "result": "not_found",
@@ -27763,7 +27763,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:22:26+00:00",
+            "checked_at": "2026-11-22T16:37:55+00:00",
             "http_status": 404,
             "final_url": "https://live.cdn.upx.com/00046/myStream.sdp/playlist.m3u8",
             "result": "not_found",
@@ -27852,7 +27852,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:22:27+00:00",
+            "checked_at": "2026-11-22T16:37:55+00:00",
             "http_status": 404,
             "final_url": "https://5cf4a2c2512a2.streamlock.net/tvsuldeminas/tvsuldeminas/playlist.m3u8",
             "result": "not_found",
@@ -27951,7 +27951,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:27+00:00",
+            "checked_at": "2026-11-22T16:37:55+00:00",
             "http_status": 200,
             "final_url": "https://streamer1.streamhost.org/salive/GMI3anjoh/playlist.m3u8",
             "result": "reachable_hls",
@@ -28053,7 +28053,7 @@
           "authorization_status": "unknown",
           "availability_status": "dns_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:27+00:00",
+            "checked_at": "2026-11-22T16:37:55+00:00",
             "http_status": null,
             "final_url": null,
             "result": "dns_error",
@@ -28155,7 +28155,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:22:27+00:00",
+            "checked_at": "2026-11-22T16:37:55+00:00",
             "http_status": 404,
             "final_url": "http://flash.softhost.com.br:1935/ufg/tvufgweb/playlist.m3u8",
             "result": "not_found",
@@ -28246,7 +28246,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:27+00:00",
+            "checked_at": "2026-11-22T16:37:55+00:00",
             "http_status": 206,
             "final_url": "https://app.tvufop.com.br/hls/tvufop.m3u8",
             "result": "reachable_hls",
@@ -28339,7 +28339,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:27+00:00",
+            "checked_at": "2026-11-22T16:37:55+00:00",
             "http_status": 200,
             "final_url": "https://644398c.ha.azioncdn.net/primary/tvuniversal_480p.sdp/playlist.m3u8",
             "result": "reachable_hls",
@@ -28430,7 +28430,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:27+00:00",
+            "checked_at": "2026-11-22T16:37:56+00:00",
             "http_status": 206,
             "final_url": "http://wz4.dnip.com.br/fratevitv/fratevitv.sdp/playlist.m3u8",
             "result": "reachable_hls",
@@ -28522,7 +28522,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:27+00:00",
+            "checked_at": "2026-11-22T16:37:56+00:00",
             "http_status": 200,
             "final_url": "https://cdn.live.br1.jmvstream.com/w/LVW-10841/LVW10841_mT77z9o2cP/playlist.m3u8",
             "result": "reachable_hls",
@@ -28609,14 +28609,14 @@
           "source_file": "streams/br.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "reachable_hls",
+          "availability_status": "reachable_non_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:27+00:00",
+            "checked_at": "2026-11-22T16:37:56+00:00",
             "http_status": 200,
             "final_url": "https://cdn.live.br1.jmvstream.com/w/LVW-9730/LVW9730_LmUwslM8jt/playlist.m3u8",
-            "result": "reachable_hls",
-            "hls_status": "accessible",
-            "detail": "hls_accessible",
+            "result": "reachable_non_hls",
+            "hls_status": "not_confirmed",
+            "detail": "http_ok_not_hls",
             "check_method": "GET_range_0_4095"
           }
         }
@@ -28708,7 +28708,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:27+00:00",
+            "checked_at": "2026-11-22T16:37:56+00:00",
             "http_status": 206,
             "final_url": "https://stmv5.samcast.com.br/tvmaispet6354/tvmaispet6354/playlist.m3u8",
             "result": "reachable_hls",
@@ -28799,7 +28799,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-22T15:22:27+00:00",
+            "checked_at": "2026-11-22T16:37:56+00:00",
             "http_status": 404,
             "final_url": "https://video05.logicahost.com.br/comunitariario/comunitariario/playlist.m3u8",
             "result": "not_found",
@@ -28899,7 +28899,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:28+00:00",
+            "checked_at": "2026-11-22T16:37:57+00:00",
             "http_status": 206,
             "final_url": "https://5b7f3c45ab7c2.streamlock.net/8008/smil:8008.smil/playlist.m3u8?DVR=",
             "result": "reachable_hls",
@@ -29000,7 +29000,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:28+00:00",
+            "checked_at": "2026-11-22T16:37:57+00:00",
             "http_status": 206,
             "final_url": "https://srv5.zcast.com.br/tvcommaceio/tvcommaceio/playlist.m3u8",
             "result": "reachable_hls",
@@ -29092,7 +29092,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:28+00:00",
+            "checked_at": "2026-11-22T16:37:57+00:00",
             "http_status": 206,
             "final_url": "http://streaming.procergs.com.br:1935/tve/stve/playlist.m3u8",
             "result": "reachable_hls",
@@ -29114,7 +29114,7 @@
           "authorization_status": "unknown",
           "availability_status": "dns_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:28+00:00",
+            "checked_at": "2026-11-22T16:37:57+00:00",
             "http_status": null,
             "final_url": null,
             "result": "dns_error",
@@ -29213,7 +29213,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:28+00:00",
+            "checked_at": "2026-11-22T16:37:57+00:00",
             "http_status": 206,
             "final_url": "https://streaming.procergs.com.br:8443/tve/stve/playlist.m3u8",
             "result": "reachable_hls",
@@ -29307,7 +29307,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:28+00:00",
+            "checked_at": "2026-11-22T16:37:57+00:00",
             "http_status": 200,
             "final_url": "https://video01.logicahost.com.br/tvideonews/tvideonews/playlist.m3u8",
             "result": "reachable_hls",
@@ -29399,7 +29399,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:28+00:00",
+            "checked_at": "2026-11-22T16:37:57+00:00",
             "http_status": 206,
             "final_url": "https://stream01.msolutionbrasil.com.br/hls/tvitape/live.m3u8",
             "result": "reachable_hls",
@@ -29491,7 +29491,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:28+00:00",
+            "checked_at": "2026-11-22T16:37:57+00:00",
             "http_status": 200,
             "final_url": "https://www.latinasat.com.br/hls/live/stream/index.m3u8",
             "result": "reachable_hls",
@@ -29582,7 +29582,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:22:29+00:00",
+            "checked_at": "2026-11-22T16:37:58+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -29685,7 +29685,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:22:29+00:00",
+            "checked_at": "2026-11-22T16:37:58+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -29783,7 +29783,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:22:29+00:00",
+            "checked_at": "2026-11-22T16:37:58+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -29881,7 +29881,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:22:29+00:00",
+            "checked_at": "2026-11-22T16:37:59+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -29981,7 +29981,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:22:32+00:00",
+            "checked_at": "2026-11-22T16:37:59+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -30079,7 +30079,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:22:32+00:00",
+            "checked_at": "2026-11-22T16:38:00+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -30177,7 +30177,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_non_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:32+00:00",
+            "checked_at": "2026-11-22T16:38:00+00:00",
             "http_status": 200,
             "final_url": "https://cdn.live.br1.jmvstream.com/w/LVW-8410/LVW8410_uiZOVm6vz1/playlist.m3u8",
             "result": "reachable_non_hls",
@@ -30268,7 +30268,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:33+00:00",
+            "checked_at": "2026-11-22T16:38:01+00:00",
             "http_status": 206,
             "final_url": "https://umatv.nuvemplay.live/hls/stream.m3u8",
             "result": "reachable_hls",
@@ -30359,7 +30359,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:33+00:00",
+            "checked_at": "2026-11-22T16:38:01+00:00",
             "http_status": 206,
             "final_url": "https://sitetv.brasilstream.com.br/hls/sitetv/index.m3u8?token=",
             "result": "reachable_hls",
@@ -30452,7 +30452,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:22:33+00:00",
+            "checked_at": "2026-11-22T16:38:02+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -30552,7 +30552,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:34+00:00",
+            "checked_at": "2026-11-22T16:38:02+00:00",
             "http_status": 206,
             "final_url": "https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8",
             "result": "reachable_hls",
@@ -30572,7 +30572,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:34+00:00",
+            "checked_at": "2026-11-22T16:38:02+00:00",
             "http_status": 206,
             "final_url": "https://gpa-vja-samsungtvplus-br.otteravision.com/gpa/vja/vja.m3u8",
             "result": "reachable_hls",
@@ -30663,7 +30663,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T15:22:34+00:00",
+            "checked_at": "2026-11-22T16:38:02+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -30763,7 +30763,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:42+00:00",
+            "checked_at": "2026-11-22T16:38:10+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -30792,7 +30792,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-22T15:22:42+00:00",
+            "checked_at": "2026-11-22T16:38:10+00:00",
             "http_status": 400,
             "final_url": "http://168.197.104.22/WOOHOO/index.m3u8",
             "result": "http_error",
@@ -30821,7 +30821,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:42+00:00",
+            "checked_at": "2026-11-22T16:38:10+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/WOOHOO/index.m3u8",
             "result": "reachable_hls",
@@ -30850,7 +30850,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:42+00:00",
+            "checked_at": "2026-11-22T16:38:11+00:00",
             "http_status": 206,
             "final_url": "http://186.219.52.187/woohoo/index.m3u8",
             "result": "reachable_hls",
@@ -30939,7 +30939,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:43+00:00",
+            "checked_at": "2026-11-22T16:38:11+00:00",
             "http_status": 206,
             "final_url": "https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8",
             "result": "reachable_hls",
@@ -31035,7 +31035,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T15:22:43+00:00",
+            "checked_at": "2026-11-22T16:38:11+00:00",
             "http_status": 200,
             "final_url": "https://amg01131-tracetv-tracebrazuca-samsungbr-rfenz.amagi.tv/playlist/amg01131-tracetv-tracebrazuca-samsungbr/playlist.m3u8",
             "result": "reachable_hls",
@@ -31093,7 +31093,7 @@
     }
   ],
   "validation": {
-    "checked_at": "2026-11-22T15:21:24+00:00",
+    "checked_at": "2026-11-22T16:36:48+00:00",
     "method": "single_http_range_request",
     "workers": 8,
     "timeout_seconds": 8,
