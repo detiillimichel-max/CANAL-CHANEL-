@@ -20,24 +20,23 @@
     "validation": {
       "connection_error": 47,
       "dns_error": 27,
-      "forbidden_or_geo_restricted": 44,
+      "forbidden_or_geo_restricted": 43,
       "http_error": 38,
       "not_found": 32,
-      "reachable_hls": 189,
+      "reachable_hls": 188,
       "reachable_non_hls": 16,
       "server_error": 4,
-      "timeout": 58
+      "timeout": 60
     },
     "validation_checked_at": "2026-11-23T19:16:14+00:00",
     "recovery": {
-      "checked": 23,
-      "result_reachable_hls": 21,
-      "result_reachable_non_hls": 1,
-      "result_timeout": 1,
-      "skipped_retry_window": 260,
-      "skipped_stable_hls": 172
+      "checked": 3,
+      "result_reachable_hls": 1,
+      "result_timeout": 2,
+      "skipped_retry_window": 265,
+      "skipped_stable_hls": 187
     },
-    "recovery_checked_at": "2026-11-23T07:28:23+00:00",
+    "recovery_checked_at": "2026-11-23T19:20:43+00:00",
     "classification": {
       "agronegocio": 1,
       "desenhos": 5,
@@ -6643,7 +6642,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:16:30+00:00",
+            "checked_at": "2026-11-23T19:20:43+00:00",
             "http_status": 200,
             "final_url": "https://fpa-gateway.tvcultura.com.br:8181/memfs/606caef0-a290-413d-9f1f-8fcdb3a73831.m3u8",
             "result": "reachable_hls",
@@ -6652,13 +6651,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-23T07:28:23+00:00",
-            "next_retry_at": "2026-11-23T13:28:23+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-23T19:20:43+00:00",
+            "next_retry_at": "2026-11-30T19:20:43+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -20229,22 +20228,22 @@
           "source_file": "streams/br.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "reachable_hls",
+          "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-23T19:17:00+00:00",
-            "http_status": 206,
-            "final_url": "https://5b7f3c45ab7c2.streamlock.net/arapuan/ngrp:arapuan_all/playlist.m3u8",
-            "result": "reachable_hls",
-            "hls_status": "accessible",
-            "detail": "hls_accessible",
+            "checked_at": "2026-11-23T19:20:43+00:00",
+            "http_status": null,
+            "final_url": null,
+            "result": "timeout",
+            "hls_status": "not_confirmed",
+            "detail": "connection_timeout",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "stable_hls",
-            "attempt_count": 4,
-            "last_attempt_at": "2026-11-16T17:09:16+00:00",
-            "next_retry_at": "2026-11-23T17:09:16+00:00",
-            "last_result": "reachable_hls",
+            "state": "retry_scheduled",
+            "attempt_count": 5,
+            "last_attempt_at": "2026-11-23T19:20:43+00:00",
+            "next_retry_at": "2026-11-30T19:20:43+00:00",
+            "last_result": "timeout",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
           }
@@ -28915,24 +28914,24 @@
           "source_file": "streams/br.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "forbidden_or_geo_restricted",
+          "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-23T19:17:27+00:00",
-            "http_status": 403,
-            "final_url": "https://5b7f3c45ab7c2.streamlock.net/8008/smil:8008.smil/playlist.m3u8?DVR=",
-            "result": "forbidden_or_geo_restricted",
+            "checked_at": "2026-11-23T19:20:43+00:00",
+            "http_status": null,
+            "final_url": null,
+            "result": "timeout",
             "hls_status": "not_confirmed",
-            "detail": "http_403",
+            "detail": "connection_timeout",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "stable_hls",
-            "attempt_count": 4,
-            "last_attempt_at": "2026-11-16T17:09:16+00:00",
-            "next_retry_at": "2026-11-23T17:09:16+00:00",
-            "last_result": "reachable_hls",
-            "previous_result": "reachable_hls",
-            "reason": "scheduled_health_check"
+            "state": "retry_scheduled",
+            "attempt_count": 5,
+            "last_attempt_at": "2026-11-23T19:20:43+00:00",
+            "next_retry_at": "2026-11-30T19:20:43+00:00",
+            "last_result": "timeout",
+            "previous_result": "forbidden_or_geo_restricted",
+            "reason": "retry_window"
           }
         }
       ],
@@ -31119,7 +31118,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-23T07:28:23+00:00",
+    "checked_at": "2026-11-23T19:20:43+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,

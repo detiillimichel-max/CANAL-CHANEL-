@@ -30,13 +30,14 @@
     },
     "validation_checked_at": "2026-11-23T19:16:14+00:00",
     "recovery": {
-      "checked": 8,
-      "result_reachable_hls": 5,
-      "result_timeout": 3,
-      "skipped_retry_window": 386,
-      "skipped_stable_hls": 1115
+      "checked": 37,
+      "result_forbidden_or_geo_restricted": 3,
+      "result_not_found": 5,
+      "result_reachable_hls": 29,
+      "skipped_retry_window": 331,
+      "skipped_stable_hls": 1141
     },
-    "recovery_checked_at": "2026-11-23T07:28:23+00:00",
+    "recovery_checked_at": "2026-11-23T19:20:43+00:00",
     "classification": {
       "desenhos": 29,
       "documentarios": 34,
@@ -11959,7 +11960,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:18:27+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_BLOOMBERG/index.m3u8",
             "result": "reachable_hls",
@@ -11968,13 +11969,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:26:41+00:00",
-            "next_retry_at": "2026-11-23T15:26:41+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         },
         {
@@ -12716,7 +12717,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:18:29+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8",
             "result": "reachable_hls",
@@ -12725,13 +12726,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:26:41+00:00",
-            "next_retry_at": "2026-11-23T15:26:41+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         },
         {
@@ -13028,7 +13029,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:18:29+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_BOUNCE/index.m3u8",
             "result": "reachable_hls",
@@ -13037,13 +13038,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:26:41+00:00",
-            "next_retry_at": "2026-11-23T15:26:41+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -13635,7 +13636,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:18:29+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_BUZZR/index.m3u8",
             "result": "reachable_hls",
@@ -13644,13 +13645,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:26:41+00:00",
-            "next_retry_at": "2026-11-23T15:26:41+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -17974,7 +17975,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:18:35+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_5STARMAX/index.m3u8",
             "result": "reachable_hls",
@@ -17983,13 +17984,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:26:41+00:00",
-            "next_retry_at": "2026-11-23T15:26:41+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -18074,7 +18075,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:18:35+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_MOREMAX/index.m3u8",
             "result": "reachable_hls",
@@ -18083,13 +18084,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:26:49+00:00",
-            "next_retry_at": "2026-11-23T15:26:49+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -18368,7 +18369,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:18:35+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_CINEMAX_WEST/index.m3u8",
             "result": "reachable_hls",
@@ -18377,13 +18378,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:26:49+00:00",
-            "next_retry_at": "2026-11-23T15:26:49+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -21273,7 +21274,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:18:37+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_CRIME_INVESTIGATION/index.m3u8",
             "result": "reachable_hls",
@@ -21282,13 +21283,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:26:49+00:00",
-            "next_retry_at": "2026-11-23T15:26:49+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -22657,7 +22658,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:18:38+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_DESTINATION_AMERICA/index.m3u8",
             "result": "reachable_hls",
@@ -22666,13 +22667,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:26:49+00:00",
-            "next_retry_at": "2026-11-23T15:26:49+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -26612,7 +26613,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-23T19:18:41+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 403,
             "final_url": "http://187.102.208.209:8000/play/a0bq/index.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -26621,12 +26622,12 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-23T07:28:32+00:00",
-            "next_retry_at": "2026-11-23T13:28:32+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
+            "state": "restricted_review",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-12-23T19:20:52+00:00",
+            "last_result": "forbidden_or_geo_restricted",
+            "previous_result": "forbidden_or_geo_restricted",
             "reason": "retry_window"
           }
         }
@@ -26892,7 +26893,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:18:42+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_E/index.m3u8",
             "result": "reachable_hls",
@@ -26901,13 +26902,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:26:49+00:00",
-            "next_retry_at": "2026-11-23T15:26:49+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -29636,7 +29637,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-23T19:18:47+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 403,
             "final_url": "http://187.102.208.209:8000/play/a0ac/index.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -29645,12 +29646,12 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-23T07:28:32+00:00",
-            "next_retry_at": "2026-11-23T13:28:32+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
+            "state": "restricted_review",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-12-23T19:20:52+00:00",
+            "last_result": "forbidden_or_geo_restricted",
+            "previous_result": "forbidden_or_geo_restricted",
             "reason": "retry_window"
           }
         },
@@ -30621,7 +30622,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:18:49+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_FOOD_NETWORK/index.m3u8",
             "result": "reachable_hls",
@@ -30630,13 +30631,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:26:57+00:00",
-            "next_retry_at": "2026-11-23T15:26:57+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         },
         {
@@ -30961,7 +30962,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-23T19:18:50+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 404,
             "final_url": "http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8",
             "result": "not_found",
@@ -30970,12 +30971,12 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:26:57+00:00",
-            "next_retry_at": "2026-11-23T15:26:57+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
+            "state": "slow_recheck",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "not_found",
+            "previous_result": "not_found",
             "reason": "retry_window"
           }
         }
@@ -32375,7 +32376,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:18:51+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_FUSE/index.m3u8",
             "result": "reachable_hls",
@@ -32384,13 +32385,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:26:57+00:00",
-            "next_retry_at": "2026-11-23T15:26:57+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -38479,7 +38480,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:06+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_HLN/index.m3u8",
             "result": "reachable_hls",
@@ -38488,13 +38489,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:26:57+00:00",
-            "next_retry_at": "2026-11-23T15:26:57+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -40661,7 +40662,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:09+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_ION/index.m3u8",
             "result": "reachable_hls",
@@ -40670,13 +40671,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:26:57+00:00",
-            "next_retry_at": "2026-11-23T15:26:57+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         },
         {
@@ -45261,7 +45262,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-23T19:19:12+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 403,
             "final_url": "http://187.102.208.209:8000/play/a0ad/index.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -45270,12 +45271,12 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-23T07:28:32+00:00",
-            "next_retry_at": "2026-11-23T13:28:32+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
+            "state": "restricted_review",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-12-23T19:20:52+00:00",
+            "last_result": "forbidden_or_geo_restricted",
+            "previous_result": "forbidden_or_geo_restricted",
             "reason": "retry_window"
           }
         }
@@ -45554,7 +45555,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-23T19:19:12+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 404,
             "final_url": "http://23.237.104.106:8080/USA_LMN/index.m3u8",
             "result": "not_found",
@@ -45563,12 +45564,12 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:27:05+00:00",
-            "next_retry_at": "2026-11-23T15:27:05+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
+            "state": "slow_recheck",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "not_found",
+            "previous_result": "not_found",
             "reason": "retry_window"
           }
         }
@@ -50944,7 +50945,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-23T19:19:17+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 404,
             "final_url": "http://23.237.104.106:8080/USA_MSG/index.m3u8",
             "result": "not_found",
@@ -50953,12 +50954,12 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:27:05+00:00",
-            "next_retry_at": "2026-11-23T15:27:05+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
+            "state": "slow_recheck",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "not_found",
+            "previous_result": "not_found",
             "reason": "retry_window"
           }
         }
@@ -52552,7 +52553,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:21+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_NBA/index.m3u8",
             "result": "reachable_hls",
@@ -52561,13 +52562,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:27:05+00:00",
-            "next_retry_at": "2026-11-23T15:27:05+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         },
         {
@@ -58262,7 +58263,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:37+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_OAN/index.m3u8",
             "result": "reachable_hls",
@@ -58271,13 +58272,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:27:05+00:00",
-            "next_retry_at": "2026-11-23T15:27:05+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         },
         {
@@ -58689,7 +58690,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:37+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_OWN/index.m3u8",
             "result": "reachable_hls",
@@ -58698,13 +58699,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:27:05+00:00",
-            "next_retry_at": "2026-11-23T15:27:05+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -58869,7 +58870,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:37+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_PARAMOUNT_NETWORK/index.m3u8",
             "result": "reachable_hls",
@@ -58878,13 +58879,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:27:13+00:00",
-            "next_retry_at": "2026-11-23T15:27:13+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -62118,7 +62119,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-23T19:19:41+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 404,
             "final_url": "http://23.237.104.106:8080/USA_REELZ/index.m3u8",
             "result": "not_found",
@@ -62127,12 +62128,12 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:27:13+00:00",
-            "next_retry_at": "2026-11-23T15:27:13+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
+            "state": "slow_recheck",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "not_found",
+            "previous_result": "not_found",
             "reason": "retry_window"
           }
         }
@@ -62465,7 +62466,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:42+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_REVOLT/index.m3u8",
             "result": "reachable_hls",
@@ -62474,13 +62475,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:27:13+00:00",
-            "next_retry_at": "2026-11-23T15:27:13+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -64530,7 +64531,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:43+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_SEC_NETWORK/index.m3u8",
             "result": "reachable_hls",
@@ -64539,13 +64540,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:27:13+00:00",
-            "next_retry_at": "2026-11-23T15:27:13+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -65542,7 +65543,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:44+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_SHOWTIME_FAMILY/index.m3u8",
             "result": "reachable_hls",
@@ -65551,13 +65552,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:27:13+00:00",
-            "next_retry_at": "2026-11-23T15:27:13+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -66902,7 +66903,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-23T19:19:46+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 404,
             "final_url": "http://23.237.104.106:8080/USA_STARZ_CINEMA/index.m3u8",
             "result": "not_found",
@@ -66911,12 +66912,12 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:27:21+00:00",
-            "next_retry_at": "2026-11-23T15:27:21+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
+            "state": "slow_recheck",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "not_found",
+            "previous_result": "not_found",
             "reason": "retry_window"
           }
         }
@@ -67006,7 +67007,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:46+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_STARZ_COMEDY/index.m3u8",
             "result": "reachable_hls",
@@ -67015,13 +67016,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:27:21+00:00",
-            "next_retry_at": "2026-11-23T15:27:21+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -67209,7 +67210,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:46+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_STARZ_FAMILY/index.m3u8",
             "result": "reachable_hls",
@@ -67218,13 +67219,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:27:21+00:00",
-            "next_retry_at": "2026-11-23T15:27:21+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -67313,7 +67314,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:46+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_STARZ_WEST/index.m3u8",
             "result": "reachable_hls",
@@ -67322,13 +67323,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:27:21+00:00",
-            "next_retry_at": "2026-11-23T15:27:21+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -70942,7 +70943,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:53+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_TENNIS/index.m3u8",
             "result": "reachable_hls",
@@ -70951,13 +70952,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:27:21+00:00",
-            "next_retry_at": "2026-11-23T15:27:21+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         },
         {
@@ -75433,7 +75434,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:56+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_TRUTV/index.m3u8",
             "result": "reachable_hls",
@@ -75442,13 +75443,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:27:29+00:00",
-            "next_retry_at": "2026-11-23T15:27:29+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         },
         {
@@ -81634,7 +81635,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:20:07+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_VICETV/index.m3u8",
             "result": "reachable_hls",
@@ -81643,13 +81644,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:27:29+00:00",
-            "next_retry_at": "2026-11-23T15:27:29+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         },
         {
@@ -83332,7 +83333,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:20:09+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_WE_TV/index.m3u8",
             "result": "reachable_hls",
@@ -83341,13 +83342,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:27:29+00:00",
-            "next_retry_at": "2026-11-23T15:27:29+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -84154,7 +84155,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:20:09+00:00",
+            "checked_at": "2026-11-23T19:20:52+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_WGN/index.m3u8",
             "result": "reachable_hls",
@@ -84163,13 +84164,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-22T15:27:29+00:00",
-            "next_retry_at": "2026-11-23T15:27:29+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T19:20:52+00:00",
+            "next_retry_at": "2026-11-30T19:20:52+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -119819,7 +119820,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-23T07:28:23+00:00",
+    "checked_at": "2026-11-23T19:20:43+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,
