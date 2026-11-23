@@ -18,26 +18,25 @@
     "authorization": "not_verified",
     "playback": "not_tested",
     "validation": {
-      "connection_error": 43,
+      "connection_error": 40,
       "dns_error": 9,
-      "forbidden_or_geo_restricted": 81,
+      "forbidden_or_geo_restricted": 83,
       "http_error": 17,
       "not_found": 54,
-      "reachable_hls": 1170,
+      "reachable_hls": 1173,
       "reachable_non_hls": 48,
-      "server_error": 20,
+      "server_error": 18,
       "timeout": 67
     },
     "validation_checked_at": "2026-11-23T19:16:14+00:00",
     "recovery": {
-      "checked": 37,
-      "result_forbidden_or_geo_restricted": 3,
-      "result_not_found": 5,
-      "result_reachable_hls": 29,
-      "skipped_retry_window": 331,
-      "skipped_stable_hls": 1141
+      "checked": 6,
+      "result_forbidden_or_geo_restricted": 2,
+      "result_reachable_hls": 4,
+      "skipped_retry_window": 334,
+      "skipped_stable_hls": 1169
     },
-    "recovery_checked_at": "2026-11-23T19:20:43+00:00",
+    "recovery_checked_at": "2026-11-23T23:48:48+00:00",
     "classification": {
       "desenhos": 29,
       "documentarios": 33,
@@ -12440,15 +12439,24 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "server_error",
+          "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-23T19:18:28+00:00",
-            "http_status": 503,
+            "checked_at": "2026-11-23T23:48:48+00:00",
+            "http_status": 403,
             "final_url": "https://reflect-batv.cablecast.tv/live-3/live/live.m3u8",
-            "result": "server_error",
+            "result": "forbidden_or_geo_restricted",
             "hls_status": "not_confirmed",
-            "detail": "http_503",
+            "detail": "http_403",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "restricted_review",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-23T23:48:48+00:00",
+            "next_retry_at": "2026-12-23T23:48:48+00:00",
+            "last_result": "forbidden_or_geo_restricted",
+            "previous_result": "server_error",
+            "reason": "retry_window"
           }
         }
       ],
@@ -12532,15 +12540,24 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "server_error",
+          "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-23T19:18:28+00:00",
-            "http_status": 503,
+            "checked_at": "2026-11-23T23:48:48+00:00",
+            "http_status": 403,
             "final_url": "https://reflect-batv.cablecast.tv/live-5/live/live.m3u8",
-            "result": "server_error",
+            "result": "forbidden_or_geo_restricted",
             "hls_status": "not_confirmed",
-            "detail": "http_503",
+            "detail": "http_403",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "restricted_review",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-23T23:48:48+00:00",
+            "next_retry_at": "2026-12-23T23:48:48+00:00",
+            "last_result": "forbidden_or_geo_restricted",
+            "previous_result": "server_error",
+            "reason": "retry_window"
           }
         }
       ],
@@ -35306,7 +35323,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:00+00:00",
+            "checked_at": "2026-11-23T23:48:48+00:00",
             "http_status": 206,
             "final_url": "https://tv.gunaz.tv/hls/live.m3u8",
             "result": "reachable_hls",
@@ -35316,12 +35333,12 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-16T21:58:00+00:00",
-            "next_retry_at": "2026-11-23T21:58:00+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-23T23:48:48+00:00",
+            "next_retry_at": "2026-11-30T23:48:48+00:00",
             "last_result": "reachable_hls",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -39299,15 +39316,24 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "connection_error",
+          "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:06+00:00",
-            "http_status": null,
-            "final_url": null,
-            "result": "connection_error",
-            "hls_status": "not_confirmed",
-            "detail": "[Errno 104] Connection reset by peer",
+            "checked_at": "2026-11-23T23:48:48+00:00",
+            "http_status": 200,
+            "final_url": "https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn1us/master.m3u8",
+            "result": "reachable_hls",
+            "hls_status": "accessible",
+            "detail": "hls_accessible",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "stable_hls",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-23T23:48:48+00:00",
+            "next_retry_at": "2026-11-30T23:48:48+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         }
       ],
@@ -39390,15 +39416,24 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "connection_error",
+          "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:06+00:00",
-            "http_status": null,
-            "final_url": null,
-            "result": "connection_error",
-            "hls_status": "not_confirmed",
-            "detail": "[Errno 104] Connection reset by peer",
+            "checked_at": "2026-11-23T23:48:48+00:00",
+            "http_status": 200,
+            "final_url": "https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn2us/master.m3u8",
+            "result": "reachable_hls",
+            "hls_status": "accessible",
+            "detail": "hls_accessible",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "stable_hls",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-23T23:48:48+00:00",
+            "next_retry_at": "2026-11-30T23:48:48+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         }
       ],
@@ -39481,15 +39516,24 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "connection_error",
+          "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:07+00:00",
-            "http_status": null,
-            "final_url": null,
-            "result": "connection_error",
-            "hls_status": "not_confirmed",
-            "detail": "[Errno 104] Connection reset by peer",
+            "checked_at": "2026-11-23T23:48:48+00:00",
+            "http_status": 200,
+            "final_url": "https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn1uswest/master.m3u8",
+            "result": "reachable_hls",
+            "hls_status": "accessible",
+            "detail": "hls_accessible",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "stable_hls",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-23T23:48:48+00:00",
+            "next_retry_at": "2026-11-30T23:48:48+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         }
       ],
@@ -119810,7 +119854,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-23T19:20:43+00:00",
+    "checked_at": "2026-11-23T23:48:48+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,
