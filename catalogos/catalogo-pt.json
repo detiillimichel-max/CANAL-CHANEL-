@@ -21,19 +21,19 @@
       "forbidden_or_geo_restricted": 3,
       "http_error": 1,
       "not_found": 4,
-      "reachable_hls": 34,
-      "reachable_non_hls": 1,
+      "reachable_hls": 33,
+      "reachable_non_hls": 2,
       "server_error": 1,
       "timeout": 18
     },
     "validation_checked_at": "2026-11-22T16:36:48+00:00",
     "recovery": {
       "checked": 1,
-      "result_http_error": 1,
-      "skipped_retry_window": 27,
-      "skipped_stable_hls": 34
+      "result_reachable_non_hls": 1,
+      "skipped_retry_window": 28,
+      "skipped_stable_hls": 33
     },
-    "recovery_checked_at": "2026-11-22T15:26:41+00:00",
+    "recovery_checked_at": "2026-11-23T07:28:23+00:00",
     "classification": {
       "documentarios": 1,
       "educacao_cultura": 1,
@@ -2753,24 +2753,24 @@
           "source_file": "streams/pt.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "reachable_hls",
+          "availability_status": "reachable_non_hls",
           "validation": {
-            "checked_at": "2026-11-22T16:38:19+00:00",
+            "checked_at": "2026-11-23T07:28:31+00:00",
             "http_status": 206,
             "final_url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8",
-            "result": "reachable_hls",
-            "hls_status": "accessible",
-            "detail": "hls_accessible",
+            "result": "reachable_non_hls",
+            "hls_status": "not_confirmed",
+            "detail": "http_ok_not_hls",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "stable_hls",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-16T06:20:27+00:00",
-            "next_retry_at": "2026-11-23T06:20:27+00:00",
-            "last_result": "reachable_hls",
-            "previous_result": "http_error",
-            "reason": "retry_window"
+            "state": "non_hls_review",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-23T07:28:31+00:00",
+            "next_retry_at": "2026-11-30T07:28:31+00:00",
+            "last_result": "reachable_non_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -5828,7 +5828,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-22T15:26:41+00:00",
+    "checked_at": "2026-11-23T07:28:23+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,

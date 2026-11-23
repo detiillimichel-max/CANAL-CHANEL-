@@ -30,13 +30,14 @@
     },
     "validation_checked_at": "2026-11-22T16:36:48+00:00",
     "recovery": {
-      "checked": 2,
-      "result_forbidden_or_geo_restricted": 1,
+      "checked": 23,
+      "result_reachable_hls": 21,
+      "result_reachable_non_hls": 1,
       "result_timeout": 1,
       "skipped_retry_window": 260,
-      "skipped_stable_hls": 193
+      "skipped_stable_hls": 172
     },
-    "recovery_checked_at": "2026-11-22T19:31:45+00:00",
+    "recovery_checked_at": "2026-11-23T07:28:23+00:00",
     "classification": {
       "agronegocio": 1,
       "desenhos": 5,
@@ -864,7 +865,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T16:36:49+00:00",
+            "checked_at": "2026-11-23T07:28:23+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/AGRO_MAIS/index.m3u8",
             "result": "reachable_hls",
@@ -874,9 +875,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 4,
-            "last_attempt_at": "2026-11-16T06:20:25+00:00",
-            "next_retry_at": "2026-11-23T06:20:25+00:00",
+            "attempt_count": 5,
+            "last_attempt_at": "2026-11-23T07:28:23+00:00",
+            "next_retry_at": "2026-11-30T07:28:23+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -1426,7 +1427,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T16:36:50+00:00",
+            "checked_at": "2026-11-23T07:28:23+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/ARTE_1/index.m3u8",
             "result": "reachable_hls",
@@ -1436,9 +1437,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 4,
-            "last_attempt_at": "2026-11-16T06:20:25+00:00",
-            "next_retry_at": "2026-11-23T06:20:25+00:00",
+            "attempt_count": 5,
+            "last_attempt_at": "2026-11-23T07:28:23+00:00",
+            "next_retry_at": "2026-11-30T07:28:23+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -1723,7 +1724,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T16:36:50+00:00",
+            "checked_at": "2026-11-23T07:28:23+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/AXN/index.m3u8",
             "result": "reachable_hls",
@@ -1733,9 +1734,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 4,
-            "last_attempt_at": "2026-11-16T06:20:25+00:00",
-            "next_retry_at": "2026-11-23T06:20:25+00:00",
+            "attempt_count": 5,
+            "last_attempt_at": "2026-11-23T07:28:23+00:00",
+            "next_retry_at": "2026-11-30T07:28:23+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -2012,7 +2013,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T16:36:52+00:00",
+            "checked_at": "2026-11-23T07:28:23+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/BAND_SPORTS/index.m3u8",
             "result": "reachable_hls",
@@ -2022,9 +2023,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 4,
-            "last_attempt_at": "2026-11-16T06:20:25+00:00",
-            "next_retry_at": "2026-11-23T06:20:25+00:00",
+            "attempt_count": 5,
+            "last_attempt_at": "2026-11-23T07:28:23+00:00",
+            "next_retry_at": "2026-11-30T07:28:23+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -2242,7 +2243,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T16:36:53+00:00",
+            "checked_at": "2026-11-23T07:28:23+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/BAND_NEWS/index.m3u8",
             "result": "reachable_hls",
@@ -2252,9 +2253,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 4,
-            "last_attempt_at": "2026-11-16T06:20:25+00:00",
-            "next_retry_at": "2026-11-23T06:20:25+00:00",
+            "attempt_count": 5,
+            "last_attempt_at": "2026-11-23T07:28:23+00:00",
+            "next_retry_at": "2026-11-30T07:28:23+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -3304,7 +3305,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T16:36:57+00:00",
+            "checked_at": "2026-11-23T07:28:23+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/CANAL_DO_BOI/index.m3u8",
             "result": "reachable_hls",
@@ -3314,9 +3315,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 4,
-            "last_attempt_at": "2026-11-16T06:20:26+00:00",
-            "next_retry_at": "2026-11-23T06:20:26+00:00",
+            "attempt_count": 5,
+            "last_attempt_at": "2026-11-23T07:28:23+00:00",
+            "next_retry_at": "2026-11-30T07:28:23+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -3955,7 +3956,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T16:36:57+00:00",
+            "checked_at": "2026-11-23T07:28:23+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/FUTURA/index.m3u8",
             "result": "reachable_hls",
@@ -3965,9 +3966,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 4,
-            "last_attempt_at": "2026-11-16T06:20:26+00:00",
-            "next_retry_at": "2026-11-23T06:20:26+00:00",
+            "attempt_count": 5,
+            "last_attempt_at": "2026-11-23T07:28:23+00:00",
+            "next_retry_at": "2026-11-30T07:28:23+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -6642,7 +6643,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-22T19:31:45+00:00",
+            "checked_at": "2026-11-23T07:28:23+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -6652,9 +6653,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-22T19:31:45+00:00",
-            "next_retry_at": "2026-11-22T20:31:45+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-23T07:28:23+00:00",
+            "next_retry_at": "2026-11-23T13:28:23+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -8085,7 +8086,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T16:37:08+00:00",
+            "checked_at": "2026-11-23T07:28:23+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/FISH_TV/index.m3u8",
             "result": "reachable_hls",
@@ -8095,9 +8096,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 4,
-            "last_attempt_at": "2026-11-16T06:20:26+00:00",
-            "next_retry_at": "2026-11-23T06:20:26+00:00",
+            "attempt_count": 5,
+            "last_attempt_at": "2026-11-23T07:28:23+00:00",
+            "next_retry_at": "2026-11-30T07:28:23+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -9528,7 +9529,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T16:37:12+00:00",
+            "checked_at": "2026-11-23T07:28:23+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/HISTORY/index.m3u8",
             "result": "reachable_hls",
@@ -9538,9 +9539,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 4,
-            "last_attempt_at": "2026-11-16T06:20:26+00:00",
-            "next_retry_at": "2026-11-23T06:20:26+00:00",
+            "attempt_count": 5,
+            "last_attempt_at": "2026-11-23T07:28:23+00:00",
+            "next_retry_at": "2026-11-30T07:28:23+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -12870,7 +12871,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T16:37:18+00:00",
+            "checked_at": "2026-11-23T07:28:24+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/RECORD_NEWS/index.m3u8",
             "result": "reachable_hls",
@@ -12880,9 +12881,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 4,
-            "last_attempt_at": "2026-11-16T06:20:26+00:00",
-            "next_retry_at": "2026-11-23T06:20:26+00:00",
+            "attempt_count": 5,
+            "last_attempt_at": "2026-11-23T07:28:24+00:00",
+            "next_retry_at": "2026-11-30T07:28:24+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -15608,7 +15609,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T16:37:21+00:00",
+            "checked_at": "2026-11-23T07:28:24+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/REDE_TV/index.m3u8",
             "result": "reachable_hls",
@@ -15618,9 +15619,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 4,
-            "last_attempt_at": "2026-11-16T06:20:26+00:00",
-            "next_retry_at": "2026-11-23T06:20:26+00:00",
+            "attempt_count": 5,
+            "last_attempt_at": "2026-11-23T07:28:24+00:00",
+            "next_retry_at": "2026-11-30T07:28:24+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -17904,7 +17905,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T16:37:29+00:00",
+            "checked_at": "2026-11-23T07:28:24+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/SONY_CHANNEL/index.m3u8",
             "result": "reachable_hls",
@@ -17914,9 +17915,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 4,
-            "last_attempt_at": "2026-11-16T06:20:26+00:00",
-            "next_retry_at": "2026-11-23T06:20:26+00:00",
+            "attempt_count": 5,
+            "last_attempt_at": "2026-11-23T07:28:24+00:00",
+            "next_retry_at": "2026-11-30T07:28:24+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -18109,7 +18110,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T16:37:29+00:00",
+            "checked_at": "2026-11-23T07:28:24+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/SONY_MOVIES/index.m3u8",
             "result": "reachable_hls",
@@ -18119,9 +18120,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 4,
-            "last_attempt_at": "2026-11-16T06:20:26+00:00",
-            "next_retry_at": "2026-11-23T06:20:26+00:00",
+            "attempt_count": 5,
+            "last_attempt_at": "2026-11-23T07:28:24+00:00",
+            "next_retry_at": "2026-11-30T07:28:24+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -18889,7 +18890,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T16:37:31+00:00",
+            "checked_at": "2026-11-23T07:28:24+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/TERRA_VIVA/index.m3u8",
             "result": "reachable_hls",
@@ -18899,9 +18900,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 4,
-            "last_attempt_at": "2026-11-16T06:20:26+00:00",
-            "next_retry_at": "2026-11-23T06:20:26+00:00",
+            "attempt_count": 5,
+            "last_attempt_at": "2026-11-23T07:28:24+00:00",
+            "next_retry_at": "2026-11-30T07:28:24+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -20088,7 +20089,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T16:37:33+00:00",
+            "checked_at": "2026-11-23T07:28:24+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/TV_APARECIDA/index.m3u8",
             "result": "reachable_hls",
@@ -20098,9 +20099,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 4,
-            "last_attempt_at": "2026-11-16T06:20:26+00:00",
-            "next_retry_at": "2026-11-23T06:20:26+00:00",
+            "attempt_count": 5,
+            "last_attempt_at": "2026-11-23T07:28:24+00:00",
+            "next_retry_at": "2026-11-30T07:28:24+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -21653,7 +21654,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T16:37:41+00:00",
+            "checked_at": "2026-11-23T07:28:24+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/CANCAO_NOVA/index.m3u8",
             "result": "reachable_hls",
@@ -21663,9 +21664,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 4,
-            "last_attempt_at": "2026-11-16T06:20:26+00:00",
-            "next_retry_at": "2026-11-23T06:20:26+00:00",
+            "attempt_count": 5,
+            "last_attempt_at": "2026-11-23T07:28:24+00:00",
+            "next_retry_at": "2026-11-30T07:28:24+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -22251,7 +22252,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T16:37:42+00:00",
+            "checked_at": "2026-11-23T07:28:24+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/CULTURA/index.m3u8",
             "result": "reachable_hls",
@@ -22261,9 +22262,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 4,
-            "last_attempt_at": "2026-11-16T06:20:26+00:00",
-            "next_retry_at": "2026-11-23T06:20:26+00:00",
+            "attempt_count": 5,
+            "last_attempt_at": "2026-11-23T07:28:24+00:00",
+            "next_retry_at": "2026-11-30T07:28:24+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -23422,7 +23423,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T16:37:49+00:00",
+            "checked_at": "2026-11-23T07:28:24+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/TV_EVANGELIZAR/index.m3u8",
             "result": "reachable_hls",
@@ -23432,9 +23433,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 4,
-            "last_attempt_at": "2026-11-16T06:20:26+00:00",
-            "next_retry_at": "2026-11-23T06:20:26+00:00",
+            "attempt_count": 5,
+            "last_attempt_at": "2026-11-23T07:28:24+00:00",
+            "next_retry_at": "2026-11-30T07:28:24+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -24150,7 +24151,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_non_hls",
           "validation": {
-            "checked_at": "2026-11-22T16:37:51+00:00",
+            "checked_at": "2026-11-23T07:28:24+00:00",
             "http_status": 200,
             "final_url": "http://79.127.238.228:14173",
             "result": "reachable_non_hls",
@@ -24160,9 +24161,9 @@
           },
           "recovery": {
             "state": "non_hls_review",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-16T06:20:26+00:00",
-            "next_retry_at": "2026-11-23T06:20:26+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-23T07:28:24+00:00",
+            "next_retry_at": "2026-11-30T07:28:24+00:00",
             "last_result": "reachable_non_hls",
             "previous_result": "reachable_non_hls",
             "reason": "retry_window"
@@ -24890,7 +24891,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T16:37:51+00:00",
+            "checked_at": "2026-11-23T07:28:24+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/TV_JUSTICA/index.m3u8",
             "result": "reachable_hls",
@@ -24900,9 +24901,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 4,
-            "last_attempt_at": "2026-11-16T06:20:26+00:00",
-            "next_retry_at": "2026-11-23T06:20:26+00:00",
+            "attempt_count": 5,
+            "last_attempt_at": "2026-11-23T07:28:24+00:00",
+            "next_retry_at": "2026-11-30T07:28:24+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -27172,7 +27173,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T16:37:54+00:00",
+            "checked_at": "2026-11-23T07:28:24+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/TV_SENADO/index.m3u8",
             "result": "reachable_hls",
@@ -27182,9 +27183,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 4,
-            "last_attempt_at": "2026-11-16T06:20:27+00:00",
-            "next_retry_at": "2026-11-23T06:20:27+00:00",
+            "attempt_count": 5,
+            "last_attempt_at": "2026-11-23T07:28:24+00:00",
+            "next_retry_at": "2026-11-30T07:28:24+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -30838,7 +30839,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-22T16:38:10+00:00",
+            "checked_at": "2026-11-23T07:28:24+00:00",
             "http_status": 206,
             "final_url": "http://170.83.16.50/WOOHOO/index.m3u8",
             "result": "reachable_hls",
@@ -30848,9 +30849,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 4,
-            "last_attempt_at": "2026-11-16T06:20:27+00:00",
-            "next_retry_at": "2026-11-23T06:20:27+00:00",
+            "attempt_count": 5,
+            "last_attempt_at": "2026-11-23T07:28:24+00:00",
+            "next_retry_at": "2026-11-30T07:28:24+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -31118,7 +31119,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-22T19:31:45+00:00",
+    "checked_at": "2026-11-23T07:28:23+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,
