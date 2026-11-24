@@ -20,23 +20,24 @@
     "validation": {
       "connection_error": 40,
       "dns_error": 9,
-      "forbidden_or_geo_restricted": 83,
+      "forbidden_or_geo_restricted": 82,
       "http_error": 17,
-      "not_found": 54,
-      "reachable_hls": 1173,
+      "not_found": 55,
+      "reachable_hls": 1174,
       "reachable_non_hls": 48,
       "server_error": 18,
-      "timeout": 67
+      "timeout": 66
     },
     "validation_checked_at": "2026-11-23T19:16:14+00:00",
     "recovery": {
-      "checked": 6,
-      "result_forbidden_or_geo_restricted": 2,
-      "result_reachable_hls": 4,
-      "skipped_retry_window": 334,
-      "skipped_stable_hls": 1169
+      "checked": 67,
+      "result_not_found": 1,
+      "result_reachable_hls": 65,
+      "result_reachable_non_hls": 1,
+      "skipped_retry_window": 333,
+      "skipped_stable_hls": 1109
     },
-    "recovery_checked_at": "2026-11-23T23:48:48+00:00",
+    "recovery_checked_at": "2026-11-24T09:48:37+00:00",
     "classification": {
       "desenhos": 29,
       "documentarios": 33,
@@ -10918,7 +10919,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:18:25+00:00",
+            "checked_at": "2026-11-24T09:48:38+00:00",
             "http_status": 200,
             "final_url": "https://tgn.bozztv.com/betterlife/betterhealth/betterhealth/index.m3u8",
             "result": "reachable_hls",
@@ -10928,9 +10929,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:27+00:00",
-            "next_retry_at": "2026-11-24T07:49:27+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:38+00:00",
+            "next_retry_at": "2026-12-01T09:48:38+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -11018,7 +11019,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:18:25+00:00",
+            "checked_at": "2026-11-24T09:48:38+00:00",
             "http_status": 200,
             "final_url": "https://tgn.bozztv.com/betterlife/betternature/betternature/index.m3u8",
             "result": "reachable_hls",
@@ -11028,9 +11029,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:27+00:00",
-            "next_retry_at": "2026-11-24T07:49:27+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:38+00:00",
+            "next_retry_at": "2026-12-01T09:48:38+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -11121,7 +11122,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:18:25+00:00",
+            "checked_at": "2026-11-24T09:48:38+00:00",
             "http_status": 200,
             "final_url": "https://tgn.bozztv.com/betterlife/betterlife/betterlife/index.m3u8",
             "result": "reachable_hls",
@@ -11131,9 +11132,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:27+00:00",
-            "next_retry_at": "2026-11-24T07:49:27+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:38+00:00",
+            "next_retry_at": "2026-12-01T09:48:38+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -14221,7 +14222,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:18:30+00:00",
+            "checked_at": "2026-11-24T09:48:38+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-camerasmile/index.m3u8",
             "result": "reachable_hls",
@@ -14231,9 +14232,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:27+00:00",
-            "next_retry_at": "2026-11-24T07:49:27+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:38+00:00",
+            "next_retry_at": "2026-12-01T09:48:38+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -16458,7 +16459,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:18:33+00:00",
+            "checked_at": "2026-11-24T09:48:38+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-celebrityscene/index.m3u8",
             "result": "reachable_hls",
@@ -16468,9 +16469,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:27+00:00",
-            "next_retry_at": "2026-11-24T07:49:27+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:38+00:00",
+            "next_retry_at": "2026-12-01T09:48:38+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -16949,7 +16950,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:18:34+00:00",
+            "checked_at": "2026-11-24T09:48:38+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-chefchampion/index.m3u8",
             "result": "reachable_hls",
@@ -16959,9 +16960,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:27+00:00",
-            "next_retry_at": "2026-11-24T07:49:27+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:38+00:00",
+            "next_retry_at": "2026-12-01T09:48:38+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -17051,7 +17052,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:18:34+00:00",
+            "checked_at": "2026-11-24T09:48:38+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-chefrock/index.m3u8",
             "result": "reachable_hls",
@@ -17061,9 +17062,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:27+00:00",
-            "next_retry_at": "2026-11-24T07:49:27+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:38+00:00",
+            "next_retry_at": "2026-12-01T09:48:38+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -18767,7 +18768,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:18:35+00:00",
+            "checked_at": "2026-11-24T09:48:38+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-classiccinema/index.m3u8",
             "result": "reachable_hls",
@@ -18777,9 +18778,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:27+00:00",
-            "next_retry_at": "2026-11-24T07:49:27+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:38+00:00",
+            "next_retry_at": "2026-12-01T09:48:38+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -34645,7 +34646,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:18:57+00:00",
+            "checked_at": "2026-11-24T09:48:38+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-goldentv/index.m3u8",
             "result": "reachable_hls",
@@ -34655,9 +34656,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:27+00:00",
-            "next_retry_at": "2026-11-24T07:49:27+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:38+00:00",
+            "next_retry_at": "2026-12-01T09:48:38+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -35109,7 +35110,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:18:59+00:00",
+            "checked_at": "2026-11-24T09:48:38+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/dvrfl04/itv04019/index.m3u8",
             "result": "reachable_hls",
@@ -35119,9 +35120,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:27+00:00",
-            "next_retry_at": "2026-11-24T07:49:27+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:38+00:00",
+            "next_retry_at": "2026-12-01T09:48:38+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -35744,7 +35745,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:01+00:00",
+            "checked_at": "2026-11-24T09:48:38+00:00",
             "http_status": 200,
             "final_url": "https://tgn.bozztv.com/watc57/watc57-harmony/watc57-harmony/index.m3u8",
             "result": "reachable_hls",
@@ -35754,9 +35755,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:28+00:00",
-            "next_retry_at": "2026-11-24T07:49:28+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:38+00:00",
+            "next_retry_at": "2026-12-01T09:48:38+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -38816,7 +38817,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:06+00:00",
+            "checked_at": "2026-11-24T09:48:38+00:00",
             "http_status": 200,
             "final_url": "https://bozztv.com/hwotta/playlist/playlist.m3u8",
             "result": "reachable_hls",
@@ -38826,9 +38827,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:28+00:00",
-            "next_retry_at": "2026-11-24T07:49:28+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:38+00:00",
+            "next_retry_at": "2026-12-01T09:48:38+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -41095,7 +41096,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:09+00:00",
+            "checked_at": "2026-11-24T09:48:38+00:00",
             "http_status": 200,
             "final_url": "https://rpn3.bozztv.com/jbstv-srt/srt-push/jbstv/playlist.m3u8",
             "result": "reachable_hls",
@@ -41105,9 +41106,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:28+00:00",
-            "next_retry_at": "2026-11-24T07:49:28+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:38+00:00",
+            "next_retry_at": "2026-12-01T09:48:38+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -45704,7 +45705,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:13+00:00",
+            "checked_at": "2026-11-24T09:48:38+00:00",
             "http_status": 200,
             "final_url": "https://tgn.bozztv.com/lifevision/lifevision/index.m3u8",
             "result": "reachable_hls",
@@ -45714,9 +45715,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:28+00:00",
-            "next_retry_at": "2026-11-24T07:49:28+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:38+00:00",
+            "next_retry_at": "2026-12-01T09:48:38+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -47572,7 +47573,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:15+00:00",
+            "checked_at": "2026-11-24T09:48:38+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-mwg/index.m3u8",
             "result": "reachable_hls",
@@ -47582,9 +47583,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:28+00:00",
-            "next_retry_at": "2026-11-24T07:49:28+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:38+00:00",
+            "next_retry_at": "2026-12-01T09:48:38+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -49940,23 +49941,23 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "timeout",
+          "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-23T19:19:16+00:00",
-            "http_status": null,
-            "final_url": null,
-            "result": "timeout",
+            "checked_at": "2026-11-24T09:48:38+00:00",
+            "http_status": 404,
+            "final_url": "http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8",
+            "result": "not_found",
             "hls_status": "not_confirmed",
-            "detail": "connection_timeout",
+            "detail": "http_404",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
             "state": "slow_recheck",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:28+00:00",
-            "next_retry_at": "2026-11-24T07:49:28+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:38+00:00",
+            "next_retry_at": "2026-12-01T09:48:38+00:00",
             "last_result": "not_found",
-            "previous_result": "not_found",
+            "previous_result": "timeout",
             "reason": "retry_window"
           }
         }
@@ -57041,7 +57042,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:36+00:00",
+            "checked_at": "2026-11-24T09:48:38+00:00",
             "http_status": 200,
             "final_url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=15811",
             "result": "reachable_hls",
@@ -57051,9 +57052,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:28+00:00",
-            "next_retry_at": "2026-11-24T07:49:28+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:38+00:00",
+            "next_retry_at": "2026-12-01T09:48:38+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -59458,7 +59459,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:39+00:00",
+            "checked_at": "2026-11-24T09:48:38+00:00",
             "http_status": 200,
             "final_url": "https://tgn.bozztv.com/cus01/ucur1/Payvand/index.m3u8",
             "result": "reachable_hls",
@@ -59468,9 +59469,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:28+00:00",
-            "next_retry_at": "2026-11-24T07:49:28+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:38+00:00",
+            "next_retry_at": "2026-12-01T09:48:38+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -59489,7 +59490,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:39+00:00",
+            "checked_at": "2026-11-24T09:48:38+00:00",
             "http_status": 200,
             "final_url": "https://bozztv.com/cus01/ucur1/Payvand/index.m3u8",
             "result": "reachable_hls",
@@ -59499,9 +59500,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:28+00:00",
-            "next_retry_at": "2026-11-24T07:49:28+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:38+00:00",
+            "next_retry_at": "2026-12-01T09:48:38+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -60505,21 +60506,21 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "forbidden_or_geo_restricted",
+          "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:40+00:00",
-            "http_status": 403,
+            "checked_at": "2026-11-24T09:48:38+00:00",
+            "http_status": 206,
             "final_url": "http://trn03.bozztv.com/gin-positiv/index.m3u8",
-            "result": "forbidden_or_geo_restricted",
-            "hls_status": "not_confirmed",
-            "detail": "http_403",
+            "result": "reachable_hls",
+            "hls_status": "accessible",
+            "detail": "hls_accessible",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:28+00:00",
-            "next_retry_at": "2026-11-24T07:49:28+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:38+00:00",
+            "next_retry_at": "2026-12-01T09:48:38+00:00",
             "last_result": "reachable_hls",
             "previous_result": "forbidden_or_geo_restricted",
             "reason": "retry_window"
@@ -61417,7 +61418,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:41+00:00",
+            "checked_at": "2026-11-24T09:48:38+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/radiant/radiant/radiant/index.m3u8",
             "result": "reachable_hls",
@@ -61427,9 +61428,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:28+00:00",
-            "next_retry_at": "2026-11-24T07:49:28+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:38+00:00",
+            "next_retry_at": "2026-12-01T09:48:38+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -68119,7 +68120,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:47+00:00",
+            "checked_at": "2026-11-24T09:48:39+00:00",
             "http_status": 200,
             "final_url": "https://bozztv.com/uni10rtmp/ssstv1-cdn/smil:ssstv1web.smil/playlist.m3u8",
             "result": "reachable_hls",
@@ -68129,9 +68130,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:28+00:00",
-            "next_retry_at": "2026-11-24T07:49:28+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:39+00:00",
+            "next_retry_at": "2026-12-01T09:48:39+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -68148,7 +68149,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:47+00:00",
+            "checked_at": "2026-11-24T09:48:39+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/ssstv/ssstv1-cdn/smil:ssstv1web.smil/playlist.m3u8",
             "result": "reachable_hls",
@@ -68158,9 +68159,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:28+00:00",
-            "next_retry_at": "2026-11-24T07:49:28+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:39+00:00",
+            "next_retry_at": "2026-12-01T09:48:39+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -68248,7 +68249,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:48+00:00",
+            "checked_at": "2026-11-24T09:48:39+00:00",
             "http_status": 200,
             "final_url": "https://bozztv.com/uni10rtmp/ssstv2-cdn/smil:ssstv2web.smil/playlist.m3u8",
             "result": "reachable_hls",
@@ -68258,9 +68259,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:28+00:00",
-            "next_retry_at": "2026-11-24T07:49:28+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:39+00:00",
+            "next_retry_at": "2026-12-01T09:48:39+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -68277,7 +68278,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:48+00:00",
+            "checked_at": "2026-11-24T09:48:39+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/ssstv/ssstv2-cdn/smil:ssstv2web.smil/playlist.m3u8",
             "result": "reachable_hls",
@@ -68287,9 +68288,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:28+00:00",
-            "next_retry_at": "2026-11-24T07:49:28+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:39+00:00",
+            "next_retry_at": "2026-12-01T09:48:39+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -71719,7 +71720,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:53+00:00",
+            "checked_at": "2026-11-24T09:48:39+00:00",
             "http_status": 200,
             "final_url": "https://tgn.bozztv.com/watc57/watc57-theloop/watc57-theloop/index.m3u8",
             "result": "reachable_hls",
@@ -71729,9 +71730,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:28+00:00",
-            "next_retry_at": "2026-11-24T07:49:28+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:39+00:00",
+            "next_retry_at": "2026-12-01T09:48:39+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -72010,7 +72011,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:53+00:00",
+            "checked_at": "2026-11-24T09:48:39+00:00",
             "http_status": 200,
             "final_url": "https://tgn.bozztv.com/watc57/watc57-2/watc57-2/index.m3u8",
             "result": "reachable_hls",
@@ -72020,9 +72021,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:28+00:00",
-            "next_retry_at": "2026-11-24T07:49:28+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:39+00:00",
+            "next_retry_at": "2026-12-01T09:48:39+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -72542,7 +72543,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:54+00:00",
+            "checked_at": "2026-11-24T09:48:39+00:00",
             "http_status": 200,
             "final_url": "https://thedovetv.bozztv.com/thedovetv/thedovetv/index.m3u8",
             "result": "reachable_hls",
@@ -72552,9 +72553,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:28+00:00",
-            "next_retry_at": "2026-11-24T07:49:28+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:39+00:00",
+            "next_retry_at": "2026-12-01T09:48:39+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -72756,7 +72757,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:54+00:00",
+            "checked_at": "2026-11-24T09:48:39+00:00",
             "http_status": 200,
             "final_url": "https://bozztv.com/1gbw5/tintv/tintv/playlist.m3u8",
             "result": "reachable_hls",
@@ -72766,9 +72767,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:28+00:00",
-            "next_retry_at": "2026-11-24T07:49:28+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:39+00:00",
+            "next_retry_at": "2026-12-01T09:48:39+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -76067,7 +76068,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:57+00:00",
+            "checked_at": "2026-11-24T09:48:39+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-tvsbowling/index.m3u8",
             "result": "reachable_hls",
@@ -76077,9 +76078,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:28+00:00",
-            "next_retry_at": "2026-11-24T07:49:28+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:39+00:00",
+            "next_retry_at": "2026-12-01T09:48:39+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -76167,7 +76168,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:57+00:00",
+            "checked_at": "2026-11-24T09:48:39+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-tvsboxing/index.m3u8",
             "result": "reachable_hls",
@@ -76177,9 +76178,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:28+00:00",
-            "next_retry_at": "2026-11-24T07:49:28+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:39+00:00",
+            "next_retry_at": "2026-12-01T09:48:39+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -76267,7 +76268,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:57+00:00",
+            "checked_at": "2026-11-24T09:48:39+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-tvsmystery/index.m3u8",
             "result": "reachable_hls",
@@ -76277,9 +76278,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:28+00:00",
-            "next_retry_at": "2026-11-24T07:49:28+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:39+00:00",
+            "next_retry_at": "2026-12-01T09:48:39+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -76367,7 +76368,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:57+00:00",
+            "checked_at": "2026-11-24T09:48:39+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-tvsclassicmovies/index.m3u8",
             "result": "reachable_hls",
@@ -76377,9 +76378,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:28+00:00",
-            "next_retry_at": "2026-11-24T07:49:28+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:39+00:00",
+            "next_retry_at": "2026-12-01T09:48:39+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -76471,7 +76472,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:57+00:00",
+            "checked_at": "2026-11-24T09:48:39+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8",
             "result": "reachable_hls",
@@ -76481,9 +76482,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:29+00:00",
-            "next_retry_at": "2026-11-24T07:49:29+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:39+00:00",
+            "next_retry_at": "2026-12-01T09:48:39+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -76574,7 +76575,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:57+00:00",
+            "checked_at": "2026-11-24T09:48:39+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-tvscomedy/index.m3u8",
             "result": "reachable_hls",
@@ -76584,9 +76585,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:29+00:00",
-            "next_retry_at": "2026-11-24T07:49:29+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:39+00:00",
+            "next_retry_at": "2026-12-01T09:48:39+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -76677,7 +76678,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:57+00:00",
+            "checked_at": "2026-11-24T09:48:39+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-tvsdriveinmovie/index.m3u8",
             "result": "reachable_hls",
@@ -76687,9 +76688,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:29+00:00",
-            "next_retry_at": "2026-11-24T07:49:29+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:39+00:00",
+            "next_retry_at": "2026-12-01T09:48:39+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -76780,7 +76781,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:57+00:00",
+            "checked_at": "2026-11-24T09:48:39+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-TVSFamilyChannel/index.m3u8",
             "result": "reachable_hls",
@@ -76790,9 +76791,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:29+00:00",
-            "next_retry_at": "2026-11-24T07:49:29+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:39+00:00",
+            "next_retry_at": "2026-12-01T09:48:39+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -76880,7 +76881,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_non_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:57+00:00",
+            "checked_at": "2026-11-24T09:48:39+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/trn01/gusa-TVSFilmNoir/index.m3u8",
             "result": "reachable_non_hls",
@@ -76890,9 +76891,9 @@
           },
           "recovery": {
             "state": "non_hls_review",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:29+00:00",
-            "next_retry_at": "2026-11-24T07:49:29+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:39+00:00",
+            "next_retry_at": "2026-12-01T09:48:39+00:00",
             "last_result": "reachable_non_hls",
             "previous_result": "reachable_non_hls",
             "reason": "retry_window"
@@ -76983,7 +76984,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:58+00:00",
+            "checked_at": "2026-11-24T09:48:39+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-TVSFlashback/index.m3u8",
             "result": "reachable_hls",
@@ -76993,9 +76994,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:29+00:00",
-            "next_retry_at": "2026-11-24T07:49:29+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:39+00:00",
+            "next_retry_at": "2026-12-01T09:48:39+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -77083,7 +77084,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:58+00:00",
+            "checked_at": "2026-11-24T09:48:39+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-tvsfrontier/index.m3u8",
             "result": "reachable_hls",
@@ -77093,9 +77094,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:29+00:00",
-            "next_retry_at": "2026-11-24T07:49:29+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:39+00:00",
+            "next_retry_at": "2026-12-01T09:48:39+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -77163,7 +77164,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:58+00:00",
+            "checked_at": "2026-11-24T09:48:39+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-hitops/index.m3u8",
             "result": "reachable_hls",
@@ -77173,9 +77174,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:29+00:00",
-            "next_retry_at": "2026-11-24T07:49:29+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:39+00:00",
+            "next_retry_at": "2026-12-01T09:48:39+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -77263,7 +77264,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:58+00:00",
+            "checked_at": "2026-11-24T09:48:39+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-tvshollywoohistory/index.m3u8",
             "result": "reachable_hls",
@@ -77273,9 +77274,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:29+00:00",
-            "next_retry_at": "2026-11-24T07:49:29+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:39+00:00",
+            "next_retry_at": "2026-12-01T09:48:39+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -77365,7 +77366,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:58+00:00",
+            "checked_at": "2026-11-24T09:48:40+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-tvsmainst/index.m3u8",
             "result": "reachable_hls",
@@ -77375,9 +77376,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:29+00:00",
-            "next_retry_at": "2026-11-24T07:49:29+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:40+00:00",
+            "next_retry_at": "2026-12-01T09:48:40+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -77465,7 +77466,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:58+00:00",
+            "checked_at": "2026-11-24T09:48:40+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-tvsmusic/index.m3u8",
             "result": "reachable_hls",
@@ -77475,9 +77476,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:29+00:00",
-            "next_retry_at": "2026-11-24T07:49:29+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:40+00:00",
+            "next_retry_at": "2026-12-01T09:48:40+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -77560,7 +77561,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:58+00:00",
+            "checked_at": "2026-11-24T09:48:40+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-nostalgia/index.m3u8",
             "result": "reachable_hls",
@@ -77570,9 +77571,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:29+00:00",
-            "next_retry_at": "2026-11-24T07:49:29+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:40+00:00",
+            "next_retry_at": "2026-12-01T09:48:40+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -77660,7 +77661,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:58+00:00",
+            "checked_at": "2026-11-24T09:48:40+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-tvsNostalgiaMovies/index.m3u8",
             "result": "reachable_hls",
@@ -77670,9 +77671,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:29+00:00",
-            "next_retry_at": "2026-11-24T07:49:29+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:40+00:00",
+            "next_retry_at": "2026-12-01T09:48:40+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -77763,7 +77764,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:58+00:00",
+            "checked_at": "2026-11-24T09:48:40+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-petparadenetwork/index.m3u8",
             "result": "reachable_hls",
@@ -77773,9 +77774,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:29+00:00",
-            "next_retry_at": "2026-11-24T07:49:29+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:40+00:00",
+            "next_retry_at": "2026-12-01T09:48:40+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -77863,7 +77864,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:58+00:00",
+            "checked_at": "2026-11-24T09:48:40+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-TVSCartoonNetwork/index.m3u8",
             "result": "reachable_hls",
@@ -77873,9 +77874,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:29+00:00",
-            "next_retry_at": "2026-11-24T07:49:29+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:40+00:00",
+            "next_retry_at": "2026-12-01T09:48:40+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -77963,7 +77964,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:59+00:00",
+            "checked_at": "2026-11-24T09:48:40+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-tvsgameshow/index.m3u8",
             "result": "reachable_hls",
@@ -77973,9 +77974,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:29+00:00",
-            "next_retry_at": "2026-11-24T07:49:29+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:40+00:00",
+            "next_retry_at": "2026-12-01T09:48:40+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -78066,7 +78067,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:59+00:00",
+            "checked_at": "2026-11-24T09:48:40+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-tvsselect/index.m3u8",
             "result": "reachable_hls",
@@ -78076,9 +78077,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:29+00:00",
-            "next_retry_at": "2026-11-24T07:49:29+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:40+00:00",
+            "next_retry_at": "2026-12-01T09:48:40+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -78160,7 +78161,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:59+00:00",
+            "checked_at": "2026-11-24T09:48:40+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-tvssports/index.m3u8",
             "result": "reachable_hls",
@@ -78170,9 +78171,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:29+00:00",
-            "next_retry_at": "2026-11-24T07:49:29+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:40+00:00",
+            "next_retry_at": "2026-12-01T09:48:40+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -78263,7 +78264,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:59+00:00",
+            "checked_at": "2026-11-24T09:48:40+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-tvssportsbureau/index.m3u8",
             "result": "reachable_hls",
@@ -78273,9 +78274,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:29+00:00",
-            "next_retry_at": "2026-11-24T07:49:29+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:40+00:00",
+            "next_retry_at": "2026-12-01T09:48:40+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -78358,7 +78359,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:59+00:00",
+            "checked_at": "2026-11-24T09:48:40+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-TVStalk/index.m3u8",
             "result": "reachable_hls",
@@ -78368,9 +78369,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:29+00:00",
-            "next_retry_at": "2026-11-24T07:49:29+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:40+00:00",
+            "next_retry_at": "2026-12-01T09:48:40+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -78458,7 +78459,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:59+00:00",
+            "checked_at": "2026-11-24T09:48:40+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-tvstallyho/index.m3u8",
             "result": "reachable_hls",
@@ -78468,9 +78469,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:29+00:00",
-            "next_retry_at": "2026-11-24T07:49:29+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:40+00:00",
+            "next_retry_at": "2026-12-01T09:48:40+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -78558,7 +78559,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:59+00:00",
+            "checked_at": "2026-11-24T09:48:40+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-tavern/index.m3u8",
             "result": "reachable_hls",
@@ -78568,9 +78569,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:29+00:00",
-            "next_retry_at": "2026-11-24T07:49:29+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:40+00:00",
+            "next_retry_at": "2026-12-01T09:48:40+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -78658,7 +78659,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:59+00:00",
+            "checked_at": "2026-11-24T09:48:40+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-tvstn/index.m3u8",
             "result": "reachable_hls",
@@ -78668,9 +78669,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:29+00:00",
-            "next_retry_at": "2026-11-24T07:49:29+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:40+00:00",
+            "next_retry_at": "2026-12-01T09:48:40+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -78752,7 +78753,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:59+00:00",
+            "checked_at": "2026-11-24T09:48:40+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-tvstravel/index.m3u8",
             "result": "reachable_hls",
@@ -78762,9 +78763,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:29+00:00",
-            "next_retry_at": "2026-11-24T07:49:29+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:40+00:00",
+            "next_retry_at": "2026-12-01T09:48:40+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -78855,7 +78856,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:59+00:00",
+            "checked_at": "2026-11-24T09:48:40+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-tvsturbo/index.m3u8",
             "result": "reachable_hls",
@@ -78865,9 +78866,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:30+00:00",
-            "next_retry_at": "2026-11-24T07:49:30+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:40+00:00",
+            "next_retry_at": "2026-12-01T09:48:40+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -78955,7 +78956,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:59+00:00",
+            "checked_at": "2026-11-24T09:48:40+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-tvsvintage/index.m3u8",
             "result": "reachable_hls",
@@ -78965,9 +78966,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:30+00:00",
-            "next_retry_at": "2026-11-24T07:49:30+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:40+00:00",
+            "next_retry_at": "2026-12-01T09:48:40+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -79055,7 +79056,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:59+00:00",
+            "checked_at": "2026-11-24T09:48:40+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-tvswesternmovies/index.m3u8",
             "result": "reachable_hls",
@@ -79065,9 +79066,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:30+00:00",
-            "next_retry_at": "2026-11-24T07:49:30+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:40+00:00",
+            "next_retry_at": "2026-12-01T09:48:40+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -79159,7 +79160,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:19:59+00:00",
+            "checked_at": "2026-11-24T09:48:40+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-tvswsn/index.m3u8",
             "result": "reachable_hls",
@@ -79169,9 +79170,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:30+00:00",
-            "next_retry_at": "2026-11-24T07:49:30+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:40+00:00",
+            "next_retry_at": "2026-12-01T09:48:40+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -79444,7 +79445,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:20:00+00:00",
+            "checked_at": "2026-11-24T09:48:40+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/gusa/gusa-ConsumerDirect/index.m3u8",
             "result": "reachable_hls",
@@ -79454,9 +79455,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:30+00:00",
-            "next_retry_at": "2026-11-24T07:49:30+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:40+00:00",
+            "next_retry_at": "2026-12-01T09:48:40+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -81364,7 +81365,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:20:05+00:00",
+            "checked_at": "2026-11-24T09:48:40+00:00",
             "http_status": 200,
             "final_url": "https://tgn.bozztv.com/vbstvcdn/vbstv/ngrp:vbstv_all/playlist.m3u8",
             "result": "reachable_hls",
@@ -81374,9 +81375,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:30+00:00",
-            "next_retry_at": "2026-11-24T07:49:30+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:40+00:00",
+            "next_retry_at": "2026-12-01T09:48:40+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -81792,7 +81793,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:20:07+00:00",
+            "checked_at": "2026-11-24T09:48:40+00:00",
             "http_status": 200,
             "final_url": "https://tgn.bozztv.com/betterlife/bettervida/bettervida/index.m3u8",
             "result": "reachable_hls",
@@ -81802,9 +81803,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:30+00:00",
-            "next_retry_at": "2026-11-24T07:49:30+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:40+00:00",
+            "next_retry_at": "2026-12-01T09:48:40+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -82900,7 +82901,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:20:09+00:00",
+            "checked_at": "2026-11-24T09:48:40+00:00",
             "http_status": 200,
             "final_url": "https://tgn2.bozztv.com/watc57/watc57-1/watc57-1/index.m3u8",
             "result": "reachable_hls",
@@ -82910,9 +82911,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:30+00:00",
-            "next_retry_at": "2026-11-24T07:49:30+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:40+00:00",
+            "next_retry_at": "2026-12-01T09:48:40+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -85878,7 +85879,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:20:10+00:00",
+            "checked_at": "2026-11-24T09:48:40+00:00",
             "http_status": 200,
             "final_url": "https://rpn.bozztv.com/wlmb/wlmb/wlmb/index.m3u8",
             "result": "reachable_hls",
@@ -85888,9 +85889,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:30+00:00",
-            "next_retry_at": "2026-11-24T07:49:30+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:40+00:00",
+            "next_retry_at": "2026-12-01T09:48:40+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -117482,7 +117483,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-23T19:20:22+00:00",
+            "checked_at": "2026-11-24T09:48:40+00:00",
             "http_status": 206,
             "final_url": "https://d16xlk626t29pt.cloudfront.net/ABR.m3u8",
             "result": "reachable_hls",
@@ -117492,9 +117493,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:30+00:00",
-            "next_retry_at": "2026-11-24T07:49:30+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:40+00:00",
+            "next_retry_at": "2026-12-01T09:48:40+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -119854,7 +119855,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-23T23:48:48+00:00",
+    "checked_at": "2026-11-24T09:48:37+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,

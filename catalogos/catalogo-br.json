@@ -22,20 +22,21 @@
       "dns_error": 27,
       "forbidden_or_geo_restricted": 43,
       "http_error": 38,
-      "not_found": 32,
+      "not_found": 33,
       "reachable_hls": 188,
       "reachable_non_hls": 16,
       "server_error": 4,
-      "timeout": 60
+      "timeout": 59
     },
     "validation_checked_at": "2026-11-23T19:16:14+00:00",
     "recovery": {
-      "checked": 3,
-      "result_connection_error": 3,
-      "skipped_retry_window": 264,
+      "checked": 5,
+      "result_connection_error": 4,
+      "result_not_found": 1,
+      "skipped_retry_window": 262,
       "skipped_stable_hls": 188
     },
-    "recovery_checked_at": "2026-11-23T23:48:48+00:00",
+    "recovery_checked_at": "2026-11-24T09:48:37+00:00",
     "classification": {
       "agronegocio": 1,
       "desenhos": 5,
@@ -3062,19 +3063,19 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-23T23:48:48+00:00",
+            "checked_at": "2026-11-24T09:48:37+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
             "hls_status": "not_confirmed",
-            "detail": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)",
+            "detail": "[Errno 111] Connection refused",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-23T23:48:48+00:00",
-            "next_retry_at": "2026-11-24T00:48:48+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-24T09:48:37+00:00",
+            "next_retry_at": "2026-11-24T15:48:37+00:00",
             "last_result": "connection_error",
             "previous_result": "connection_error",
             "reason": "retry_window"
@@ -4777,24 +4778,24 @@
           "source_file": "streams/br.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "timeout",
+          "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-23T19:16:26+00:00",
-            "http_status": null,
-            "final_url": null,
-            "result": "timeout",
+            "checked_at": "2026-11-24T09:48:37+00:00",
+            "http_status": 404,
+            "final_url": "http://play.canalsete.com.br:1935/canalsete/xpl-c7_source/playlist.m3u8",
+            "result": "not_found",
             "hls_status": "not_confirmed",
-            "detail": "connection_timeout",
+            "detail": "http_404",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-17T07:49:19+00:00",
-            "next_retry_at": "2026-11-24T07:49:19+00:00",
-            "last_result": "reachable_hls",
-            "previous_result": "reachable_hls",
-            "reason": "scheduled_health_check"
+            "state": "slow_recheck",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-24T09:48:37+00:00",
+            "next_retry_at": "2026-12-01T09:48:37+00:00",
+            "last_result": "not_found",
+            "previous_result": "timeout",
+            "reason": "retry_window"
           }
         }
       ],
@@ -6147,7 +6148,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-23T19:16:29+00:00",
+            "checked_at": "2026-11-24T09:48:37+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -6157,9 +6158,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 5,
-            "last_attempt_at": "2026-11-17T07:49:19+00:00",
-            "next_retry_at": "2026-11-24T07:49:19+00:00",
+            "attempt_count": 6,
+            "last_attempt_at": "2026-11-24T09:48:37+00:00",
+            "next_retry_at": "2026-12-01T09:48:37+00:00",
             "last_result": "connection_error",
             "previous_result": "connection_error",
             "reason": "retry_window"
@@ -6467,19 +6468,19 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-23T23:48:48+00:00",
+            "checked_at": "2026-11-24T09:48:37+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
             "hls_status": "not_confirmed",
-            "detail": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)",
+            "detail": "[Errno 111] Connection refused",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-23T23:48:48+00:00",
-            "next_retry_at": "2026-11-24T00:48:48+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-24T09:48:37+00:00",
+            "next_retry_at": "2026-11-24T15:48:37+00:00",
             "last_result": "connection_error",
             "previous_result": "connection_error",
             "reason": "retry_window"
@@ -29433,19 +29434,19 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-23T23:48:48+00:00",
+            "checked_at": "2026-11-24T09:48:37+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
             "hls_status": "not_confirmed",
-            "detail": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)",
+            "detail": "[Errno 111] Connection refused",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-23T23:48:48+00:00",
-            "next_retry_at": "2026-11-24T00:48:48+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-24T09:48:37+00:00",
+            "next_retry_at": "2026-11-24T15:48:37+00:00",
             "last_result": "connection_error",
             "previous_result": "connection_error",
             "reason": "retry_window"
@@ -31144,7 +31145,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-23T23:48:48+00:00",
+    "checked_at": "2026-11-24T09:48:37+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,
