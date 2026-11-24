@@ -20,22 +20,26 @@
     "validation": {
       "connection_error": 43,
       "dns_error": 27,
-      "forbidden_or_geo_restricted": 42,
+      "forbidden_or_geo_restricted": 43,
       "http_error": 38,
-      "not_found": 24,
-      "reachable_hls": 195,
+      "not_found": 26,
+      "reachable_hls": 198,
       "reachable_non_hls": 17,
       "server_error": 5,
-      "timeout": 64
+      "timeout": 58
     },
     "validation_checked_at": "2026-11-24T18:55:15+00:00",
     "recovery": {
-      "checked": 3,
+      "checked": 9,
+      "result_forbidden_or_geo_restricted": 1,
+      "result_http_error": 1,
+      "result_not_found": 2,
       "result_reachable_hls": 3,
-      "skipped_retry_window": 260,
-      "skipped_stable_hls": 192
+      "result_timeout": 2,
+      "skipped_retry_window": 251,
+      "skipped_stable_hls": 195
     },
-    "recovery_checked_at": "2026-11-24T19:00:10+00:00",
+    "recovery_checked_at": "2026-11-24T22:21:27+00:00",
     "classification": {
       "agronegocio": 1,
       "desenhos": 5,
@@ -2270,13 +2274,22 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-24T18:55:21+00:00",
+            "checked_at": "2026-11-24T22:21:27+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
             "hls_status": "not_confirmed",
             "detail": "connection_timeout",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "retry_scheduled",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-24T22:21:27+00:00",
+            "next_retry_at": "2026-11-24T23:21:27+00:00",
+            "last_result": "timeout",
+            "previous_result": "timeout",
+            "reason": "retry_window"
           }
         }
       ],
@@ -14620,15 +14633,24 @@
           "source_file": "streams/br.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "timeout",
+          "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-24T18:55:47+00:00",
-            "http_status": null,
-            "final_url": null,
-            "result": "timeout",
+            "checked_at": "2026-11-24T22:21:27+00:00",
+            "http_status": 404,
+            "final_url": "http://170.83.49.66:8083/REDEGOSPELHD/index.m3u8",
+            "result": "not_found",
             "hls_status": "not_confirmed",
-            "detail": "connection_timeout",
+            "detail": "http_404",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "slow_recheck",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-24T22:21:27+00:00",
+            "next_retry_at": "2026-12-01T22:21:27+00:00",
+            "last_result": "not_found",
+            "previous_result": "timeout",
+            "reason": "retry_window"
           }
         }
       ],
@@ -15652,15 +15674,24 @@
           "source_file": "streams/br.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "timeout",
+          "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-24T18:55:50+00:00",
-            "http_status": null,
-            "final_url": null,
-            "result": "timeout",
+            "checked_at": "2026-11-24T22:21:27+00:00",
+            "http_status": 404,
+            "final_url": "http://170.83.49.66:8083/REDETVHD/index.m3u8",
+            "result": "not_found",
             "hls_status": "not_confirmed",
-            "detail": "connection_timeout",
+            "detail": "http_404",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "slow_recheck",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-24T22:21:27+00:00",
+            "next_retry_at": "2026-12-01T22:21:27+00:00",
+            "last_result": "not_found",
+            "previous_result": "timeout",
+            "reason": "retry_window"
           }
         },
         {
@@ -19046,7 +19077,7 @@
           "authorization_status": "unknown",
           "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-24T18:56:00+00:00",
+            "checked_at": "2026-11-24T22:21:27+00:00",
             "http_status": 400,
             "final_url": "https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99992529",
             "result": "http_error",
@@ -19056,9 +19087,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 5,
-            "last_attempt_at": "2026-11-17T20:50:45+00:00",
-            "next_retry_at": "2026-11-24T20:50:45+00:00",
+            "attempt_count": 6,
+            "last_attempt_at": "2026-11-24T22:21:27+00:00",
+            "next_retry_at": "2026-12-01T22:21:27+00:00",
             "last_result": "http_error",
             "previous_result": "http_error",
             "reason": "retry_window"
@@ -19742,15 +19773,24 @@
           "source_file": "streams/br.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "timeout",
+          "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-24T18:56:01+00:00",
-            "http_status": null,
-            "final_url": null,
-            "result": "timeout",
-            "hls_status": "not_confirmed",
-            "detail": "connection_timeout",
+            "checked_at": "2026-11-24T22:21:27+00:00",
+            "http_status": 206,
+            "final_url": "https://stmv1.samcast.com.br/giovane7843/giovane7843/playlist.m3u8",
+            "result": "reachable_hls",
+            "hls_status": "accessible",
+            "detail": "hls_accessible",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "stable_hls",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-24T22:21:27+00:00",
+            "next_retry_at": "2026-12-01T22:21:27+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "timeout",
+            "reason": "retry_window"
           }
         }
       ],
@@ -19925,15 +19965,24 @@
           "source_file": "streams/br.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "timeout",
+          "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-24T18:56:02+00:00",
-            "http_status": null,
-            "final_url": null,
-            "result": "timeout",
-            "hls_status": "not_confirmed",
-            "detail": "connection_timeout",
+            "checked_at": "2026-11-24T22:21:28+00:00",
+            "http_status": 206,
+            "final_url": "https://stmv5.samcast.com.br/wagner7919/wagner7919/playlist.m3u8",
+            "result": "reachable_hls",
+            "hls_status": "accessible",
+            "detail": "hls_accessible",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "stable_hls",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-24T22:21:28+00:00",
+            "next_retry_at": "2026-12-01T22:21:28+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "timeout",
+            "reason": "retry_window"
           }
         }
       ],
@@ -23296,15 +23345,24 @@
           "source_file": "streams/br.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "timeout",
+          "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-24T18:56:19+00:00",
-            "http_status": null,
-            "final_url": null,
-            "result": "timeout",
+            "checked_at": "2026-11-24T22:21:28+00:00",
+            "http_status": 403,
+            "final_url": "https://stmv7.samcast.com.br/sistemaencontrodasaguas/sistemaencontrodasaguas/playlist.m3u8",
+            "result": "forbidden_or_geo_restricted",
             "hls_status": "not_confirmed",
-            "detail": "connection_timeout",
+            "detail": "http_403",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "restricted_review",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-24T22:21:28+00:00",
+            "next_retry_at": "2026-12-24T22:21:28+00:00",
+            "last_result": "forbidden_or_geo_restricted",
+            "previous_result": "timeout",
+            "reason": "retry_window"
           }
         }
       ],
@@ -27218,13 +27276,22 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-24T18:56:28+00:00",
+            "checked_at": "2026-11-24T22:21:28+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
             "hls_status": "not_confirmed",
             "detail": "connection_timeout",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "retry_scheduled",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-24T22:21:28+00:00",
+            "next_retry_at": "2026-11-24T23:21:28+00:00",
+            "last_result": "timeout",
+            "previous_result": "timeout",
+            "reason": "retry_window"
           }
         },
         {
@@ -27420,15 +27487,24 @@
           "source_file": "streams/br.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "timeout",
+          "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-24T18:56:29+00:00",
-            "http_status": null,
-            "final_url": null,
-            "result": "timeout",
-            "hls_status": "not_confirmed",
-            "detail": "connection_timeout",
+            "checked_at": "2026-11-24T22:21:28+00:00",
+            "http_status": 206,
+            "final_url": "https://stmv8.samcast.com.br/raimundoanselmolimamororo1908/raimundoanselmolimamororo1908/playlist.m3u8",
+            "result": "reachable_hls",
+            "hls_status": "accessible",
+            "detail": "hls_accessible",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "stable_hls",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-24T22:21:28+00:00",
+            "next_retry_at": "2026-12-01T22:21:28+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "timeout",
+            "reason": "retry_window"
           }
         }
       ],
@@ -31144,7 +31220,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-24T19:00:10+00:00",
+    "checked_at": "2026-11-24T22:21:27+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,
