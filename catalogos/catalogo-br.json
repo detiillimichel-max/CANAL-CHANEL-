@@ -31,11 +31,12 @@
     "validation_checked_at": "2026-11-25T17:59:23+00:00",
     "recovery": {
       "checked": 2,
-      "result_timeout": 2,
+      "result_reachable_hls": 1,
+      "result_timeout": 1,
       "skipped_retry_window": 255,
       "skipped_stable_hls": 198
     },
-    "recovery_checked_at": "2026-11-25T08:24:04+00:00",
+    "recovery_checked_at": "2026-11-25T18:04:18+00:00",
     "classification": {
       "agronegocio": 1,
       "desenhos": 5,
@@ -1354,7 +1355,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-25T17:59:28+00:00",
+            "checked_at": "2026-11-25T18:04:18+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -1364,9 +1365,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-25T08:24:04+00:00",
-            "next_retry_at": "2026-11-25T14:24:04+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-25T18:04:18+00:00",
+            "next_retry_at": "2026-11-26T18:04:18+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -14407,7 +14408,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-25T18:00:30+00:00",
+            "checked_at": "2026-11-25T18:04:18+00:00",
             "http_status": 206,
             "final_url": "http://170.83.49.66:8083/TVSENADOHD/index.m3u8",
             "result": "reachable_hls",
@@ -14416,13 +14417,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-25T08:24:04+00:00",
-            "next_retry_at": "2026-11-25T14:24:04+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-25T18:04:18+00:00",
+            "next_retry_at": "2026-12-02T18:04:18+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         },
         {
@@ -16198,7 +16199,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-25T08:24:04+00:00",
+    "checked_at": "2026-11-25T18:04:18+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,

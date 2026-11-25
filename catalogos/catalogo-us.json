@@ -30,14 +30,12 @@
     },
     "validation_checked_at": "2026-11-25T17:59:23+00:00",
     "recovery": {
-      "checked": 3,
-      "result_not_found": 1,
-      "result_reachable_hls": 1,
+      "checked": 1,
       "result_timeout": 1,
-      "skipped_retry_window": 342,
-      "skipped_stable_hls": 1164
+      "skipped_retry_window": 338,
+      "skipped_stable_hls": 1170
     },
-    "recovery_checked_at": "2026-11-25T08:24:04+00:00",
+    "recovery_checked_at": "2026-11-25T18:04:18+00:00",
     "classification": {
       "desenhos": 29,
       "documentarios": 34,
@@ -2503,7 +2501,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-25T18:01:20+00:00",
+            "checked_at": "2026-11-25T18:04:26+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -2513,9 +2511,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-25T08:24:12+00:00",
-            "next_retry_at": "2026-11-25T14:24:12+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-25T18:04:26+00:00",
+            "next_retry_at": "2026-11-26T18:04:26+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -56240,7 +56238,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-25T08:24:04+00:00",
+    "checked_at": "2026-11-25T18:04:18+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,
