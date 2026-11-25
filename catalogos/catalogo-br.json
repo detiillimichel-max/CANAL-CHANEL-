@@ -31,12 +31,12 @@
     "validation_checked_at": "2026-11-25T17:59:23+00:00",
     "recovery": {
       "checked": 2,
+      "result_connection_error": 1,
       "result_reachable_hls": 1,
-      "result_timeout": 1,
       "skipped_retry_window": 255,
       "skipped_stable_hls": 198
     },
-    "recovery_checked_at": "2026-11-25T18:04:18+00:00",
+    "recovery_checked_at": "2026-11-25T21:37:28+00:00",
     "classification": {
       "agronegocio": 1,
       "desenhos": 5,
@@ -7392,13 +7392,22 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-25T17:59:42+00:00",
+            "checked_at": "2026-11-25T21:37:28+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
             "hls_status": "not_confirmed",
             "detail": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "retry_scheduled",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-25T21:37:28+00:00",
+            "next_retry_at": "2026-11-25T22:37:28+00:00",
+            "last_result": "connection_error",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         }
       ],
@@ -14735,7 +14744,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-25T17:59:57+00:00",
+            "checked_at": "2026-11-25T21:37:28+00:00",
             "http_status": 206,
             "final_url": "https://maystreaming.cloudecast.com/redemeio/index.m3u8",
             "result": "reachable_hls",
@@ -14745,12 +14754,12 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-18T20:26:54+00:00",
-            "next_retry_at": "2026-11-25T20:26:54+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-25T21:37:28+00:00",
+            "next_retry_at": "2026-12-02T21:37:28+00:00",
             "last_result": "reachable_hls",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -31217,7 +31226,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-25T18:04:18+00:00",
+    "checked_at": "2026-11-25T21:37:28+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,
