@@ -33,7 +33,24 @@
       "skipped_retry_window": 28,
       "skipped_stable_hls": 33
     },
-    "recovery_checked_at": "2026-11-23T07:28:23+00:00"
+    "recovery_checked_at": "2026-11-23T07:28:23+00:00",
+    "classification": {
+      "documentarios": 1,
+      "educacao_cultura": 1,
+      "entretenimento": 2,
+      "esportes": 6,
+      "filmes": 2,
+      "jornalismo": 4,
+      "musica": 3,
+      "outros": 38,
+      "religiao": 2
+    },
+    "classification_confidence": {
+      "alta": 16,
+      "baixa": 38,
+      "media": 5
+    },
+    "classification_checked_at": "2026-11-25T18:04:06+00:00"
   },
   "channels": [
     {
@@ -64,7 +81,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "ARTV.pt@SD",
@@ -96,7 +120,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "educacao_cultura",
+        "confidence": "media",
+        "score": 80,
+        "matched_terms": [
+          "\\bparlamento\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "AXN.pt@SD",
@@ -164,7 +198,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "AXNMovies.pt@SD",
@@ -194,7 +235,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "filmes",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bmovies?\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "CNNPortugal.pt@SD",
@@ -224,7 +275,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "jornalismo",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bcnn\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "DisneyChannel.pt@SD",
@@ -292,7 +353,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "Famatv.pt@SD",
@@ -333,7 +401,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "KuriakosMusic.pt@SD",
@@ -363,7 +438,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "musica",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bmusic\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "KuriakosTV.pt@SD",
@@ -393,7 +478,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "ManaChurchOnline.pt@SD",
@@ -425,7 +517,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "religiao",
+        "confidence": "media",
+        "score": 80,
+        "matched_terms": [
+          "\\bchurch\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "ManaCirkevOnline.pt@SD",
@@ -457,7 +559,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "ManaEgliseOnline.pt@SD",
@@ -489,7 +598,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "ManaIglesiaOnline.pt@SD",
@@ -521,7 +637,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "ManaIgrejaOnline.pt@SD",
@@ -553,7 +676,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "religiao",
+        "confidence": "media",
+        "score": 80,
+        "matched_terms": [
+          "\\bigreja\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "ManaTserkovOnlayn.pt@SD",
@@ -585,7 +718,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "NPCRadioeTV.pt@SD",
@@ -615,7 +755,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "musica",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bradio\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "ONFM.pt@SD",
@@ -645,7 +795,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "PortoCanal.pt@SD",
@@ -675,7 +832,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RadioSines.pt@SD",
@@ -707,7 +871,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "musica",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bradio\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RFPtv.pt@SD",
@@ -737,7 +911,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RTP1.pt@HD",
@@ -778,7 +959,14 @@
             "reason": "scheduled_health_check"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RTP2.pt@HD",
@@ -819,7 +1007,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RTPAcores.pt@HD",
@@ -851,7 +1046,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RTPAcores.pt@SD",
@@ -883,7 +1085,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RTPAfrica.pt@SD",
@@ -924,7 +1133,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RTPMadeira.pt@SD",
@@ -956,7 +1172,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RTPMemoria.pt@SD",
@@ -997,7 +1220,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RTPMundo.pt@SD",
@@ -1038,7 +1268,14 @@
             "reason": "scheduled_health_check"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RTPNoticias.pt@HD",
@@ -1070,7 +1307,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "jornalismo",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bnoticias?\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "RTPNoticias.pt@SD",
@@ -1102,7 +1349,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "jornalismo",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bnoticias?\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "SIC.pt@SD",
@@ -1134,7 +1391,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "SICAltaDefinicao.pt@SD",
@@ -1164,7 +1428,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "SICMulher.pt@SD",
@@ -1203,7 +1474,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "SICNoticias.pt@SD",
@@ -1235,7 +1513,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "jornalismo",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bnoticias?\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "SICRadical.pt@SD",
@@ -1274,7 +1562,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "SICReplay.pt@SD",
@@ -1304,7 +1599,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "SportTV1.pt@SD",
@@ -1343,7 +1645,17 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "esportes",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bsports?\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "SportTV2.pt@SD",
@@ -1382,7 +1694,17 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "esportes",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bsports?\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "SportTV5.pt@SD",
@@ -1421,7 +1743,17 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "esportes",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bsports?\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "SportTV6.pt@SD",
@@ -1460,7 +1792,17 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "esportes",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bsports?\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "SportTV7.pt@SD",
@@ -1499,7 +1841,17 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "esportes",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bsports?\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "SportTVPlus.pt@SD",
@@ -1538,7 +1890,17 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "esportes",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bsports?\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "StarChannel.pt@SD",
@@ -1577,7 +1939,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "StarComedy.pt@SD",
@@ -1616,7 +1985,17 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "entretenimento",
+        "confidence": "media",
+        "score": 70,
+        "matched_terms": [
+          "\\bcomedy\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "StarCrime.pt@SD",
@@ -1655,7 +2034,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "StarLife.pt@SD",
@@ -1694,7 +2080,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "StarMovies.pt@SD",
@@ -1733,7 +2126,17 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "filmes",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bmovies?\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVMana1.pt@SD",
@@ -1763,7 +2166,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVMana2.pt@SD",
@@ -1793,7 +2203,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVManaBrasil.pt@SD",
@@ -1823,7 +2240,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVManaEnglish.pt@SD",
@@ -1853,7 +2277,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVManaEspanhol.pt@SD",
@@ -1883,7 +2314,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVManaRusskiy.pt@SD",
@@ -1913,7 +2351,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVI.pt@SD",
@@ -1972,7 +2417,14 @@
             "reason": "retry_window"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVIFiccao.pt@SD",
@@ -2002,7 +2454,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "TVIReality.pt@SD",
@@ -2034,7 +2493,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "entretenimento",
+        "confidence": "media",
+        "score": 70,
+        "matched_terms": [
+          "\\breality\\b"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "VPlusTVI.pt@SD",
@@ -2064,7 +2533,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "name:rakutendocumentarios",
@@ -2094,7 +2570,17 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "documentarios",
+        "confidence": "alta",
+        "score": 90,
+        "matched_terms": [
+          "\\bdocumentar"
+        ],
+        "also_matches": [],
+        "method": "metadata_rules_v1"
+      }
     },
     {
       "id": "name:rakutenfamilia",
@@ -2124,7 +2610,14 @@
             "check_method": "GET_range_0_4095"
           }
         }
-      ]
+      ],
+      "classification": {
+        "primary": "outros",
+        "confidence": "baixa",
+        "score": 0,
+        "matched_terms": [],
+        "method": "metadata_rules_v1"
+      }
     }
   ],
   "validation": {
@@ -2141,5 +2634,13 @@
     "workers": 5,
     "stable_hls_recheck_days": 7,
     "history_file": "catalogos/historico-validacao.jsonl"
+  },
+  "classification": {
+    "method": "metadata_rules_v1",
+    "checked_at": "2026-11-25T18:04:06+00:00",
+    "media_analyzed": false,
+    "manual_review_recommended_for": [
+      "baixa"
+    ]
   }
 }
