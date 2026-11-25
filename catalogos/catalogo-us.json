@@ -23,21 +23,21 @@
       "forbidden_or_geo_restricted": 94,
       "http_error": 17,
       "not_found": 47,
-      "reachable_hls": 1164,
+      "reachable_hls": 1165,
       "reachable_non_hls": 43,
       "server_error": 18,
-      "timeout": 87
+      "timeout": 86
     },
     "validation_checked_at": "2026-11-24T18:55:15+00:00",
     "recovery": {
-      "checked": 20,
-      "result_forbidden_or_geo_restricted": 1,
-      "result_reachable_hls": 3,
-      "result_timeout": 16,
-      "skipped_retry_window": 328,
-      "skipped_stable_hls": 1161
+      "checked": 3,
+      "result_not_found": 1,
+      "result_reachable_hls": 1,
+      "result_timeout": 1,
+      "skipped_retry_window": 342,
+      "skipped_stable_hls": 1164
     },
-    "recovery_checked_at": "2026-11-24T22:21:27+00:00",
+    "recovery_checked_at": "2026-11-25T08:24:04+00:00",
     "classification": {
       "desenhos": 29,
       "documentarios": 34,
@@ -5499,7 +5499,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-24T22:21:36+00:00",
+            "checked_at": "2026-11-25T08:24:12+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -5509,9 +5509,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-24T22:21:36+00:00",
-            "next_retry_at": "2026-11-24T23:21:36+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-25T08:24:12+00:00",
+            "next_retry_at": "2026-11-25T14:24:12+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -58224,22 +58224,22 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "timeout",
+          "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-24T22:21:52+00:00",
-            "http_status": null,
-            "final_url": null,
-            "result": "timeout",
-            "hls_status": "not_confirmed",
-            "detail": "connection_timeout",
+            "checked_at": "2026-11-25T08:24:12+00:00",
+            "http_status": 206,
+            "final_url": "https://m5.livecdn.io/ocnbroadcasting.com/ocnbroadcasting2/playlist.m3u8",
+            "result": "reachable_hls",
+            "hls_status": "accessible",
+            "detail": "hls_accessible",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-24T22:21:52+00:00",
-            "next_retry_at": "2026-11-24T23:21:52+00:00",
-            "last_result": "timeout",
+            "state": "stable_hls",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-25T08:24:12+00:00",
+            "next_retry_at": "2026-12-02T08:24:12+00:00",
+            "last_result": "reachable_hls",
             "previous_result": "timeout",
             "reason": "retry_window"
           }
@@ -61901,7 +61901,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-24T18:59:00+00:00",
+            "checked_at": "2026-11-25T08:24:12+00:00",
             "http_status": 404,
             "final_url": "https://eu1.servers10.com:8081/8230/index.m3u8",
             "result": "not_found",
@@ -61911,11 +61911,11 @@
           },
           "recovery": {
             "state": "slow_recheck",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-18T07:20:44+00:00",
-            "next_retry_at": "2026-11-25T07:20:44+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-25T08:24:12+00:00",
+            "next_retry_at": "2026-12-02T08:24:12+00:00",
             "last_result": "not_found",
-            "previous_result": "connection_error",
+            "previous_result": "not_found",
             "reason": "retry_window"
           }
         }
@@ -119892,7 +119892,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-24T22:21:27+00:00",
+    "checked_at": "2026-11-25T08:24:04+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,

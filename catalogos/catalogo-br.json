@@ -30,16 +30,12 @@
     },
     "validation_checked_at": "2026-11-24T18:55:15+00:00",
     "recovery": {
-      "checked": 9,
-      "result_forbidden_or_geo_restricted": 1,
-      "result_http_error": 1,
-      "result_not_found": 2,
-      "result_reachable_hls": 3,
+      "checked": 2,
       "result_timeout": 2,
-      "skipped_retry_window": 251,
-      "skipped_stable_hls": 195
+      "skipped_retry_window": 255,
+      "skipped_stable_hls": 198
     },
-    "recovery_checked_at": "2026-11-24T22:21:27+00:00",
+    "recovery_checked_at": "2026-11-25T08:24:04+00:00",
     "classification": {
       "agronegocio": 1,
       "desenhos": 5,
@@ -2274,7 +2270,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-24T22:21:27+00:00",
+            "checked_at": "2026-11-25T08:24:04+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -2284,9 +2280,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-24T22:21:27+00:00",
-            "next_retry_at": "2026-11-24T23:21:27+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-25T08:24:04+00:00",
+            "next_retry_at": "2026-11-25T14:24:04+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -27276,7 +27272,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-24T22:21:28+00:00",
+            "checked_at": "2026-11-25T08:24:04+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -27286,9 +27282,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-24T22:21:28+00:00",
-            "next_retry_at": "2026-11-24T23:21:28+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-25T08:24:04+00:00",
+            "next_retry_at": "2026-11-25T14:24:04+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -31220,7 +31216,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-24T22:21:27+00:00",
+    "checked_at": "2026-11-25T08:24:04+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,
