@@ -30,14 +30,12 @@
     },
     "validation_checked_at": "2026-11-26T17:44:58+00:00",
     "recovery": {
-      "checked": 4,
-      "result_not_found": 2,
+      "checked": 1,
       "result_reachable_hls": 1,
-      "result_timeout": 1,
-      "skipped_retry_window": 333,
-      "skipped_stable_hls": 1172
+      "skipped_retry_window": 361,
+      "skipped_stable_hls": 1147
     },
-    "recovery_checked_at": "2026-11-26T08:08:56+00:00",
+    "recovery_checked_at": "2026-11-26T17:49:25+00:00",
     "classification": {
       "desenhos": 29,
       "documentarios": 34,
@@ -89330,7 +89328,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:48:51+00:00",
+            "checked_at": "2026-11-26T17:49:25+00:00",
             "http_status": 200,
             "final_url": "http://181.78.14.26:4000/play/a04d/index.m3u8",
             "result": "reachable_hls",
@@ -89340,9 +89338,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 4,
-            "last_attempt_at": "2026-11-19T16:41:25+00:00",
-            "next_retry_at": "2026-11-26T16:41:25+00:00",
+            "attempt_count": 5,
+            "last_attempt_at": "2026-11-26T17:49:25+00:00",
+            "next_retry_at": "2026-12-03T17:49:25+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -119937,7 +119935,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-26T08:08:56+00:00",
+    "checked_at": "2026-11-26T17:49:25+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,
