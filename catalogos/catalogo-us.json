@@ -22,22 +22,22 @@
       "dns_error": 9,
       "forbidden_or_geo_restricted": 93,
       "http_error": 16,
-      "not_found": 44,
-      "reachable_hls": 1175,
+      "not_found": 46,
+      "reachable_hls": 1173,
       "reachable_non_hls": 37,
       "server_error": 18,
       "timeout": 87
     },
     "validation_checked_at": "2026-11-25T17:59:23+00:00",
     "recovery": {
-      "checked": 11,
+      "checked": 4,
       "result_not_found": 2,
-      "result_reachable_hls": 8,
+      "result_reachable_hls": 1,
       "result_timeout": 1,
-      "skipped_retry_window": 331,
-      "skipped_stable_hls": 1167
+      "skipped_retry_window": 333,
+      "skipped_stable_hls": 1172
     },
-    "recovery_checked_at": "2026-11-25T21:37:28+00:00",
+    "recovery_checked_at": "2026-11-26T08:08:56+00:00",
     "classification": {
       "desenhos": 29,
       "documentarios": 34,
@@ -23816,22 +23816,22 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "reachable_hls",
+          "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-25T18:01:44+00:00",
-            "http_status": 206,
+            "checked_at": "2026-11-26T08:08:56+00:00",
+            "http_status": 404,
             "final_url": "https://tvsen5.aynaott.com/discoveryfamily/index.m3u8",
-            "result": "reachable_hls",
-            "hls_status": "accessible",
-            "detail": "hls_accessible",
+            "result": "not_found",
+            "hls_status": "not_confirmed",
+            "detail": "http_404",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-19T07:17:48+00:00",
-            "next_retry_at": "2026-11-26T07:17:48+00:00",
-            "last_result": "reachable_hls",
+            "state": "slow_recheck",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-26T08:08:56+00:00",
+            "next_retry_at": "2026-12-03T08:08:56+00:00",
+            "last_result": "not_found",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
           }
@@ -73943,7 +73943,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-25T21:37:29+00:00",
+            "checked_at": "2026-11-26T08:08:56+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -73953,9 +73953,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-25T21:37:29+00:00",
-            "next_retry_at": "2026-11-26T03:37:29+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-26T08:08:56+00:00",
+            "next_retry_at": "2026-11-27T08:08:56+00:00",
             "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
@@ -74899,7 +74899,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-25T18:03:19+00:00",
+            "checked_at": "2026-11-26T08:08:56+00:00",
             "http_status": 200,
             "final_url": "http://api.toonamiaftermath.com:3000/movies/playlist.m3u8",
             "result": "reachable_hls",
@@ -74909,9 +74909,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-19T07:17:48+00:00",
-            "next_retry_at": "2026-11-26T07:17:48+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-26T08:08:56+00:00",
+            "next_retry_at": "2026-12-03T08:08:56+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -85135,22 +85135,22 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "reachable_hls",
+          "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-25T18:03:36+00:00",
-            "http_status": 206,
+            "checked_at": "2026-11-26T08:08:56+00:00",
+            "http_status": 404,
             "final_url": "https://tvsen5.aynaott.com/willowhd/index.m3u8",
-            "result": "reachable_hls",
-            "hls_status": "accessible",
-            "detail": "hls_accessible",
+            "result": "not_found",
+            "hls_status": "not_confirmed",
+            "detail": "http_404",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-19T07:17:48+00:00",
-            "next_retry_at": "2026-11-26T07:17:48+00:00",
-            "last_result": "reachable_hls",
+            "state": "slow_recheck",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-26T08:08:56+00:00",
+            "next_retry_at": "2026-12-03T08:08:56+00:00",
+            "last_result": "not_found",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
           }
@@ -119937,7 +119937,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-25T21:37:28+00:00",
+    "checked_at": "2026-11-26T08:08:56+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,
