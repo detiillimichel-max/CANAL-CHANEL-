@@ -23,19 +23,21 @@
       "forbidden_or_geo_restricted": 41,
       "http_error": 38,
       "not_found": 24,
-      "reachable_hls": 180,
+      "reachable_hls": 181,
       "reachable_non_hls": 14,
       "server_error": 4,
-      "timeout": 57
+      "timeout": 56
     },
     "validation_checked_at": "2026-11-26T17:44:58+00:00",
     "recovery": {
-      "checked": 1,
-      "result_connection_error": 1,
-      "skipped_retry_window": 274,
-      "skipped_stable_hls": 180
+      "checked": 28,
+      "result_connection_error": 23,
+      "result_reachable_hls": 3,
+      "result_reachable_non_hls": 2,
+      "skipped_retry_window": 249,
+      "skipped_stable_hls": 178
     },
-    "recovery_checked_at": "2026-11-26T17:49:25+00:00",
+    "recovery_checked_at": "2026-11-26T21:26:42+00:00",
     "classification": {
       "agronegocio": 1,
       "desenhos": 5,
@@ -610,13 +612,22 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-26T17:44:59+00:00",
+            "checked_at": "2026-11-26T21:26:42+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
             "hls_status": "not_confirmed",
             "detail": "[Errno 111] Connection refused",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "retry_scheduled",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-26T21:26:42+00:00",
+            "next_retry_at": "2026-11-26T22:26:42+00:00",
+            "last_result": "connection_error",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         },
         {
@@ -1751,13 +1762,22 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-26T17:45:00+00:00",
+            "checked_at": "2026-11-26T21:26:42+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
             "hls_status": "not_confirmed",
             "detail": "[Errno 111] Connection refused",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "retry_scheduled",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-26T21:26:42+00:00",
+            "next_retry_at": "2026-11-26T22:26:42+00:00",
+            "last_result": "connection_error",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         }
       ],
@@ -2040,13 +2060,22 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-26T17:45:02+00:00",
+            "checked_at": "2026-11-26T21:26:42+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
             "hls_status": "not_confirmed",
             "detail": "[Errno 111] Connection refused",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "retry_scheduled",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-26T21:26:42+00:00",
+            "next_retry_at": "2026-11-26T22:26:42+00:00",
+            "last_result": "connection_error",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         }
       ],
@@ -2270,7 +2299,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-26T17:45:03+00:00",
+            "checked_at": "2026-11-26T21:26:42+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -2280,11 +2309,11 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-25T18:04:18+00:00",
-            "next_retry_at": "2026-11-26T18:04:18+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-26T21:26:42+00:00",
+            "next_retry_at": "2026-11-29T21:26:42+00:00",
+            "last_result": "connection_error",
+            "previous_result": "connection_error",
             "reason": "retry_window"
           }
         }
@@ -2754,13 +2783,22 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-26T17:45:04+00:00",
+            "checked_at": "2026-11-26T21:26:42+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
             "hls_status": "not_confirmed",
             "detail": "[Errno 111] Connection refused",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "retry_scheduled",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-26T21:26:42+00:00",
+            "next_retry_at": "2026-11-26T22:26:42+00:00",
+            "last_result": "connection_error",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         }
       ],
@@ -3350,13 +3388,22 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-26T17:45:07+00:00",
+            "checked_at": "2026-11-26T21:26:42+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
             "hls_status": "not_confirmed",
             "detail": "[Errno 111] Connection refused",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "retry_scheduled",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-26T21:26:42+00:00",
+            "next_retry_at": "2026-11-26T22:26:42+00:00",
+            "last_result": "connection_error",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         },
         {
@@ -4535,13 +4582,22 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-26T17:45:09+00:00",
+            "checked_at": "2026-11-26T21:26:42+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
             "hls_status": "not_confirmed",
             "detail": "[Errno 111] Connection refused",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "retry_scheduled",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-26T21:26:42+00:00",
+            "next_retry_at": "2026-11-26T22:26:42+00:00",
+            "last_result": "connection_error",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         },
         {
@@ -8424,13 +8480,22 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-26T17:45:18+00:00",
+            "checked_at": "2026-11-26T21:26:42+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
             "hls_status": "not_confirmed",
             "detail": "[Errno 111] Connection refused",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "retry_scheduled",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-26T21:26:42+00:00",
+            "next_retry_at": "2026-11-26T22:26:42+00:00",
+            "last_result": "connection_error",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         }
       ],
@@ -8828,7 +8893,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_non_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:45:18+00:00",
+            "checked_at": "2026-11-26T21:26:42+00:00",
             "http_status": 200,
             "final_url": "http://79.127.238.228:14093",
             "result": "reachable_non_hls",
@@ -8838,11 +8903,11 @@
           },
           "recovery": {
             "state": "non_hls_review",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-19T20:29:52+00:00",
-            "next_retry_at": "2026-11-26T20:29:52+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-26T21:26:42+00:00",
+            "next_retry_at": "2026-12-03T21:26:42+00:00",
             "last_result": "reachable_non_hls",
-            "previous_result": "connection_error",
+            "previous_result": "reachable_non_hls",
             "reason": "retry_window"
           }
         }
@@ -9938,13 +10003,22 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-26T17:45:22+00:00",
+            "checked_at": "2026-11-26T21:26:42+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
             "hls_status": "not_confirmed",
             "detail": "[Errno 111] Connection refused",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "retry_scheduled",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-26T21:26:42+00:00",
+            "next_retry_at": "2026-11-26T22:26:42+00:00",
+            "last_result": "connection_error",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         },
         {
@@ -10815,7 +10889,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_non_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:45:23+00:00",
+            "checked_at": "2026-11-26T21:26:42+00:00",
             "http_status": 200,
             "final_url": "https://play.mbcbrasil.tv.br/playlist.m3u8",
             "result": "reachable_non_hls",
@@ -10825,11 +10899,11 @@
           },
           "recovery": {
             "state": "non_hls_review",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-19T20:29:52+00:00",
-            "next_retry_at": "2026-11-26T20:29:52+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-26T21:26:42+00:00",
+            "next_retry_at": "2026-12-03T21:26:42+00:00",
             "last_result": "reachable_non_hls",
-            "previous_result": "timeout",
+            "previous_result": "reachable_non_hls",
             "reason": "retry_window"
           }
         }
@@ -11046,13 +11120,22 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-26T17:45:24+00:00",
+            "checked_at": "2026-11-26T21:26:42+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
             "hls_status": "not_confirmed",
             "detail": "[Errno 111] Connection refused",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "retry_scheduled",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-26T21:26:42+00:00",
+            "next_retry_at": "2026-11-26T22:26:42+00:00",
+            "last_result": "connection_error",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         }
       ],
@@ -12934,13 +13017,22 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-26T17:45:26+00:00",
+            "checked_at": "2026-11-26T21:26:42+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
             "hls_status": "not_confirmed",
             "detail": "[Errno 111] Connection refused",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "retry_scheduled",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-26T21:26:42+00:00",
+            "next_retry_at": "2026-11-26T22:26:42+00:00",
+            "last_result": "connection_error",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         },
         {
@@ -13896,7 +13988,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:45:27+00:00",
+            "checked_at": "2026-11-26T21:26:42+00:00",
             "http_status": 206,
             "final_url": "https://redebrasil.nuvemplay.live/hls/stream.m3u8",
             "result": "reachable_hls",
@@ -13906,12 +13998,12 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-19T20:29:52+00:00",
-            "next_retry_at": "2026-11-26T20:29:52+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-26T21:26:42+00:00",
+            "next_retry_at": "2026-12-03T21:26:42+00:00",
             "last_result": "reachable_hls",
-            "previous_result": "server_error",
-            "reason": "retry_window"
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         },
         {
@@ -14103,13 +14195,22 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-26T17:45:28+00:00",
+            "checked_at": "2026-11-26T21:26:42+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
             "hls_status": "not_confirmed",
             "detail": "[Errno 111] Connection refused",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "retry_scheduled",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-26T21:26:42+00:00",
+            "next_retry_at": "2026-11-26T22:26:42+00:00",
+            "last_result": "connection_error",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         },
         {
@@ -14473,7 +14574,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-26T17:45:28+00:00",
+            "checked_at": "2026-11-26T21:26:42+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -14483,9 +14584,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 5,
-            "last_attempt_at": "2026-11-19T20:29:52+00:00",
-            "next_retry_at": "2026-11-26T20:29:52+00:00",
+            "attempt_count": 6,
+            "last_attempt_at": "2026-11-26T21:26:42+00:00",
+            "next_retry_at": "2026-12-03T21:26:42+00:00",
             "last_result": "connection_error",
             "previous_result": "connection_error",
             "reason": "retry_window"
@@ -16196,15 +16297,24 @@
           "source_file": "streams/br.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "timeout",
+          "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:45:30+00:00",
-            "http_status": null,
-            "final_url": null,
-            "result": "timeout",
-            "hls_status": "not_confirmed",
-            "detail": "connection_timeout",
+            "checked_at": "2026-11-26T21:26:42+00:00",
+            "http_status": 206,
+            "final_url": "https://stmv1.video.brstream.com.br/retrotv/retrotv/chunklist_w1069200121.m3u8",
+            "result": "reachable_hls",
+            "hls_status": "accessible",
+            "detail": "hls_accessible",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "stable_hls",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-26T21:26:42+00:00",
+            "next_retry_at": "2026-12-03T21:26:42+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "timeout",
+            "reason": "retry_window"
           }
         }
       ],
@@ -16341,13 +16451,22 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-26T17:45:31+00:00",
+            "checked_at": "2026-11-26T21:26:42+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
             "hls_status": "not_confirmed",
             "detail": "[Errno 111] Connection refused",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "retry_scheduled",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-26T21:26:42+00:00",
+            "next_retry_at": "2026-11-26T22:26:42+00:00",
+            "last_result": "connection_error",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         },
         {
@@ -17574,13 +17693,22 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-26T17:45:37+00:00",
+            "checked_at": "2026-11-26T21:26:43+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
             "hls_status": "not_confirmed",
             "detail": "[Errno 111] Connection refused",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "retry_scheduled",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-26T21:26:43+00:00",
+            "next_retry_at": "2026-11-26T22:26:43+00:00",
+            "last_result": "connection_error",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         },
         {
@@ -18973,13 +19101,22 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-26T17:45:38+00:00",
+            "checked_at": "2026-11-26T21:26:43+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
             "hls_status": "not_confirmed",
             "detail": "[Errno 111] Connection refused",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "retry_scheduled",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-26T21:26:43+00:00",
+            "next_retry_at": "2026-11-26T22:26:43+00:00",
+            "last_result": "connection_error",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         },
         {
@@ -19308,13 +19445,22 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-26T17:45:39+00:00",
+            "checked_at": "2026-11-26T21:26:43+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
             "hls_status": "not_confirmed",
             "detail": "[Errno 111] Connection refused",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "retry_scheduled",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-26T21:26:43+00:00",
+            "next_retry_at": "2026-11-26T22:26:43+00:00",
+            "last_result": "connection_error",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         }
       ],
@@ -20190,13 +20336,22 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-26T17:45:40+00:00",
+            "checked_at": "2026-11-26T21:26:43+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
             "hls_status": "not_confirmed",
             "detail": "[Errno 111] Connection refused",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "retry_scheduled",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-26T21:26:43+00:00",
+            "next_retry_at": "2026-11-26T22:26:43+00:00",
+            "last_result": "connection_error",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         },
         {
@@ -20948,13 +21103,22 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-26T17:45:41+00:00",
+            "checked_at": "2026-11-26T21:26:43+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
             "hls_status": "not_confirmed",
             "detail": "[Errno 111] Connection refused",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "retry_scheduled",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-26T21:26:43+00:00",
+            "next_retry_at": "2026-11-26T22:26:43+00:00",
+            "last_result": "connection_error",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         },
         {
@@ -21337,13 +21501,22 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-26T17:45:44+00:00",
+            "checked_at": "2026-11-26T21:26:43+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
             "hls_status": "not_confirmed",
             "detail": "[Errno 111] Connection refused",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "retry_scheduled",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-26T21:26:43+00:00",
+            "next_retry_at": "2026-11-26T22:26:43+00:00",
+            "last_result": "connection_error",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         },
         {
@@ -23533,13 +23706,22 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-26T17:45:55+00:00",
+            "checked_at": "2026-11-26T21:26:43+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
             "hls_status": "not_confirmed",
             "detail": "[Errno 111] Connection refused",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "retry_scheduled",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-26T21:26:43+00:00",
+            "next_retry_at": "2026-11-26T22:26:43+00:00",
+            "last_result": "connection_error",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         },
         {
@@ -25001,13 +25183,22 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-26T17:45:57+00:00",
+            "checked_at": "2026-11-26T21:26:43+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
             "hls_status": "not_confirmed",
             "detail": "[Errno 111] Connection refused",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "retry_scheduled",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-26T21:26:43+00:00",
+            "next_retry_at": "2026-11-26T22:26:43+00:00",
+            "last_result": "connection_error",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         },
         {
@@ -26966,13 +27157,22 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-26T17:45:59+00:00",
+            "checked_at": "2026-11-26T21:26:43+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
             "hls_status": "not_confirmed",
             "detail": "[Errno 111] Connection refused",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "retry_scheduled",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-26T21:26:43+00:00",
+            "next_retry_at": "2026-11-26T22:26:43+00:00",
+            "last_result": "connection_error",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         },
         {
@@ -28068,7 +28268,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:00+00:00",
+            "checked_at": "2026-11-26T21:26:43+00:00",
             "http_status": 200,
             "final_url": "https://streamer1.streamhost.org/salive/GMI3anjoh/playlist.m3u8",
             "result": "reachable_hls",
@@ -28078,12 +28278,12 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-19T20:29:53+00:00",
-            "next_retry_at": "2026-11-26T20:29:53+00:00",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-26T21:26:43+00:00",
+            "next_retry_at": "2026-12-03T21:26:43+00:00",
             "last_result": "reachable_hls",
-            "previous_result": "connection_error",
-            "reason": "retry_window"
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -31227,7 +31427,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-26T17:49:25+00:00",
+    "checked_at": "2026-11-26T21:26:42+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,

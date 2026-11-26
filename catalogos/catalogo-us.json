@@ -30,12 +30,13 @@
     },
     "validation_checked_at": "2026-11-26T17:44:58+00:00",
     "recovery": {
-      "checked": 1,
-      "result_reachable_hls": 1,
-      "skipped_retry_window": 361,
-      "skipped_stable_hls": 1147
+      "checked": 6,
+      "result_connection_error": 2,
+      "result_reachable_hls": 4,
+      "skipped_retry_window": 359,
+      "skipped_stable_hls": 1144
     },
-    "recovery_checked_at": "2026-11-26T17:49:25+00:00",
+    "recovery_checked_at": "2026-11-26T21:26:42+00:00",
     "classification": {
       "desenhos": 29,
       "documentarios": 34,
@@ -5497,7 +5498,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-26T17:46:49+00:00",
+            "checked_at": "2026-11-26T21:26:44+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -5507,11 +5508,11 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 3,
-            "last_attempt_at": "2026-11-25T18:04:26+00:00",
-            "next_retry_at": "2026-11-26T18:04:26+00:00",
-            "last_result": "timeout",
-            "previous_result": "timeout",
+            "attempt_count": 4,
+            "last_attempt_at": "2026-11-26T21:26:44+00:00",
+            "next_retry_at": "2026-11-29T21:26:44+00:00",
+            "last_result": "connection_error",
+            "previous_result": "connection_error",
             "reason": "retry_window"
           }
         }
@@ -5713,7 +5714,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:50+00:00",
+            "checked_at": "2026-11-26T21:26:44+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_AMERICAN_HEROES/index.m3u8",
             "result": "reachable_hls",
@@ -5722,13 +5723,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "slow_recheck",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-19T20:29:53+00:00",
-            "next_retry_at": "2026-11-26T20:29:53+00:00",
-            "last_result": "not_found",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-26T21:26:44+00:00",
+            "next_retry_at": "2026-12-03T21:26:44+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -20715,7 +20716,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:47:08+00:00",
+            "checked_at": "2026-11-26T21:26:44+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_COOKING/index.m3u8",
             "result": "reachable_hls",
@@ -20724,13 +20725,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "slow_recheck",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-19T20:29:54+00:00",
-            "next_retry_at": "2026-11-26T20:29:54+00:00",
-            "last_result": "not_found",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-26T21:26:44+00:00",
+            "next_retry_at": "2026-12-03T21:26:44+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -39857,7 +39858,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:47:42+00:00",
+            "checked_at": "2026-11-26T21:26:44+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_IFC/index.m3u8",
             "result": "reachable_hls",
@@ -39866,13 +39867,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "slow_recheck",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-19T20:29:55+00:00",
-            "next_retry_at": "2026-11-26T20:29:55+00:00",
-            "last_result": "not_found",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-26T21:26:44+00:00",
+            "next_retry_at": "2026-12-03T21:26:44+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -51491,7 +51492,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:47:54+00:00",
+            "checked_at": "2026-11-26T21:26:44+00:00",
             "http_status": 206,
             "final_url": "http://23.237.104.106:8080/USA_MTV_LIVE/index.m3u8",
             "result": "reachable_hls",
@@ -51500,13 +51501,13 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "slow_recheck",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-19T20:30:00+00:00",
-            "next_retry_at": "2026-11-26T20:30:00+00:00",
-            "last_result": "not_found",
-            "previous_result": "timeout",
-            "reason": "retry_window"
+            "state": "stable_hls",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-26T21:26:44+00:00",
+            "next_retry_at": "2026-12-03T21:26:44+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "reachable_hls",
+            "reason": "scheduled_health_check"
           }
         }
       ],
@@ -56563,7 +56564,7 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-26T17:48:15+00:00",
+            "checked_at": "2026-11-26T21:26:45+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
@@ -56573,9 +56574,9 @@
           },
           "recovery": {
             "state": "retry_scheduled",
-            "attempt_count": 5,
-            "last_attempt_at": "2026-11-19T20:30:01+00:00",
-            "next_retry_at": "2026-11-26T20:30:01+00:00",
+            "attempt_count": 6,
+            "last_attempt_at": "2026-11-26T21:26:45+00:00",
+            "next_retry_at": "2026-12-03T21:26:45+00:00",
             "last_result": "connection_error",
             "previous_result": "connection_error",
             "reason": "retry_window"
@@ -119935,7 +119936,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-26T17:49:25+00:00",
+    "checked_at": "2026-11-26T21:26:42+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,
