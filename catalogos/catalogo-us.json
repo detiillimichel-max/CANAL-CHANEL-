@@ -23,25 +23,22 @@
       "forbidden_or_geo_restricted": 97,
       "http_error": 16,
       "not_found": 56,
-      "reachable_hls": 1151,
+      "reachable_hls": 1152,
       "reachable_non_hls": 37,
       "server_error": 18,
-      "timeout": 89
+      "timeout": 88
     },
     "validation_checked_at": "2026-11-27T17:28:56+00:00",
     "recovery": {
-      "checked": 128,
-      "result_connection_error": 18,
-      "result_dns_error": 9,
-      "result_forbidden_or_geo_restricted": 1,
-      "result_http_error": 16,
-      "result_reachable_hls": 9,
-      "result_server_error": 17,
-      "result_timeout": 58,
-      "skipped_retry_window": 242,
-      "skipped_stable_hls": 1139
+      "checked": 9,
+      "result_connection_error": 5,
+      "result_reachable_hls": 2,
+      "result_reachable_non_hls": 1,
+      "result_timeout": 1,
+      "skipped_retry_window": 350,
+      "skipped_stable_hls": 1150
     },
-    "recovery_checked_at": "2026-11-27T08:19:47+00:00",
+    "recovery_checked_at": "2026-11-27T21:11:18+00:00",
     "classification": {
       "desenhos": 29,
       "documentarios": 34,
@@ -4093,15 +4090,24 @@
           "source_file": "streams/us.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "timeout",
+          "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-27T17:30:46+00:00",
-            "http_status": null,
-            "final_url": null,
-            "result": "timeout",
-            "hls_status": "not_confirmed",
-            "detail": "connection_timeout",
+            "checked_at": "2026-11-27T21:11:27+00:00",
+            "http_status": 206,
+            "final_url": "https://5a8308add0b31.streamlock.net/alkarmatv.com/alkarmaau.smil/playlist.m3u8",
+            "result": "reachable_hls",
+            "hls_status": "accessible",
+            "detail": "hls_accessible",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "stable_hls",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-27T21:11:27+00:00",
+            "next_retry_at": "2026-12-04T21:11:27+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "timeout",
+            "reason": "retry_window"
           }
         },
         {
@@ -42088,7 +42094,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-27T17:31:46+00:00",
+            "checked_at": "2026-11-27T21:11:27+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -42097,11 +42103,11 @@
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
-            "state": "stable_hls",
-            "attempt_count": 1,
-            "last_attempt_at": "2026-11-20T20:07:57+00:00",
-            "next_retry_at": "2026-11-27T20:07:57+00:00",
-            "last_result": "reachable_hls",
+            "state": "retry_scheduled",
+            "attempt_count": 2,
+            "last_attempt_at": "2026-11-27T21:11:27+00:00",
+            "next_retry_at": "2026-11-28T03:11:27+00:00",
+            "last_result": "timeout",
             "previous_result": "timeout",
             "reason": "retry_window"
           }
@@ -52377,13 +52383,22 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-27T17:31:59+00:00",
+            "checked_at": "2026-11-27T21:11:27+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
             "hls_status": "not_confirmed",
             "detail": "[Errno 111] Connection refused",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "retry_scheduled",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-27T21:11:27+00:00",
+            "next_retry_at": "2026-11-27T22:11:27+00:00",
+            "last_result": "connection_error",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         },
         {
@@ -59092,13 +59107,22 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-27T17:32:16+00:00",
+            "checked_at": "2026-11-27T21:11:27+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
             "hls_status": "not_confirmed",
             "detail": "[Errno 111] Connection refused",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "retry_scheduled",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-27T21:11:27+00:00",
+            "next_retry_at": "2026-11-27T22:11:27+00:00",
+            "last_result": "connection_error",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         },
         {
@@ -65377,7 +65401,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_non_hls",
           "validation": {
-            "checked_at": "2026-11-27T17:32:21+00:00",
+            "checked_at": "2026-11-27T21:11:27+00:00",
             "http_status": 200,
             "final_url": "https://amg00864-shemarooenterta-shemabollywood-ono-nlwbw.amagi.tv/playlist/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8",
             "result": "reachable_non_hls",
@@ -65387,11 +65411,11 @@
           },
           "recovery": {
             "state": "non_hls_review",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-20T20:07:57+00:00",
-            "next_retry_at": "2026-11-27T20:07:57+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-27T21:11:27+00:00",
+            "next_retry_at": "2026-12-04T21:11:27+00:00",
             "last_result": "reachable_non_hls",
-            "previous_result": "server_error",
+            "previous_result": "reachable_non_hls",
             "reason": "retry_window"
           }
         },
@@ -70332,13 +70356,22 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-27T17:32:30+00:00",
+            "checked_at": "2026-11-27T21:11:27+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
             "hls_status": "not_confirmed",
             "detail": "[Errno 111] Connection refused",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "retry_scheduled",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-27T21:11:27+00:00",
+            "next_retry_at": "2026-11-27T22:11:27+00:00",
+            "last_result": "connection_error",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         },
         {
@@ -70352,13 +70385,22 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-27T17:32:30+00:00",
+            "checked_at": "2026-11-27T21:11:27+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
             "hls_status": "not_confirmed",
             "detail": "[Errno 111] Connection refused",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "retry_scheduled",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-27T21:11:27+00:00",
+            "next_retry_at": "2026-11-27T22:11:27+00:00",
+            "last_result": "connection_error",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         },
         {
@@ -75451,13 +75493,22 @@
           "authorization_status": "unknown",
           "availability_status": "connection_error",
           "validation": {
-            "checked_at": "2026-11-27T17:32:35+00:00",
+            "checked_at": "2026-11-27T21:11:27+00:00",
             "http_status": null,
             "final_url": null,
             "result": "connection_error",
             "hls_status": "not_confirmed",
             "detail": "[Errno 111] Connection refused",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "retry_scheduled",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-27T21:11:27+00:00",
+            "next_retry_at": "2026-11-27T22:11:27+00:00",
+            "last_result": "connection_error",
+            "previous_result": "connection_error",
+            "reason": "retry_window"
           }
         }
       ],
@@ -110128,7 +110179,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-27T17:33:01+00:00",
+            "checked_at": "2026-11-27T21:11:27+00:00",
             "http_status": 206,
             "final_url": "https://d2jiqiw4g5lj5k.cloudfront.net/AVSamsung/AVSamsung.m3u8",
             "result": "reachable_hls",
@@ -110138,9 +110189,9 @@
           },
           "recovery": {
             "state": "stable_hls",
-            "attempt_count": 2,
-            "last_attempt_at": "2026-11-20T20:07:57+00:00",
-            "next_retry_at": "2026-11-27T20:07:57+00:00",
+            "attempt_count": 3,
+            "last_attempt_at": "2026-11-27T21:11:27+00:00",
+            "next_retry_at": "2026-12-04T21:11:27+00:00",
             "last_result": "reachable_hls",
             "previous_result": "reachable_hls",
             "reason": "scheduled_health_check"
@@ -119957,7 +120008,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-27T08:19:47+00:00",
+    "checked_at": "2026-11-27T21:11:18+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,

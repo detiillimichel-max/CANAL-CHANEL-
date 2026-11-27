@@ -21,21 +21,19 @@
       "forbidden_or_geo_restricted": 3,
       "http_error": 1,
       "not_found": 5,
-      "reachable_hls": 31,
+      "reachable_hls": 32,
       "reachable_non_hls": 2,
       "server_error": 1,
-      "timeout": 19
+      "timeout": 18
     },
     "validation_checked_at": "2026-11-27T17:28:56+00:00",
     "recovery": {
-      "checked": 20,
+      "checked": 1,
       "result_reachable_hls": 1,
-      "result_server_error": 1,
-      "result_timeout": 18,
-      "skipped_retry_window": 9,
-      "skipped_stable_hls": 33
+      "skipped_retry_window": 30,
+      "skipped_stable_hls": 31
     },
-    "recovery_checked_at": "2026-11-27T08:19:47+00:00",
+    "recovery_checked_at": "2026-11-27T21:11:18+00:00",
     "classification": {
       "documentarios": 1,
       "educacao_cultura": 1,
@@ -96,15 +94,24 @@
           "source_file": "streams/pt.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "timeout",
+          "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-27T17:30:20+00:00",
-            "http_status": null,
-            "final_url": null,
-            "result": "timeout",
-            "hls_status": "not_confirmed",
-            "detail": "connection_timeout",
+            "checked_at": "2026-11-27T21:11:27+00:00",
+            "http_status": 200,
+            "final_url": "https://live-tv.waytv.pt/adbtv/adbtv/playlist.m3u8",
+            "result": "reachable_hls",
+            "hls_status": "accessible",
+            "detail": "hls_accessible",
             "check_method": "GET_range_0_4095"
+          },
+          "recovery": {
+            "state": "stable_hls",
+            "attempt_count": 1,
+            "last_attempt_at": "2026-11-27T21:11:27+00:00",
+            "next_retry_at": "2026-12-04T21:11:27+00:00",
+            "last_result": "reachable_hls",
+            "previous_result": "timeout",
+            "reason": "retry_window"
           }
         }
       ],
@@ -5830,7 +5837,7 @@
     "geo_restrictions_bypassed": false
   },
   "recovery": {
-    "checked_at": "2026-11-27T08:19:47+00:00",
+    "checked_at": "2026-11-27T21:11:18+00:00",
     "policy": "retry_due_only_with_progressive_backoff",
     "workers": 5,
     "stable_hls_recheck_days": 7,
