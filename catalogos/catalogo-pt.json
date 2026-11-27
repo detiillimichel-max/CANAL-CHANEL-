@@ -19,13 +19,14 @@
     "playback": "not_tested",
     "validation": {
       "forbidden_or_geo_restricted": 3,
+      "http_error": 1,
       "not_found": 5,
-      "reachable_hls": 34,
-      "reachable_non_hls": 1,
+      "reachable_hls": 31,
+      "reachable_non_hls": 2,
       "server_error": 1,
-      "timeout": 18
+      "timeout": 19
     },
-    "validation_checked_at": "2026-11-26T17:44:58+00:00",
+    "validation_checked_at": "2026-11-27T17:28:56+00:00",
     "recovery": {
       "checked": 20,
       "result_reachable_hls": 1,
@@ -54,14 +55,14 @@
           "source_file": "streams/pt.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "reachable_hls",
+          "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-26T17:46:21+00:00",
-            "http_status": 200,
-            "final_url": "https://live-tv.waytv.pt/adbtv/adbtv/playlist.m3u8",
-            "result": "reachable_hls",
-            "hls_status": "accessible",
-            "detail": "hls_accessible",
+            "checked_at": "2026-11-27T17:30:20+00:00",
+            "http_status": null,
+            "final_url": null,
+            "result": "timeout",
+            "hls_status": "not_confirmed",
+            "detail": "connection_timeout",
             "check_method": "GET_range_0_4095"
           }
         }
@@ -88,7 +89,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:21+00:00",
+            "checked_at": "2026-11-27T17:30:20+00:00",
             "http_status": 206,
             "final_url": "https://playout172.livextend.cloud/liveiframe/_definst_/liveartvabr/playlist.m3u8",
             "result": "reachable_hls",
@@ -118,7 +119,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-27T08:21:36+00:00",
+            "checked_at": "2026-11-27T17:30:20+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -147,7 +148,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-27T08:21:36+00:00",
+            "checked_at": "2026-11-27T17:30:20+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -186,7 +187,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:21+00:00",
+            "checked_at": "2026-11-27T17:30:20+00:00",
             "http_status": 206,
             "final_url": "http://50.7.120.34:8080/AXN_BLACK/index.m3u8",
             "result": "reachable_hls",
@@ -216,7 +217,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:21+00:00",
+            "checked_at": "2026-11-27T17:30:20+00:00",
             "http_status": 206,
             "final_url": "https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/cnnpt.m3u8",
             "result": "reachable_hls",
@@ -246,7 +247,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-27T08:21:36+00:00",
+            "checked_at": "2026-11-27T17:30:20+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -275,7 +276,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-27T08:21:36+00:00",
+            "checked_at": "2026-11-27T17:30:20+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -316,7 +317,7 @@
           "authorization_status": "unknown",
           "availability_status": "server_error",
           "validation": {
-            "checked_at": "2026-11-27T08:21:36+00:00",
+            "checked_at": "2026-11-27T17:30:20+00:00",
             "http_status": 500,
             "final_url": "https://tv2.fastcast4u.com:3310/live/famatvlive.m3u8",
             "result": "server_error",
@@ -355,7 +356,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:21+00:00",
+            "checked_at": "2026-11-27T17:30:20+00:00",
             "http_status": 206,
             "final_url": "http://195.23.211.179:1935/kmusic/smil:kmusic.smil/playlist.m3u8",
             "result": "reachable_hls",
@@ -385,7 +386,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:21+00:00",
+            "checked_at": "2026-11-27T17:30:20+00:00",
             "http_status": 206,
             "final_url": "https://w1.manasat.com/ktv/smil:ktv.smil/playlist.m3u8",
             "result": "reachable_hls",
@@ -417,7 +418,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:22+00:00",
+            "checked_at": "2026-11-27T17:30:20+00:00",
             "http_status": 206,
             "final_url": "https://w2.manasat.com/church-online/smil:church-online.smil/playlist.m3u8",
             "result": "reachable_hls",
@@ -449,7 +450,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:22+00:00",
+            "checked_at": "2026-11-27T17:30:20+00:00",
             "http_status": 206,
             "final_url": "https://w2.manasat.com/cirkev-online/smil:cirkev-online.smil/playlist.m3u8",
             "result": "reachable_hls",
@@ -481,7 +482,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:22+00:00",
+            "checked_at": "2026-11-27T17:30:20+00:00",
             "http_status": 206,
             "final_url": "https://w2.manasat.com/eglise-online/smil:eglise-online.smil/playlist.m3u8",
             "result": "reachable_hls",
@@ -513,7 +514,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:22+00:00",
+            "checked_at": "2026-11-27T17:30:21+00:00",
             "http_status": 206,
             "final_url": "https://w2.manasat.com/iglesia-online/smil:iglesia-online.smil/playlist.m3u8",
             "result": "reachable_hls",
@@ -545,7 +546,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:22+00:00",
+            "checked_at": "2026-11-27T17:30:21+00:00",
             "http_status": 206,
             "final_url": "https://w1.manasat.com/igrejaonline/smil:igrejaonline.smil/playlist.m3u8",
             "result": "reachable_hls",
@@ -577,7 +578,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:22+00:00",
+            "checked_at": "2026-11-27T17:30:21+00:00",
             "http_status": 206,
             "final_url": "https://w2.manasat.com/tserkov-online/smil:tserkov-online.smil/playlist.m3u8",
             "result": "reachable_hls",
@@ -607,7 +608,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-26T17:46:22+00:00",
+            "checked_at": "2026-11-27T17:30:21+00:00",
             "http_status": 403,
             "final_url": "https://stmv5.samcast.com.br/nasciparacantartv/nasciparacantartv/playlist.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -637,7 +638,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:23+00:00",
+            "checked_at": "2026-11-27T17:30:21+00:00",
             "http_status": 206,
             "final_url": "https://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8",
             "result": "reachable_hls",
@@ -667,7 +668,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:23+00:00",
+            "checked_at": "2026-11-27T17:30:22+00:00",
             "http_status": 206,
             "final_url": "https://pull-live-156-1.global.ssl.fastly.net/pc5865dc25400thmb-ea6bf03b14fa318f7133/smil:pc1-jhrgyuoqe5865db-68tkgb14fa318f7133f03.smil/playlist.m3u8",
             "result": "reachable_hls",
@@ -699,7 +700,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:23+00:00",
+            "checked_at": "2026-11-27T17:30:22+00:00",
             "http_status": 200,
             "final_url": "https://load-balancer.azotosolutions.com/cdnedge19/smil:live19.smil/playlist.m3u8",
             "result": "reachable_hls",
@@ -729,7 +730,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:23+00:00",
+            "checked_at": "2026-11-27T17:30:22+00:00",
             "http_status": 200,
             "final_url": "https://video03.logicahost.com.br/rfptv/rfptv/playlist.m3u8",
             "result": "reachable_hls",
@@ -761,7 +762,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-27T08:21:36+00:00",
+            "checked_at": "2026-11-27T17:30:22+00:00",
             "http_status": 206,
             "final_url": "https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8",
             "result": "reachable_hls",
@@ -802,7 +803,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-26T17:46:23+00:00",
+            "checked_at": "2026-11-27T17:30:22+00:00",
             "http_status": 404,
             "final_url": "https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8",
             "result": "not_found",
@@ -841,14 +842,14 @@
           "source_file": "streams/pt.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "reachable_non_hls",
+          "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:23+00:00",
+            "checked_at": "2026-11-27T17:30:22+00:00",
             "http_status": 206,
             "final_url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8",
-            "result": "reachable_non_hls",
-            "hls_status": "not_confirmed",
-            "detail": "http_ok_not_hls",
+            "result": "reachable_hls",
+            "hls_status": "accessible",
+            "detail": "hls_accessible",
             "check_method": "GET_range_0_4095"
           }
         }
@@ -875,7 +876,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:24+00:00",
+            "checked_at": "2026-11-27T17:30:22+00:00",
             "http_status": 206,
             "final_url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpacores.smil/playlist.m3u8",
             "result": "reachable_hls",
@@ -905,14 +906,14 @@
           "source_file": "streams/pt.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "reachable_hls",
+          "availability_status": "reachable_non_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:24+00:00",
+            "checked_at": "2026-11-27T17:30:22+00:00",
             "http_status": 206,
             "final_url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8",
-            "result": "reachable_hls",
-            "hls_status": "accessible",
-            "detail": "hls_accessible",
+            "result": "reachable_non_hls",
+            "hls_status": "not_confirmed",
+            "detail": "http_ok_not_hls",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
@@ -948,7 +949,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:24+00:00",
+            "checked_at": "2026-11-27T17:30:22+00:00",
             "http_status": 206,
             "final_url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8",
             "result": "reachable_hls",
@@ -978,14 +979,14 @@
           "source_file": "streams/pt.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "reachable_hls",
+          "availability_status": "http_error",
           "validation": {
-            "checked_at": "2026-11-26T17:46:24+00:00",
-            "http_status": 206,
+            "checked_at": "2026-11-27T17:30:22+00:00",
+            "http_status": 204,
             "final_url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8",
-            "result": "reachable_hls",
-            "hls_status": "accessible",
-            "detail": "hls_accessible",
+            "result": "http_error",
+            "hls_status": "not_confirmed",
+            "detail": "http_204",
             "check_method": "GET_range_0_4095"
           },
           "recovery": {
@@ -1021,7 +1022,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:24+00:00",
+            "checked_at": "2026-11-27T17:30:22+00:00",
             "http_status": 206,
             "final_url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8",
             "result": "reachable_hls",
@@ -1060,14 +1061,14 @@
           "source_file": "streams/pt.m3u",
           "source_type": "community_playlist",
           "authorization_status": "unknown",
-          "availability_status": "reachable_hls",
+          "availability_status": "reachable_non_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:24+00:00",
+            "checked_at": "2026-11-27T17:30:23+00:00",
             "http_status": 206,
             "final_url": "https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8",
-            "result": "reachable_hls",
-            "hls_status": "accessible",
-            "detail": "hls_accessible",
+            "result": "reachable_non_hls",
+            "hls_status": "not_confirmed",
+            "detail": "http_ok_not_hls",
             "check_method": "GET_range_0_4095"
           }
         }
@@ -1094,7 +1095,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:24+00:00",
+            "checked_at": "2026-11-27T17:30:23+00:00",
             "http_status": 206,
             "final_url": "https://streaming-live.rtp.pt/livetvhlsDVR/rtpndvr.smil/playlist.m3u8",
             "result": "reachable_hls",
@@ -1126,7 +1127,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-26T17:46:24+00:00",
+            "checked_at": "2026-11-27T17:30:23+00:00",
             "http_status": 403,
             "final_url": "https://sic.live.impresa.pt/sic.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -1156,9 +1157,9 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-26T17:46:24+00:00",
+            "checked_at": "2026-11-27T17:30:23+00:00",
             "http_status": 404,
-            "final_url": "https://production-fast-sic.content.okast.tv/channels/d9070446-8448-455e-8075-773b1ba12562/fc831b20-f252-4e7d-8cc5-2d05f4d43c1c/media_.m3u8?bpkio_sessionid=10c1c168a145-f52ea401-3b2f-44dd-98a7-1b688a91323e&bpkio_serviceid=fa2e8c4385712f9aa54bbe52b1bd9b6b&category=all",
+            "final_url": "https://production-fast-sic.content.okast.tv/channels/d9070446-8448-455e-8075-773b1ba12562/fc831b20-f252-4e7d-8cc5-2d05f4d43c1c/media_.m3u8?bpkio_sessionid=10e1e252a161-52f64879-1e09-4668-902b-00a4ed61834e&bpkio_serviceid=fa2e8c4385712f9aa54bbe52b1bd9b6b&category=all",
             "result": "not_found",
             "hls_status": "not_confirmed",
             "detail": "http_404",
@@ -1186,7 +1187,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-27T08:21:37+00:00",
+            "checked_at": "2026-11-27T17:30:23+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -1227,7 +1228,7 @@
           "authorization_status": "unknown",
           "availability_status": "forbidden_or_geo_restricted",
           "validation": {
-            "checked_at": "2026-11-26T17:46:24+00:00",
+            "checked_at": "2026-11-27T17:30:23+00:00",
             "http_status": 403,
             "final_url": "https://sicnot.live.impresa.pt/sicnot.m3u8",
             "result": "forbidden_or_geo_restricted",
@@ -1257,7 +1258,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-27T08:21:44+00:00",
+            "checked_at": "2026-11-27T17:30:23+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -1296,9 +1297,9 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-26T17:46:25+00:00",
+            "checked_at": "2026-11-27T17:30:24+00:00",
             "http_status": 404,
-            "final_url": "https://production-fast-sic.content.okast.tv/channels/d9070446-8448-455e-8075-773b1ba12562/d47eae0f-ad77-414a-9a1d-2a6628ba18c3/media_.m3u8?bpkio_sessionid=10d1f168c145-fdadd24b-97b2-4384-b4cf-04b3d6ff5d01&bpkio_serviceid=fa2e8c4385712f9a7dce4ff2dcebac2e&category=all",
+            "final_url": "https://production-fast-sic.content.okast.tv/channels/d9070446-8448-455e-8075-773b1ba12562/d47eae0f-ad77-414a-9a1d-2a6628ba18c3/media_.m3u8?bpkio_sessionid=10c1c252a161-f8a3ebe9-b6a4-4ad1-b2b7-bd4b39668b40&bpkio_serviceid=fa2e8c4385712f9a7dce4ff2dcebac2e&category=all",
             "result": "not_found",
             "hls_status": "not_confirmed",
             "detail": "http_404",
@@ -1326,7 +1327,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-27T08:21:44+00:00",
+            "checked_at": "2026-11-27T17:30:24+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -1365,7 +1366,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-27T08:21:44+00:00",
+            "checked_at": "2026-11-27T17:30:28+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -1404,7 +1405,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-27T08:21:44+00:00",
+            "checked_at": "2026-11-27T17:30:28+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -1443,7 +1444,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-27T08:21:45+00:00",
+            "checked_at": "2026-11-27T17:30:28+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -1482,7 +1483,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-27T08:21:52+00:00",
+            "checked_at": "2026-11-27T17:30:28+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -1521,7 +1522,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-27T08:21:52+00:00",
+            "checked_at": "2026-11-27T17:30:28+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -1560,7 +1561,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-27T08:21:52+00:00",
+            "checked_at": "2026-11-27T17:30:31+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -1599,7 +1600,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-27T08:21:52+00:00",
+            "checked_at": "2026-11-27T17:30:31+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -1638,7 +1639,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-27T08:21:53+00:00",
+            "checked_at": "2026-11-27T17:30:32+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -1677,7 +1678,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-27T08:22:00+00:00",
+            "checked_at": "2026-11-27T17:30:36+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -1716,7 +1717,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-27T08:22:00+00:00",
+            "checked_at": "2026-11-27T17:30:36+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -1755,7 +1756,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:37+00:00",
+            "checked_at": "2026-11-27T17:30:36+00:00",
             "http_status": 206,
             "final_url": "https://w1.manasat.com/tvmana-1/smil:tvmana-1.smil/playlist.m3u8",
             "result": "reachable_hls",
@@ -1785,7 +1786,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:37+00:00",
+            "checked_at": "2026-11-27T17:30:36+00:00",
             "http_status": 206,
             "final_url": "https://w1.manasat.com/tvmana-2/smil:tvmana-2.smil/playlist.m3u8",
             "result": "reachable_hls",
@@ -1815,7 +1816,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:37+00:00",
+            "checked_at": "2026-11-27T17:30:36+00:00",
             "http_status": 206,
             "final_url": "https://w1.manasat.com/tvmana-brasil/smil:tvmana-brasil.smil/playlist.m3u8",
             "result": "reachable_hls",
@@ -1845,7 +1846,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:38+00:00",
+            "checked_at": "2026-11-27T17:30:36+00:00",
             "http_status": 206,
             "final_url": "https://w1.manasat.com/tvmana-english/smil:tvmana-english.smil/playlist.m3u8",
             "result": "reachable_hls",
@@ -1875,7 +1876,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:38+00:00",
+            "checked_at": "2026-11-27T17:30:36+00:00",
             "http_status": 206,
             "final_url": "https://w1.manasat.com/tvmana-espanol/smil:tvmana-espanol.smil/playlist.m3u8",
             "result": "reachable_hls",
@@ -1905,7 +1906,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:38+00:00",
+            "checked_at": "2026-11-27T17:30:37+00:00",
             "http_status": 206,
             "final_url": "https://w1.manasat.com/tvmana-leste/smil:tvmana-leste.smil/playlist.m3u8",
             "result": "reachable_hls",
@@ -1935,7 +1936,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:38+00:00",
+            "checked_at": "2026-11-27T17:30:37+00:00",
             "http_status": 206,
             "final_url": "https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvi.m3u8",
             "result": "reachable_hls",
@@ -1955,7 +1956,7 @@
           "authorization_status": "unknown",
           "availability_status": "timeout",
           "validation": {
-            "checked_at": "2026-11-27T08:22:00+00:00",
+            "checked_at": "2026-11-27T17:30:37+00:00",
             "http_status": null,
             "final_url": null,
             "result": "timeout",
@@ -1994,7 +1995,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:38+00:00",
+            "checked_at": "2026-11-27T17:30:37+00:00",
             "http_status": 206,
             "final_url": "https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvificcao.m3u8",
             "result": "reachable_hls",
@@ -2026,7 +2027,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:38+00:00",
+            "checked_at": "2026-11-27T17:30:37+00:00",
             "http_status": 206,
             "final_url": "https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvireality.m3u8",
             "result": "reachable_hls",
@@ -2056,7 +2057,7 @@
           "authorization_status": "unknown",
           "availability_status": "reachable_hls",
           "validation": {
-            "checked_at": "2026-11-26T17:46:38+00:00",
+            "checked_at": "2026-11-27T17:30:37+00:00",
             "http_status": 206,
             "final_url": "https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/vmaistvi.m3u8",
             "result": "reachable_hls",
@@ -2086,7 +2087,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-26T17:46:38+00:00",
+            "checked_at": "2026-11-27T17:30:37+00:00",
             "http_status": 404,
             "final_url": "https://ead2625dd95b42dabfd015fadcf144e3.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6222/master.m3u8",
             "result": "not_found",
@@ -2116,7 +2117,7 @@
           "authorization_status": "unknown",
           "availability_status": "not_found",
           "validation": {
-            "checked_at": "2026-11-26T17:46:39+00:00",
+            "checked_at": "2026-11-27T17:30:37+00:00",
             "http_status": 404,
             "final_url": "https://48faa1daf24549fab34594bc5bdd99f2.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6213/master.m3u8",
             "result": "not_found",
@@ -2129,7 +2130,7 @@
     }
   ],
   "validation": {
-    "checked_at": "2026-11-26T17:44:58+00:00",
+    "checked_at": "2026-11-27T17:28:56+00:00",
     "method": "single_http_range_request",
     "workers": 8,
     "timeout_seconds": 8,
